@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "flex-layout.row#categoriasmenu",
       "flex-layout.row#main-slider",
       "flex-layout.row#conditions",
       "flex-layout.row#upper-mosaic",

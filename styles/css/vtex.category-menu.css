@@ -9,12 +9,15 @@
   height: initial;
 }
 .departmentLink {
-  padding: 12.5px 45px;
+  padding: 12.5px 24px;
   color: #202020;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   margin: 0;
+}
+.itemContainer--department:nth-child(n+8) {
+  display: none;
 }
 .departmentLink,
 .departmentLink:active,
@@ -58,6 +61,7 @@
   background: #FFFFFF;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 1px;
+  order: 2;
 }
 .itemContainer--department:first-child::before {
   content: url(assets/icons/menu.svg);

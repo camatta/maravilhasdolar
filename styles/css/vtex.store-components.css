@@ -32,8 +32,8 @@
 .searchBarContainer :global(.vtex-input-prefix__group) {
   height: initial;
   border: 0;
-  border-radius: 0;
-  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 71px;
+  box-shadow: 0px 4px 4px 0px #0000001A;
   flex-direction: row-reverse;
 }
 .searchBarContainer :global(.vtex-input__suffix) {
@@ -79,6 +79,18 @@
 .strong--info-card-condition {
   font-weight: 500;
 }
+
+/*MENU CATEGORIAS RÁPIDO*/
+.paragraph--info-card-catmenu {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.85px;
+  color: #1e1e1e;
+}
+.infoCardTextContainer--info-card-catmenu {
+  width: 100%;
+}
+/*FIM MENU CATEGORIAS RÁPIDO*/
 
 /* CARD PRODUTO */
 .discountInsideContainer {

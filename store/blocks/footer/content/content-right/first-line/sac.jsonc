@@ -8,7 +8,8 @@
       "flex-layout.row#sac-title",
       "flex-layout.row#sac-phone",
       "flex-layout.row#sac-wpp",
-      "flex-layout.row#sac-email"
+      "flex-layout.row#sac-email",
+      "flex-layout.row#lojas-parceiras"
     ]
   },
 
@@ -56,7 +57,7 @@
   "rich-text#sac-phone-first": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "[0800 3737.3737](tel:080037373737)"
+      "text": "[(11) 98496-5494](tel:11984965494)"
     }
   },
   "rich-text#sac-phone-second": {
@@ -78,26 +79,19 @@
     },
     "children": [
       "rich-text#sac-wpp-title",
-      "rich-text#sac-wpp-first",
-      "rich-text#sac-wpp-second"
+      "rich-text#sac-wpp-first"
     ]
   },
   "rich-text#sac-wpp-title": {
     "props": {
       "blockClass": "sac-group-title",
-      "text": "WhatsApp:"
+      "text": "Horários:"
     }
   },
   "rich-text#sac-wpp-first": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "<a href='https://wa.me/19999999999' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>(19) 9 9999.9999</a>"
-    }
-  },
-  "rich-text#sac-wpp-second": {
-    "props": {
-      "blockClass": "sac-group-link",
-      "text": "<a href='https://wa.me/19999999999' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>(19) 9 9999.9999</a>"
+      "text": "Segunda a Sexta \n 09h00 às 18h00"
     }
   },
 
@@ -125,7 +119,34 @@
   "rich-text#sac-email": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "<a href='mailto:suporte@diamond.com' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>suporte@diamond.com</a>"
+      "text": "<a href='mailto:sac@nivele.com.br' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>sac@nivele.com.br</a>"
+    }
+  },
+  "flex-layout.row#lojas-parceiras": {
+    "props": {
+      "blockClass": "sac-group-container"
+    },
+    "children": ["flex-layout.col#lojas-parceiras"]
+  },
+  "flex-layout.col#lojas-parceiras": {
+    "props": {
+      "blockClass": "sac-group-content"
+    },
+    "children": [
+      "rich-text#lojas-parceiras-title",
+      "rich-text#lojas-parceirasdescricao"
+    ]
+  },
+  "rich-text#lojas-parceiras-title": {
+    "props": {
+      "blockClass": "sac-group-title",
+      "text": "Lojas Parceiras"
+    }
+  },
+  "rich-text#lojas-parceirasdescricao": {
+    "props": {
+      "blockClass": "sac-group-link",
+      "text": "<a href='#' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>Ver Todas</a>"
     }
   }
 }

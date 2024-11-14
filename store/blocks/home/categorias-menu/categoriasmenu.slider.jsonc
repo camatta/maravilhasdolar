@@ -1,0 +1,19 @@
+{
+    "slider-layout#categoriasmenu": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 5,
+          "tablet": 1,
+          "phone": 1
+        },
+        "autoplay": {
+          "timeout": "3000",
+          "stopOnHover": true
+        },
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never"
+      },
+      "children": ["info-card#cat1", "info-card#cat2", "info-card#cat3", "info-card#cat4", "info-card#cat5", "info-card#cat6"]
+    }
+  }

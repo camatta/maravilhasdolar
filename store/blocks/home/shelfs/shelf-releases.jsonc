@@ -26,7 +26,7 @@
   },
   "rich-text#releases-title": {
     "props": {
-      "text": "#### Lançamentos **Confira nossas novidades!**",
+      "text": "#### Lançamentos",
       "blockClass": ["releases-title", "shelf-title"]
     }
   },

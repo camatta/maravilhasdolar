@@ -30,10 +30,14 @@
 }
 .sellingPriceValue--selling-price-pdp {
   display: block;
-  font-size: 32px;
-  line-height: 1;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #201f1f;
 }
 .installments--installments-pdp {
-  font-size: 15px;
-  color: #5d5d5d;
+  font-size: 12px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 15px;
 }

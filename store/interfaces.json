@@ -19,5 +19,9 @@
 
   "social-medias": {
     "component": "SocialMedias"
+  },
+
+  "banner-slider": {
+    "component": "BannerSlider"
   }
 }

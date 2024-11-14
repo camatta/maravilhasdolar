@@ -1,6 +1,7 @@
 {
   "header-layout.desktop": {
     "children": [
+      "experimental__visibility-layout#top-bar",
       "sticky-layout#desktop"
     ]
   },

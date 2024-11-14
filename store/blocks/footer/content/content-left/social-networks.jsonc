@@ -10,45 +10,10 @@
       "blockClass": "social-networks-content"
     },
     "children": [
-      "image#pinterest",
       "image#youtube",
-      "image#twitter",
       "image#instagram",
-      "image#facebook"
+      "image#linkeding"
     ]
-  },
-
-  "image#pinterest": {
-    "props": {
-      "src": "assets/social-networks/pinterest.svg",
-      "alt": "Pinterest",
-      "link": {
-        "url": "https://br.pinterest.com/",
-        "newTab": true
-      }
-    }
-  },
-
-  "image#youtube": {
-    "props": {
-      "src": "assets/social-networks/youtube.svg",
-      "alt": "Youtube",
-      "link": {
-        "url": "https://youtube.com.br",
-        "newTab": true
-      }
-    }
-  },
-
-  "image#twitter": {
-    "props": {
-      "src": "assets/social-networks/twitter.svg",
-      "alt": "Twitter",
-      "link": {
-        "url": "https://twitter.com",
-        "newTab": true
-      }
-    }
   },
 
   "image#instagram": {
@@ -62,12 +27,23 @@
     }
   },
 
-  "image#facebook": {
+  "image#linkeding": {
     "props": {
-      "src": "assets/social-networks/facebook.svg",
+      "src": "assets/social-networks/linkedin.svg",
       "alt": "Facebook",
       "link": {
         "url": "https://www.facebook.com/facebook/?locale=pt_BR",
+        "newTab": true
+      }
+    }
+  },
+
+  "image#youtube": {
+    "props": {
+      "src": "assets/social-networks/youtube.svg",
+      "alt": "Youtube",
+      "link": {
+        "url": "https://youtube.com.br",
         "newTab": true
       }
     }

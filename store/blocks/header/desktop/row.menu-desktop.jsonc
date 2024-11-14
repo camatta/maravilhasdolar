@@ -11,9 +11,9 @@
 
   "category-menu#header-category-menu": {
     "props": {
-      "showAllDepartments": true,
       "showSubcategories": true,
-      "menuDisposition": "center"
+      "menuDisposition": "center",
+      "showAllDepartments": true
     }
   }
 }

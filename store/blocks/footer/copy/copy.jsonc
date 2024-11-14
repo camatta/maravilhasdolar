@@ -14,7 +14,7 @@
   },
   "rich-text#copy-brand": {
     "props": {
-      "text": "Diamond Clothing® | Todos os direitos reservados.",
+      "text": "Nivele® | Todos os direitos reservados.",
       "blockClass": ["copy-brand", "copy-text"]
     }
   },

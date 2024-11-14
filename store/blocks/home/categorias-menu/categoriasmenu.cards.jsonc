@@ -1,0 +1,74 @@
+{
+    "info-card#cat1": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-remedios.png",
+        "headline": "Remédio",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "none",
+        "textMode": "rich-text"
+      }
+    },
+    "info-card#cat2": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-marketplace.png",
+        "headline": "Cadastre-se",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "none",
+        "textMode": "rich-text"
+      }
+    },
+    "info-card#cat3": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-promocoes.png",
+        "headline": "Promoções",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "none",
+        "textMode": "rich-text"
+      }
+    },
+    "info-card#cat4": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-johnsons.png",
+        "headline": "Johnsons \n Baby",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "none",
+        "textMode": "rich-text"
+      }
+    },
+    "info-card#cat5": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-nivea.png",
+        "headline": "Nívea em \n promoção",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "none",
+        "textMode": "rich-text"
+      }
+    },
+    "info-card#cat6": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-neutrogena.png",
+        "headline": "Neutrogena \n em promoção",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "none",
+        "textMode": "rich-text"
+      }
+    }
+  }

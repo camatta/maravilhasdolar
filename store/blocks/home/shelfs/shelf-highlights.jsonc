@@ -26,7 +26,7 @@
   },
   "rich-text#highlights-title": {
     "props": {
-      "text": "#### Destaques **Todo mundo comprando!**",
+      "text": "#### Destaques",
       "blockClass": ["highlights-title", "shelf-title"]
     }
   },

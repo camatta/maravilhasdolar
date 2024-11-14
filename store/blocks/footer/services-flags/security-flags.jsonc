@@ -61,21 +61,13 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "image#security-googlesf",
-      "image#security-siteblindado"
+      "image#security-googlesf"
     ]
   },
   "image#security-googlesf": {
     "props": {
       "src": "assets/flags/security/googlesf.svg",
       "alt": "Selo Google Safe Browsing",
-      "maxWidth": 117
-    }
-  },
-  "image#security-siteblindado": {
-    "props": {
-      "src": "assets/flags/security/siteblindado.png",
-      "alt": "Selo Site Blindado",
       "maxWidth": 117
     }
   }

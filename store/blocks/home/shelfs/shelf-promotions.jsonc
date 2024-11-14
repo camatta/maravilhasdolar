@@ -26,7 +26,7 @@
   },
   "rich-text#promotions-title": {
     "props": {
-      "text": "#### Promoções **Corre, *que é por tempo limitado!***",
+      "text": "#### Promoções",
       "blockClass": ["promotions-title", "shelf-title"]
     }
   },

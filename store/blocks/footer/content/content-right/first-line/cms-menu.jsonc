@@ -40,14 +40,39 @@
       "blockClass": "cms-menu-wrapper-content"
     },
     "children": [
-      "rich-text#cms-fale-conosco",
       "rich-text#cms-quem-somos",
-      "rich-text#cms-frete-gratis",
-      "rich-text#cms-politicas-privacidade",
-      "rich-text#cms-politicas-vendas",
+      "rich-text#cms-como-comprar",
+      "rich-text#cms-marketplace",
+      "rich-text#cms-fale-conosco",
+      "rich-text#cms-politicas-envio",
+      "rich-text#cms-politicas-pagamento",
       "rich-text#cms-politicas-trocas",
-      "rich-text#cms-cancelamentos"
+      "rich-text#cms-politicas-privacidade",
+      "rich-text#cms-politicas-seguranca",
+      "rich-text#cms-cookies"
     ]
+  },
+
+  "rich-text#cms-quem-somos": {
+    "props": {
+      "text": "[Quem Somos](/quem-somos)",
+      "blockClass": "cms-link"
+    }
+  },
+
+
+  "rich-text#cms-como-comprar": {
+    "props": {
+      "text": "[Como Comprar](/como-comprar)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#cms-marketplace": {
+    "props": {
+      "text": "[Marketplace](/marketplace)",
+      "blockClass": "cms-link"
+    }
   },
 
   "rich-text#cms-fale-conosco": {
@@ -56,39 +81,45 @@
       "blockClass": "cms-link"
     }
   },
-  "rich-text#cms-quem-somos": {
+
+  "rich-text#cms-politicas-envio": {
     "props": {
-      "text": "[Quem Somos](/quem-somos)",
+      "text": "[Políticas de Envio](/politicas-de-envio)",
       "blockClass": "cms-link"
     }
   },
-  "rich-text#cms-frete-gratis": {
+
+  "rich-text#cms-politicas-pagamento": {
     "props": {
-      "text": "[Frete Grátis](/frete-gratis)",
+      "text": "[Políticas de Pagamento](/politicas-de-pagamento)",
       "blockClass": "cms-link"
     }
   },
+
+  "rich-text#cms-politicas-trocas": {
+    "props": {
+      "text": "[Políticas de Trocas e Devoluções](/politica-de-trocas)",
+      "blockClass": "cms-link"
+    }
+  },
+
   "rich-text#cms-politicas-privacidade": {
     "props": {
       "text": "[Políticas de Privacidade](/politicas-de-privacidade)",
       "blockClass": "cms-link"
     }
   },
-  "rich-text#cms-politicas-vendas": {
+  
+  "rich-text#cms-politicas-seguranca": {
     "props": {
-      "text": "[Políticas de Vendas](/politica-de-vendas)",
+      "text": "[Políticas de Segurança](/politica-de-seguranca)",
       "blockClass": "cms-link"
     }
   },
-  "rich-text#cms-politicas-trocas": {
+  
+  "rich-text#cms-cookies": {
     "props": {
-      "text": "[Políticas de Trocas](/politica-de-trocas)",
-      "blockClass": "cms-link"
-    }
-  },
-  "rich-text#cms-cancelamentos": {
-    "props": {
-      "text": "[Cancelamentos](/cancelamentos)",
+      "text": "[Políticas de Cookies](/politica-de-cookies)",
       "blockClass": "cms-link"
     }
   }

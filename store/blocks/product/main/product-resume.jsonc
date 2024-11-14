@@ -12,7 +12,8 @@
       "flex-layout.row#sku-selector",
       "flex-layout.row#actions-pdp",
       "flex-layout.row#shipping",
-      "flex-layout.row#share"
+      "flex-layout.row#share",
+      "link-seller"
     ]
   }
 }

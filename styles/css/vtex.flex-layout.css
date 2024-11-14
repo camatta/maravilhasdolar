@@ -6,6 +6,12 @@
   padding: 0 15px;
 }
 
+/* TOPLINE */
+.flexRow--wrapper-topbar {
+  background: #FF6712;
+}
+/*FIM TOPLINE*/
+
 /* HEADER */
 .flexRow--header-container {
   padding: 15px 0;
@@ -49,7 +55,7 @@
 
 /* MENU */
 .flexRow--menu-container {
-  background: #E9E9E9;
+  background: #ECECEC;
   box-shadow: 3px 3px 6px #00000014;
   padding: 10px 0;
 }
@@ -58,10 +64,13 @@
 .flexRow--conditions-container {
   padding: 45px 0 60px;
 }
-.flexRowContent--conditions-container {
+.flexRow--categoriasmenu-container {
+  padding: 10px 0 10px;
+}
+.flexRowContent--conditions-container, .flexRowContent--categoriasmenu-container {
   flex-direction: column;
 }
-.flexCol--conditions-desk-content {
+.flexCol--conditions-desk-content, .flexCol--categoriasmenu-desk-content  {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -128,7 +137,7 @@
   bottom: 25px;
   left: 20px;
   right: 20px;
-  background: #fff;
+  background: #003030;
   opacity: 0;
   transition: all .3s ease-in-out;
 }
@@ -138,19 +147,20 @@
 .flexColChild--summary-action-content:first-child {
   max-width: 70px;
   width: 100%;
+  display: none;
 }
 .flexCol--summary-action-content {
   display: flex;
-  flex-direction: row;
+  /*flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 10px;*/
 }
 .flexColChild--summary-action-content :global(.vtex-button) {
   border: 0;
   border-radius: 0;
 }
-.flexColChild--summary-action-content :global(.vtex-button):hover {
-  background: #000;
+.flexColChild--summary-action-content :global(.vtex-button):hover, .flexColChild--summary-action-content :global(.vtex-button) {
+  background: #003030;
 }
 .flexColChild--summary-action-content :global(.vtex-button__label) {
   padding: 7px 32px !important;
@@ -168,14 +178,13 @@
 .flexCol--bottom-mosaic-right-content {
   gap: 14px;
 }
-
 .flexColChild--instagram-content {
   margin-bottom: 80px;
 }
 
 /* NEWSLETTER */
 .flexRow--newsletter-container {
-  background: #E9E9E9;
+  background: #ECECEC;
   padding: 20px 0;
 }
 .flexRowContent--newsletter-container {
@@ -249,7 +258,9 @@
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-itemContainer--department)::before,
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-itemContainer--department)::after,
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-departmentLink)::before,
-.flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-itemContainer--category) {
+.flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-itemContainer--category),
+.flexColChild--short-description-content, 
+.flexRow--shipping-container, .flexRow--share-container  {
   display: none !important;
 }
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-itemContainer--department):not(:first-child) {
@@ -339,9 +350,6 @@
 .flexCol--result-filter-content {
   min-width: 220px;
 }
-.flexColChild--result-filter-content {
-  box-shadow: rgba(0,0,0,0.2) 0px 1px 5px -1px;
-}
 
 .flexRow--search-toolbar-container {
   padding-bottom: 24px;
@@ -387,7 +395,6 @@
 }
 
 .flexRow--actions-pdp-container {
-  border-bottom: 1px solid #aeaeae;
   margin-bottom: 15px;
   padding-bottom: 15px;
   max-width: 65%;
@@ -408,8 +415,9 @@
   border-radius: 0;
   background: #60A347;
   border: 0;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e1e1e;
 }
 .flexRowContent--actions-pdp-container :global(.vtex-button__label) {
   padding: 18px 10px !important;
@@ -423,6 +431,31 @@
 .flexRow--related-products-container {
   margin: 50px 0;
 }
+
+/*MOSTRAR MAIS CATEGORIA*/
+.flexRowContent--total-produtos {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.flexRowContent--total-produtos .stretchChildrenWidth {
+  width: auto !important;
+}
+.flexRow--search-fetchmore-container {
+  display: none;
+}
+/*FIM MOSTRAR MAIS CATEGORIA*/
+
+/*RODAPÉ MINICART*/
+.flexRow--minicart-footer {
+  box-shadow: unset;
+  padding: 32px;
+}
+.flexRowContent--minicart-footer {
+  border-top: 1px solid #E0E0E0;
+  padding-top: 1rem;
+}
+/*FIM RODAPÉ MINICART*/
 
 @media (max-width: 1199px) {
   .flexColChild--summary-action-content :global(.vtex-button__label) {
