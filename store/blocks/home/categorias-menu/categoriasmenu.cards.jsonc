@@ -5,10 +5,12 @@
         "isFullModeStyle": false,
         "textPosition": "right",
         "imageUrl": "assets/icons/icon-remedios.png",
-        "headline": "Remédio",
+        "callToActionText": "Remédios",
         "blockClass": "info-card-catmenu",
-        "callToActionMode": "none",
-        "textMode": "rich-text"
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/medicamentos",
+        "callToActionUrl": "/medicamentos"
       }
     },
     "info-card#cat2": {
@@ -17,10 +19,12 @@
         "isFullModeStyle": false,
         "textPosition": "right",
         "imageUrl": "assets/icons/icon-marketplace.png",
-        "headline": "Cadastre-se",
+        "callToActionText": "Cadastre-se",
         "blockClass": "info-card-catmenu",
-        "callToActionMode": "none",
-        "textMode": "rich-text"
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/login",
+        "callToActionUrl": "/login"
       }
     },
     "info-card#cat3": {
@@ -29,10 +33,12 @@
         "isFullModeStyle": false,
         "textPosition": "right",
         "imageUrl": "assets/icons/icon-promocoes.png",
-        "headline": "Promoções",
+        "callToActionText": "Promoções",
         "blockClass": "info-card-catmenu",
-        "callToActionMode": "none",
-        "textMode": "rich-text"
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/promocoes",
+        "callToActionUrl": "/promocoes"
       }
     },
     "info-card#cat4": {
@@ -41,10 +47,12 @@
         "isFullModeStyle": false,
         "textPosition": "right",
         "imageUrl": "assets/icons/icon-johnsons.png",
-        "headline": "Johnsons \n Baby",
+        "callToActionText": "Johnsons \n Baby",
         "blockClass": "info-card-catmenu",
-        "callToActionMode": "none",
-        "textMode": "rich-text"
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/johnsons",
+        "callToActionUrl": "/johnsons"
       }
     },
     "info-card#cat5": {
@@ -53,10 +61,12 @@
         "isFullModeStyle": false,
         "textPosition": "right",
         "imageUrl": "assets/icons/icon-nivea.png",
-        "headline": "Nívea em \n promoção",
+        "callToActionText": "Nívea em \n promoção",
         "blockClass": "info-card-catmenu",
-        "callToActionMode": "none",
-        "textMode": "rich-text"
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/nivea",
+        "callToActionUrl": "/nivea"
       }
     },
     "info-card#cat6": {
@@ -65,10 +75,12 @@
         "isFullModeStyle": false,
         "textPosition": "right",
         "imageUrl": "assets/icons/icon-neutrogena.png",
-        "headline": "Neutrogena \n em promoção",
+        "callToActionText": "Neutrogena \n em promoção",
         "blockClass": "info-card-catmenu",
-        "callToActionMode": "none",
-        "textMode": "rich-text"
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/neutrogena",
+        "callToActionUrl": "/neutrogena"
       }
     }
   }

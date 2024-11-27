@@ -2,7 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#categoriasmenu",
-      "flex-layout.row#main-slider",
+      "list-context.image-list#main-slider",
       "flex-layout.row#conditions",
       "flex-layout.row#upper-mosaic",
       //"__fold__",
@@ -10,7 +10,8 @@
       "flex-layout.row#shelf-releases",
       "flex-layout.row#shelf-best-sellers",
       "flex-layout.row#shelf-highlights",
-      "flex-layout.row#bottom-mosaic"
+      "flex-layout.row#bottom-mosaic",
+      "flex-layout.row#instagram"
     ]
   }
 }

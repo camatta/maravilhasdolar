@@ -2,13 +2,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#search-bread",
-      "flex-layout.row#search-title",
-      "flex-layout.row#result-grid",
-      "flex-layout.row#total-produtos",
-      "flex-layout.row#barra-total-produtos",
-      "flex-layout.row#fetchmore",
-      "flex-layout.row#result-description"
-      
+      "flex-layout.row#result-grid"      
     ],
     "props": {
       "pagination": "show-more",

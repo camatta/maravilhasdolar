@@ -1,5 +1,6 @@
 {
   "flex-layout.row#search-bread": {
+    "title": "Breadcrumb",
     "props": {
       "blockClass": ["search-bread-container", "custom-container"],
       "preserveLayoutOnMobile": true,

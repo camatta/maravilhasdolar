@@ -16,7 +16,7 @@
   "product-identifier.product": {
     "props": {
       "label": "custom",
-      "customLabel": "Código"
+      "customLabel": "Referência"
     }
   }
 }

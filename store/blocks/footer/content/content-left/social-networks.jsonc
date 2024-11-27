@@ -1,5 +1,6 @@
 {
   "flex-layout.row#social-networks": {
+    "title": "Redes Sociais",
     "props": {
       "blockClass": "social-networks-container"
     },
@@ -7,12 +8,13 @@
   },
   "flex-layout.col#social-networks": {
     "props": {
-      "blockClass": "social-networks-content"
+      "blockClass": "social-networks-content",
+      "preventVerticalStretch": true
     },
     "children": [
-      "image#youtube",
       "image#instagram",
-      "image#linkeding"
+      "image#linkeding",
+      "image#youtube"
     ]
   },
 
@@ -21,7 +23,7 @@
       "src": "assets/social-networks/instagram.svg",
       "alt": "Instagram",
       "link": {
-        "url": "https://instagram.com",
+        "url": "https://www.instagram.com/niveleshop",
         "newTab": true
       }
     }
@@ -32,7 +34,7 @@
       "src": "assets/social-networks/linkedin.svg",
       "alt": "Facebook",
       "link": {
-        "url": "https://www.facebook.com/facebook/?locale=pt_BR",
+        "url": "https://www.linkedin.com/company/nivele/",
         "newTab": true
       }
     }
@@ -43,7 +45,7 @@
       "src": "assets/social-networks/youtube.svg",
       "alt": "Youtube",
       "link": {
-        "url": "https://youtube.com.br",
+        "url": "https://www.youtube.com/@NiveleShop",
         "newTab": true
       }
     }

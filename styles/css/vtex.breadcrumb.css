@@ -1,13 +1,14 @@
 .container {
-  padding: 30px 0;
+  padding: 24px 0 32PX;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .homeIcon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 .homeLink {
@@ -16,21 +17,37 @@
 }
 
 .link {
-  font-size: 14px;
+  font-size: 12px;
 }
 .link:hover {
   color: #000;
 }
 
-@media (max-width: 991px) {
-  .container,
-  .term {
-    display: block;
-  }
+.homeLink {
+  padding-right: 4px;
+}
+.arrow--breadcrumb-search:not(:first-child) {
+  padding-left: 0;
+}
+.term {
+  font-size: 12px;
+  line-height: 15px;
+  color: #3F3F3F;
 }
 
-@media (max-width: 640px) {
-  .container {
-    padding: 15px 0;
+.link::first-letter,
+.term::first-letter {
+  text-transform: uppercase;
+}
+
+@media (max-width: 1025px) {
+  .homeIcon {
+    display: none;
+  }
+  .homeLink::before {
+    content: "Home";
+  }
+  .arrow .link {
+    color: #202020;
   }
 }

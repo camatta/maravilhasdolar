@@ -1,5 +1,6 @@
 {
   "flex-layout.row#bottom-mosaic": {
+    "title": "Mosaico Triplo",
     "props": {
       "blockClass": ["bottom-mosaic-container", "custom-container"],
       "fullWidth": true,

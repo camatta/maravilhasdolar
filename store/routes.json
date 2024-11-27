@@ -1,17 +1,41 @@
 {
-  "store.custom#fale-conosco": {
-    "path": "/fale-conosco"
-  },
-
   "store.custom#quem-somos": {
     "path": "/quem-somos"
   },
 
-  "store.custom#frete-gratis": {
-    "path": "/frete-gratis"
+  "store.custom#como-comprar": {
+    "path": "/como-comprar"
+  },
+
+  "store.custom#marketplace": {
+    "path": "/marketplace"
+  },
+
+  "store.custom#fale-conosco": {
+    "path": "/fale-conosco"
+  }, 
+
+  "store.custom#politica-de-envio": {
+    "path": "/politicas-de-envio"
+  },
+
+  "store.custom#politica-de-pagamento": {
+    "path": "/politicas-de-pagamento"
+  },
+
+  "store.custom#trocas-e-devolucoes": {
+    "path": "/trocas-e-devolucoes"
   },
 
   "store.custom#politica-privacidade": {
     "path": "/politicas-de-privacidade"
+  },
+
+  "store.custom#politica-de-seguranca": {
+    "path": "/politica-de-seguranca"
+  },
+
+  "store.custom#politica-de-cookies": {
+    "path": "/politica-de-cookies"
   }
 }

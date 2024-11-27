@@ -66,8 +66,13 @@
   },
   "flex-layout.col#spot-price-summary": {
     "props": {
-      "blockClass": ["spot-price-summary-content"]
+      "blockClass": ["spot-price-summary-content", "summary"]
     },
-    "children": ["cash-price"] // Componente na pasta react/components/Product/CashPrice
+    "children": ["product-spot-price"]
+  },
+  "product-spot-price": {
+    "props": {
+      "message": "{spotPriceValue} à vista"
+    }
   }
 }

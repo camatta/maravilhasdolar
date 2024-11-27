@@ -1,5 +1,6 @@
 {
   "flex-layout.col#payments-flags": {
+    "title": "Bandeiras pagamento",
     "props": {
       "blockClass": "payments-flags-content",
       "preventVerticalStretch": true
@@ -47,7 +48,7 @@
   },
   "image#payment-flags": {
     "props": {
-      "src": "assets/flags/payment/bandeiras-cartoes.webp",
+      "src": "assets/flags/payment/bandeiras-cartoes.png",
       "alt": "Formas de pagamento: Visa, Master, Amex, Dinners, Boleto, Depósito"
     }
   }

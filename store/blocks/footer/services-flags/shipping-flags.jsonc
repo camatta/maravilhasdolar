@@ -1,5 +1,6 @@
 {
   "flex-layout.col#shipping-flags": {
+    "title": "Meios de entrega",
     "props": {
       "blockClass": "shipping-flags-content"
     },
@@ -45,9 +46,7 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "image#shipping-correios",
-      "image#shipping-sedex",
-      "image#shipping-pac"
+      "image#shipping-correios"
     ]
   },
   "image#shipping-correios": {

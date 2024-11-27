@@ -1,5 +1,6 @@
 {
   "flex-layout.row#shelf-best-sellers": {
+    "title": "Vitrine Mais Vendidos",
     "props": {
       "blockClass": ["shelf-container", "shelf-best-sellers-container", "custom-container"]
     },
@@ -39,7 +40,7 @@
   },
   "flex-layout.col#best-sellers-products-container": {
     "props": {
-      "blockClass": ["best-sellers-products-content"]
+      "blockClass": ["best-sellers-products-content", "shelf-carousel"]
     },
     "children": ["list-context.product-list#shelf-best-sellers"]
   },

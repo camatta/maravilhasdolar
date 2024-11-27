@@ -1,0 +1,36 @@
+{
+  "store.custom#marketplace": {
+    "children": [
+      "flex-layout.row#marketplace"
+    ]
+  },
+  "flex-layout.row#marketplace": {
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#conteudo-marketplace"]
+  },
+  "flex-layout.col#conteudo-marketplace": {
+    "children": [
+      "rich-text#marketplace-title",
+      "rich-text#conteudo-marketplace"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#marketplace-title": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Venda no MarketPlace Nivele"
+    }
+  },
+  "rich-text#conteudo-marketplace": {
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "## Como a Nivele Pode Transformar Seu Negócio\nNos últimos anos, o mercado farmacêutico brasileiro passou por uma transformação significativa. Segundo a Associação Brasileira de Redes de Farmácias e Drogarias (Abrafarma), as grandes redes farmacêuticas experimentaram um crescimento impressionante de 230% em participação de mercado desde o início dos anos 2000. Essas redes, que antes representavam apenas 15% das vendas, agora dominam mais de 50% do mercado, mesmo possuindo apenas 15% dos pontos de venda no país.\n\nEssa mudança apresenta desafios consideráveis para farmácias independentes e pequenas redes no Brasil. A concorrência com as grandes redes se tornou um obstáculo significativo, levando ao fechamento de muitas farmácias independentes. De todas as lojas que fecharam as portas recentemente, 86% pertencem a esse nicho. Até o primeiro semestre de 2023, esse número era de 80%, destacando a crescente pressão sobre os pequenos estabelecimentos.\n\n## Principais Desafios das Farmácias Independentes\n* Menor capacidade de negociação com fornecedores\n* Concorrência acirrada em preços\n* Baixa visibilidade online\n* Fraco reconhecimento de marca (awareness)\n* Mercado altamente competitivo\n\n## Como a Nivele Pode Ajudar\nA Nivele chega ao mercado como uma solução inovadora: um marketplace de farmácias criado para impulsionar o crescimento das farmácias independentes e pequenas redes em todo o Brasil. Com a Nivele, esses estabelecimentos podem disponibilizar seus produtos online, 24 horas por dia, 7 dias por semana, aumentando sua receita por meio do alcance digital e ampliando a exposição da marca em nível nacional.\n\nJunte-se à Nivele e transforme seu negócio. Faça parte desse ecossistema que está revolucionando o mercado farmacêutico e impulsionando o sucesso de farmácias independentes.\n\nEntre em contato com sellers@nivele.com.br para formalizar sua adesão.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

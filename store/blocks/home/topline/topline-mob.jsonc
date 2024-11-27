@@ -1,5 +1,6 @@
 {
     "flex-layout.row#top-barmobile": {
+      "title": "Benefícios - Topo",
       "children": ["flex-layout.col#tob__carrossel"],
       "props": {
         "blockClass": "wrapper-topbar"

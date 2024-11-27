@@ -1,5 +1,6 @@
 {
   "flex-layout.col#product-image": {
+    "title": "Imagem",
     "props": {
       "blockClass": "product-image-content"
     },
@@ -15,8 +16,8 @@
       "thumbnailAspectRatio": "1:1",
       "showNavigationArrows": false,
       "showPaginationDots": false,
-      "maxHeight": 504,
-      "thumbnailMaxHeight": 80,
+      "maxHeight": 443,
+      "thumbnailMaxHeight": 68,
       "zoomMode": "in-place-hover"
     }
   },
@@ -30,10 +31,11 @@
       "thumbnailAspectRatio": "1:1",
       "showNavigationArrows": false,
       "showPaginationDots": false,
-      "maxHeight": 504,
+      "maxHeight": 385,
       "thumbnailMaxHeight": 80,
       "zoomMode": "in-place-hover",
-      "thumbnailsOrientation": "horizontal"
+      "thumbnailsOrientation": "horizontal",
+      "blockClass": ["pdp"]
     }
   }
 }

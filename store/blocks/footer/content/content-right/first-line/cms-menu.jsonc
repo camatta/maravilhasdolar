@@ -1,5 +1,6 @@
 {
   "flex-layout.col#cms-menu": {
+    "title": "Menu CMS",
     "props": {
       "blockClass": "cms-menu-content",
       "preventVerticalStretch": true
@@ -98,7 +99,7 @@
 
   "rich-text#cms-politicas-trocas": {
     "props": {
-      "text": "[Políticas de Trocas e Devoluções](/politica-de-trocas)",
+      "text": "[Trocas e Devoluções](/trocas-e-devolucoes)",
       "blockClass": "cms-link"
     }
   },

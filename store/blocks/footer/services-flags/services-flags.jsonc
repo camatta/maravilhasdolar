@@ -1,7 +1,7 @@
 {
   "flex-layout.row#services-flags": {
     "props": {
-      "blockClass": ["custom-container", "services-flags-container"],
+      "blockClass": ["custom-container", "store-info-container"],
       "colSizing": "auto"
     },
     "children": [

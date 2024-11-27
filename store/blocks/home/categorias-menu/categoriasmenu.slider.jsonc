@@ -3,16 +3,24 @@
       "props": {
         "itemsPerPage": {
           "desktop": 5,
-          "tablet": 1,
-          "phone": 1
+          "tablet": 4,
+          "phone": 4
+        },
+        "centerMode": {
+          "desktop": "disabled",
+          "mobile": "to-the-left",
+          "tablet": "to-the-left",
+          "phone": "to-the-left"
         },
         "autoplay": {
           "timeout": "3000",
           "stopOnHover": true
         },
+        "navigationStep": 1,
         "infinite": true,
         "showNavigationArrows": "never",
-        "showPaginationDots": "never"
+        "showPaginationDots": "never",
+        "blockClass": ["category"]
       },
       "children": ["info-card#cat1", "info-card#cat2", "info-card#cat3", "info-card#cat4", "info-card#cat5", "info-card#cat6"]
     }

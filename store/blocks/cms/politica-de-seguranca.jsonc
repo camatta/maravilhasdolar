@@ -1,0 +1,36 @@
+{
+  "store.custom#politica-de-seguranca": {
+    "children": [
+      "flex-layout.row#politica-de-seguranca"
+    ]
+  },
+  "flex-layout.row#politica-de-seguranca": {
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#politica-de-seguranca"]
+  },
+  "flex-layout.col#politica-de-seguranca": {
+    "children": [
+      "rich-text#politica-de-seguranca",
+      "rich-text#politica-de-seguranca-conteudo"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#politica-de-seguranca": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Política de Segurança"
+    }
+  },
+  "rich-text#politica-de-seguranca-conteudo":{
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "Na NIVELE, implementamos as mais modernas tecnologias e práticas de segurança online para assegurar a proteção de suas informações e garantir uma experiência de compra confiável.\n\nA seguir, explicamos como garantimos sua segurança:\n\n## Ambiente Protegido\nNosso site oferece um ambiente de compras completamente seguro, independente da forma de pagamento que você escolher. A segurança é garantida por uma certificação digital da GeoTrust, uma líder mundial em certificação digital. Todas as informações fornecidas durante a compra são automaticamente criptografadas e processadas com segurança, sem interferência manual e sem serem usadas para outros propósitos além de concluir a compra.\n\n## Criptografia\nDurante todo o processo de compra, suas informações são codificadas por um sistema de criptografia avançado. Isso garante que seus dados pessoais, a forma de pagamento e qualquer outra informação fornecida sejam criptografados antes de serem transmitidos. O ícone de \"cadeado fechado\" na barra de endereços do navegador e o \"https\" no início do URL indicam que seus dados estão sendo transmitidos de forma segura.\n\n## Dados do Cartão de Crédito\nNa NIVELE, não armazenamos nenhuma informação do seu cartão de crédito. Os dados de pagamento são inseridos diretamente na plataforma da operadora do cartão, eliminando assim qualquer risco de interceptação das informações em nosso site.\n\n## Identificação e Senha\nPara simplificar suas compras futuras, desenvolvemos um sistema de identificação. Assim, ao realizar uma nova compra, você não precisará inserir novamente seus dados cadastrais, como nome, CPF, endereço, etc. Esses dados são armazenados em nosso sistema exclusivamente para agilizar futuras compras. Lembre-se de que as informações do seu cartão de crédito e outras relacionadas ao pagamento não são armazenadas. Se você esquecer sua senha, poderá solicitar uma nova, que será enviada automaticamente para o seu e-mail cadastrado.\n\nEm caso de dúvidas sobre esta política ou procedimentos, entre em contato com o nosso SAC pelo e-mail sac@nivele.com.br ou através do chat disponível em nosso site.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

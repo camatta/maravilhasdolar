@@ -1,5 +1,6 @@
 .socialMediasWrapper > div + div {
-  margin-top: 40px
+  margin-top: 21px;
+  padding-top: 21px;
 }
 
 .socialMediasHeader {
@@ -22,11 +23,24 @@
 }
 
 .socialMediasContent {
+  position: relative;
+  z-index: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+}
+.socialMediasContent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 344px;
+  width: 100%;
+  height: 1px;
+  background: #E3E3E3;
 }
 
 .socialMediaLink {
@@ -39,19 +53,19 @@
   border-radius: 4px;
 }
 
-@media screen and (max-width: 540px) {
-  .socialMediasWrapper > div + div {
-    margin-top: 30px;
+@media (max-width: 1025px) {
+  .socialMediasHeaderTitle {
+    line-height: 22px;
+    font-size: 18px;
+    margin: 0 0 8px;
   }
-  
-  .socialMediasHeader {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
+  .socialMediasHeaderSubtitle {
+    font-size: 14px;
+    line-height: 17px;
   }
 
-  .socialMediasHeaderTitle {
-    line-height: 29px;
-    font-size: 20px;
+  .socialMediasWrapper > div + div {
+    margin-top: 24px;
+    padding-top: 24px;
   }
 }

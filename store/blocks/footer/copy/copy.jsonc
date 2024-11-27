@@ -1,5 +1,6 @@
 {
   "flex-layout.row#copy": {
+    "title": "Copyrights",
     "props": {
       "blockClass": ["footer-copy-container", "custom-container"]
     },
@@ -40,7 +41,7 @@
   },
   "rich-text#copy-design": {
     "props": {
-      "text": "Design",
+      "text": "Desenvolvimento",
       "blockClass": ["copy-design", "copy-text"]
     }
   },

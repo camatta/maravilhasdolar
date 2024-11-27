@@ -1,0 +1,5 @@
+{
+    "flex-layout.row#seller-info": {
+        "children": ["seller-info"]
+    }
+}

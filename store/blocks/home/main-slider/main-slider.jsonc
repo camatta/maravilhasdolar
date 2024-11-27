@@ -1,31 +1,18 @@
 {
-  "flex-layout.row#main-slider": {
-    "props": {
-      "blockClass": ["main-slider-container"]
-    },
-    "children": ["flex-layout.col#main-slider"]
-  },
-  "flex-layout.col#main-slider": {
-    "children": ["list-context.image-list#main-slider"]
-  },
  "list-context.image-list#main-slider": {
+  "title": "Carrossel Principal",
     "children": ["slider-layout#main-slider"],
     "props": {
       "images": [
         {
           "image": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
-          "mobileImage": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
-          "description": "Sua pele mais macia e brilhante"
+          "mobileImage": "assets/slider-principal/kit-neutrogena.png",
+          "description": "Kit neutrogena"
         },
         {
           "image": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
-          "mobileImage": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
-          "description": "Sua pele mais macia e brilhante"
-        },
-        {
-          "image": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
-         "mobileImage": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
-          "description": "Sua pele mais macia e brilhante"
+          "mobileImage": "assets/slider-principal/dove.png",
+          "description": "Dove bond intense repair"
         }
       ]
     }
@@ -38,7 +25,6 @@
         "tablet": 1,
         "phone": 1
       },
-      "height": 449,
       "autoplay": {
         "timeout": "3000",
         "stopOnHover": true
@@ -46,7 +32,8 @@
       "label": "slider",
       "infinite": true,
       "draggable": true,
-      "blockClass": ["main-slider"]
+      "blockClass": ["main-slider"],
+      "arrowSize": 9
     }
   }
 }

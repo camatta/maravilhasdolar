@@ -1,5 +1,6 @@
 {
   "flex-layout.row#shelf-releases": {
+    "title": "Vitrine Lançamentos",
     "props": {
       "blockClass": ["shelf-container", "shelf-releases-container", "custom-container"]
     },
@@ -39,7 +40,7 @@
   },
   "flex-layout.col#releases-products-container": {
     "props": {
-      "blockClass": ["releases-products-content"]
+      "blockClass": ["releases-products-content", "shelf-carousel"]
     },
     "children": ["list-context.product-list#shelf-releases"]
   },

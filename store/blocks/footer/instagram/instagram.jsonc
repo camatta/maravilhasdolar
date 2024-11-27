@@ -1,5 +1,6 @@
 {
   "flex-layout.row#instagram": {
+    "title": "Redes Sociais",
     "props": {
       "blockClass": ["instagram-container", "custom-container"]
     },

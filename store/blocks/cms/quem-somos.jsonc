@@ -6,81 +6,29 @@
   },
   "flex-layout.row#quem-somos": {
     "props": {
-      "blockClass": ["custom-container"]
+      "blockClass": ["custom-container", "cms-page-container"]
     },
     "children": ["flex-layout.col#conteudoquem"]
   },
   "flex-layout.col#conteudoquem": {
     "children": [
       "rich-text#quem-title",
-      "rich-text#sobrequemsomos",
-      "rich-text#ambicao",
-      "rich-text#acreditamos",
-      "rich-text#fazemos",
-      "rich-text#missao",
-      "rich-text#visao",
-      "rich-text#valores"
+      "rich-text#sobrequemsomos"
     ],
     "props": {
-      "blockClass": "container"
+      "blockClass": ["cms-page-content"]
     }
   },
   "rich-text#quem-title": {
     "props": {
-      "text": "# Sobre a Docol"
+      "blockClass": ["cms-page-title"],
+      "text": "# Quem Somos"
     }
   },
   "rich-text#sobrequemsomos": {
     "props": {
-      "text": "## Quem Somos\nOrgulhosamente brasileira, somos uma indústria que busca transformar o dia a dia por meio do design e proporcionar boas experiências através da água.",
-      "textAlignment": "initial",
-      "textPosition": "initial"
-    }
-  },
-
-  "rich-text#ambicao": {
-    "props": {
-      "text": "## Nossa ambição\nQueremos que as pessoas se relacionem com nossa marca e sintam-se em casa onde quer que estejam. Por isso, nosso desejo é que momentos onde sentir-se bem, confortável e seguro virem rotina.",
-      "textAlignment": "initial",
-      "textPosition": "initial"
-    }
-  },
-
-  "rich-text#acreditamos": {
-    "props": {
-      "text": "## No que acreditamos\nAcreditamos que o bom design é inovador, sustentável e tem o olhar atento às pessoas, além de ser capaz de transformar os momentos cotidianos e proporcionar bem-estar.",
-      "textAlignment": "initial",
-      "textPosition": "initial"
-    }
-  },
-
-  "rich-text#fazemos": {
-    "props": {
-      "text": "## Como fazemos\nImprimimos criatividade em cada passo, em cada expressão de nossa marca. Promovemos um ciclo em que as soluções pensadas para as pessoas possam construir reputação para a nossa marca, gerando fidelidade, conexão e boas experiências.",
-      "textAlignment": "initial",
-      "textPosition": "initial"
-    }
-  },
-
-  "rich-text#missao": {
-    "props": {
-      "text": "## Missão\nSer marca reconhecida nacional e internacionalmente por oferecer produtos sustentáveis, inovadores e de alta qualidade com ampla e eficaz distribuição, com lucratividade e crescimento.",
-      "textAlignment": "initial",
-      "textPosition": "initial"
-    }
-  },
-
-  "rich-text#visao": {
-    "props": {
-      "text": "## Visão\nContribuir para o uso consciente da água com design, conforto, qualidade e tecnologia, gerando valor para a sociedade, colaboradores e acionistas.",
-      "textAlignment": "initial",
-      "textPosition": "initial"
-    }
-  },
-
-  "rich-text#valores": {
-    "props": {
-      "text": "## Valores\n- Protagonismo \n- Agilidade e controle \n- Simplicidade \n- Empatia \n- Experimentação \n- Excelência \n- Padrão \n- Mérito",
+      "blockClass": ["cms-page-content"],
+      "text": "A NIVELE é o seu Shopping Center virtual de farmácias, projetado para conectar **redes de farmácias e farmácias independentes** com consumidores de todo o Brasil. Nosso marketplace é uma plataforma inovadora que permite que essas farmácias aumentem suas vendas online, oferecendo produtos farmacêuticos, de bem-estar e saúde, 24 horas por dia, 7 dias por semana.\n\nNossa missão é clara: **desenvolver o negócio de redes e farmácias independentes**, proporcionando a elas uma presença online constante e acessível.\n\nNa NIVELE, entendemos que a satisfação do cliente é essencial. Por isso, oferecemos uma ampla variedade de produtos e a conveniência de escolher entre centenas de farmácias espalhadas pelo país. Comparamos instantaneamente **preços de medicamentos e custos de frete**, permitindo que nossos clientes façam compras seguras, econômicas e eficientes.\n\nEscolher a NIVELE é optar por um marketplace que valoriza tanto o crescimento das farmácias quanto a saúde e bem-estar dos consumidores. Com uma experiência de compra simplificada e acessível, ajudamos as farmácias a se destacarem no mercado e os clientes a encontrarem exatamente o que precisam, quando precisam.\n\nSomos mais do que uma plataforma de vendas; somos parceiros no crescimento do setor farmacêutico e na promoção da saúde de nossos clientes.\n\nExplore a NIVELE e descubra como podemos transformar sua experiência de compra dos seus produtos.",
       "textAlignment": "initial",
       "textPosition": "initial"
     }

@@ -1,5 +1,6 @@
 {
-  "login#mobile": {
+  "login#mobile01": {
+    "title": "Login",
     "props": {
       "emailAndPasswordTitle": "Login",
       "accessCodeTitle": "Código de login",

@@ -1,0 +1,36 @@
+{
+  "store.custom#politica-de-envio": {
+    "children": [
+      "flex-layout.row#politica-de-envio"
+    ]
+  },
+  "flex-layout.row#politica-de-envio": {
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container"]
+    },
+    "children": ["flex-layout.col#politica-de-envio-conteudo"]
+  },
+  "flex-layout.col#politica-de-envio-conteudo": {
+    "children": [
+      "rich-text#politica-de-envio-title",
+      "rich-text#politica-de-envio-conteudo"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#politica-de-envio-title": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Política de Envio"
+    }
+  },
+  "rich-text#politica-de-envio-conteudo": {
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "Política de Envio",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
   "flex-layout.row#conditions": {
+    "title": "Condições",
     "props": {
       "blockClass": ["conditions-container", "custom-container"],
       "preventHorizontalStretch": true,

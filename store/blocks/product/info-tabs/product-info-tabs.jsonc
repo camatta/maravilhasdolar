@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product-info-tabs": {
+    "title": "Descrições do produto",
     "props": {
       "blockClass": ["info-tabs-container", "custom-container"]
     },

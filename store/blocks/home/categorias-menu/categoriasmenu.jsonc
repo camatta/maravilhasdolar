@@ -1,5 +1,6 @@
 {
     "flex-layout.row#categoriasmenu": {
+      "title": "Categorias",
       "props": {
         "blockClass": ["categoriasmenu-container", "custom-container"],
         "preventHorizontalStretch": true,

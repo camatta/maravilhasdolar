@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header-mobile": {
+    "title": "Cabeçalho Mobile",
     "children": [
       "flex-layout.col#drawer-mobile",
       "flex-layout.col#logo-mobile",
@@ -17,16 +18,25 @@
     "props": {
       "blockClass": ["drawer-mobile-content"]
     },
-    "children": ["category-menu#mobile"]
+    "children": ["menu#drawer"]
   },
-  "category-menu#mobile": {
-    "props":{
-      "showAllDepartments": false,
-      "showSubcategories": true,
-      "menuDisposition": "center",
-      "sortSubcategories": "name",
+  "menu#drawer": {
+    "children": ["mega-menu#mobile"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "mega-menu#mobile": {
+    "props": {
       "mobileMode": true,
-      "blockClass": "mobile-menu-container"
+      "CustomComponent": "login#mobile"
+    },
+    "children": ["flex-layout.row#social-networks"]
+  },
+  "login#mobile": {
+    "props": {
+      "logInButtonBehavior": "link",
+      "accountOptionsButtonBehavior": "link"
     }
   },
 
@@ -41,6 +51,6 @@
     "props": {
       "blockClass": ["minicart-mobile-content"]
     },
-    "children": ["flex-layout.row#login-desktop", "minicart.v2"]
+    "children": ["minicart.v2"]
   }
 }

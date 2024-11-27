@@ -1,5 +1,6 @@
 {
   "flex-layout.row#newsletter": {
+    "title": "Newsletter",
     "props": {
       "blockClass": ["newsletter-container", "custom-container"]
     },

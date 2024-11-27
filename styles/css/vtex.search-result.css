@@ -1,3 +1,22 @@
+.filter__container--title {
+  display: none;
+}
+.totalProducts--layout,
+.totalProductsMessage {
+  color: #666666;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: initial;
+}
+.totalProductsMessage {
+  font-size: 0;
+  line-height: 0;
+}
+.totalProductsMessage::before {
+  content: "resultados";
+  font-size: 14px;
+}
+
 .filterTemplateOverflow::-webkit-scrollbar {
   width: 5px
 }
@@ -12,13 +31,18 @@
 
 .galleryTitle--layout {
   margin: 0;
-  font-size: 32px;
-  line-height: 32px;
-  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.galleryTitle--layout::first-letter {
+  text-transform: uppercase;
 }
 
 .filter__container {
-  border-color: #aeaeae;
+  border-color: #D9D9D9;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .filterMessage {
@@ -34,7 +58,7 @@
 }
 
 .filterTemplateOverflow  {
-  padding: 10px;
+  padding: 0;
 }
 
 .filterItem :global(.vtex-checkbox__line-container) {
@@ -50,12 +74,54 @@
   font-weight: 500;
 }
 
-.filter {
-  padding: 15px 10px 10px;
+.productCount {
+  color: #A8A8A8;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.filter,
+.filterIcon {
+  padding: 0;
 }
 
 .filter__container :global(.vtex-slider-container) {
   padding: 0 8px;
+}
+.filterContent,
+.filter__container--priceRange .filterTemplateOverflow {
+  margin-top: 24px;
+}
+.caretIcon {
+  width: 10px;
+  color: #D9D9D9;
+}
+
+.filter__container--priceRange :global(.vtex-search-result-3-x-filterTitleSpan) {
+  font-size: 0;
+}
+.filter__container--priceRange :global(.vtex-search-result-3-x-filterTitleSpan)::after {
+  content: 'Preço';
+  font-size: 16px;
+}
+.filter__container--priceRange :global(.vtex-slider__selector) {
+  background: #FF6712;
+}
+.filter__container--priceRange :global(.vtex-slider__base-internal) {
+  background: #D9D9D9;
+}
+
+.filterPopupTitle {
+  text-transform: initial;
+  font-weight: 400;
+  color: #3F3F3F;
+}
+.orderByText {
+  font-weight: 700;
+  color: #666666;
+}
+.orderByText::after {
+  content: ":";
 }
 
 .totalProducts--layout,
@@ -64,11 +130,34 @@
 }
 
 .gallery--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   padding: 0;
   margin: 0;
-  row-gap: 30px;
+  column-gap: 25px;
+  row-gap: 15px;
 }
 .galleryItem {
+  max-width: 100% !important;
+  padding: 0;
+}
+
+.searchResultContainer :global(.vtex-flex-layout-0-x-flexRow--spot-price-summary-container) {
+  margin: 0;
+}
+.searchResultContainer :global(.vtex-product-price-1-x-spotPrice) {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #CCCCCC;
+}
+.searchResultContainer :global(.vtex-flex-layout-0-x-flexRow--summary-action-container) {
+  position: initial;
+  opacity: 1;
+  margin-top: 15px;
+}
+
+.showingProducts {
+  color: #000;
   padding: 0;
 }
 
@@ -78,8 +167,19 @@
   background-color: white;
   border-radius: 39px;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0;
   line-height: 17px;
+  min-height: initial;
+  transition: all .3s ease-in-out;
+  text-transform: initial;
+  padding: 8px 24px;
+}
+.buttonShowMore :global(.vtex-button__label) {
+  padding: 0;
+}
+.buttonShowMore :global(.vtex-button__label)::before {
+  content: 'Ver mais produtos';
+  font-size: 14px;
 }
 .buttonShowMore :global(.vtex-button):hover {
   background: #FF6712;
@@ -107,21 +207,107 @@
 /*fim página de categoria*/
 
 @media (max-width: 1025px) {
-  .filterPopupButton {
-    width: 100%;
+  .orderByButton .caretIcon,
+  .filterPopupButton .filterIcon {
+    display: none;
   }
-  .filterPopupTitle,
-  .filterPopupArrowIcon,
+  
   .galleryTitle--layout {
-    margin: 0;
+    font-size: 22px;
+    line-height: 28px;
   }
+  .filterPopupButton .filterPopupArrowIcon::before,
   .orderByButton .filterPopupArrowIcon::before {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='10' viewBox='0 0 18 10' fill='none'%3E%3Cpath d='M9.49065 9.72846L17.0655 2.15349C17.2408 1.97829 17.3374 1.74442 17.3374 1.49504C17.3374 1.24567 17.2408 1.01179 17.0655 0.83659L16.5078 0.278747C16.1444 -0.0842458 15.5537 -0.0842458 15.1909 0.278747L8.82998 6.63963L2.46204 0.271688C2.2867 0.0964887 2.05297 -0.000244809 1.80373 -0.00024482C1.55421 -0.000244831 1.32048 0.0964886 1.145 0.271688L0.587433 0.829532C0.412096 1.00487 0.3155 1.23861 0.3155 1.48798C0.3155 1.73736 0.412096 1.97124 0.587433 2.14644L8.16918 9.72846C8.34507 9.90407 8.57991 10.0005 8.82956 9.99997C9.08019 10.0005 9.31489 9.90407 9.49065 9.72846Z' fill='%234F4F4F'/%3E%3C/svg%3E");
-    line-height: 0
+    content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none"><path d="M12.1667 5.13762L7.50004 9.66699L2.83337 5.13762L3.66171 4.33366L7.50004 8.05907L11.3384 4.33366L12.1667 5.13762Z" fill="%238D8D8D"/></svg>');
+    line-height: 0;
   }
 
-  .filterPopupButton .filterPopupArrowIcon::before {
-    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='22' viewBox='0 0 21 22' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.24397 21.6604C4.80486 21.6604 4.44897 21.3045 4.44897 20.8654L4.44897 17.878C2.38864 17.5036 0.826362 15.7001 0.826362 13.5317C0.826362 11.3634 2.38864 9.55992 4.44896 9.18547L4.44896 1.13488C4.44896 0.695824 4.80486 0.339875 5.24396 0.339875C5.68301 0.339875 6.03896 0.695824 6.03896 1.13488L6.03896 9.18547C8.09934 9.55987 9.66162 11.3633 9.66162 13.5317C9.66162 15.7001 8.09934 17.5036 6.03897 17.878L6.03897 20.8654C6.03897 21.3045 5.68302 21.6604 5.24397 21.6604ZM2.41636 13.5317C2.41636 11.9701 3.68237 10.7041 5.24402 10.7041C6.80566 10.7041 8.07162 11.9701 8.07162 13.5317C8.07162 15.0934 6.80566 16.3593 5.24402 16.3593C3.68237 16.3593 2.41636 15.0934 2.41636 13.5317Z' fill='%234F4F4F'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16.0792 0.339843C15.6401 0.339843 15.2842 0.695791 15.2842 1.13484L15.2842 4.12224C13.2238 4.49669 11.6616 6.30017 11.6616 8.46851C11.6616 10.6368 13.2238 12.4403 15.2842 12.8148L15.2842 20.8654C15.2842 21.3044 15.6401 21.6604 16.0792 21.6604C16.5182 21.6604 16.8742 21.3044 16.8742 20.8654L16.8742 12.8148C18.9345 12.4404 20.4968 10.6369 20.4968 8.46851C20.4968 6.30012 18.9345 4.49663 16.8742 4.12224L16.8742 1.13484C16.8742 0.695791 16.5182 0.339843 16.0792 0.339843ZM13.2516 8.46851C13.2516 10.0301 14.5176 11.2961 16.0792 11.2961C17.6409 11.2961 18.9068 10.0302 18.9068 8.46851C18.9068 6.90686 17.6409 5.6409 16.0792 5.6409C14.5176 5.6409 13.2516 6.90686 13.2516 8.46851Z' fill='%234F4F4F'/%3E%3C/svg%3E");
-    line-height: 0
+  .showingProducts {
+    padding: 0 15px;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .showingProductsCount {
+    font-weight: 400;
+  }
+  
+  .filterAccordionItemBox {
+    padding-right: 0;
+    min-height: initial;
+  }
+  .filterAccordionItemBox:not(:first-child) {
+    padding-top: 15px;
+  }
+  .filterAccordionItemBox :global(.vtex-checkbox__label),
+  .accordionFilterItemTitle {
+    font-size: 14px;
+  }
+  .container--layout--search-result-layout {
+    margin-bottom: 80px;
+  }
+  .accordionFilterContainer {
+    padding-left: 16px;
+  }
+  .orderByDropdown,
+  .accordionFilterContent {
+    padding: 0;
+  }
+
+  .filterPopupTitle,
+  .filterPopupArrowIcon {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+  }
+  .filterPopupButton,
+  .orderByButton {
+    width: 100%;
+    padding: 9px 20px;
+    height: initial;
+    justify-content: space-between;
+    border: 1px solid #CDCCCC;
+    border-radius: 0;
+  }
+  .filterPopupTitle {
+    font-size: 16px;
+    line-height: 20px;
+    color: #8D8D8D;
+  }
+
+  .orderByText {
+    display: none;
+  }
+
+  .gallery--grid {
+    column-gap: 16px;
+    row-gap: 24px;
+  }
+
+  .searchResultContainer :global(.vtex-product-price-1-x-spotPrice) {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #CCCCCC;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--total-produtos) .showingProducts {
+    margin-bottom: 8px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--total-produtos) .showingProductsCount {
+    font-weight: 700;
+  }
+  .progressBar {
+    margin: 0 auto 16px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .gallery--grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery--grid {
+    grid-template-columns: 1fr;
   }
 }

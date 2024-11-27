@@ -1,5 +1,6 @@
 {
   "flex-layout.row#shelf-highlights": {
+    "title": "Vitrine Destaques",
     "props": {
       "blockClass": ["shelf-container", "shelf-highlights-container", "custom-container"]
     },
@@ -39,7 +40,7 @@
   },
   "flex-layout.col#highlights-products-container": {
     "props": {
-      "blockClass": ["highlights-products-content"]
+      "blockClass": ["highlights-products-content", "shelf-carousel"]
     },
     "children": ["list-context.product-list#shelf-highlights"]
   },

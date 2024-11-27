@@ -1,5 +1,6 @@
 {
   "flex-layout.col#footer-category-menu": {
+    "title": "Categorias",
     "props": {
       "blockClass": "footer-category-menu-content",
       "preventVerticalStretch": true

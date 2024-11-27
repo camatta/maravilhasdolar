@@ -1,5 +1,6 @@
 {
   "rich-text#brand-resume": {
+    "title": "Descrição da loja",
     "props": {
       "blockClass": "brand-resume",
       "text": "O Shopping Center Virtual de Farmácia conectando lojistas e pessoas em um único ambiente"

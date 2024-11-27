@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header-desktop": {
+    "title": "Cabeçalho Desktop",
     "props": {
       "horizontalAlign": "between",
       "fullWidth": true,
@@ -32,12 +33,19 @@
       "blockClass": "utils-desktop-container"
     },
     "children": [
+      "flex-layout.row#shopper-location",
       "flex-layout.row#store-info-desktop",
       "flex-layout.row#login-desktop",
       "flex-layout.row#minicart-desktop"
     ]
   },
 
+  "flex-layout.row#shopper-location": {
+    "props": {
+      "blockClass": ["shopper-location"]
+    },
+    "children": ["shopper-location"]
+  },
   "flex-layout.row#store-info-desktop": {
     "props": {
       "blockClass": "row-store-info-container"
@@ -49,16 +57,10 @@
   },
 
   "flex-layout.row#login-desktop": {
-    "children": ["flex-layout.col#login-icon-desktop", "flex-layout.col#login-control-desktop"],
+    "children": ["flex-layout.col#login-control-desktop"],
     "props": {
       "blockClass": "row-login-container",
       "preventVerticalStretch": true
-    }
-  },
-  "flex-layout.col#login-icon-desktop": {
-    "children": ["image#login-icon"],
-    "props": {
-      "blockClass": "login-icon"
     }
   },
   "flex-layout.col#login-control-desktop": {
@@ -66,21 +68,7 @@
       "preventVerticalStretch": true,
       "blockClass": "login-control"
     },
-    "children": ["header-login"] // Componente na pasta react
-  },
-  "header-login": {
-    "children": ["login"] // Arquivo login.jsonc
-  },
-  "image#login-icon": {
-    "props": {
-      "src": "assets/icons/login.svg"
-    }
-  },
-  "rich-text#login-text": {
-    "props": {
-      "text": "Entrar ou\n**Cadastrar**",
-      "blockClass": ["login-text", "utils-text"]
-    }
+    "children": ["login"]
   },
 
   "flex-layout.row#minicart-desktop": {

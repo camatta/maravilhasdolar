@@ -1,5 +1,6 @@
 {
   "login": {
+    "title": "Login",
     "props": {
       "emailAndPasswordTitle": "Login",
       "accessCodeTitle": "Código de login",

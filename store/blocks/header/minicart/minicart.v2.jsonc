@@ -1,10 +1,11 @@
 {
   "minicart.v2": {
+    "title": "Carrinho lateral",
     "props": {
       "quantityDisplay": "always",
       "itemCountMode": "total",
       "MinicartIcon": "icon-cart#minicart-icon",
-      "maxDrawerWidth": "476px",
+      "maxDrawerWidth": "482px",
       "customPixelEventName": "addToCart"
     },
     "children": ["minicart-base-content"]
@@ -51,7 +52,7 @@
   },
   "summary-totalizers#minicart": {
     "props": {
-      "showTotal": false,
+      "showTotal": true,
       "showDeliveryTotal": false,
       "blockClass": ["minicart"]
     }

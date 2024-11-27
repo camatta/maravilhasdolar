@@ -5,7 +5,7 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "assets/icons/icon-shipped.svg",
-      "headline": "Entregamos em \n**todo Brasil**",
+      "headline": "Frete grátis para \n**todo o Brasil!**",
       "blockClass": "info-card-condition",
       "callToActionMode": "none",
       "textMode": "rich-text"
@@ -29,7 +29,7 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "assets/icons/icon-box.svg",
-      "headline": "Retire direto \n**na loja**",
+      "headline": "Retire direto \n**na loja!**",
       "blockClass": "info-card-condition",
       "callToActionMode": "none",
       "textMode": "rich-text"
@@ -41,7 +41,7 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "assets/icons/icon-pix.svg",
-      "headline": "Desconto para \n**pagamentos via pix**",
+      "headline": "Desconto para \n**pagamentos via PIX**",
       "blockClass": "info-card-condition",
       "callToActionMode": "none",
       "textMode": "rich-text"
@@ -53,7 +53,7 @@
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "assets/icons/icon-security.svg",
-      "headline": "Compra garantida \n**Loja 100% segura**",
+      "headline": "Compra garantida \n**Loja 100% Segura**",
       "blockClass": "info-card-condition",
       "callToActionMode": "none",
       "textMode": "rich-text"

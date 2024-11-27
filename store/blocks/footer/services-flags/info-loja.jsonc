@@ -1,7 +1,8 @@
 {
     "flex-layout.col#lojainfo": {
+      "title": "Dados da loja",
       "props": {
-        "blockClass": "payments-flags-content",
+        "blockClass": ["store-info"],
         "preventVerticalStretch": true
       },
       "children": [
@@ -18,7 +19,7 @@
     "rich-text#loja-cnpj": {
         "props": {
             "text": "**CNPJ:**  10.602.372/0001-41",
-             "blockClass": ["copy-cnpj"]
+             "blockClass": ["copy-cnpj", "store-info"]
         }
   },
   "flex-layout.row#loja-endereco": {
@@ -30,7 +31,7 @@
     "rich-text#loja-endereco": {
         "props": {
             "text": "**Endereço:**  Rua. Nelson Gama de \n Oliveira, 739 - CJ 104B. \n Vila Andrade, São Paulo.",
-             "blockClass": ["copy-endereco"]
+             "blockClass": ["copy-endereco", "store-info"]
         }
     }
   }

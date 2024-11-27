@@ -1,5 +1,6 @@
 {
   "flex-layout.row#search-mobile": {
+    "title": "Busca",
     "props": {
       "blockClass": ["custom-container", "search-mobile-container"]
     },

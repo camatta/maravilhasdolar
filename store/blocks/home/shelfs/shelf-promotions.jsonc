@@ -1,5 +1,6 @@
 {
   "flex-layout.row#shelf-promotions": {
+    "title": "Vitrine Promoções",
     "props": {
       "blockClass": ["shelf-container", "shelf-promotions-container", "custom-container"]
     },
@@ -39,7 +40,7 @@
   },
   "flex-layout.col#promotions-products-container": {
     "props": {
-      "blockClass": ["promotions-products-content"]
+      "blockClass": ["promotions-products-content", "shelf-carousel"]
     },
     "children": ["list-context.product-list#shelf-promotions"]
   },

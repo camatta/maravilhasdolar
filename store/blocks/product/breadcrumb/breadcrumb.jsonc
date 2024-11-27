@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product-breadcrumb": {
+    "title": "Breadcrumb",
     "props": {
       "blockClass": ["product-breadcrumb-container", "custom-container"]
     },

@@ -1,20 +1,23 @@
 {
-  "header-login": {
-    "component": "HeaderLogin",
+  "mega-menu": {
+    "component": "MegaMenu",
     "composition": "children"
+  },
+
+  "seller-minicart": {
+    "component": "SellerInfoMinicart"
   },
 
   "short-description": {
     "component": "ShortDescription"
   },
+  "seller-info": {
+    "component": "SellerInfo"
+  },
 
   "info-tabs": {
     "component": "InfoTabs",
     "composition": "children"
-  },
-
-  "cash-price": {
-    "component": "CashPrice"
   },
 
   "social-medias": {
