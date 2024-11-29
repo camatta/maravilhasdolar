@@ -22,7 +22,7 @@
   },
   "flex-layout.col#item-minicart": {
     "children": [
-      "flex-layout.row#seller-minicart",
+      //"flex-layout.row#seller-minicart",
       "flex-layout.row#product-minicart"
     ]
   },
