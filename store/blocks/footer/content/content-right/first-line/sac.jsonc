@@ -146,7 +146,7 @@
   "rich-text#lojas-parceirasdescricao": {
     "props": {
       "blockClass": ["sac-group-link", "sac-stores"],
-      "text": "<a href='#' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>Ver Todas</a>"
+      "text": "<a href='/lojas-parceiras' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>Ver Todas</a>"
     }
   }
 }

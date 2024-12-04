@@ -1,6 +1,7 @@
 {
   "store.custom#marketplace": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#marketplace"
     ]
   },

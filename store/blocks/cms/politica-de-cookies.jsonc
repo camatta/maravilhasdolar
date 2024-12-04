@@ -1,6 +1,7 @@
 {
   "store.custom#politica-de-cookies": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#politica-de-cookies"
     ]
   },

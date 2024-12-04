@@ -66,7 +66,6 @@
 /* MENU */
 .flexRow--menu-container {
   background: #ECECEC;
-  box-shadow: 3px 3px 6px #00000014;
   padding: 8px 0;
 }
 
@@ -468,6 +467,7 @@
 .flexRowContent--product-main-container {
   display: flex;
   gap: 30px;
+  justify-content: space-between;
 }
 
 .flexRow--name-wish-container {
@@ -555,6 +555,27 @@
 
 /*FIM MOSTRAR MAIS CATEGORIA*/
 
+/*PÁGINA LOJAS PARCEIRAS*/
+.flexRow--cms-page-container.flexRow--cms-lojasparceiras {
+  margin-bottom: 6px;
+}
+.flexRowContent--custom-linha {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ECECEC;
+}
+/*FIM PÁGINA LOJAS PARCEIRAS*/
+
+/*BREADCRUMB CMS*/
+.flexRowContent--linha-breadcms {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+/*FIM BREADCRUMB CMS*/
+
 /*RODAPÉ MINICART*/
 .flexRowContent--minicart--row-top {
   display: flex;
@@ -592,7 +613,7 @@
 
 /* PÁGINAS CMS */
 .flexRow--cms-page-container {
-  margin: 32px 0 64px;
+  margin: 0px 0 64px;
 }
 
 @media (max-width: 1199px) {
@@ -818,6 +839,12 @@
   .flexRowContent--footer-copy-container .stretchChildrenWidth {
     padding: 0;
     border: 0;
+  }
+  .flexRow--bottom-mosaic-container {
+    margin-top: 0;
+  }
+  .flexRowContent--qty-price__container {
+    gap: 15px;
   }
 }
 

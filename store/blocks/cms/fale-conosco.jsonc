@@ -1,6 +1,7 @@
 {
   "store.custom#fale-conosco": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#fale-conosco"
     ]
   },

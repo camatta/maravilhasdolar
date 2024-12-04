@@ -6,6 +6,10 @@
   padding: 0;
   margin: 32px 0 0 32px;
 }
+.closeIcon {
+  width: 16px;
+  fill: #1E1E1E;
+}
 
 .openIconContainer,
 .openIconContainer :global(.vtex-button__label) {
@@ -127,12 +131,12 @@
 
 @media screen and (max-width: 639px) {
   .closeIconButton {
-    margin: 24px 0 0 15px;
+    margin: 6px 0 0 15px;
   }
 
   .minicartTitle {
     padding: 24px 0;
-    margin: 0 15px;
+    margin: 0;
     font-size: 20px;
     line-height: 25px;
     text-transform: uppercase;

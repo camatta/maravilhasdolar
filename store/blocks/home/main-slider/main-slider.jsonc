@@ -1,4 +1,13 @@
 {
+  "flex-layout.row#main-slider": {
+    "props": {
+      "blockClass": ["main-slider-container"]
+    },
+    "children": ["flex-layout.col#main-slider"]
+  },
+  "flex-layout.col#main-slider": {
+    "children": ["list-context.image-list#main-slider"]
+  },
  "list-context.image-list#main-slider": {
   "title": "Carrossel Principal",
     "children": ["slider-layout#main-slider"],
@@ -29,9 +38,7 @@
         "timeout": "3000",
         "stopOnHover": true
       },
-      "label": "slider",
       "infinite": true,
-      "draggable": true,
       "blockClass": ["main-slider"],
       "arrowSize": 9
     }

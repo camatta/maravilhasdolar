@@ -86,6 +86,7 @@
     transition: all .3s ease-in-out;
     border-radius: 41px;
     min-height: initial;
+    background: #003030;
 }
 .sellerBuyContainer :global(.vtex-button__label) {
     padding: 0 !important;

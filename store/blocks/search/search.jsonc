@@ -6,7 +6,7 @@
         "skusFilter": "ALL",
         "simulationBehavior": "default",
         "installmentCriteria": "MAX_WITH_INTEREST",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 18
       }
     }
   },

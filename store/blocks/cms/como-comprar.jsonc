@@ -1,10 +1,11 @@
 {
   "store.custom#como-comprar": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#como-comprar"
     ]
   },
-  "flex-layout.row#como-comprar": {
+  "flex-layout.row#como-comprar": { 
     "props": {
       "blockClass": ["custom-container", "cms-page-container"]
     },

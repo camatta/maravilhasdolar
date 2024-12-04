@@ -1,6 +1,7 @@
 {
   "store.custom#politica-privacidade": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#politicas-de-privacidade"
     ]
   },

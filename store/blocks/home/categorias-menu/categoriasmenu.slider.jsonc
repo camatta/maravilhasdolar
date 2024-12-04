@@ -8,13 +8,9 @@
         },
         "centerMode": {
           "desktop": "disabled",
-          "mobile": "to-the-left",
-          "tablet": "to-the-left",
-          "phone": "to-the-left"
-        },
-        "autoplay": {
-          "timeout": "3000",
-          "stopOnHover": true
+          "mobile": "disabled",
+          "tablet": "disabled",
+          "phone": "disabled"
         },
         "navigationStep": 1,
         "infinite": true,

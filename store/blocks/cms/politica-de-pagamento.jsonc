@@ -1,6 +1,7 @@
 {
   "store.custom#politica-de-pagamento": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#politica-de-pagamento"
     ]
   },

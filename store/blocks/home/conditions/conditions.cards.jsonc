@@ -40,7 +40,7 @@
       "id": "info-card-condition",
       "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "assets/icons/icon-pix.svg",
+      "imageUrl": "assets/icons/pix-new.svg",
       "headline": "Desconto para \n**pagamentos via PIX**",
       "blockClass": "info-card-condition",
       "callToActionMode": "none",

@@ -1,6 +1,7 @@
 {
   "store.custom#trocas-e-devolucoes": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#trocas-e-devolucoes"
     ]
   },

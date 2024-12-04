@@ -2,7 +2,7 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#categoriasmenu",
-      "list-context.image-list#main-slider",
+      "flex-layout.row#main-slider",
       "flex-layout.row#conditions",
       "flex-layout.row#upper-mosaic",
       //"__fold__",

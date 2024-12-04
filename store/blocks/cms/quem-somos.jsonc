@@ -1,6 +1,7 @@
 {
   "store.custom#quem-somos": {
     "children": [
+      "flex-layout.row#linha-bread",
       "flex-layout.row#quem-somos"
     ]
   },

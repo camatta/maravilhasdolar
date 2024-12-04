@@ -34,6 +34,7 @@
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 15px;
+  color: #201F1F;
 }
 .galleryTitle--layout::first-letter {
   text-transform: uppercase;
@@ -71,7 +72,7 @@
   font-size: 14px;
   line-height: 17px;
   color: #474747;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .productCount {
@@ -134,8 +135,8 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 0;
   margin: 0;
-  column-gap: 25px;
-  row-gap: 15px;
+  column-gap: 29px;
+  row-gap: 40px;
 }
 .galleryItem {
   max-width: 100% !important;
@@ -204,12 +205,33 @@
   line-height: 20px;
   color: #000;
 }
+.caretIcon {
+  color:#8D8D8D;
+}
+.filterItem :global(.vtex-checkbox__container),
+.filterItem :global(.vtex-checkbox__inner-container),
+.filterItem :global(.vtex-checkbox__box-wrapper),
+.filterItem :global(.vtex-checkbox__input) {
+  width: 12px;
+  height: 12px;
+}
+.filterItem :global(.vtex-checkbox__inner-container) {
+  border-color: #a8a8a8;
+  border-width: 1px;
+  border-radius: 2px;
+}
+.filter__container--sellername, .filter__container--sku, .filter__container--ean {
+  display: none;
+}
 /*fim página de categoria*/
 
 @media (max-width: 1025px) {
   .orderByButton .caretIcon,
   .filterPopupButton .filterIcon {
     display: none;
+  }
+  .filterPopupArrowIcon {
+    padding-right: 0;
   }
   
   .galleryTitle--layout {

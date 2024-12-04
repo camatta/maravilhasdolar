@@ -45,7 +45,7 @@
   },
   "newsletter-input-email": {
     "props": {
-      "placeholderText": "Digite aqui seu e-mail"
+      "placeholderText": "Insira aqui seu e-mail"
     }
   },
   "newsletter-submit": {
