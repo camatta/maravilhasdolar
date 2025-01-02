@@ -8,7 +8,10 @@
 
 /* TOPLINE */
 .flexRow--wrapper-topbar {
-  background: #FF6712;
+  background: #FFCC00;
+  background-image: url(assets/elements/bg-topline.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*FIM TOPLINE*/
@@ -65,7 +68,7 @@
 
 /* MENU */
 .flexRow--menu-container {
-  background: #ECECEC;
+  background: #FFCC00;
   padding: 8px 0;
 }
 

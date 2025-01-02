@@ -64,7 +64,7 @@
       "title": "Texto 1",
       "props": {
         "blockClass": "text-topbar",
-        "text": "Aproveite o cupom de 10% OFF na sua primeira compra! Use: **“nivele10”.**"
+        "text": "5% OFF NO SEU PRIMEIRO PEDIDO! Aproveite o cupom “NOVOMARAVILHAS”!"
       }
     },
   
@@ -72,7 +72,7 @@
       "title": "Texto 2",
       "props": {
         "blockClass": "text-topbar",
-        "text": "Aproveite o cupom de 10% OFF na sua primeira compra! Use: **“nivele10”.**"
+        "text": "5% OFF NO SEU PRIMEIRO PEDIDO! Aproveite o cupom “NOVOMARAVILHAS”!"
       }
     }
   

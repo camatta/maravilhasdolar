@@ -27,28 +27,28 @@
 /* BARRA DE PESQUISA */
 .searchBarContainer {
   padding: 0;
-  min-width: 341px;
+  min-width: 412px;
 }
 .searchBarContainer :global(.vtex-input-prefix__group) {
   height: initial;
-  border: 0;
-  border-radius: 71px;
-  box-shadow: 0px 4px 4px 0px #0000001A;
+  border: 1px solid #FF6600;
+  border-radius: 500px;
   flex-direction: row-reverse;
 }
 .searchBarContainer :global(.vtex-input__suffix) {
   padding: 0
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 0;
   padding: 0;
+  line-height: 21.82px;
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
   color: #A2A2A2;
 }
 .searchBarIcon {
-  color: #D0D0D0;
+  color: #FF6600;
   padding: 11px 20px 13px
 }
 

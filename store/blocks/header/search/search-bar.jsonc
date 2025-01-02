@@ -2,7 +2,7 @@
   "search-bar": {
     "title": "Barra de pesquisa",
     "props": {
-      "placeholder": "O que você procura?"
+      "placeholder": "O que você está buscando?"
     }
   }
 }

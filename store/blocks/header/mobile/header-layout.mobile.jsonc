@@ -7,6 +7,6 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#header-mobile", "flex-layout.row#search-mobile", "flex-layout.row#shopper-location"]
+    "children": ["flex-layout.row#header-mobile", "flex-layout.row#search-mobile"]
   }
 }

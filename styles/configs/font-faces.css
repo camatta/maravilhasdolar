@@ -1,71 +1,71 @@
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url('assets/fonts/Onest-Thin.ttf');
+  src: url('assets/fonts/Nunito-ExtraLight.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url('assets/fonts/Onest-ExtraLight.ttf');
+  src: url('assets/fonts/Nunito-ExtraLight.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url('assets/fonts/Onest-Light.ttf');
+  src: url('assets/fonts/Nunito-Light.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('assets/fonts/Onest-Regular.ttf');
+  src: url('assets/fonts/Nunito-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('assets/fonts/Onest-Medium.ttf');
+  src: url('assets/fonts/Nunito-Medium.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url('assets/fonts/Onest-SemiBold.ttf');
+  src: url('assets/fonts/Nunito-SemiBold.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('assets/fonts/Onest-Bold.ttf');
+  src: url('assets/fonts/Nunito-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url('assets/fonts/Onest-ExtraBold.ttf');
+  src: url('assets/fonts/Nunito-ExtraBold.ttf');
 }
 
 @font-face {
-  font-family: 'Onest';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('assets/fonts/Onest-Black.ttf');
+  src: url('assets/fonts/Nunito-Black.ttf');
 }

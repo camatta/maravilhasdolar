@@ -14,14 +14,14 @@
     "props": {
       "images": [
         {
-          "image": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
+          "image": "assets/slider-principal/desk/BannerTopo.png",
           "mobileImage": "assets/slider-principal/kit-neutrogena.png",
-          "description": "Kit neutrogena"
+          "description": "Dolce Gusto - Maravilhas do Lar"
         },
         {
-          "image": "assets/slider-principal/desk/Banner-Topo-Nivele.png",
+          "image": "assets/slider-principal/desk/BannerTopo.png",
           "mobileImage": "assets/slider-principal/dove.png",
-          "description": "Dove bond intense repair"
+          "description": "Dolce Gusto - Maravilhas do Lar"
         }
       ]
     }

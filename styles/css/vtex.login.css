@@ -65,14 +65,15 @@
   text-align: left;
 }
 .container :global(.vtex-button) .label::before {
-  content: 'Entrar ou';
+  content: 'Entre ou';
   font-size: 14px;
   display: block;
+  font-weight: 400;
 }
 .container :global(.vtex-button) .label::after {
-  content: 'Cadastrar';
+  content: 'cadastre-se';
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .arrowUp {
   display: none;

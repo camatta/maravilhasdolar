@@ -33,19 +33,12 @@
       "blockClass": "utils-desktop-container"
     },
     "children": [
-      "flex-layout.row#shopper-location",
       "flex-layout.row#store-info-desktop",
       "flex-layout.row#login-desktop",
       "flex-layout.row#minicart-desktop"
     ]
   },
 
-  "flex-layout.row#shopper-location": {
-    "props": {
-      "blockClass": ["shopper-location"]
-    },
-    "children": ["shopper-location"]
-  },
   "flex-layout.row#store-info-desktop": {
     "props": {
       "blockClass": "row-store-info-container"

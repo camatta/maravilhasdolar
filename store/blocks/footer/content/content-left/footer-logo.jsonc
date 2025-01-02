@@ -3,8 +3,8 @@
     "title": "Logo",
     "props": {
       "blockClass": "footer-logo",
-      "src": "assets/logos/logo_nivele.svg",
-      "alt": "Nivele",
+      "src": "assets/logos/logo-maravilhas.svg",
+      "alt": "Maravilhas do Lar",
       "link": {
         "url": "/"
       }
