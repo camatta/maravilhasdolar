@@ -1,0 +1,11 @@
+{
+  "logo": {
+    "props": {
+      "title": "Logo Maravilhas do Lar",
+      "href": "/",
+      "url": "assets/logos/logo-maravilhas.svg",
+      "width": "160",
+      "height": "67"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+    "info-card#cat1": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-remedios.png",
+        "callToActionText": "Remédios",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/medicamentos",
+        "callToActionUrl": "/medicamentos"
+      }
+    },
+    "info-card#cat2": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-marketplace.png",
+        "callToActionText": "Cadastre-se",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/login",
+        "callToActionUrl": "/login"
+      }
+    },
+    "info-card#cat3": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-promocoes.png",
+        "callToActionText": "Promoções",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/promocoes",
+        "callToActionUrl": "/promocoes"
+      }
+    },
+    "info-card#cat4": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-johnsons.png",
+        "callToActionText": "Johnsons \n Baby",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/johnsons",
+        "callToActionUrl": "/johnsons"
+      }
+    },
+    "info-card#cat5": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-nivea.png",
+        "callToActionText": "Nívea em \n promoção",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/nivea",
+        "callToActionUrl": "/nivea"
+      }
+    },
+    "info-card#cat6": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/icons/icon-neutrogena.png",
+        "callToActionText": "Neutrogena \n em promoção",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/neutrogena",
+        "callToActionUrl": "/neutrogena"
+      }
+    }
+  }

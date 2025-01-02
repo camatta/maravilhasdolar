@@ -1,0 +1,15 @@
+{
+  "header-layout.desktop": {
+    "children": [
+      "experimental__visibility-layout#top-bar",
+      "sticky-layout#desktop"
+    ]
+  },
+
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#header-desktop", "flex-layout.row#menu-desktop"]
+  }
+}

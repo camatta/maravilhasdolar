@@ -1,0 +1,316 @@
+.paragraph {
+  color: #1E1E1E;
+}
+
+/*TOPLINE*/
+.container--text-topbar {
+  justify-content: center;
+}
+.paragraph--text-topbar {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.1px;
+  color: #fff;
+  margin: 11px 0;
+}
+/*FIM TOPLINE*/
+
+/* MINICART */
+.paragraph--utils-text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 300;
+}
+.container--minicart-text {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+  z-index: -2;
+}
+
+/* STORE INFOS */
+.strong--login-text,
+.strong--store-info-text {
+  display: flex;
+}
+.strong--store-info-text::after {
+  content: url(assets/icons/chevon-down-header.svg);
+  width: 10.88px;
+  height: 12px;
+}
+.paragraph--store-info-popup-text {
+  margin: 0;
+  font-size: 14px;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* TITULOS DAS VITRINES */
+.container--shelf-title {
+  display: block;
+}
+.heading--shelf-title {
+  margin: 0 0 16px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #FF6712;
+}
+
+/* NEWSLETTER */
+.paragraph--newsletter-cta {
+  margin: 0;
+  padding-left: 129px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* FOOTER CONTEÚDO */
+.paragraph--brand-resume {
+  margin: 49px 0;
+  color: #979797;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.heading--footer-title {
+  margin: 0 0 26px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.paragraph--cms-link,
+.paragraph--sac-group-link {
+  margin: 0;
+  color: #979797;
+  font-size: 14px;
+  line-height: 17px;
+  transition: all .3s ease-in-out;
+}
+.paragraph--cms-link:hover,
+.paragraph--sac-group-link:hover {
+  color: #000000;
+}
+.link--cms-link,
+.link--sac-group-link {
+  font-weight: inherit;
+}
+
+.paragraph--sac-group-title {
+  margin: 0 0 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 17px;
+}
+
+.paragraph--sac-stores {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  border-bottom: 1px solid #979797;
+}
+.paragraph--sac-stores::after {
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none"><mask id="mask0_12285_4462" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="14" height="14"><rect width="14" height="14" fill="%23D9D9D9"/></mask><g mask="url(%23mask0_12285_4462)"><path d="M3.73341 10.5L2.91675 9.68335L8.51675 4.08335H3.50008V2.91669H10.5001V9.91669H9.33342V4.90002L3.73341 10.5Z" fill="%23979797"/></g></svg>');
+  line-height: 0;
+}
+
+.paragraph--store-info {
+  display: flex;
+  gap: 8px;
+  color: #979797;
+  margin: 0;
+  font-size: 14px;
+  line-height: 17px;
+}
+.strong--store-info {
+  color: #201F1F;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* COPY RODAPÉ */
+.paragraph--copy-text {
+  margin: 0;
+  color: #979797;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* DESCRIÇÃO CATEGORIA */
+.wrapper--search-description {
+  margin-top: 37px;
+}
+.heading--description-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 0 0 24px;
+  color: #201F1F;
+}
+.paragraph--description-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  color: #201F1F;
+}
+.paragraph--description-text:not(:first-child) {
+  margin-top: 24px;
+}
+
+.container--label-barra-produtos {
+  display: none;
+}
+
+/* PÁGINA DO PRODUTO */
+.paragraph--shipping-simulator-text {
+  margin: 0;
+  font-size: 13px;
+  text-transform: initial;
+  font-weight: 500;
+  color: #505050;
+  line-height: 1;
+}
+
+/* PÁGINAS CMS */
+.headingLevel1--cms-page-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  color: #FF6712;
+  margin: 0 0 32px;
+}
+.heading--cms-page-content {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 0 0 16px;
+  color: #000;
+}
+.paragraph--cms-page-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0;
+  color: #000;
+}
+.listOrdered--cms-page-content,
+.list--cms-page-content {
+  padding-left: 20px;
+}
+.listItem--cms-page-content:not(:first-child) {
+  margin-top: 16px;
+}
+
+/*LOJAS PARCEIRAS*/
+.wrapper--conteudo-linha .paragraph--conteudo-linha {
+  font-size: 14px;
+  line-height: 18px;
+  color: #666666;
+}
+.paragraph--conteudo-linha .link {
+  color: #000000;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: underline;
+}
+/*FIM LOJAS PARCEIRAS*/
+
+/*BREADCRUMB CMS*/
+.paragraph--cmsbread2 {
+  color: #1e1e1e;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 10px;
+  margin-bottom: 7px;
+  position: relative
+}
+.paragraph--cmsbread2::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8' fill='none'%3E%3Cmask id='mask0_194_8324' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='8' height='8'%3E%3Crect x='8' y='8' width='8' height='8' transform='rotate(180 8 8)' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_194_8324)'%3E%3Cpath d='M2.66667 0.666676L6 4.00001L2.66667 7.33334L2.075 6.74168L4.81667 4.00001L2.075 1.25834L2.66667 0.666676Z' fill='%23767676'/%3E%3C/g%3E%3C/svg%3E");
+  line-height: 0;
+  line-height: 0;
+  position: absolute;
+  left: -4px;
+  top: 4px
+}
+.link--cmstopo {
+  font-size: 0;
+  padding-left: 20px;
+}
+.link--cmstopo::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none'%3E%3Cmask id='mask0_194_8322' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='24' height='24'%3E%3Crect width='24' height='24' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_194_8322)'%3E%3Cpath d='M6 19H9V13H15V19H18V10L12 5.5L6 10V19ZM4 21V9L12 3L20 9V21H13V15H11V21H4Z' fill='%23666666'/%3E%3C/g%3E%3C/svg%3E");
+  line-height: 0;
+  position: absolute; 
+  left: 14px;
+  top: 18px
+}
+
+@media (max-width: 1199px) {
+  .paragraph--newsletter-cta {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .heading--shelf-title {
+    margin: 0 0 32px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .container--newsletter-cta {
+    justify-content: center;
+  }
+  .paragraph--newsletter-cta {
+    padding: 0;
+  }
+
+  .container--copy-brand {
+    justify-content: center;
+  }
+
+  .paragraph--brand-resume {
+    margin: 32px 0 42px;
+  }
+
+  .container--footer-title,
+  .container--sac-group-title {
+    justify-content: center;
+  }
+  .heading--footer-title {
+    margin: 0 0 25px;
+  }
+
+  .container--cms-link,
+  .container--sac-group-link {
+    justify-content: center;
+  }
+
+  .container--copy-text {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .container--store-info {
+    justify-content: center;
+  }
+
+  .paragraph--text-topbar {
+    font-size: 10px;
+  }
+  .paragraph--newsletter-cta {
+    margin-bottom: 6px;
+  }
+  .wrapper--search-description {
+    margin-top: 56px;
+  }
+}

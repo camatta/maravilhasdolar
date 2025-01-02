@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#categoriasmenu": {
+      "title": "Categorias",
+      "props": {
+        "blockClass": ["categoriasmenu-container", "custom-container"],
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true
+      },
+      "children": ["responsive-layout.desktop#categoriasmenu", "responsive-layout.mobile#categoriasmenu"]
+    },
+    "responsive-layout.desktop#categoriasmenu": {
+      "children": ["flex-layout.col#categoriasmenu-desk"]
+    },
+    "responsive-layout.mobile#categoriasmenu": {
+      "children": ["flex-layout.col#categoriasmenu-mobi"]
+    },
+  
+    "flex-layout.col#categoriasmenu-desk": {
+      "props": {
+        "blockClass": ["categoriasmenu-desk-content"]
+      },
+      "children": [
+        "info-card#cat1",
+        "info-card#cat2",
+        "info-card#cat3",
+        "info-card#cat4",
+        "info-card#cat5",
+        "info-card#cat6"
+      ]
+    },
+    "flex-layout.col#categoriasmenu-mobi": {
+      "props": {
+        "blockClass": ["categoriasmenu-mobi-content"]
+      },
+      "children": ["slider-layout#categoriasmenu"]
+    }
+  }
