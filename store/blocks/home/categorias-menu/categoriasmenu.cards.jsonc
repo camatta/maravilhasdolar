@@ -4,13 +4,13 @@
         "id": "info-card-catmenu",
         "isFullModeStyle": false,
         "textPosition": "right",
-        "imageUrl": "assets/icons/icon-remedios.png",
-        "callToActionText": "Remédios",
+        "imageUrl": "assets/categorias-icones/organizacao.png",
+        "callToActionText": "Organização",
         "blockClass": "info-card-catmenu",
         "callToActionMode": "Link",
         "textMode": "rich-text",
-        "imageActionUrl": "/medicamentos",
-        "callToActionUrl": "/medicamentos"
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
       }
     },
     "info-card#cat2": {
@@ -18,13 +18,13 @@
         "id": "info-card-catmenu",
         "isFullModeStyle": false,
         "textPosition": "right",
-        "imageUrl": "assets/icons/icon-marketplace.png",
-        "callToActionText": "Cadastre-se",
+        "imageUrl": "assets/categorias-icones/panelas.png",
+        "callToActionText": "Panelas",
         "blockClass": "info-card-catmenu",
         "callToActionMode": "Link",
         "textMode": "rich-text",
-        "imageActionUrl": "/login",
-        "callToActionUrl": "/login"
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
       }
     },
     "info-card#cat3": {
@@ -32,13 +32,13 @@
         "id": "info-card-catmenu",
         "isFullModeStyle": false,
         "textPosition": "right",
-        "imageUrl": "assets/icons/icon-promocoes.png",
-        "callToActionText": "Promoções",
+        "imageUrl": "assets/categorias-icones/tigelas.png",
+        "callToActionText": "Tigelas",
         "blockClass": "info-card-catmenu",
         "callToActionMode": "Link",
         "textMode": "rich-text",
-        "imageActionUrl": "/promocoes",
-        "callToActionUrl": "/promocoes"
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
       }
     },
     "info-card#cat4": {
@@ -46,13 +46,13 @@
         "id": "info-card-catmenu",
         "isFullModeStyle": false,
         "textPosition": "right",
-        "imageUrl": "assets/icons/icon-johnsons.png",
-        "callToActionText": "Johnsons \n Baby",
+        "imageUrl": "assets/categorias-icones/potes.png",
+        "callToActionText": "Potes",
         "blockClass": "info-card-catmenu",
         "callToActionMode": "Link",
         "textMode": "rich-text",
-        "imageActionUrl": "/johnsons",
-        "callToActionUrl": "/johnsons"
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
       }
     },
     "info-card#cat5": {
@@ -60,13 +60,13 @@
         "id": "info-card-catmenu",
         "isFullModeStyle": false,
         "textPosition": "right",
-        "imageUrl": "assets/icons/icon-nivea.png",
-        "callToActionText": "Nívea em \n promoção",
+        "imageUrl": "assets/categorias-icones/utensilios.png",
+        "callToActionText": "Utensílios de Silicone",
         "blockClass": "info-card-catmenu",
         "callToActionMode": "Link",
         "textMode": "rich-text",
-        "imageActionUrl": "/nivea",
-        "callToActionUrl": "/nivea"
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
       }
     },
     "info-card#cat6": {
@@ -74,13 +74,13 @@
         "id": "info-card-catmenu",
         "isFullModeStyle": false,
         "textPosition": "right",
-        "imageUrl": "assets/icons/icon-neutrogena.png",
-        "callToActionText": "Neutrogena \n em promoção",
+        "imageUrl": "assets/categorias-icones/formas.png",
+        "callToActionText": "Formas e Assadeiras",
         "blockClass": "info-card-catmenu",
         "callToActionMode": "Link",
         "textMode": "rich-text",
-        "imageActionUrl": "/neutrogena",
-        "callToActionUrl": "/neutrogena"
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
       }
     }
   }

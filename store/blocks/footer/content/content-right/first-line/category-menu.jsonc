@@ -7,14 +7,15 @@
     },
     "children": [
       "rich-text#category-menu-title",
-      "category-menu#footer-category-menu"
+      "category-menu#footer-category-menu",
+      "rich-text#text-all-categories-footer"
     ]
   },
 
   "rich-text#category-menu-title": {
     "props": {
       "blockClass": "footer-title",
-      "text": "#### Categorias"
+      "text": "#### Navegue por categoria"
     }
   },
 
@@ -24,5 +25,13 @@
       "showSubcategories": false,
       "blockClass": "footer-category-menu"
     }
+  },
+
+  "rich-text#text-all-categories-footer": {
+    "props": {
+      "blockClass": "footer-all-categories",
+      "text": "Todas as Categorias"
+    }
   }
+
 }

@@ -29,7 +29,7 @@
   "rich-text#sac-title": {
     "props": {
       "blockClass": "footer-title",
-      "text": "#### Atendimento"
+      "text": "#### Fale com a gente!"
     }
   },
 
@@ -119,7 +119,7 @@
   "rich-text#sac-email": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "<a href='mailto:sac@nivele.com.br' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>sac@nivele.com.br</a>"
+      "text": "<a href='mailto:sac@maravilhasdolar.com.br' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>sac@maravilhasdolar.com.br</a>"
     }
   },
   "flex-layout.row#lojas-parceiras": {

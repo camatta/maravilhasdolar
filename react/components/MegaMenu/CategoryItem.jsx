@@ -68,7 +68,6 @@ const CategoryItem = ({
           <HamburguerIcon />
           <span style={{ display: 'none' }}>{name}</span>
           <span>Categorias</span>
-          <HamburguerArrow />
         </strong>
       ) : (
         <Link

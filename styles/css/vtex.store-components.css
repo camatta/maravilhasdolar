@@ -11,7 +11,23 @@
 }
 
 :global(.vtex-toast) {
-  background: #000;
+  background: #609000;
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border-radius: 45px;
+  padding: 5px 20px;
+  position: relative;
+  padding-left: 40px;
+}
+
+:global(.vtex-toast)::before {
+  content: '';
+  background-image: url('assets/icons/check-toast.svg');
+  position: absolute;
+  left: 20px;
+  top: 9px;
+  width: 15px;
+  height: 15px;
+  background-size: cover;
 }
 
 .discountContainer {
@@ -121,20 +137,19 @@
 }
 .infoCardContainer--info-card-catmenu {
   display: flex;
+  flex-direction: column-reverse;
   padding: 0;
 }
 .infoCardImageContainer--info-card-catmenu {
   width: 100%;
-  max-width: 72px;
-  min-width: 72px;
-  height: 72px;
 }
 .infoCardTextContainer--info-card-catmenu {
-  max-width: 105px;
   width: 100%;
-  padding: 0 0 0 16px;
+  padding: 0;
   max-height: 36px;
   overflow: hidden;
+  text-align: center;
+  align-items: center;
 }
 /*FIM MENU CATEGORIAS RÁPIDO*/
 
@@ -143,11 +158,12 @@
   left: 0;
   right: unset;
   top: -11px;
-  background: #FFB78F;
+  background: #FFCC00;
   font-size: 14px;
   padding: 2px 10px;
   line-height: 18px;
-  color: #1E1E1E;
+  color: #1C1C1C;
+  border-radius: 47px;
 }
 
 /* PÁGINA DO PRODUTO */

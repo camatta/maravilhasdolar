@@ -27,6 +27,7 @@
 
 .flexRowContent--header-container .stretchChildrenWidth {
   width: initial !important;
+  position: relative;
 }
 
 .flexCol--utils-desktop-container {
@@ -36,9 +37,6 @@
 
 .flexColChild--utils-desktop-container:first-child {
   margin-right: 19px;
-}
-.flexColChild--utils-desktop-container:not(:first-child) {
-  margin-left: 16px;
 }
 
 /* BOX LOGIN */
@@ -63,13 +61,34 @@
 }
 
 .flexRowContent--minicart-desktop-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 /* MENU */
 .flexRow--menu-container {
   background: #FFCC00;
   padding: 8px 0;
+}
+
+/* TOP DISPLAY */
+
+.flexRow--top-display-banner {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.flexRow--top-display-banner .flexColChild {
+  line-height: 0;
+}
+
+/* BANNER PRINCIPAL */
+
+.flexRowContent--main-slider-container {
+  margin-bottom: 48px;
 }
 
 /* LINHA CONDIÇÕES ABAIXO DO BANNER PRINCIPAL */
@@ -121,6 +140,19 @@
   margin-bottom: 40px;
 }
 
+.flexCol--banner-vitrine {
+  margin-right: 30px;
+}
+
+.flexColChild--banner-vitrine :global(.vtex-store-components-3-x-imageElementLink)  {
+  height: 100%;
+  object-fit: cover;
+}
+
+.flexColChild--banner-vitrine :global(.vtex-store-components-3-x-imageElement) {
+  height: 100%;
+}
+
 /* CARD PRODUTO */
 .flexRow--summary-wish-image {
   position: relative;
@@ -138,11 +170,6 @@
   transition: all .3s ease-in-out;
 }
 
-:global(.vtex-product-summary-2-x-element):hover .flexColChild--wish-image-content:first-child {
-  opacity: 1;
-  visibility: visible;
-}
-
 .flexColChild--wish-image-content:last-child {
   line-height: 0;
 }
@@ -156,30 +183,23 @@
 }
 
 .flexRow--summary-action-container {
-  position: absolute;
-  bottom: 12px;
-  left: 10px;
-  right: 10px;
-  background: #003030;
-  opacity: 0;
-  transition: all .3s ease-in-out;
-}
-
-:global(.vtex-product-summary-2-x-element):hover .flexRow--summary-action-container {
-  opacity: 1;
+  position: relative;
 }
 
 .flexColChild--summary-action-content:first-child {
   max-width: 70px;
   width: 100%;
-  display: none;
+}
+
+.flexColChild--summary-action-content:last-child {
+  width: 100%;
 }
 
 .flexCol--summary-action-content {
   display: flex;
-  /*flex-direction: row;
+  flex-direction: row;
   align-items: center;
-  gap: 10px;*/
+  gap: 10px;
 }
 
 .flexColChild--summary-action-content :global(.vtex-button) {
@@ -193,7 +213,11 @@
 
 .flexColChild--summary-action-content :global(.vtex-button):hover,
 .flexColChild--summary-action-content :global(.vtex-button) {
-  background: #003030;
+  background: #99CC33;
+}
+
+.flexColChild--summary-action-content :global(.vtex-button) {
+  border-radius: 46px;
 }
 
 .flexColChild--summary-action-content :global(.vtex-button__label) {
@@ -241,8 +265,9 @@
 
 /* NEWSLETTER */
 .flexRow--newsletter-container {
-  background: #ECECEC;
-  padding: 19px 0;
+  background: #FFCC00;
+  background-image: url(assets/elements/bg-newsletter.png);
+  padding: 16px 0;
 }
 
 .flexRowContent--newsletter-container {
@@ -256,17 +281,17 @@
   justify-content: center;
 }
 
-.flexColChild--newsletter-cta-content:first-child {
-  position: absolute;
-  z-index: 0;
-  bottom: -20px;
-  left: 12px;
-  line-height: 0;
-}
-
 .flexColChild--newsletter-cta-content {
   height: initial !important;
 }
+
+.flexCol--newsletter-form-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 32px;
+}
+
 
 /* FOOTER CONTEÚDO */
 .flexRow--footer-container {
@@ -275,10 +300,6 @@
 
 .flexRowContent--footer-container {
   gap: 40px;
-}
-
-.flexRowContent--footer-container .stretchChildrenWidth:first-child {
-  max-width: 340px;
 }
 
 .flexCol--content-left-content {
@@ -306,7 +327,11 @@
 
 .flexRowContent--first-line-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.flexRowContent--first-line-container .stretchChildrenWidth {
+  width: 100% !important;
 }
 
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-section--department) {

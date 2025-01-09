@@ -13,6 +13,7 @@
   box-shadow: rgba(0,0,0,0.2) -2px 1px 11px -4px;
   border: 0;
   padding: 0 28px 0 5px;
+  border-radius: 2px;
 }
 .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button-container),
 .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button-container) {
@@ -31,8 +32,8 @@
   max-width: 26px;
   height: 19px;
   line-height: 10px;
-  border-radius: 0px;
-  background: #e8e8e8;
+  border-radius: 2px !important;
+  background: #FF6600;
   border: 0;
-  color: #201f1f;
+  color: #000000;
 }

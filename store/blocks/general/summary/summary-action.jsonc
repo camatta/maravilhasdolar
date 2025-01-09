@@ -24,7 +24,7 @@
   "add-to-cart-button#buy-button-shelf": {
     "props": {
       "blockClass": "buy-button-shelf",
-      "text": "COMPRAR"
+      "text": "Adicionar"
     }
   }
 }

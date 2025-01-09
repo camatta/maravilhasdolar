@@ -1,0 +1,10 @@
+{
+    "speech-to-text": {
+    "props": {
+      "lang": "pt-BR",
+      "iconHeight": "20px",
+      "iconWidth": "20px",
+      "imgSrc": "assets/icons/mic.svg"
+    }
+  }
+}

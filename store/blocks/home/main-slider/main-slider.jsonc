@@ -1,7 +1,7 @@
 {
   "flex-layout.row#main-slider": {
     "props": {
-      "blockClass": ["main-slider-container"]
+      "blockClass": ["main-slider-container", "custom-container"]
     },
     "children": ["flex-layout.col#main-slider"]
   },

@@ -1,0 +1,95 @@
+{
+  "flex-layout.col#politicas": {
+    "title": "Menu CMS",
+    "props": {
+      "blockClass": "politicas-menu-content",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.row#politicas-menu-title",
+      "flex-layout.row#politicas-menu-wrapper"
+    ]
+  },
+
+  "flex-layout.row#politicas-menu-title": {
+    "props": {
+      "blockClass": "cms-menu-title-wrapper"
+    },
+    "children": ["flex-layout.col#politicas-menu-title"]
+  },
+  "flex-layout.col#politicas-menu-title": {
+    "props": {
+      "blockClass": "cms-menu-title-content"
+    },
+    "children": ["rich-text#politicas-menu-title"]
+  },
+  "rich-text#politicas-menu-title": {
+    "props": {
+      "blockClass": "footer-title",
+      "text": "#### Políticas e Termos"
+    }
+  },
+
+  "flex-layout.row#politicas-menu-wrapper": {
+    "props": {
+      "blockClass": "cms-menu-wrapper"
+    },
+    "children": ["flex-layout.col#politicas-menu-wrapper"]
+  },
+  "flex-layout.col#politicas-menu-wrapper": {
+    "props": {
+      "blockClass": "cms-menu-wrapper-content"
+    },
+    "children": [
+      "rich-text#politicas-troca-e-cancelamento",
+      "rich-text#politicas-lista-de-presentes",
+      "rich-text#politicas-condicoes",
+      "rich-text#politicas-politicas-privacidade",
+      "rich-text#politicas-politicas-frete",
+      "rich-text#politicas-cookies"
+    ]
+  },
+
+  "rich-text#politicas-troca-e-cancelamento": {
+    "props": {
+      "text": "[Política de Troca e Cancelamento](/troca-e-cancelamento)",
+      "blockClass": "cms-link"
+    }
+  },
+
+
+  "rich-text#politicas-lista-de-presentes": {
+    "props": {
+      "text": "[Termos Lista de Presentes](/termos-lista-de-presentes)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#politicas-condicoes": {
+    "props": {
+      "text": "[Termos e Condições de Uso](/termos-e-condicoes)",
+      "blockClass": "cms-link"
+    }
+  },
+
+  "rich-text#politicas-politicas-privacidade": {
+    "props": {
+      "text": "[Políticas de Privacidade](/politicas-de-privacidade)",
+      "blockClass": "cms-link"
+    }
+  },
+  
+  "rich-text#politicas-politicas-frete": {
+    "props": {
+      "text": "[Políticas de Frete e Cupons](/politica-de-frete)",
+      "blockClass": "cms-link"
+    }
+  },
+  
+  "rich-text#politicas-cookies": {
+    "props": {
+      "text": "[Políticas de Cookies](/politica-de-cookies)",
+      "blockClass": "cms-link"
+    }
+  }
+}

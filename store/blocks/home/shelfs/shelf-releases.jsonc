@@ -27,7 +27,7 @@
   },
   "rich-text#releases-title": {
     "props": {
-      "text": "#### Lançamentos",
+      "text": "#### Novidades imperdíveis!",
       "blockClass": ["releases-title", "shelf-title"]
     }
   },
@@ -36,8 +36,27 @@
     "props": {
       "blockClass": ["releases-products-container"]
     },
-    "children": ["flex-layout.col#releases-products-container"]
+    "children": ["flex-layout.col#display-banner-vitrine-container", "flex-layout.col#releases-products-container"]
   },
+
+  "flex-layout.col#display-banner-vitrine-container": {
+    "props": {
+      "blockClass": ["banner-vitrine"],
+      "width": "25%"
+    },
+    "children": ["image#banner-vitrine"]
+  },
+
+  "image#banner-vitrine": {
+    "props":{
+      "src": "assets/banner-vitrine/banner-vitrine.png",
+      "alt": "Confira nossas panelas",
+      "link": {
+        "url": "/panelas"
+      }
+    }
+  },
+
   "flex-layout.col#releases-products-container": {
     "props": {
       "blockClass": ["releases-products-content", "shelf-carousel"]
@@ -50,6 +69,21 @@
       "installmentCriteria": "MAX_WITH_INTEREST"
     },
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#products"]
-  }
+    "children": ["slider-layout#vitrine-com-banner"]
+  },
+    "slider-layout#vitrine-com-banner": {
+      "props": {
+        "blockClass": "shelf-carousel",
+        "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 2,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "always",
+        "showPaginationDots": "never",
+        "arrowSize": 10
+      }
+    }
+
 }

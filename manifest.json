@@ -67,11 +67,13 @@
     "vtex.order-manager": "0.x",
     "vtex.seller-selector": "0.x",
     "vtex.store-media": "0.x",
-    "vtex.store-graphql": "2.x"
+    "vtex.store-graphql": "2.x",
+    "vtex.product-highlights": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
-    "vtex.shopper-location": "1.x"
+    "vtex.shopper-location": "1.x",
+    "vtexarg.speech-to-text": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

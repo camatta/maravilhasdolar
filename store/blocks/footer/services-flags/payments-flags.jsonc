@@ -6,7 +6,6 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "flex-layout.row#payments-title",
       "flex-layout.row#payments-content"
     ]
   },
@@ -48,7 +47,7 @@
   },
   "image#payment-flags": {
     "props": {
-      "src": "assets/flags/payment/bandeiras-cartoes.png",
+      "src": "assets/flags/payment/pagamentos.png",
       "alt": "Formas de pagamento: Visa, Master, Amex, Dinners, Boleto, Depósito"
     }
   }

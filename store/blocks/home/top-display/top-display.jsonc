@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#top-display-banner": {
+      "props": {
+        "blockClass": ["top-display-banner", "custom-container"]
+      },
+      "children": ["flex-layout.col#top-display-banner"]
+    },
+    "flex-layout.col#top-display-banner": {
+      "children": ["image#display-banner"]
+    },
+    "image#display-banner": {
+        "props": {
+            "blockClass":"image__display-banner",
+            "src": "assets/top-display/banner-descontos.png",
+            "alt": "Descontos Imperdíveis!",
+            "link": {
+                "url": "/ofertas"
+            }
+        }
+    }
+}

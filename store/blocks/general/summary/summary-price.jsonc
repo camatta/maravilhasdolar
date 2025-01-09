@@ -10,9 +10,7 @@
       "blockClass": ["summary-price-content"]
     },
     "children": [
-      "flex-layout.row#list-selling-price-summary",
-      "flex-layout.row#installments-summary",
-      "flex-layout.row#spot-price-summary"
+      "flex-layout.row#list-selling-price-summary"
     ]
   },
 

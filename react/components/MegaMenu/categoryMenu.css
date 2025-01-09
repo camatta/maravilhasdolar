@@ -66,6 +66,10 @@
   background: #fff;
 }
 
+.allCategories {
+  order: -1;
+}
+
 .firstLevelList {
   display: block;
   padding: 0;
@@ -152,7 +156,6 @@
   gap: 8px;
   font-weight: 700;
   padding: 9px 16px;
-  background: #FFF;
 }
 
 .sidebarContentWrapper {

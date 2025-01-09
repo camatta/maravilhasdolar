@@ -4,7 +4,7 @@
     "props": {
       "blockClass": ["footer-copy-container", "custom-container"]
     },
-    "children": ["flex-layout.col#copy-brand", "flex-layout.col#copy-design"]
+    "children": ["flex-layout.col#copy-brand"]
   },
 
   "flex-layout.col#copy-brand": {
@@ -15,7 +15,7 @@
   },
   "rich-text#copy-brand": {
     "props": {
-      "text": "Nivele® | Todos os direitos reservados.",
+      "text": "© 2024 - Maravilhas do Lar | Av. Monte Líbano, 1183 - Jardim Ermida, Jundiaí - SP, 13212-212  | CNPJ: 05.951.362/0036-01",
       "blockClass": ["copy-brand", "copy-text"]
     }
   },

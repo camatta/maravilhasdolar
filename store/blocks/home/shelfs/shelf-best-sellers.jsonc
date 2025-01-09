@@ -27,7 +27,7 @@
   },
   "rich-text#best-sellers-title": {
     "props": {
-      "text": "#### Mais Vendidos",
+      "text": "#### Nossos destaques",
       "blockClass": ["best-sellers-title", "shelf-title"]
     }
   },

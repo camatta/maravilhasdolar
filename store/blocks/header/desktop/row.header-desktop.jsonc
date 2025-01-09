@@ -25,7 +25,21 @@
     "props": {
      "blockClass": "search-desktop-container"
     },
-    "children": ["search-bar"] // Arquivo search-bar.jsonc
+    "children": ["flex-layout.row#search-desktop-top", "flex-layout.row#search-desktop-bottom"]
+  },
+
+  "flex-layout.row#search-desktop-top": {
+    "children": ["search-bar", "speech-to-text"] // Arquivo search-bar.jsonc
+  },
+
+  "flex-layout.row#search-desktop-bottom": {
+    "children": ["rich-text#teste-search"] 
+  },
+
+  "rich-text#teste-search": {
+    "props": {
+      "text": "Teste"
+    }
   },
 
   "flex-layout.col#utils-desktop": {
@@ -83,7 +97,7 @@
   },
   "rich-text#minicart-text": {
     "props": {
-      "text": "Meu\n**Carrinho**",
+      "text": "Meu\nCarrinho",
       "blockClass": ["minicart-text", "utils-text"]
     }
   }

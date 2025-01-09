@@ -11,13 +11,13 @@
   },
   "image#info-icon": {
     "props": {
-      "src": "assets/icons/message.svg"
+      "src": "assets/icons/empresas.svg"
     }
   },
   "rich-text#store-info-text": {
     "props": {
       "blockClass": ["store-info-text", "utils-text"],
-      "text": "Central de \n**Atendimento**"
+      "text": "Para\nEmpresas"
     }
   },
   "overlay-layout#store-info": {
@@ -31,7 +31,7 @@
   "rich-text#store-info-popup": {
     "props": {
       "blockClass": "store-info-popup-text",
-      "text": "Telefone: [(11) 98496-5494](tel:11984965494)\n E-mail: [sac@nivele.com.br](mailto:sac@nivele.com.br)\nHorário de Atendimento:\n Segunda a Sexta:\n das  09h00 às 18h00."
+      "text": "Telefone: [(11) 98496-5494](tel:11984965494)\n E-mail: [sac@maravilhasdolar.com.br](mailto:sac@maravilhasdolar.com.br)\nHorário de Atendimento:\n Segunda a Sexta:\n das  09h00 às 18h00."
     }
   }
 }

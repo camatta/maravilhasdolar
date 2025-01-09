@@ -18,7 +18,7 @@
     "props": {
       "blockClass":"image__upper-mosaic",
       "src": "assets/upper-mosaic/mosaicotopo1.png",
-      "alt": "Beleza, conferir!",
+      "alt": "Mop's!",
       "link": {
         "url": "/promocoes"
       }
@@ -28,9 +28,9 @@
     "props": {
       "blockClass":"image__upper-mosaic",
       "src": "assets/upper-mosaic/mosaicotopo2.png",
-      "alt": "Dermo, conferir!",
+      "alt": "Louças, conferir!",
       "link": {
-        "url": "/novidades"
+        "url": "/promocoes"
       }
     }
   },
@@ -38,9 +38,9 @@
     "props": {
       "blockClass":"image__upper-mosaic",
       "src": "assets/upper-mosaic/mosaicotopo3.png",
-      "alt": "Bebês, conferir!",
+      "alt": "Caixas Organizadoras, conferir!",
       "link": {
-        "url": "/outfits"
+        "url": "/promocoes"
       }
     }
   },
@@ -48,9 +48,9 @@
     "props": {
       "blockClass":"image__upper-mosaic",
       "src": "assets/upper-mosaic/mosaicotopo4.png",
-      "alt": "Bem estar, conferir!",
+      "alt": "Balanças, conferir!",
       "link": {
-        "url": "/outfits"
+        "url": "/promocoes"
       }
     }
   }

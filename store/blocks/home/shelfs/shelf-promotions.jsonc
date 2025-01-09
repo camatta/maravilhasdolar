@@ -27,7 +27,7 @@
   },
   "rich-text#promotions-title": {
     "props": {
-      "text": "#### Promoções",
+      "text": "#### Recomendamos para você!",
       "blockClass": ["promotions-title", "shelf-title"]
     }
   },

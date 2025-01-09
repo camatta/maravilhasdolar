@@ -27,7 +27,7 @@
   },
   "rich-text#highlights-title": {
     "props": {
-      "text": "#### Destaques",
+      "text": "#### Acabaram de chegar!",
       "blockClass": ["highlights-title", "shelf-title"]
     }
   },

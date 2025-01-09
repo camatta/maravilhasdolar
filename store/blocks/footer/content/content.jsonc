@@ -5,7 +5,6 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#content-left",
       "flex-layout.col#content-right"
     ]
   },

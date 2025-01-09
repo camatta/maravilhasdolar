@@ -6,7 +6,6 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "flex-layout.row#security-title",
       "flex-layout.row#security-content"
     ]
   },
@@ -39,7 +38,8 @@
     },
     "children": [
       "flex-layout.col#first-security-content",
-      "flex-layout.col#second-security-content"
+      "flex-layout.col#second-security-content",
+      "flex-layout.col#third-security-content"
     ]
   },
   "flex-layout.col#first-security-content": {
@@ -57,6 +57,23 @@
   },
 
   "flex-layout.col#second-security-content": {
+    "props": {
+      "blockClass": "second-security-content",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#security-googlesf"
+    ]
+  },
+  "image#security-reclameaqui": {
+    "props": {
+      "src": "assets/flags/security/googlesf.svg",
+      "alt": "Selo Google Safe Browsing",
+      "maxWidth": 117
+    }
+  },
+
+  "flex-layout.col#third-security-content": {
     "props": {
       "blockClass": "second-security-content",
       "preventVerticalStretch": true

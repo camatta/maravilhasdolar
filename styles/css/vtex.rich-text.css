@@ -18,16 +18,11 @@
 /* MINICART */
 .paragraph--utils-text {
   margin: 0;
-  font-size: 13px;
-  line-height: 13px;
-  font-weight: 300;
-}
-.container--minicart-text {
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  right: 0;
-  z-index: -2;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #1C1C1C;
+  text-align: center;
 }
 
 /* STORE INFOS */
@@ -65,9 +60,14 @@
 /* NEWSLETTER */
 .paragraph--newsletter-cta {
   margin: 0;
-  padding-left: 129px;
-  font-size: 16px;
-  line-height: 20px;
+  padding-left: 0;
+  font-size: 18px;
+  line-height: 24.55px;
+  color: #FFFFFF;
+  max-width: 225px;
+  width: 100%;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* FOOTER CONTEÚDO */
@@ -137,6 +137,11 @@
 }
 
 /* COPY RODAPÉ */
+
+.container--copy-brand {
+  justify-content: center;
+}
+
 .paragraph--copy-text {
   margin: 0;
   color: #979797;

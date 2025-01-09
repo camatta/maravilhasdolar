@@ -8,22 +8,22 @@
 }
 
 .sliderArrows {
-  box-shadow: 0px 2px 6px 0px #00000026;
-  background: #FFFFFF !important;
-  color: #7E7E7E;
-  width: 48px;
-  height: 48px;
+  background: #EEEEEE !important;
+  color: #1C1B1F;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
+  border-radius: 100%;
 }
 .sliderLeftArrow--main-slider {
-  left: 8.5%;
+  left: -1.5rem;
 }
 .sliderRightArrow--main-slider {
-  right: 8.5%;
+  right: -1.5rem;
 }
 
 /* SLIDER PRINCIPAL */
@@ -39,16 +39,16 @@
   margin: 0 14px;
 }
 .sliderArrows--shelf-carousel {
-  width: 58px;
-  height: 58px;
+  width: 40px;
+  height: 40px;
   top: 50%;
   transform: translate(0, -50%);
 }
 .sliderLeftArrow--shelf-carousel {
-  left: -5px;
+  left: 0;
 }
 .sliderRightArrow--shelf-carousel {
-  right: -5px;
+  right: 0;
 }
 
 @media (max-width: 1199px) {
