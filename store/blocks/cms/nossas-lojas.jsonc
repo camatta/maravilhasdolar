@@ -1,0 +1,25 @@
+{
+    "store.custom#nossas-lojas": {
+      "children": [
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#wrapper-nossas-lojas"
+      ]
+    },
+
+    "flex-layout.row#wrapper-nossas-lojas": {
+        "children": [
+            "flex-layout.col#menu-cms-institucional",
+            "flex-layout.col#content-nossas-lojas"
+        ],
+        "props": {
+          "blockClass": ["custom-container", "cms-page-container"]
+        }
+    },
+
+    "flex-layout.col#content-nossas-lojas": {
+      "children":[
+        "nossas-lojas"
+      ]
+    }
+    
+}

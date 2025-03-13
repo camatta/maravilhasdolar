@@ -17,6 +17,9 @@
     "props": {
       "options": {
         "size": 16
+      },
+      "social": {
+        "WhatsApp": true
       }
     }
   }

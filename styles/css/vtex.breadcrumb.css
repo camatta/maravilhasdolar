@@ -1,5 +1,5 @@
 .container {
-  padding: 24px 0 32PX;
+  padding: 24px 0 32px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -7,13 +7,28 @@
 
 .homeIcon {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
+  opacity: 0;
 }
 
 .homeLink {
   padding: 0;
   line-height: 0;
+  position: relative;
+  width: 57px;
+}
+
+.homeLink::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 57px;
+  height: 18px;
+  background: url(assets/icons/icon-breadcrumb-full.svg);
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .link {
@@ -32,8 +47,8 @@
 }
 .term {
   font-size: 12px;
-  line-height: 15px;
-  color: #3F3F3F;
+  line-height: 0;
+  color: #1C1C1C;
 }
 
 .link::first-letter,
@@ -41,7 +56,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 1025px) {
+/* @media (max-width: 1025px) {
   .homeIcon {
     display: none;
   }
@@ -51,4 +66,4 @@
   .arrow .link {
     color: #202020;
   }
-}
+} */

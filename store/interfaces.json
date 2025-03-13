@@ -26,5 +26,9 @@
 
   "banner-slider": {
     "component": "BannerSlider"
+  },
+  
+  "nossas-lojas": {
+    "component": "NossasLojas"
   }
 }

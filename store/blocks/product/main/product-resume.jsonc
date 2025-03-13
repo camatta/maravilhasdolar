@@ -6,15 +6,14 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "flex-layout.row#name-wish",
-      "flex-layout.row#sku",
-      "flex-layout.row#seller-info",
+      "flex-layout.row#rating-wish",
+      "flex-layout.row#name",
+      "flex-layout.row#brand-sku",
       "flex-layout.row#prices-pdp",
       "flex-layout.row#sku-selector",
       "flex-layout.row#actions-pdp",
       "flex-layout.row#shipping",
-      "flex-layout.row#share",
-      "seller-table"
+      "flex-layout.row#rating"
     ]
   }
 }

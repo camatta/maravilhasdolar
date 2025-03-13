@@ -1,0 +1,15 @@
+.input {
+    position: relative;
+}
+
+.input::after {
+    content: 'Digite seu CEP';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}

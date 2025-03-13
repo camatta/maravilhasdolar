@@ -1,6 +1,6 @@
 {
-  "store.custom#quem-somos": {
-    "path": "/quem-somos"
+  "store.custom#nossa-historia": {
+    "path": "/nossa-historia"
   },
 
   "store.custom#como-comprar": {
@@ -41,5 +41,9 @@
 
   "store.custom#lojas-parceiras": {
     "path": "/lojas-parceiras"
+  },
+
+  "store.custom#nossas-lojas": {
+    "path": "/nossas-lojas"
   }
 }

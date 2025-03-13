@@ -33,12 +33,32 @@
   },
 
   "flex-layout.row#search-desktop-bottom": {
-    "children": ["rich-text#teste-search"] 
+    "children": [
+      "rich-text#lista-presentes",
+      "rich-text#cartao-maravilhas",
+      "rich-text#nossas-lojas"
+    ],
+    "props": {
+      "blockClass": "wrapper-bottom-search"
+    }
   },
 
-  "rich-text#teste-search": {
+  "rich-text#lista-presentes": {
     "props": {
-      "text": "Teste"
+      "text": "[Lista de Presentes](/lista-de-presentes)",
+      "blockClass": ["menu-bottom-search", "menu-lista-presentes"]
+    }
+  },
+  "rich-text#cartao-maravilhas": {
+    "props": {
+      "text": "[Cartão Maravilhas](/cartao-maravilhas)",
+      "blockClass": ["menu-bottom-search", "menu-cartao-maravilhas"]
+    }
+  },
+  "rich-text#nossas-lojas": {
+    "props": {
+      "text": "[Nossas Lojas](/nossas-lojas)",
+      "blockClass": ["menu-bottom-search", "menu-nossas-lojas"]
     }
   },
 

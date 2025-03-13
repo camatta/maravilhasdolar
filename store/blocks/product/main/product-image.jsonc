@@ -4,7 +4,7 @@
     "props": {
       "blockClass": "product-image-content"
     },
-    "children": ["responsive-layout.desktop#image-pdp", "responsive-layout.mobile#image-pdp"]
+    "children": ["responsive-layout.desktop#image-pdp", "responsive-layout.mobile#image-pdp", "flex-layout.row#product-warning-b2b", "flex-layout.row#product-description"]
   },
 
   "responsive-layout.desktop#image-pdp": {

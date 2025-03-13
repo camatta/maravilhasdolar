@@ -7,6 +7,21 @@
   border: 0;
   color: #1C1C1C;
   text-transform: capitalize;
+  padding-left: 26px;
+  position: relative;
+}
+
+.buttonText--buy-button-shelf::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 20px;
+  height: 17px;
+  background: url(assets/icons/icon-add-to-cart.svg);
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  background-size: contain;
 }
 
 @media (max-width: 1025px) {

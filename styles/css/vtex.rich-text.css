@@ -15,6 +15,49 @@
 }
 /*FIM TOPLINE*/
 
+/* INFOS MENU ABAIXO DA PESQUISA */
+
+.wrapper--menu-bottom-search {
+  padding: 3px 10px;
+}
+
+.wrapper--menu-bottom-search .link {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.37px;
+  color: #1C1C1C;
+  position: relative;
+  padding-left: 22px;
+}
+
+.wrapper--menu-bottom-search .link::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.wrapper--menu-bottom-search.wrapper--menu-lista-presentes .link::after {
+  background-image: url(assets/icons/icon-presentes.svg);
+}
+
+.wrapper--menu-bottom-search.wrapper--menu-cartao-maravilhas .link::after {
+  background-image: url(assets/icons/icon-cartao.svg);
+}
+
+.wrapper--menu-bottom-search.wrapper--menu-nossas-lojas .link::after {
+  background-image: url(assets/icons/icon-lojas.svg);
+}
+
+.wrapper--menu-bottom-search .paragraph {
+  margin: 0;
+}
+
+/* FIM INFOS MENU ABAIXO DA PESQUISA */
+
 /* MINICART */
 .paragraph--utils-text {
   margin: 0;
@@ -177,20 +220,65 @@
 
 /* PÁGINA DO PRODUTO */
 .paragraph--shipping-simulator-text {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+  color: #000;
+  padding-left: 28px; 
+  position: relative;
   margin: 0;
-  font-size: 13px;
-  text-transform: initial;
-  font-weight: 500;
-  color: #505050;
-  line-height: 1;
+  margin-bottom: 16px;
 }
+
+.paragraph--shipping-simulator-text::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 20px;
+  height: 20px;
+  background: url(assets/icons/icon-frete.svg);
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.wrapper--warning-b2b .paragraph {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.82px;
+  text-align: left;
+  color: #000;
+  position: relative;
+  padding-left: 28px;
+  margin: 0;
+}
+
+.wrapper--warning-b2b .paragraph::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(assets/icons/icon-warning-b2b.svg);
+}
+
+.wrapper--warning-b2b .link {
+  color: #660066;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
 
 /* PÁGINAS CMS */
 .headingLevel1--cms-page-title {
   font-size: 32px;
   font-weight: 700;
   line-height: 41px;
-  color: #FF6712;
+  color: #1C1C1C;
   margin: 0 0 32px;
 }
 .heading--cms-page-content {
@@ -198,7 +286,7 @@
   font-weight: 700;
   line-height: 25px;
   margin: 0 0 16px;
-  color: #000;
+  color: #660066;
 }
 .paragraph--cms-page-content {
   font-size: 16px;
@@ -213,6 +301,86 @@
 }
 .listItem--cms-page-content:not(:first-child) {
   margin-top: 16px;
+}
+
+.wrapper--subtitle-estilo-cms {
+  margin-bottom: 30px;
+}
+
+.wrapper--subtitle-estilo-cms .paragraph {
+  background-color: #FFCC00;
+  padding: 10px 30px;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+  margin: 0;
+  border-radius: 74px;
+}
+
+.paragraph--text-quem-somos {
+  margin: 0;
+}
+
+.paragraph--title-card-oferecemos {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.paragraph--text-card-oferecemos {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
+  margin: 0;
+}
+
+.paragraph--title-menu-cms-institucional {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1C1C1C;
+  line-height: 22px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.paragraph--content-menu-cms-institucional {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #666;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.link--content-menu-cms-institucional {
+  font-weight: 400;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-nossa-historia) .link--nossa-historia {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+.wrapper--titulo-pagina-cms .headingLevel1 {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1C1C1C;
+  margin: 0;
+  margin-bottom: 30px;
+  line-height: 27px;
 }
 
 /*LOJAS PARCEIRAS*/

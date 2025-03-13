@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#rating-wish": {
+      "props": {
+        "blockClass": "rating-wish-container",
+        "colSizing": "auto"
+      },
+      "children": [
+        "flex-layout.col#rating-pdp",
+        "flex-layout.col#wish-pdp"
+      ]
+    },
+  
+    "flex-layout.col#rating-pdp": {
+      "props": {
+        "blockClass": "rating-pdp-content",
+        "width": "grow"
+      },
+      "children": ["product-rating-summary"]
+    },
+  
+    "flex-layout.col#wish-pdp": {
+      "props": {
+        "blockClass": "wish-pdp-content"
+      },
+      "children": ["add-to-list-btn#pdp"]
+    },
+    "add-to-list-btn#pdp": {
+      "props": {
+        "blockClass": "add-to-list-btn-pdp"
+      }
+    }
+  }

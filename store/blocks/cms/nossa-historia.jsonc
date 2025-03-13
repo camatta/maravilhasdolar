@@ -1,0 +1,345 @@
+{
+  "store.custom#nossa-historia": { //Página CMS - Nossa História
+    "children": [
+      "flex-layout.row#linha-bread", // Breadcrumb Personalizado para páginas CMS
+      "flex-layout.row#wrapper-quem-somos" // Wrapper para conteúdo completo da página
+    ]
+  },
+
+  "flex-layout.row#wrapper-quem-somos": {
+    "children": [
+      "flex-layout.col#menu-cms-institucional",
+      "flex-layout.col#content-cms"
+    ],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-nossa-historia"]
+    }
+  },
+
+  "flex-layout.col#content-cms": {
+    "children": [
+      "flex-layout.row#titulo-pagina-quem-somos",
+      "flex-layout.row#inicio-quem-somos",
+      "flex-layout.row#missao-quem-somos",
+      "flex-layout.row#oferecemos-quem-somos",
+      "flex-layout.row#compromisso-quem-somos"
+    ]
+  },
+
+  "flex-layout.row#titulo-pagina-quem-somos": {
+    "children": [
+      "flex-layout.col#titulo-pagina-quem-somos"
+    ]
+  },
+
+  "flex-layout.col#titulo-pagina-quem-somos": {
+    "children": [
+      "rich-text#titulo-pagina-quem-somos"
+    ]
+  },
+
+  "rich-text#titulo-pagina-quem-somos": {
+    "props":{
+      "text": "# Nossa História",
+      "blockClass": "titulo-pagina-cms"
+    }
+  },
+
+
+  "flex-layout.row#inicio-quem-somos": {
+    "children": [
+      "flex-layout.col#texto-quem-somos",
+      "flex-layout.col#imagem-quem-somos"
+    ],
+    "props": {
+      "blockClass": "row-cms"
+    }
+  },
+
+  "flex-layout.col#texto-quem-somos": {
+    "children": [
+      "rich-text#subtitle-quem-somos",
+      "rich-text#text-quem-somos"
+    ]
+    ,
+    "props": {
+      "blockClass": "col-textos-quem-somos"
+    }
+  },
+
+  "rich-text#subtitle-quem-somos": {
+    "props": {
+      "text": "Onde tudo começou",
+      "blockClass": ["subtitle-quemsomos", "subtitle-estilo-cms"]
+    }
+  },
+
+  "rich-text#text-quem-somos": {
+    "props": {
+      "text": "Em 2003, inauguramos nossa primeira loja no centro de Jundiaí, no interior de São Paulo. O sucesso foi tão grande que, em pouco tempo, expandimos para Várzea Paulista e não paramos mais. Hoje, com mais de 40 lojas espalhadas por diversas cidades do interior paulista, nos orgulhamos de ser uma referência em utilidades domésticas na região.",
+      "blockClass": "text-quem-somos"
+    }
+  },
+
+  "flex-layout.col#imagem-quem-somos": {
+    "children": [
+      "image#quem-somos"
+    ],
+    "props": {
+      "blockClass": "col-img-quem-somos"
+    }
+  },
+
+  "image#quem-somos": {
+    "props": {
+      "src": "assets/institucional/nossa-historia/nossa-historia.png",
+      "maxWidth": "100%",
+      "blockClass": "img-quem-somos-1"
+    }
+  },
+
+  "flex-layout.row#missao-quem-somos": {
+    "children": [
+      "flex-layout.col#wrapper-missao-quem-somos"
+    ],
+    "props": {
+      "blockClass": "row-cms"
+    }
+  },
+
+  "flex-layout.col#wrapper-missao-quem-somos": {
+    "children": [
+      "rich-text#title-missao-quem-somos",
+      "rich-text#text-missao-quem-somos",
+      "image#missao-quem-somos"
+    ]
+  },
+
+  "rich-text#title-missao-quem-somos": {
+    "props": {
+      "text": "Nossa Missão",
+      "blockClass": ["subtitle-quemsomos", "subtitle-estilo-cms"]
+    }
+  },
+
+  "rich-text#text-missao-quem-somos": {
+    "props": {
+      "text": "Proporcionar uma experiência única para nossos clientes, reunindo a maior variedade de produtos com qualidade e preços acessíveis, sempre com o objetivo de tornar o dia a dia mais prático e especial. Queremos estar presentes nos momentos mais importantes da sua casa, seja organizando, decorando ou criando novas memórias com quem você ama.",
+      "blockClass": "text-quem-somos"
+    }
+  },
+
+  "image#missao-quem-somos": {
+    "props": {
+      "src": "assets/institucional/nossa-historia/nossa-historia-2.png",
+      "maxWidth": "100%",
+      "blockClass": "img-quem-somos"
+    }
+  },
+
+  "flex-layout.row#oferecemos-quem-somos": {
+    "children": [
+      "flex-layout.col#wrapper-oferecemos-quem-somos"
+    ],
+    "props": {
+      "blockClass": "row-cms"
+    }
+  },
+  
+  "flex-layout.col#wrapper-oferecemos-quem-somos": {
+    "children": [
+      "rich-text#title-oferecemos-quem-somos",
+      "rich-text#text-oferecemos-quem-somos",
+      "flex-layout.row#wrapper-colunas-oferecemos"
+    ]
+  },
+
+  "rich-text#title-oferecemos-quem-somos": {
+    "props": {
+      "text": "O que Oferecemos",
+      "blockClass": ["subtitle-oferecemos", "subtitle-estilo-cms"]
+    }
+  },
+
+  "rich-text#text-oferecemos-quem-somos": {
+    "props": {
+      "text": "Somos especializados em atender todas as necessidades do seu lar. Em nossas lojas, você encontra:",
+      "blockClass": "text-quem-somos"
+    }
+  },
+
+  "flex-layout.row#wrapper-colunas-oferecemos": {
+    "children": [
+      "flex-layout.col#coluna-oferecemos-1",
+      "flex-layout.col#coluna-oferecemos-2",
+      "flex-layout.col#coluna-oferecemos-3"
+    ],
+    "props": {
+      "blockClass": "wrapper-colunas-oferecemos"
+    }
+  },
+
+  "flex-layout.col#coluna-oferecemos-1": {
+    "children": [
+      "image#icone-oferecemos-1",
+      "rich-text#title-oferecemos-1",
+      "rich-text#text-oferecemos-1"
+    ],
+    "props": {
+      "blockClass": "coluna-oferecemos"
+    }
+  },
+
+  "image#icone-oferecemos-1": {
+    "props": {
+      "src": "assets/institucional/nossa-historia/icon-cozimento.png",
+      "maxWidth": "100%",
+      "blockClass": "img-oferecemos-1"
+    }
+  },
+
+  "rich-text#title-oferecemos-1": {
+    "props": {
+      "text": "Utensílios de Cozinha e Organização",
+      "blockClass": "title-card-oferecemos"
+    }
+  },
+
+  "rich-text#text-oferecemos-1": {
+    "props": {
+      "text": "Produtos para facilitar o dia a dia e transformar sua casa em um espaço funcional e acolhedor.",
+      "blockClass": "text-card-oferecemos"
+    }
+  },
+
+  "flex-layout.col#coluna-oferecemos-2": {
+    "children": [
+      "image#icone-oferecemos-2",
+      "rich-text#title-oferecemos-2",
+      "rich-text#text-oferecemos-2"
+    ],
+    "props": {
+      "blockClass": "coluna-oferecemos"
+    }
+  },
+
+  "image#icone-oferecemos-2": {
+    "props": {
+      "src": "assets/institucional/nossa-historia/icon-luminaria.png",
+      "maxWidth": "100%",
+      "blockClass": "img-oferecemos-2"
+    }
+  },
+
+  "rich-text#title-oferecemos-2": {
+    "props": {
+      "text": "Utensílios de Cozinha e Organização",
+      "blockClass": "title-card-oferecemos"
+    }
+  },
+
+  "rich-text#text-oferecemos-2": {
+    "props": {
+      "text": "Produtos para facilitar o dia a dia e transformar sua casa em um espaço funcional e acolhedor.",
+      "blockClass": "text-card-oferecemos"
+    }
+  },
+
+  "flex-layout.col#coluna-oferecemos-3": {
+    "children": [
+      "image#icone-oferecemos-3",
+      "rich-text#title-oferecemos-3",
+      "rich-text#text-oferecemos-3"
+    ],
+    "props": {
+      "blockClass": "coluna-oferecemos"
+    }
+  },
+
+  "image#icone-oferecemos-3": {
+    "props": {
+      "src": "assets/institucional/nossa-historia/icon-limpeza.png",
+      "maxWidth": "100%",
+      "blockClass": "img-oferecemos-3"
+    }
+  },
+
+  "rich-text#title-oferecemos-3": {
+    "props": {
+      "text": "Utensílios de Cozinha e Organização",
+      "blockClass": "title-card-oferecemos"
+    }
+  },
+
+  "rich-text#text-oferecemos-3": {
+    "props": {
+      "text": "Produtos para facilitar o dia a dia e transformar sua casa em um espaço funcional e acolhedor.",
+      "blockClass": "text-card-oferecemos"
+    }
+  },
+
+  "flex-layout.row#compromisso-quem-somos": {
+    "children": [
+      "flex-layout.col#coluna-compromisso-1",
+      "flex-layout.col#coluna-compromisso-2"
+    ],
+    "props": {
+      "blockClass": "row-cms"
+    }
+  },
+
+  "flex-layout.col#coluna-compromisso-1": {
+    "children": [
+      "rich-text#title-compromisso",
+      "rich-text#text-compromisso-1",
+      "rich-text#text-compromisso-2",
+      "rich-text#cta-compromisso"
+    ]
+  },
+
+  "rich-text#title-compromisso": {
+    "props": {
+      "text": "Compromisso e orgulho com nossos clientes",
+      "blockClass": ["title-compromisso", "subtitle-estilo-cms"]
+    }
+  },
+
+  "rich-text#text-compromisso-1": {
+    "props": {
+      "text": "Nas Maravilhas do Lar, dedicamos cada detalhe para criar um ambiente harmonioso, acolhedor e respeitoso, garantindo uma experiência de compra inesquecível. Mais do que oferecer produtos, temos orgulho de fazer parte do dia a dia dos nossos clientes, ajudando a transformar momentos simples, como um almoço em família ou um café da tarde, em histórias especiais e memoráveis.",
+      "blockClass": "text-compromisso"
+    }
+  },
+
+  "rich-text#text-compromisso-2": {
+    "props": {
+      "text": "Nossa realização é ter a certeza de que, depois de visitar uma de nossas lojas, você montará a mesa mais bonita para o almoço em família, fará o bolo mais gostoso para o café da tarde, presenteará com carinho a garotada com os melhores brinquedos e dará um show na organização do seu armário!",
+      "blockClass": "text-compromisso"
+    }
+  },
+
+  "rich-text#cta-compromisso": {
+    "props": {
+      "text": "Conheça nossas lojas!",
+      "blockClass": "cta-compromisso"
+    }
+  },
+
+  "flex-layout.col#coluna-compromisso-2": {
+    "children": [
+      "image#img-compromisso"
+    ],
+    "props": {
+      "blockClass": "col-img-compromisso"
+    }
+  },
+
+  "image#img-compromisso": {
+    "props": {
+      "src": "assets/institucional/nossa-historia/nossa-historia-3.png",
+      "maxWidth": "100%",
+      "blockClass": "img-compromisso"
+    }
+  }
+
+}

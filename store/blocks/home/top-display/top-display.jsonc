@@ -1,5 +1,6 @@
 {
     "flex-layout.row#top-display-banner": {
+      "title": "Banner Topo Display",
       "props": {
         "blockClass": ["top-display-banner", "custom-container"]
       },

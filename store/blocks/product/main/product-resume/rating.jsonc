@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#rating": {
+      "props": {
+        "blockClass": "rating-full-container",
+        "colSizing": "auto"
+      },
+      "children": [
+        "flex-layout.col#rating-full-pdp"
+      ]
+    },
+  
+    "flex-layout.col#rating-full-pdp": {
+      "props": {
+        "blockClass": "rating-pdp-content"
+      },
+      "children": ["product-reviews"]
+    }
+
+  }

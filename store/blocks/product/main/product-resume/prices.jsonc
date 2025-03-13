@@ -15,7 +15,7 @@
     },
     "children": [
       "product-list-price#pdp",
-      "product-selling-price#pdp"
+      "flex-layout.row#product-selling-price-wrapper"
     ]
   },
 
@@ -23,6 +23,13 @@
     "props": {
       "blockClass": "list-price-pdp"
     }
+  },
+
+  "flex-layout.row#product-selling-price-wrapper": {
+    "props": {
+      "blockClass": "selling-price-wrapper-container"
+    },
+    "children": ["product-selling-price#pdp", "product-price-savings#pdp"]
   },
 
   "product-selling-price#pdp": {
@@ -41,5 +48,12 @@
     "props": {
       "blockClass": "installments-pdp"
     }
+  },
+
+  "product-price-savings#pdp": {
+    "props": {
+      "blockClass": "savings-pdp"
+    }
   }
+
 }

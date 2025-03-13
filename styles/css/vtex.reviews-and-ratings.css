@@ -1,0 +1,128 @@
+.stars {
+    display: flex;
+    gap: 2px;
+}
+
+.summaryContainer {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.star--empty {
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    font-size: 0px;
+    background-image: url(assets/icons/icon-star-empty.svg);
+}
+
+.star--filled {
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    font-size: 0px;
+    background-image: url(assets/icons/icon-star-filled.svg);
+}
+
+.container {
+    padding: 0;
+    position: relative;
+}
+
+.reviewsOrderBy {
+    display: none;
+}
+
+.reviewInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    order: 3;
+}
+
+.reviewAuthorBy,
+.reviewDateSubmitted {
+    display: none;
+}
+
+.reviewCommentUser {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.1px;
+    text-align: left;
+    color: #3F3F3F;    
+    margin-bottom: 2px;
+}
+
+.reviewCommentMessage  {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.1px;
+    text-align: left;
+    color: #3F3F3F;
+}
+
+.reviewCommentRating {
+    margin-bottom: 2px;
+}
+
+.reviewInfo  {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.1px;
+    text-align: left;
+    color: #3F3F3F;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.reviewAuthorName,
+.reviewDateValue {
+    font-weight: 400 !important;
+}
+
+.reviewComment {
+    position: relative;
+}
+
+.reviewComment .stars {
+    position: absolute;
+    bottom: 22px;
+    right: 0;
+}
+
+.reviewsHeading {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+    color: #000;
+    padding-left: 28px;
+    position: relative;
+    margin: 0;
+    margin-bottom: 16px;
+    border-bottom: 0;
+}
+
+.reviewsHeading::after {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    width: 22px;
+    height: 22px;
+    background: url(assets/icons/icon-rating.png);
+    bottom: 2px;
+    left: 0;
+}
+
+.writeReviewContainer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    line-height: 1;
+    margin: 0;
+}

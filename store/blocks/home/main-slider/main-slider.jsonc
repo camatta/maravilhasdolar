@@ -1,5 +1,6 @@
 {
   "flex-layout.row#main-slider": {
+    "title": "Banner Principal",
     "props": {
       "blockClass": ["main-slider-container", "custom-container"]
     },

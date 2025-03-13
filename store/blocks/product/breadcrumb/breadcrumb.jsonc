@@ -4,7 +4,7 @@
     "props": {
       "blockClass": ["product-breadcrumb-container", "custom-container"]
     },
-    "children": ["flex-layout.col#product-breadcrumb"]
+    "children": ["flex-layout.col#product-breadcrumb","flex-layout.col#product-share" ]
   },
 
   "flex-layout.col#product-breadcrumb": {
@@ -17,5 +17,13 @@
     "props": {
       "showOnMobile": true
     }
+  },
+
+  "flex-layout.col#product-share": {
+    "props": {
+      "blockClass": "product-share-content"
+    },
+    "children": ["share"]
   }
+
 }

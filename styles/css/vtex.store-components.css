@@ -169,25 +169,38 @@
 /* PÁGINA DO PRODUTO */
 .carouselGaleryThumbs {
   width: 100% !important;
-  max-width: 71px;
+  max-width: 90px;
 }
 .productImagesThumb:not(:first-child) {
   margin-top: 8px;
 }
 
 .productNameContainer {
+  font-family: Nunito;
   font-size: 24px;
-  line-height: 30px;
-  max-width: 466px;
+  font-weight: 600;
+  line-height: 32.74px;
+  text-align: left;
+  color: #000;
+  max-width: 308px;
   width: 100%;
+}
+
+.productBrandName {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.37px;
+  text-align: left;
+  color: #666;
 }
 
 .shippingContainer {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 20px;
   width: 100%;
-  max-width: 65%;
+  max-width: 350px;
+  margin-bottom: 0;
 }
 .shippingContainer :global(.vtex-input__label) {
   display: none;
@@ -197,36 +210,83 @@
   padding: 0;
 }
 .shippingContainer :global(.vtex-input-prefix__group) {
-  height: 45px;
-  box-shadow: rgba(0,0,0,0.2) -2px 1px 11px -4px;
+  height: 35px;
   border: 0;
+  border-radius: 59px;
+  background-color: #ECECEC;
+  max-width: 240px;
+  width: 100%;
 }
+
+.shippingContainer :global(.vtex-address-form-4-x-input) {
+  width: 100%;
+  border-radius: 59px;
+  background-color: #ECECEC;
+}
+
+.shippingContainer :global(.vtex-input__suffix) {
+  display: none;
+}
+
 .shippingContainer :global(.vtex-button) {
-  height: 45px;
-  max-width: 92px;
-  border: 0;
-  border-radius: 0;
+  height: 35px;
+  max-width: 102px;
+  border: 1px solid #FF6600;
+  border-radius: 41px;
+  background-color: #fff;
+  cursor: pointer;
 }
-.shippingContainer :global(.vtex-button):hover {
+/* .shippingContainer :global(.vtex-button):hover {
   background: #000;
-}
+} */
 .shippingContainer :global(.vtex-button__label) {
   font-size: 0;
 }
 .shippingContainer :global(.vtex-button__label)::before {
-  content: "CALCULAR";
-  font-size: 13px;
+  content: "Calcular";
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.1px;
+  text-align: center;
+  color: #1C1C1C;
+  text-transform: capitalize;
 }
 .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
-  padding-top: 10px;
+  padding-top: 12px;
+  font-family: Nunito;
   font-size: 12px;
+  font-weight: 400;
+  line-height: 16.37px;
+  text-align: left;
+  color: #666666;
+  position: relative;
+  display: flex;
+  max-width: fit-content;
+  padding-right: 12px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #666;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL)::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 12px;
+  height: 12px;
+  background: url(assets/icons/icon-externo.svg);
+  top: 13px;
+  right: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #666666;
 }
 
 .shareContainer {
-  max-width: 65%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 4px;
+  flex-direction: row-reverse;
 }
 .shareLabel {
   margin: 0;
@@ -238,48 +298,73 @@
   line-height: 0 !important;
   margin: 0;
 }
+
+.shareSocialButton--whatsapp {
+  position: relative;
+}
+
+.shareSocialButton--whatsapp::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 14px;
+  height: 14px;
+  background: url(assets/icons/icon-share-wpp.svg);
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.shareSocialIcon--whatsapp {
+  opacity: 0;
+}
+
 .shareSocialButton:not(:first-child) {
   margin-left: 8px;
 }
 
 .productImagesThumb {
-  max-width: 68px;
-  max-height: 68px !important;
+  max-width: 90px;
+  max-height: 90px !important;
   margin: 0;
   border: 2px solid transparent;
   transition: all .3s ease-in-out;
+  width: 90px;
+  height: 90px !important;
+  object-fit: cover;
+  border-radius: 6px;
 }
 .productImagesThumb:hover,
 .productImagesThumbActive {
-  border-color: #c7c7c7;
+  border-color: #660066;
 }
 .thumbImg {
-  max-width: 68px;
-  max-height: 68px;
+  max-width: 90px;
+  max-height: 90px;
   width: 100%;
   height: auto;
   object-fit: contain;
   aspect-ratio: 1/1;
+  border-radius: 6px;
 }
 
-.productDescriptionContainer {
-  padding: 16px 0 35px;
-}
 .productDescriptionTitle {
   display: inline-block;
   margin: 0;
-  padding: 15px 33px;
   background: #FFFFFF;
   font-size: 16px;
   line-height: 20px;
 }
 .productDescriptionText {
-  padding: 33px 28px 53px;
   background: #FFFFFF;
   font-size: 14px;
   line-height: 18px;
   color: #201F1F;
 }
+
+/* Páginas CMS Institucionais */
+
+/* Fim Páginas CMS Institucionais */
 
 @media (max-width: 1199px) {
   .paragraph--info-card-condition {

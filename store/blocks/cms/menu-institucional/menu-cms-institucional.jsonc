@@ -1,0 +1,66 @@
+{
+    "flex-layout.col#menu-cms-institucional": { // Menu Lateral para Páginas CMS Institucionais
+      "children": [
+        "rich-text#title-menu-cms-institucional", // Título do Menu
+        "rich-text#content-menu-cms-trabalhe-conosco", // Cada linha representa um link do menu
+        "rich-text#content-menu-cms-seja-fornecedor",
+        "rich-text#content-menu-cms-nossa-historia",
+        "rich-text#content-menu-cms-nossas-lojas",
+        "rich-text#content-menu-cms-para-empresas",
+        "rich-text#content-menu-cms-relatorio-transparencia"
+      ],
+      "props": {
+        "blockClass": "menu-cms-institucional"
+      }
+    },
+  
+    "rich-text#title-menu-cms-institucional": {
+      "props": {
+        "text": "Institucional",
+        "blockClass": "title-menu-cms-institucional"
+      }
+    },
+  
+    "rich-text#content-menu-cms-trabalhe-conosco": {
+      "props": {
+        "text": "[Trabalhe Conosco](/trabalhe-conosco)",
+        "blockClass": ["content-menu-cms-institucional", "trabalhe-conosco"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-seja-fornecedor": {
+      "props": {
+        "text": "[Seja Fornecedor](/seja-fornecedor)",
+        "blockClass": ["content-menu-cms-institucional", "seja-fornecedor"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-nossa-historia": {
+      "props": {
+        "text": "[Nossa História](/nossa-historia)",
+        "blockClass": ["content-menu-cms-institucional", "nossa-historia"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-nossas-lojas": {
+      "props": {
+        "text": "[Nossas Lojas](/nossas-lojas)",
+        "blockClass": ["content-menu-cms-institucional", "nossas-lojas"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-para-empresas": {
+      "props": {
+        "text": "[Para Empresas](/para-empresas)",
+        "blockClass": ["content-menu-cms-institucional", "para-empresas"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-relatorio-transparencia": {
+      "props": {
+        "text": "[Relatório de Transparência Salarial](/relatorio-transparencia)",
+        "blockClass": ["content-menu-cms-institucional", "relatorio-transparencia"]
+      }
+    }
+}
+  
