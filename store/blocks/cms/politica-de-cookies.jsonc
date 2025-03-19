@@ -23,7 +23,7 @@
   "rich-text#politica-de-cookies": {
     "props": {
       "blockClass": ["cms-page-title"],
-      "text": "# Política de Cookies"
+      "text": "# Política de Cookie"
     }
   },
   "rich-text#politica-de-cookies-conteudo":{

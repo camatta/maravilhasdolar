@@ -13,7 +13,9 @@
     },
     "children": [
       "image#instagram",
-      "image#linkeding",
+      "image#facebook",
+      "image#tiktok",
+      "image#linkedin",
       "image#youtube"
     ]
   },
@@ -23,18 +25,40 @@
       "src": "assets/social-networks/instagram.svg",
       "alt": "Instagram",
       "link": {
-        "url": "https://www.instagram.com/niveleshop",
+        "url": "https://www.instagram.com/",
         "newTab": true
       }
     }
   },
 
-  "image#linkeding": {
+  "image#facebook": {
+    "props": {
+      "src": "assets/social-networks/facebook.svg",
+      "alt": "facebook",
+      "link": {
+        "url": "https://www.facebook.com/",
+        "newTab": true
+      }
+    }
+  },
+
+  "image#tiktok": {
+    "props": {
+      "src": "assets/social-networks/tiktok.svg",
+      "alt": "tiktok",
+      "link": {
+        "url": "https://www.tiktok.com/",
+        "newTab": true
+      }
+    }
+  },
+
+  "image#linkedin": {
     "props": {
       "src": "assets/social-networks/linkedin.svg",
       "alt": "Facebook",
       "link": {
-        "url": "https://www.linkedin.com/company/nivele/",
+        "url": "https://www.linkedin.com/company//",
         "newTab": true
       }
     }
@@ -45,7 +69,7 @@
       "src": "assets/social-networks/youtube.svg",
       "alt": "Youtube",
       "link": {
-        "url": "https://www.youtube.com/@NiveleShop",
+        "url": "https://www.youtube.com/",
         "newTab": true
       }
     }

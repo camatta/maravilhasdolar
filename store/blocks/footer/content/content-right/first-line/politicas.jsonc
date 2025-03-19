@@ -88,7 +88,7 @@
   
   "rich-text#politicas-cookies": {
     "props": {
-      "text": "[Políticas de Cookies](/politica-de-cookies)",
+      "text": "[Política de Cookie](/politica-de-cookies)",
       "blockClass": "cms-link"
     }
   }

@@ -89,11 +89,11 @@
     "props": {
       "blockClass": "cms-menu-subtitle-content"
     },
-    "children": ["rich-text#cartao-menu-subtitle"]
+    "children": ["rich-text#faq-menu-subtitle"]
   },
-  "rich-text#cartao-menu-subtitle": {
+  "rich-text#faq-menu-subtitle": {
     "props": {
-      "blockClass": "footer-subtitle",
+      "blockClass": "footer-subtitle-faq",
       "text": "##### Acesse nosso FAQ!"
     }
   },

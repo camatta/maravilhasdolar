@@ -384,11 +384,11 @@
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-departmentLink):first-child,
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-departmentLink) {
   padding: 0;
-  color: #979797;
+  color: #1C1C1C;
   font-size: 14px;
   transition: all .3s ease-in-out;
   font-weight: 400;
-  line-height: 17px;
+  line-height: 19px;
 }
 
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-departmentLink):hover {
@@ -399,15 +399,21 @@
   margin-top: 7px;
 }
 
-.flexColChild--sac-content:nth-child(1n + 3) {
-  margin-top: 16px;
+.flexCol--sac-content .flexColChild--sac-content:first-child,
+.flexCol--sac-content .flexColChild--sac-content:last-child {
+  margin-bottom: 0;
+}
+
+.flexColChild--sac-content {
+  margin-bottom: 8px;
 }
 
 .flexRowContent--security-content-container {
   display: flex;
-  gap: 10px;
+  gap: 16px;
   line-height: 0;
   max-width: fit-content;
+  align-items: center;
 }
 
 .flexCol--second-security-content {
@@ -421,6 +427,26 @@
   gap: 8px;
 }
 
+.flexCol--politicas-menu-content {
+  max-width: 173px;
+  margin-right: 42px;
+}
+
+.flexCol--footer-category-menu-content {
+  max-width: 168px;
+  margin-right: 53px;
+}
+
+.flexCol--cms-menu-content {
+  max-width: 139px;
+  margin-right: 54px;
+}
+
+.flexCol--cartao-menu-content {
+  max-width: 188px;
+  margin-right: 34px;
+}
+
 /* SEÇÃO MÉTODO DE PAGAMENTO, SEGURANÇA, ENTREGA */
 .flexRow--services-flags-container {
   padding-bottom: 45px;
@@ -432,31 +458,45 @@
 }
 
 .flexRow--store-info-container {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .flexCol--store-info {
   gap: 24px;
 }
 
+.flexCol--copy-design-content,
+.flexCol--copy-platform-content {
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColChild--social-networks-content {
+  width: 32px;
+  height: 32px !important;
+  border: 1px solid #ECECEC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s;
+}
+
+.flexColChild--social-networks-content:hover {
+  background-color: #660066;
+  border: 1px solid #660066;
+  cursor: pointer;
+}
+
+.flexColChild--social-networks-content:hover :global(.vtex-store-components-3-x-imageElement) {
+  filter: brightness(500);
+}
+
 /* COPY RODAPÉ */
 .flexRowContent--footer-copy-container .stretchChildrenWidth {
   padding: 17px 0;
   border-top: 1px solid #D0D0D0;
-}
-
-.flexCol--copy-design-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 15px;
-}
-
-.flexColChild--copy-design-content {
-  width: max-content;
-  height: initial !important;
-  line-height: 0;
 }
 
 .flexRowContent--copy-design-container {
@@ -467,13 +507,6 @@
 .flexRowContent--copy-design-container .stretchChildrenWidth {
   padding: 0;
   border: 0;
-}
-
-.flexCol--copy-platform-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
 }
 
 /* CATÁLOGO */

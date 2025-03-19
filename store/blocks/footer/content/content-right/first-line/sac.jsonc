@@ -7,10 +7,11 @@
     },
     "children": [
       "flex-layout.row#sac-title",
+      "flex-layout.row#sac-rastreie",
       "flex-layout.row#sac-phone",
-      "flex-layout.row#sac-wpp",
       "flex-layout.row#sac-email",
-      "flex-layout.row#lojas-parceiras"
+      "flex-layout.row#sac-wpp",
+      "flex-layout.col#sac-fale-conosco"
     ]
   },
 
@@ -33,6 +34,27 @@
     }
   },
 
+  "flex-layout.row#sac-rastreie": {
+    "props": {
+      "blockClass": "sac-group-container"
+    },
+    "children": ["flex-layout.col#sac-rastreie"]
+  },
+  "flex-layout.col#sac-rastreie": {
+    "props": {
+      "blockClass": "sac-group-content"
+    },
+    "children": [
+      "rich-text#sac-rastreie"
+    ]
+  },
+  "rich-text#sac-rastreie": {
+    "props": {
+      "blockClass": "sac-group-link",
+      "text": "[Rastreie o seu pedido](/rastreie)"
+    }
+  },
+
   "flex-layout.row#sac-phone": {
     "props": {
       "blockClass": "sac-group-container"
@@ -44,26 +66,20 @@
       "blockClass": "sac-group-content"
     },
     "children": [
-      "rich-text#sac-phone-title",
-      "rich-text#sac-phone-first"
+      "rich-text#sac-phone-first",
+      "rich-text#sac-phone-second"
     ]
-  },
-  "rich-text#sac-phone-title": {
-    "props": {
-      "blockClass": "sac-group-title",
-      "text": "Telefone:"
-    }
   },
   "rich-text#sac-phone-first": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "[(11) 98496-5494](tel:11984965494)"
+      "text": "[SAC: (11) 4000-1567](tel:114000-1567)"
     }
   },
   "rich-text#sac-phone-second": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "[(19) 3737.3737](tel:1937373737)"
+      "text": "[Compras Pessoa Jurídica:\n<span>(11) 93236-1811</span>](tel:1193236-1811)"
     }
   },
 
@@ -85,13 +101,13 @@
   "rich-text#sac-wpp-title": {
     "props": {
       "blockClass": "sac-group-title",
-      "text": "Horários:"
+      "text": "Horário de Atendimento:"
     }
   },
   "rich-text#sac-wpp-first": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "Segunda a Sexta \n 09h00 às 18h00"
+      "text": "Segunda a Sexta das 08h às 18h"
     }
   },
 
@@ -106,47 +122,35 @@
       "blockClass": "sac-group-content"
     },
     "children": [
-      "rich-text#sac-email-title",
       "rich-text#sac-email"
     ]
-  },
-  "rich-text#sac-email-title": {
-    "props": {
-      "blockClass": "sac-group-title",
-      "text": "E-mail:"
-    }
   },
   "rich-text#sac-email": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "<a href='mailto:sac@maravilhasdolar.com.br' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>sac@maravilhasdolar.com.br</a>"
+      "text": "<a href='mailto:sac@maravilhasdolar.com.br' target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>E-mail: sac@maravilhasdolar.com.br</a>"
     }
   },
-  "flex-layout.row#lojas-parceiras": {
+
+  "flex-layout.row#sac-fale-conosco": {
     "props": {
       "blockClass": "sac-group-container"
     },
-    "children": ["flex-layout.col#lojas-parceiras"]
+    "children": ["flex-layout.col#sac-fale-conosco"]
   },
-  "flex-layout.col#lojas-parceiras": {
+  "flex-layout.col#sac-fale-conosco": {
     "props": {
       "blockClass": "sac-group-content"
     },
     "children": [
-      "rich-text#lojas-parceiras-title",
-      "rich-text#lojas-parceirasdescricao"
+      "rich-text#sac-fale-conosco"
     ]
   },
-  "rich-text#lojas-parceiras-title": {
+  "rich-text#sac-fale-conosco": {
     "props": {
-      "blockClass": "sac-group-title",
-      "text": "Lojas Parceiras"
-    }
-  },
-  "rich-text#lojas-parceirasdescricao": {
-    "props": {
-      "blockClass": ["sac-group-link", "sac-stores"],
-      "text": "<a href='/lojas-parceiras' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--sac-group-link'>Ver Todas</a>"
+      "blockClass": "sac-group-link",
+      "text": "[Fale Conosco](/fale-conosco)"
     }
   }
+
 }

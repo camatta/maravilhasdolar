@@ -51,8 +51,9 @@
   },
   "image#security-ebit": {
     "props": {
-      "src": "assets/flags/security/ebit.webp",
-      "alt": "Selo ebit de segurança"
+      "src": "assets/flags/security/Encrypt.png",
+      "alt": "Selo Lets Encrypt",
+      "maxWidth": 45
     }
   },
 
@@ -62,14 +63,14 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "image#security-googlesf"
+      "image#security-reclameaqui"
     ]
   },
   "image#security-reclameaqui": {
     "props": {
-      "src": "assets/flags/security/googlesf.svg",
-      "alt": "Selo Google Safe Browsing",
-      "maxWidth": 117
+      "src": "assets/flags/security/reclame.png",
+      "alt": "Selo Reclame Aqui de Qualidade",
+      "maxWidth": 81
     }
   },
 
@@ -84,9 +85,9 @@
   },
   "image#security-googlesf": {
     "props": {
-      "src": "assets/flags/security/googlesf.svg",
+      "src": "assets/flags/security/safe.png",
       "alt": "Selo Google Safe Browsing",
-      "maxWidth": 117
+      "maxWidth": 72
     }
   }
 }

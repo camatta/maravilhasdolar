@@ -247,9 +247,9 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--store-info-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-  max-width: 268px;
+  max-width: 352px;
   width: 100% !important;
-  padding: 10px 0;
+  padding: 0;
 }
 
 /* PDP */
