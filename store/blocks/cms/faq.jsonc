@@ -1,0 +1,7 @@
+{
+    "store.custom#faq": {
+        "children": [
+            "faq"
+        ]
+    }
+}

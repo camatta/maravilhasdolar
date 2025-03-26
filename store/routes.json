@@ -45,5 +45,13 @@
 
   "store.custom#nossas-lojas": {
     "path": "/nossas-lojas"
+  },
+
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+
+  "store.custom#termos-cartao": {
+    "path": "/termos-e-condicoes-cartao"
   }
 }

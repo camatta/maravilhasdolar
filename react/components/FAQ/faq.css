@@ -1,0 +1,202 @@
+.wrapperFaq {
+    background-image: url('../../assets/faq/bg-faq.jpg');
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.containerFaq {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapperCardsFaq {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 56px;
+}
+
+.cardFaq {
+    box-shadow: 0px 4px 6px 0px #00000026;
+    border-radius: 6px;
+    width: 265px;
+}
+
+.topoCardFaq {
+    background-color: #FFCC00;
+    padding: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.iconCardFaq {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.titleCardFaq {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    text-align: center;
+}
+
+.listCardFaq {
+    padding: 24px 16px;
+}
+
+.listCardFaq ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 24px;
+}
+
+.listCardFaq ul li {
+    margin-bottom: 8px;
+}
+
+.listCardFaq ul li a {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: unset;
+}
+
+.listCardFaq ul li:last-child {
+    margin-bottom: 0;
+}
+
+.titleMainFaq h2 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #1C1C1C;
+    margin-bottom: 24px;
+}
+
+.inputMainFaq {
+    position: relative;
+    text-align: center;
+    width: 534px;
+    margin: auto;
+    margin-bottom: 56px;
+}
+
+.inputMainFaq input {
+    border: 1px solid #FF6600;
+    border-radius: 500px;
+    padding: 10px 24px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #A2A2A2;
+    position: relative;
+    width: 100%;
+}
+
+.inputMainFaq::after {
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_4176_29499' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='20' height='20'%3E%3Crect width='20' height='20' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_4176_29499)'%3E%3Cpath d='M16.3333 17.5L11.0833 12.25C10.6667 12.5833 10.1875 12.8472 9.64583 13.0417C9.10417 13.2361 8.52778 13.3333 7.91667 13.3333C6.40278 13.3333 5.12153 12.809 4.07292 11.7604C3.02431 10.7118 2.5 9.43056 2.5 7.91667C2.5 6.40278 3.02431 5.12153 4.07292 4.07292C5.12153 3.02431 6.40278 2.5 7.91667 2.5C9.43056 2.5 10.7118 3.02431 11.7604 4.07292C12.809 5.12153 13.3333 6.40278 13.3333 7.91667C13.3333 8.52778 13.2361 9.10417 13.0417 9.64583C12.8472 10.1875 12.5833 10.6667 12.25 11.0833L17.5 16.3333L16.3333 17.5ZM7.91667 11.6667C8.95833 11.6667 9.84375 11.3021 10.5729 10.5729C11.3021 9.84375 11.6667 8.95833 11.6667 7.91667C11.6667 6.875 11.3021 5.98958 10.5729 5.26042C9.84375 4.53125 8.95833 4.16667 7.91667 4.16667C6.875 4.16667 5.98958 4.53125 5.26042 5.26042C4.53125 5.98958 4.16667 6.875 4.16667 7.91667C4.16667 8.95833 4.53125 9.84375 5.26042 10.5729C5.98958 11.3021 6.875 11.6667 7.91667 11.6667Z' fill='%23FF6600'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 24px;
+    top: 9px;
+}
+
+.faqMainContent {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 96px;
+}
+
+.faqItem {
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+}
+
+.questionFaq {
+    background: unset;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: pointer;
+    border: unset;
+    text-align: left;
+    padding-left: 0;
+    position: relative;
+}
+
+.questionFaq::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"%3E%3Cmask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16"%3E%3Crect x="16" width="16" height="16" transform="rotate(90 16 0)" fill="%23D9D9D9"/%3E%3C/mask%3E%3Cg mask="url(%23mask0)"%3E%3Cpath d="M1.33463 10.6667L8.0013 4L14.668 10.6667L13.4846 11.85L8.0013 6.36667L2.51797 11.85L1.33463 10.6667Z" fill="%23767676"/%3E%3C/g%3E%3C/svg%3E');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 6px;
+    top: 1px;
+    transform: rotate(180deg);
+    transition: all .4s;
+}
+
+.faqItem.active .questionFaq::before {
+    transform: rotate(0);
+}
+
+.answerFaq {
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1C1C1C;
+}
+
+
+.cardSidebarFaq > div:first-child {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #660066;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    max-width: 255px;
+    cursor: pointer;
+}
+
+.cardSidebarFaq > div.active {
+    border: 5px solid #FF6600;
+}
+
+.titleCardSidebar {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.faqList {
+    width: 100%;
+}

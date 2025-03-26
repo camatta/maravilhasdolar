@@ -30,5 +30,13 @@
   
   "nossas-lojas": {
     "component": "NossasLojas"
+  },
+
+  "faq": {
+    "component": "FAQ"
+  },
+
+  "termos-cartao": {
+    "component": "TermosCartao"
   }
 }

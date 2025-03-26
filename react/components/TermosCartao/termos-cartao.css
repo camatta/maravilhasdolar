@@ -1,0 +1,171 @@
+.containerTermosCartao {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapperTermosCartao {
+    display: flex;
+    gap: 96px;
+    margin-top: 24px;
+    margin-bottom: 96px;
+}
+
+.sidebarTermosCartao {
+    min-width: 188px;
+    max-width: 188px;
+}
+
+.titleSidebarCartao h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C1C1C;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.listSidebarCartao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listSidebarCartao ul li {
+    margin-bottom: 16px;
+}
+
+.listSidebarCartao ul li a {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+    text-decoration: unset;
+    border: unset;
+}
+
+.listSidebarCartao ul li a.activeLink {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #660066;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #660066;
+}
+
+.titleTermosCartao h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1C1C1C;
+    line-height: 27px;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.mainTermosCartao p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3F3F3F;
+    margin-top: 0;
+}
+
+.wrapperTituloGeral {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.numberTextGeral p {
+    font-weight: 700;
+    font-size: 20px;
+    color: #3F3F3F;
+    line-height: 27px;
+    margin: 0;
+    padding: 8px 24px;
+    background-color: #FFCC00;
+    border-radius: 52px;
+}
+
+.tituloTextGeral h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #3F3F3F;
+    line-height: 27px;
+    margin: 0;
+    padding: 8px 32px;
+    background-color: #FFCC00;
+    border-radius: 52px;
+}
+
+.headerMainTermos,
+.saudacoesMainTermos {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.infosDataTermos p {
+    margin: 0;
+}
+
+.infosAutorTermos p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #660066;
+}
+
+.infosAutorTermos a {
+    color: #3F3F3F;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.textSaudacoesMainTermos p {
+    margin: 0;
+    max-width: 386px;
+}
+
+.ctaCartaoMainTermos a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C1C1C;
+    padding: 7px 28px;
+    background-color: #fff;
+    border: 1px solid #FF0066;
+    border-radius: 41px;
+    text-decoration: unset;
+}
+
+.contentTextGeral h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #660066;
+    margin: 0;
+}
+
+.contentTextGeral h5 {
+    color: #3F3F3F;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.topicoTextMainTermos {
+    margin-bottom: 32px;
+}

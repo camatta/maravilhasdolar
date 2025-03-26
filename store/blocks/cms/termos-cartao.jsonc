@@ -1,0 +1,7 @@
+{
+    "store.custom#termos-cartao": {
+        "children": [
+            "termos-cartao"
+        ]
+    }
+}
