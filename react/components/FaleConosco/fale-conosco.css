@@ -1,0 +1,95 @@
+.wrapperFaleConosco {
+    background-image: url('../../assets/faleconosco/bg-faleconosco.png');
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.containerFaleConosco {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-bottom: 96px;
+}
+
+.titleFaleConosco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 58px;
+    margin-bottom: 58px;;
+    text-align: center;
+    width: 100%;
+}
+
+.titleFaleConosco h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #3F3F3F;
+    padding: 8px 64px;
+    background-color: #FFCC00;
+    border-radius: 52px;
+    text-align: center;
+    margin: 0;
+}
+
+.formFaleConosco {
+    padding-bottom: 56px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.wrapperCardsFaleConosco,
+.wrapperCtasFaleConosco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardFaleConosco {
+    width: 350px;
+    height: 121px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #660066;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.titleCardFaleConosco h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.textCardFaleConosco p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.ctaFaleConosco a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    width: 254px;
+    height:36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ff6600;
+    border-radius: 41px;
+    color: #1C1C1C;
+    text-decoration: unset;
+}

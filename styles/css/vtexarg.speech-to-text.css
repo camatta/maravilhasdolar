@@ -1,6 +1,11 @@
 .audioSearchContainer {
     position: absolute;
     right: 24px;
-    top: 2px;
-    width: 20px !important;
+    top: 1px;
+    width: 16px !important;
+}
+
+.audioSearchImg {
+    width: 12px !important;
+    height: 16px !important;
 }

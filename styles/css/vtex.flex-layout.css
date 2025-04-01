@@ -45,6 +45,20 @@
   align-items: center;
 }
 
+.flexColChild--utils-desktop-container {
+  width: 94px;
+  height: 76px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: all .4s;
+}
+
+.flexColChild--utils-desktop-container:hover {
+  border-radius: 4px;
+  background-color: #EEEEEE;
+}
+
 .flexColChild--utils-desktop-container:first-child {
   margin-right: 19px;
 }
@@ -81,7 +95,6 @@
 /* MENU */
 .flexRow--menu-container {
   background: #FFCC00;
-  padding: 8px 0;
 }
 
 /* TOP DISPLAY */
@@ -169,6 +182,10 @@
   z-index: 0;
 }
 
+.flexColChild--summary-action-content {
+  height: auto !important;
+}
+
 .flexColChild--wish-image-content:first-child {
   position: absolute;
   top: -10px;
@@ -231,7 +248,7 @@
 }
 
 .flexColChild--summary-action-content :global(.vtex-button__label) {
-  padding: 14.5px !important;
+  padding: 7px 34px !important;
 }
 
 .flexCol--list-selling-price-summary {

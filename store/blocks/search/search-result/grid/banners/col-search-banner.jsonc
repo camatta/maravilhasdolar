@@ -1,0 +1,28 @@
+{
+    "flex-layout.col#search-banner": {
+      "props": {
+        "blockClass": ["category-banner"]
+      },
+      "children": [
+        "image#category-banner-desk"
+      ]
+    },
+    "image#category-banner-desk": {
+      "title": "Banner Desktop",
+      "props": {
+        "src": "assets/categorias/banner-brinquedos.png",
+        "alt": "Imperdível, até 30% de desconto",
+        "maxHeight": "78px",
+        "blockClass": ["category-banner", "category-banner-desk"]
+      }
+    },
+    "image#category-banner-mobi": {
+      "title": "Banner Mobile",
+      "props": {
+        "src": "assets/categorias/banner-brinquedos.png",
+        "alt": "Imperdível, até 30% de desconto",
+        "maxHeight": "145px",
+        "blockClass": ["category-banner", "category-banner-mobi"]
+      }
+    }
+  }

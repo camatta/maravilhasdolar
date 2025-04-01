@@ -17,7 +17,7 @@
     "props": {
       "blockClass": ["best-sellers-title-container"]
     },
-    "children": ["flex-layout.col#best-sellers-title-content"]
+    "children": ["flex-layout.col#best-sellers-title-content", "flex-layout.col#best-sellers-cta-show-more"]
   },
   "flex-layout.col#best-sellers-title-content": {
     "props": {
@@ -29,6 +29,17 @@
     "props": {
       "text": "#### Nossos destaques",
       "blockClass": ["best-sellers-title", "shelf-title"]
+    }
+  },
+
+  "flex-layout.col#best-sellers-cta-show-more": {
+    "children": ["rich-text#best-sellers-cta"]
+  },
+
+  "rich-text#best-sellers-cta": {
+    "props": {
+      "text": "[Ver mais](/panelas)",
+      "blockClass": ["shelf-cta"]
     }
   },
 

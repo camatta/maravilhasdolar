@@ -5,8 +5,24 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#product-count",
       "flex-layout.col#order-by-and-switcher"
+    ]
+  },
+
+  "flex-layout.col#order-by-and-switcher": {
+    "props": {
+      "blockClass": "order-by-and-switcher-content"
+    },
+    "children": ["order-by.v2"]
+  },
+
+  "flex-layout.row#search-toolbar-lateral": {
+    "props": {
+      "blockClass": "search-toolbar-container",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#product-count"
     ]
   },
 
@@ -15,12 +31,6 @@
       "blockClass": "product-count-content"
     },
     "children": ["total-products.v2"]
-  },
-
-  "flex-layout.col#order-by-and-switcher": {
-    "props": {
-      "blockClass": "order-by-and-switcher-content"
-    },
-    "children": ["order-by.v2"]
   }
+
 }

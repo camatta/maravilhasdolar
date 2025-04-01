@@ -53,5 +53,13 @@
 
   "store.custom#termos-cartao": {
     "path": "/termos-e-condicoes-cartao"
+  },
+
+  "store.custom#termos-lista": {
+    "path": "/termos-lista-de-presentes"
+  },
+
+  "store.custom#para-empresas": {
+    "path": "/para-empresas"
   }
 }

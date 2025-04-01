@@ -1,10 +1,33 @@
 {
   "product-summary.shelf": {
     "children": [
+      "vtex.product-highlights@2.x:product-highlights",
       "flex-layout.row#summary-wish-image",
       "flex-layout.row#summary-name",
       "flex-layout.row#summary-price",
       "flex-layout.row#summary-action"
     ]
+  },
+
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": [
+      "product-highlight-wrapper"
+    ]
+  },
+
+  "product-highlight-wrapper": {
+    "children": [
+      "product-highlight-text"
+    ],
+    "props": {
+      "blockclass": "wrapper-highlights"
+    }
+  },
+
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "blockclass": "highligh-novidades"
+    }
   }
 }

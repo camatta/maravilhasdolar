@@ -106,8 +106,17 @@
   font-size: 16px;
 }
 .filter__container--priceRange :global(.vtex-slider__selector) {
-  background: #FF6712;
+  background: #FF0066;
+  width: 8px !important;
+  height: 8px !important;
+  top: 2px;
+  position: relative;
 }
+
+.filter__container--priceRange :global(.vtex-slider__base) {
+  height: 2px !important;
+}
+
 .filter__container--priceRange :global(.vtex-slider__base-internal) {
   background: #D9D9D9;
 }

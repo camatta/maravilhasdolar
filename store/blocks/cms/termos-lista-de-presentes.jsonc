@@ -1,0 +1,25 @@
+{
+    "store.custom#termos-lista": {
+      "children": [
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#wrapper-termos-lista"
+      ]
+    },
+
+    "flex-layout.row#wrapper-termos-lista": {
+        "children": [
+            "flex-layout.col#menu-cms-institucional",
+            "flex-layout.col#content-termos-lista"
+        ],
+        "props": {
+          "blockClass": ["custom-container", "cms-page-container", "pagina-termos-lista"] 
+        }
+    },
+
+    "flex-layout.col#content-termos-lista": {
+      "children":[
+        "termos-lista"
+      ]
+    }
+    
+}

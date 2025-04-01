@@ -4,6 +4,10 @@
       "blockClass": "result-filter-content",
       "preventVerticalStretch": true
     },
-    "children": ["filter-navigator.v3"]
+    "children": [
+      "flex-layout.row#search-title",
+      "flex-layout.row#search-toolbar-lateral",
+      "filter-navigator.v3"
+    ]
   }
 }

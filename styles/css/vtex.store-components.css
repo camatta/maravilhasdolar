@@ -166,6 +166,12 @@
   border-radius: 47px;
 }
 
+/* BANNER CATEGORIA */
+
+.imageElement--category-banner {
+  border-radius: 4px;
+}
+
 /* PÁGINA DO PRODUTO */
 .carouselGaleryThumbs {
   width: 100% !important;

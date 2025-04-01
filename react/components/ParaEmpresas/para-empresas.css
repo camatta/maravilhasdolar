@@ -1,0 +1,151 @@
+.titleEmpresas h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1C1C1C;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.textEmpresas p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.titleTopicoEmpresas h2,
+.titleTopicoEmpresas h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    line-height: 27px;
+    margin: 0;
+    padding: 8px 32px;
+    background-color: #FFCC00;
+    border-radius: 52px;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 24px;
+}
+
+.wrapperCtaCadastro {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.ctaCadastro a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: underline;
+    padding: 6px 24px;
+    border-radius: 41px;
+    border: 1px solid #FF0066;
+    color: #1C1C1C;
+}
+
+.textCtaCadastro p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.wrapperCardsVantagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.cardVantagem {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 51px;
+}
+
+.iconCardVantagem {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7A2A9C;
+    border-radius: 5px;
+}
+
+.titleCardVantagem h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.textCardVantagem p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+    max-width: 287px;
+}
+
+.wrapperCardsAproveitar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    gap: 25px;
+    margin-top: 62px;
+}
+
+.cardAproveitar {
+    background-color: #FFCC00;
+    border-radius: 12px;
+    padding: 24px;
+    padding-top: 42px;
+    position: relative;
+}
+
+.numberCardAproveitar {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7A2A9C;
+    border-radius: 9px;
+    top: -1.5rem;
+    left: 24px;
+}
+
+.numberCardAproveitar span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.titleCardAproveitar h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    margin: 0;
+}
+
+.textCardAproveitar p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000;
+    margin: 0;
+}

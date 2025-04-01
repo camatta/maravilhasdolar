@@ -29,6 +29,7 @@
 /* SLIDER PRINCIPAL */
 .paginationDotsContainer--main-slider {
   bottom: 24px;
+  display: none;
 }
 .imageElement--main-slider {
   max-height: none !important;

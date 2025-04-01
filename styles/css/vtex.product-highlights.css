@@ -1,0 +1,21 @@
+.productHighlightWrapper {
+    z-index: 2;
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+.productHighlightWrapper[data-highlight-name="Novidades"] {
+    color: #fff;
+    background-color: #660066;
+    border-radius: 47px;
+    padding: 2px 8px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: fit-content;
+}

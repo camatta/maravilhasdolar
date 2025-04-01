@@ -1,0 +1,32 @@
+.titleTermosLista h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1C1C1C;
+    line-height: 27px;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.titleTermosLista  h2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #3F3F3F;
+    line-height: 22px;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.contentTermosLista p {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3F3F3F;
+    margin-top: 0;
+}
+
+.sectionTitle {
+    color: #660066;
+    font-size: 16px;
+    line-height: 22px;
+}

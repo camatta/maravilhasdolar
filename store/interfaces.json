@@ -38,5 +38,21 @@
 
   "termos-cartao": {
     "component": "TermosCartao"
+  },
+
+  "para-empresas": {
+    "component": "ParaEmpresas"
+  },
+
+  "fale-conosco": {
+    "component": "FaleConosco"
+  },
+
+  "termos-lista": {
+    "component": "TermosLista"
+  },
+
+  "chat-flutuante": {
+    "component": "ChatFlutuante"
   }
 }

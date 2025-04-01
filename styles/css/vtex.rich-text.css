@@ -44,6 +44,19 @@
   background-image: url(assets/icons/icon-presentes.svg);
 }
 
+.wrapper--menu-lista-presentes,
+.wrapper--menu-cartao-maravilhas,
+.wrapper--menu-nossas-lojas {
+  transition: all .4s;
+}
+
+.wrapper--menu-lista-presentes:hover,
+.wrapper--menu-cartao-maravilhas:hover,
+.wrapper--menu-nossas-lojas:hover {
+  background-color: #EEEEEE;
+  border-radius: 32px;
+}
+
 .wrapper--menu-bottom-search.wrapper--menu-cartao-maravilhas .link::after {
   background-image: url(assets/icons/icon-cartao.svg);
 }
@@ -98,6 +111,24 @@
   line-height: 30px;
   font-weight: 700;
   color: #FF6712;
+}
+
+.container--shelf-cta {
+  justify-content: end;
+}
+
+.paragraph--shelf-cta {
+  margin: 0;
+}
+
+.link--shelf-cta {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1C1C1C;
+  padding: 6px 25px;
+  border: 1px solid #FF0066;
+  border-radius: 41px;
 }
 
 /* NEWSLETTER */
@@ -398,6 +429,12 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--pagina-nossa-historia) .link--nossa-historia {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-para-empresas) .link--para-empresas {
   color: #660066;
   font-weight: 700;
   border-bottom: 2px solid #660066;

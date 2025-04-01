@@ -1,0 +1,25 @@
+{
+    "store.custom#para-empresas": {
+      "children": [
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#wrapper-para-empresas"
+      ]
+    },
+
+    "flex-layout.row#wrapper-para-empresas": {
+        "children": [
+            "flex-layout.col#menu-cms-institucional",
+            "flex-layout.col#content-para-empresas"
+        ],
+        "props": {
+          "blockClass": ["custom-container", "cms-page-container", "pagina-para-empresas"] 
+        }
+    },
+
+    "flex-layout.col#content-para-empresas": {
+      "children":[
+        "para-empresas"
+      ]
+    }
+    
+}
