@@ -82,5 +82,33 @@
         "imageActionUrl": "/ofertas",
         "callToActionUrl": "/ofertas"
       }
+    },
+    "info-card#cat7": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/categorias-icones/organizacao.png",
+        "callToActionText": "Organização",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
+      }
+    },
+    "info-card#cat8": {
+      "props": {
+        "id": "info-card-catmenu",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "assets/categorias-icones/panelas.png",
+        "callToActionText": "Panelas",
+        "blockClass": "info-card-catmenu",
+        "callToActionMode": "Link",
+        "textMode": "rich-text",
+        "imageActionUrl": "/ofertas",
+        "callToActionUrl": "/ofertas"
+      }
     }
   }

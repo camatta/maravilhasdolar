@@ -11,6 +11,12 @@
   fill: #1E1E1E;
 }
 
+.openIconContainer {
+  height: 74px;
+  display: flex;
+  z-index: 5;
+}
+
 .openIconContainer,
 .openIconContainer :global(.vtex-button__label) {
   padding: 0;
@@ -26,6 +32,10 @@
   min-height: initial;
 }
 
+.openIconContainer :global(.vtex-button):focus {
+  background: unset;
+}
+
 .openIconContainer :global(.vtex-button):hover {
   background: transparent;
 }
@@ -35,10 +45,10 @@
 }
 
 .minicartQuantityBadge {
-  background: rgb(255, 103, 18);
+  background: #99CC33;
   font-weight: 700;
   top: -5px;
-  left: 19px;
+  left: 17px;
   color: #1E1E1E;
 }
 

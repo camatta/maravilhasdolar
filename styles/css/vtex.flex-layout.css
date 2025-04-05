@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: all .4s;
+  transition: all .4s;
 }
 
 .flexColChild--utils-desktop-container:hover {
@@ -120,7 +120,8 @@
 }
 
 .flexRow--categoriasmenu-container {
-  padding: 16px 0;
+  margin-top: 16px;
+  margin-bottom: 56px;
 }
 
 .flexRowContent--conditions-container,
@@ -128,8 +129,7 @@
   flex-direction: column;
 }
 
-.flexCol--conditions-desk-content,
-.flexCol--categoriasmenu-desk-content {
+.flexCol--conditions-desk-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -138,7 +138,7 @@
 
 /* SEÇÃO MOSAICO TOPO */
 .flexRow--upper-mosaic-container {
-  margin-bottom: 48px;
+  margin-bottom: 56px;
 }
 
 .flexCol--upper-mosaic-content {
@@ -160,7 +160,7 @@
 }
 
 .flexRow--shelf-container {
-  margin-bottom: 40px;
+  margin-bottom: 56px;
 }
 
 .flexCol--banner-vitrine {
@@ -174,6 +174,12 @@
 
 .flexColChild--banner-vitrine :global(.vtex-store-components-3-x-imageElement) {
   height: 100%;
+}
+
+/* ESPAÇAMENTO MAIOR NA ULTIMA SHELF DA HOME */
+
+.flexRow--shelf-highlights-container {
+  margin-bottom: 96px;
 }
 
 /* CARD PRODUTO */
@@ -199,6 +205,27 @@
 
 .flexColChild--wish-image-content:last-child {
   line-height: 0;
+}
+
+.flexCol--colWrapperPricesSavings {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.flexColChild--colWrapperPricesSavings {
+  height: auto !important;
+}
+
+.flexColChild--colWrapperPricesSavings :global(.vtex-product-price-1-x-savings) {
+  background-color: #FFCC00;
+  border-radius: 47px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #1C1C1C;
+  padding: 1px 8px;
 }
 
 .flexColChild--list-selling-price-summary {
@@ -324,6 +351,8 @@
   flex-direction: row;
   justify-content: end;
   gap: 32px;
+  align-items: center;
+  color: #000;
 }
 
 
@@ -446,22 +475,28 @@
 
 .flexCol--politicas-menu-content {
   max-width: 173px;
-  margin-right: 42px;
 }
 
 .flexCol--footer-category-menu-content {
   max-width: 168px;
-  margin-right: 53px;
 }
 
 .flexCol--cms-menu-content {
   max-width: 139px;
-  margin-right: 54px;
+}
+
+.flexCol--sac-content {
+  min-width: 228px;
 }
 
 .flexCol--cartao-menu-content {
   max-width: 188px;
-  margin-right: 34px;
+  position: relative;
+  right: 30px;
+}
+
+.flexRow--first-line-container .stretchChildrenWidth {
+  justify-content: left;
 }
 
 /* SEÇÃO MÉTODO DE PAGAMENTO, SEGURANÇA, ENTREGA */
@@ -508,6 +543,10 @@
 
 .flexColChild--social-networks-content:hover :global(.vtex-store-components-3-x-imageElement) {
   filter: brightness(500);
+}
+
+.flexRowContent--services-flags  {
+  align-items: center;
 }
 
 /* COPY RODAPÉ */

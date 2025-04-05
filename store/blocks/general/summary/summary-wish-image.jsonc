@@ -15,7 +15,7 @@
 
   "product-summary-image": {
     "props": {
-      "showBadge": true,
+      "showBadge": false,
       "aspectRatio": "1:1",
       "maxHeight": 235
     }

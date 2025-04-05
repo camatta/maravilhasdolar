@@ -1,7 +1,7 @@
 {
   "product-summary.shelf": {
     "children": [
-      "vtex.product-highlights@2.x:product-highlights",
+      "flex-layout.row#wrapper-highlights",
       "flex-layout.row#summary-wish-image",
       "flex-layout.row#summary-name",
       "flex-layout.row#summary-price",
@@ -9,7 +9,22 @@
     ]
   },
 
+  "flex-layout.row#wrapper-highlights": {
+    "props": {
+      "blockClass": ["wrapper-highlights"]
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights"
+    ]
+  },
+
   "vtex.product-highlights@2.x:product-highlights": {
+    "props": {
+      "filter": {
+        "type": "show",
+        "highlightNames": ["%", "Novidades", "Mais Vendidos"]
+      }
+    },
     "children": [
       "product-highlight-wrapper"
     ]
@@ -27,7 +42,7 @@
   "product-highlight-text": {
     "props": {
       "message": "{highlightName}",
-      "blockclass": "highligh-novidades"
+      "blockclass": "highlights-text"
     }
   }
 }

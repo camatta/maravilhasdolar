@@ -72,6 +72,12 @@
 /* FIM INFOS MENU ABAIXO DA PESQUISA */
 
 /* MINICART */
+
+.paragraph--minicart-text {
+  position: relative;
+  bottom: 23px;
+}
+
 .paragraph--utils-text {
   margin: 0;
   font-size: 14px;
@@ -129,6 +135,11 @@
   padding: 6px 25px;
   border: 1px solid #FF0066;
   border-radius: 41px;
+  transition: all .4s;
+}
+
+.link--shelf-cta:hover {
+  background-color: #FF0066;
 }
 
 /* NEWSLETTER */
@@ -236,8 +247,19 @@
   width: 100%;
 }
 
-.paragraph--sac-group-link {
-  margin-bottom: 8px;
+.link--wpp-pj .icon-wpp {
+  position: relative;
+  padding-left: 22px;
+}
+
+.link--wpp-pj .icon-wpp::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-image: url(/assets/icons/icon-wpp.svg);
 }
 
 /* COPY RODAPÉ */
@@ -248,9 +270,9 @@
 
 .paragraph--copy-text {
   margin: 0;
-  color: #979797;
-  font-size: 14px;
-  line-height: 18px;
+  color: #1c1c1c;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 /* DESCRIÇÃO CATEGORIA */

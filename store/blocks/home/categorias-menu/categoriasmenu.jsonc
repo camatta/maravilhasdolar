@@ -20,12 +20,7 @@
         "blockClass": ["categoriasmenu-desk-content"]
       },
       "children": [
-        "info-card#cat1",
-        "info-card#cat2",
-        "info-card#cat3",
-        "info-card#cat4",
-        "info-card#cat5",
-        "info-card#cat6"
+        "slider-layout#categoriasmenu"
       ]
     },
     "flex-layout.col#categoriasmenu-mobi": {

@@ -65,6 +65,8 @@
   display: inline-block;
   text-align: center;
   line-height: 16px;
+  position: relative;
+  top: 3px;
 }
 .container :global(.vtex-button) .label::before {
   content: 'Entre ou';

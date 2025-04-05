@@ -1,4 +1,4 @@
-.productHighlightWrapper {
+:global(.vtex-flex-layout-0-x-flexRowContent--wrapper-highlights) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     z-index: 2;
     display: flex;
     gap: 4px;
@@ -6,11 +6,36 @@
     position: absolute;
     left: 16px;
     top: 16px;
+    justify-content: left;
 }
 
 .productHighlightWrapper[data-highlight-name="Novidades"] {
     color: #fff;
     background-color: #660066;
+    border-radius: 47px;
+    padding: 2px 8px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: fit-content;
+}
+
+.productHighlightWrapper[data-highlight-name="Mais Vendidos"] {
+    color: #fff;
+    background-color: #660066;
+    border-radius: 47px;
+    padding: 2px 8px;
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    width: fit-content;
+}
+
+.productHighlightWrapper[data-highlight-name="%"] {
+    color: #1c1c1c;
+    background-color: #FFCC00;
     border-radius: 47px;
     padding: 2px 8px;
     font-family: Nunito;

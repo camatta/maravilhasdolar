@@ -24,13 +24,36 @@
     "props": {
       "blockClass": ["list-selling-price-summary"]
     },
-    "children": ["product-list-price#summary", "product-selling-price#summary"]
+    "children": ["product-list-price#summary", "flex-layout.row#wrapper-prices-savings"]
   },
   "product-list-price#summary": {
     "props": {
       "blockClass": "list-price-summary"
     }
   },
+
+  "flex-layout.row#wrapper-prices-savings": {
+    "children": [
+      "flex-layout.col#wrapper-prices-savings"
+    ]
+  },
+
+  "flex-layout.col#wrapper-prices-savings": {
+    "props": {
+      "blockClass": "colWrapperPricesSavings"
+    },
+    "children": [
+      "product-selling-price#summary",
+      "product-price-savings#pct"
+    ]
+  },
+
+  "product-price-savings#pct": {
+    "props": {
+      "message": "-{savingsPercentage}"
+    }
+  },
+
   "product-selling-price#summary": {
     "props": {
       "blockClass": "selling-price-summary"

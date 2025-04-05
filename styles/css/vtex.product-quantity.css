@@ -8,11 +8,10 @@
   width: 100%;
 }
 .quantitySelectorContainer :global(.vtex-numeric-stepper__input) {
-  width: 100%;
-  height: 50px;
-  box-shadow: rgba(0,0,0,0.2) -2px 1px 11px -4px;
-  border: 0;
-  padding: 0 28px 0 5px;
+  width: 35px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid #EEEEEE;
   border-radius: 2px;
 }
 .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button-container),
@@ -22,18 +21,25 @@
   z-index: 5;
 }
 .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button-container) {
-  top: 4px;
+  top: 0;
 }
 .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button-container) {
-  bottom: 4px;
+  bottom: 0;
 }
 .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button),
 .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button) {
-  max-width: 26px;
-  height: 19px;
+  max-width: 20px;
+  height: 20px;
   line-height: 10px;
   border-radius: 2px !important;
   background: #FF6600;
   border: 0;
   color: #000000;
+}
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button__text),
+.quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button__text) {
+  font-size: 19px;
+  position: relative;
+  bottom: 1px;
 }
