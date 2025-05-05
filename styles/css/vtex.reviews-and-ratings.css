@@ -1,3 +1,7 @@
+.container {
+    display: grid;
+}
+
 .stars {
     display: flex;
     gap: 2px;
@@ -86,6 +90,8 @@
 
 .reviewComment {
     position: relative;
+    border: unset;
+    padding: 0;
 }
 
 .reviewComment .stars {
@@ -120,9 +126,94 @@
 }
 
 .writeReviewContainer {
-    position: absolute;
+    /* position: absolute;
     right: 0;
     bottom: 0;
     line-height: 1;
+    margin: 0; */
+    order: 10;
+    position: relative;
+}
+
+.summaryTotalReviews {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    position: relative;
+    top: 1px;
+}
+
+.reviewsRating {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.reviewsRatingCount {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.loginLink,
+.writeReviewButton {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1c1c1c;
+    padding: 0;
+    padding-right: 16px;
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    width: 65px;
+}
+
+.loginLink::after,
+.writeReviewButton::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background-image: url(assets/icons/icon-seta-avaliar.svg);
+}
+
+.reviewsRatingAverage {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3F3F3F;
+    position: absolute;
+    left: -34px;
+    top: 0;
+}
+
+.reviewsPaging :global(.vtex-button) {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.reviewsPaging :global(.vtex-button):hover {
+    border-color: #660066;
+}
+
+.formContainer  {
+    padding: 0;
+    box-shadow: unset;
+    border: unset;
     margin: 0;
+}
+
+.formSection {
+    margin: 16px 0;
 }

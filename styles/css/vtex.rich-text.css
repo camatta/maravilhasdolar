@@ -162,6 +162,7 @@
   font-size: 14px;
   line-height: 19px;
   color: #520052;
+  margin: 0;
 }
 
 
@@ -195,8 +196,16 @@
   color: #000000;
 }
 .link--cms-link,
-.link--sac-group-link {
+.link--sac-group-link,
+:global(.vtex-flex-layout-0-x-flexRowContent--footer-container) :global(.vtex-category-menu-2-x-departmentLink) {
   font-weight: inherit;
+  transition: all .3s;
+}
+
+.link--cms-link:hover,
+.link--sac-group-link:hover,
+:global(.vtex-flex-layout-0-x-flexRowContent--footer-container) :global(.vtex-category-menu-2-x-departmentLink):hover {
+  text-decoration: underline;
 }
 
 .paragraph--sac-group-title {
@@ -259,7 +268,11 @@
   top: 0;
   width: 16px;
   height: 16px;
-  background-image: url(/assets/icons/icon-wpp.svg);
+  background-image: url(https://centerlar.vtexassets.com/assets/vtex/assets-builder/centerlar.store-theme/1.0.1/icons/icon-wpp.svg);
+}
+
+.container--footer-all-categories {
+  margin-top: 8px;
 }
 
 /* COPY RODAPÉ */
@@ -277,7 +290,7 @@
 
 /* DESCRIÇÃO CATEGORIA */
 .wrapper--search-description {
-  margin-top: 37px;
+  margin-top: 32px;
 }
 .heading--description-text {
   font-size: 18px;

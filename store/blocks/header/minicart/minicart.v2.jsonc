@@ -31,7 +31,10 @@
     "children": ["minicart-summary", "minicart-checkout-button"]
   },
   "minicart-product-list": {
-    "blocks": ["product-list#minicart"]
+    "blocks": ["product-list#minicart"],
+    "props": {
+      "blockClass": ["list-minicart"]
+    }
   },
   "minicart-summary": {
     "blocks": ["checkout-summary.compact#minicart"]

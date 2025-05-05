@@ -54,6 +54,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     gap: 17px;
+    justify-content: space-between;
 }
 
 .lojasBloco {
@@ -76,10 +77,13 @@ p {
 }
 
 .nomeLoja {
+    max-width: 141px;
+}
+
+.nomeLoja strong {
     color: #660066;
-    font-weight: 700;
+    font-weight: 700 !important;
     font-size: 16px;
-    letter-spacing: 0%;
 }
 
 .numeroLoja {
@@ -98,3 +102,9 @@ p {
     margin-bottom: 16px;
 }
 
+.textosLoja p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3F3F3F;
+}

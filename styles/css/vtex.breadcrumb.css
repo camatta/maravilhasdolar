@@ -1,8 +1,12 @@
 .container {
-  padding: 24px 0 32px;
+  padding: 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--search-bread-content) {
+  padding: 24px 0;
 }
 
 .homeIcon {
@@ -33,17 +37,15 @@
 
 .link {
   font-size: 12px;
-  color: #666666;
+  line-height: 16px;
+  color: #1C1C1C;
 }
 .link:hover {
   color: #000;
 }
 
-.homeLink {
-  padding-right: 4px;
-}
 .arrow--breadcrumb-search:not(:first-child) {
-  padding-left: 0;
+  padding-left: 8px;
 }
 .term {
   font-size: 12px;

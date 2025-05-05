@@ -9,6 +9,12 @@
   background: #474747;
 }
 
+/* Categoria */
+
+:global(.vtex__icon-check) path {
+  fill: unset;
+}
+
 /* MENU MOBILE */
 :global(.vtex-category-menu-2-x-sidebarContainer) > div:last-child {
   padding: 0;
@@ -127,6 +133,20 @@
   align-items: center;
   gap: 15px;
   padding: 30px 0 60px;
+}
+
+/* MINICART LATERAL */
+
+:global(.vtex-product-list-0-x-inputContainer) input {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
+}
+
+:global(.vtex-product-list-0-x-quantitySelectorButton) svg {
+  display: none
 }
 
 /* Página do produto */
@@ -284,6 +304,80 @@
 /* SUCESSO DO PEDIDO */
 :global(.vtex-order-placed-2-x-confirmationIconWrapper) > svg {
   display: none;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-reviewsPaging) :global(.flex.flex-row.pt5.items-center) {
+  align-items: end !important;
+  padding: 0;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) :global(.vtex-styleguide-9-x-jsFocusVisible) :global(.c-action-primary.mr3.self-center) {
+  display: none !important;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formContainer) :global(.vtex-card) {
+  padding: 0 !important;
+  margin-top: 32px;
+  box-shadow: unset !important;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formContainer) h3 {
+  display: none !important;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-styleguide-9-x-input) {
+  background-color: #ECECEC;
+  border-radius: 59px;
+  height: 35px;
+  border: unset;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-input-prefix__group) {
+  border: unset;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-input__label),
+:global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-textarea__label) {
+  margin-bottom: 6px;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3F3F3F;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-starpicker) :global(.t-heading-4.pointer) {
+  display: flex;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-textarea__input) {
+  height: 92px;
+  background-color: #ECECEC;
+  border-radius: 15px;
+  border: unset;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formSubmit) :global(.vtex-button) {
+  border: 1px solid #FF6600;
+  border-radius: 41px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formSubmit) :global(.vtex-button):hover {
+  background-color: #FF6600;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-formSubmit) :global(.vtex-button__label) {
+  font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #1C1C1C;
+    text-transform: capitalize;
+    padding: 8px 24px;
 }
 
 @media (min-width: 1100px) {

@@ -4,7 +4,36 @@
     "props": {
       "blockClass": "product-image-content"
     },
-    "children": ["responsive-layout.desktop#image-pdp", "responsive-layout.mobile#image-pdp", "flex-layout.row#product-warning-b2b", "flex-layout.row#product-description"]
+    "children": ["vtex.product-highlights@2.x:product-highlights#pdp", "responsive-layout.desktop#image-pdp", "responsive-layout.mobile#image-pdp", "flex-layout.row#product-warning-b2b", "flex-layout.row#product-description"]
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#pdp": {
+    "props": {
+      "filter": {
+        "type": "show",
+        "highlightNames": ["%", "Novidades", "Mais Vendidos"]
+      },
+      "blockClass": ["wrapperPdpHighlight"]
+    },
+    "children": [
+      "product-highlight-wrapper#pdp"
+    ]
+  },
+
+  "product-highlight-wrapper#pdp": {
+    "children": [
+      "product-highlight-text#pdp"
+    ],
+    "props": {
+      "blockclass": "wrapper-highlights-pdp"
+    }
+  },
+
+  "product-highlight-text#pdp": {
+    "props": {
+      "message": "{highlightName}",
+      "blockclass": "highlights-text-pdp"
+    }
   },
 
   "responsive-layout.desktop#image-pdp": {
@@ -12,11 +41,11 @@
   },
   "product-images#desktop": {
     "props": {
-      "aspectRatio": "3:4",
+      "aspectRatio": "1:1",
       "thumbnailAspectRatio": "1:1",
       "showNavigationArrows": false,
       "showPaginationDots": false,
-      "maxHeight": 443,
+      "maxHeight": 534,
       "thumbnailMaxHeight": 68,
       "zoomMode": "in-place-hover"
     }

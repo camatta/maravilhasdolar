@@ -37,7 +37,8 @@
     "props": {
       "fullWidth": true,
       "colSizing": "auto",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": "true",
+      "blockClass": "card-product-minicart"
     },
     "children": [
       "flex-layout.col#image.mobile",

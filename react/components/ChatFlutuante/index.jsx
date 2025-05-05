@@ -16,6 +16,7 @@ const ChatFlutuante = () => {
                 const botElement = document.querySelector(".dt-BOTfloater");
                 if (botElement) {
                     botElement.style.bottom = "30px";
+                    botElement.style.zIndex = "99";
                 }
             }, 1000);
         };

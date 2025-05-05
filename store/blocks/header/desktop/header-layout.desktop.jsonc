@@ -9,7 +9,8 @@
 
   "sticky-layout#desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": "sticky-header",
+      "position": "top"
     },
     "children": ["flex-layout.row#header-desktop", "flex-layout.row#menu-desktop"]
   }

@@ -43,3 +43,22 @@
   position: relative;
   bottom: 1px;
 }
+
+/* PDP */
+
+:global(.vtex-flex-layout-0-x-flexRow--actions-pdp-container) .quantitySelectorContainer :global(.vtex-numeric-stepper__input) {
+  width: 39px;
+  height: 51px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--actions-pdp-container) .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button-container),
+:global(.vtex-flex-layout-0-x-flexRow--actions-pdp-container) .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button-container) {
+  right: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--actions-pdp-container) .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-flex-layout-0-x-flexRow--actions-pdp-container) .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button) {
+  width: 24px !important;
+  max-width: 24px;
+  height: 24px;
+}

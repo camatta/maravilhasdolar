@@ -48,3 +48,7 @@
   line-height: 0;
   transition: all 0.3s ease-in-out;
 }
+
+.wishlistIconContainer--add-to-list-btn-pdp::hover {
+  display: none;
+}

@@ -11,15 +11,39 @@
       "blockClass": ["related-products-content"]
     },
     "children": [
-      "rich-text#related-products-title",
+      "flex-layout.row#title-pdp-related",
       "list-context.product-list#list-pdp-related"
+    ]
+  },
+
+  "flex-layout.row#title-pdp-related": {
+    "children": [
+      "flex-layout.col#title-pdp-related",
+      "flex-layout.col#cta-pdp-related"
+    ]
+  },
+
+  "flex-layout.col#title-pdp-related": {
+    "children": [
+      "rich-text#related-products-title"
     ]
   },
 
   "rich-text#related-products-title": {
     "props": {
       "blockClass": ["related-title", "shelf-title"],
-      "text": "#### Quem viu esse, viu também"
+      "text": "#### Leve junto"
+    }
+  },
+
+  "flex-layout.col#cta-pdp-related": {
+    "children": ["rich-text#cta-pdp-related"]
+  },
+
+  "rich-text#cta-pdp-related": {
+    "props": {
+      "text": "[Ver mais](/panelas)",
+      "blockClass": ["shelf-cta"]
     }
   },
 

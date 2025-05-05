@@ -284,8 +284,8 @@
       </svg>
     </g>
     <g id="nav-caret--right">
-      <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5.59459 7.29494L0 1.70211L1.7027 -6.10352e-05L9 7.29494L1.7027 14.5899L0 12.8878L5.59459 7.29494Z" fill="#1C1B1F"/>
+      <svg width="8" height="16" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.666667 0.666666L4 4L0.666667 7.33333L0.0750002 6.74167L2.81667 4L0.0749998 1.25833L0.666667 0.666666Z" fill="#767676"/>
       </svg>
     </g>
     <g id="nav-caret--up">

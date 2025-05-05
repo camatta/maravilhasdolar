@@ -92,6 +92,12 @@
   text-align: center;
 }
 
+:global(.vtex-minicart-2-x-minicartProductListContainer--list-minicart) .flexRowContent--minicart .flexRowContent--card-product-minicart {
+  background-color: #fff;
+  padding: 10px 16px;
+  border-radius: 4px;
+}
+
 /* MENU */
 .flexRow--menu-container {
   background: #FFCC00;
@@ -358,7 +364,7 @@
 
 /* FOOTER CONTEÚDO */
 .flexRow--footer-container {
-  padding: 50px 0 24px;
+  padding: 32px 0 49px;
 }
 
 .flexRowContent--footer-container {
@@ -424,7 +430,7 @@
 }
 
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-itemContainer--department):not(:first-child) {
-  margin-top: 11px;
+  margin-top: 8px;
 }
 
 .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-departmentLink):first-child,
@@ -566,6 +572,23 @@
 }
 
 /* CATÁLOGO */
+
+.flexCol--search-bread-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCol--search-bread-content .flexRow--search-toolbar-container {
+  padding: 0;
+  border: 0;
+}
+
+.flexColChild--search-bread-content {
+  height: auto !important;
+}
+
 .flexRowContent--result-grid-container {
   gap: 30px;
 }
@@ -575,8 +598,7 @@
 }
 
 .flexRow--search-toolbar-container {
-  padding-bottom: 28px;
-  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 32px;
 }
 
 .flexRowContent--search-toolbar-container {
@@ -588,7 +610,7 @@
 }
 
 .flexRow--search-products-container {
-  margin: 24px 0;
+  margin: 32px 0 48px;
 }
 
 .flexRowContent--result-description-container {
@@ -644,7 +666,6 @@
 .flexCol--shipping-content-pdp {
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .flexRow--actions-pdp-container {
@@ -688,6 +709,17 @@
   text-transform: capitalize;
 }
 
+.flexColChild--product-image-content {
+  position: relative;
+}
+
+.flexColChild--product-image-content :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
 .flexRowContent--actions-pdp-container :global(.vtex-add-to-cart-button-0-x-buttonText--buy-button-pdp) {
   position: relative;
   padding-left: 34px;
@@ -706,7 +738,7 @@
 }
 
 .flexRowContent--actions-pdp-container :global(.vtex-button__label) {
-  padding: 16px 10px !important;
+  padding: 8px 10px !important;
 }
 
 .flexRow--info-tabs-container {
@@ -715,7 +747,7 @@
 }
 
 .flexRow--related-products-container {
-  margin: 56px 0;
+  margin: 56px 0 96px;
 }
 
 .flexRow--rating-full-container .stretchChildrenWidth {
@@ -832,6 +864,8 @@
 .flexRowContent--product-breadcrumb-container {
   align-items: center;
   justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /*RODAPÉ MINICART*/
@@ -840,11 +874,11 @@
 }
 .flexRowContent--qty-price__container {
   display: flex;
-  flex-direction: column-reverse;
-  gap: 8px;
+  gap: 38px;
+  align-items: center;
 }
 .flexRow--minicart:not(:first-child) {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 .flexRow--minicart :global(.vtex-nivelepoc-sellerInfo) {
   margin-top: 0;
@@ -863,10 +897,15 @@
 
 .flexRow--minicart-footer {
   box-shadow: unset;
-  padding: 32px 0 24px;
-  margin: 0 32px;
-  border-top: 1px solid #E0E0E0;
+  padding: 32px 21px;
+  margin: 0 24px;
+  height: 253px;
+  background-color: #fff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  position: relative;
 }
+
 /*FIM RODAPÉ MINICART*/
 
 /* PÁGINAS CMS */

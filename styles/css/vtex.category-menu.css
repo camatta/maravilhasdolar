@@ -20,7 +20,7 @@
   line-height: 18px;
   margin: 0;
 }
-.itemContainer--department:nth-child(n+8) {
+.itemContainer--department:nth-child(n+7) {
   display: none;
 }
 .departmentLink,

@@ -13,12 +13,13 @@
     "props": {
       "blockClass": "search-bread-content"
     },
-    "children": ["breadcrumb.search"]
+    "children": ["breadcrumb.search", "flex-layout.row#search-toolbar"]
   },
   "breadcrumb.search": {
     "props": {
       "blockClass": "breadcrumb-search",
-      "showOnMobile": true
+      "showOnMobile": true,
+      "caretIconSize": 8
     }
   }
 }
