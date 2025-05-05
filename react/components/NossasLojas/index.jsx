@@ -253,7 +253,7 @@ const lojasData = [
     horario: 'Seg. a Sábado: 10h às 22h - 14/12 e 19/12 a 21:12: 10h às 23h - 23/12: 9h às 23h | Domingos: 12h às 20h | 24/12: 9h às 18h | 31/12: 10h às 16h | 25/12 e 01/01: Fechado',
   },
   {
-    foto: 'jundiai.png',
+    foto: 'jundiai-matriz.png',
     localizacao: 'Jundiaí - Matriz',
     numero: '01',
     endereco: 'Rua dos Indaiás, 795',
@@ -373,7 +373,7 @@ const lojasData = [
     horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
   },
   {
-    foto: 'ribeirao-preto-min.png',
+    foto: 'ribeirao-preto-amin.png',
     localizacao: 'Ribeirão Preto - Amin Calil',
     numero: '22',
     endereco: 'Rua Joaquim Nabuco, 584 Rotatória Amin Calil',
