@@ -12,8 +12,8 @@
 
   "icon-cart#minicart-icon": {
     "props": {
-      "size": 33,
-      "viewBox": "0 0 33 28"
+      "size": 22,
+      "viewBox": "0 0 22 22"
     }
   },
 

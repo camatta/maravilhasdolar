@@ -11,10 +11,31 @@
   },
 
   "mega-menu#header-category-menu": {
+    "title": "Menu de Categorias Desktop",
     "props": {
       "showAllDepartments": true,
       "showSubcategories": true,
-      "menuDisposition": "right"
+      "menuDisposition": "right",
+      "mainBanner": {
+        "src": "assets/mega-menu/banner-todas-categorias.png",
+        "bannerLink": "/cozinha",
+        "bannerAlt": "Jogos de talheres, até 25% off, clique e confira!",
+        "bannerLinkCta": "Ver todos os produtos"
+      },
+      "departments": [
+        { "id": 3 },
+        {
+          "id": 2,
+          "src": "assets/mega-menu/banner-brinquedos.png",
+          "bannerAlt": "Jogos de tabuleiro, até 30% off, clique e confira!",
+          "bannerLink": "/brinquedos"
+        },
+        { "id": 4 },
+        { "id": 5 },
+        { "id": 6 },
+        { "id": 7 },
+        { "id": 8 }
+      ]
     }
   }
 }

@@ -1,4 +1,4 @@
-.summaryItemContainer--minicart:first-child {
+.summaryItemContainer--minicart:last-child {
     display: none;
 }
 .summaryItemContainer--minicart {

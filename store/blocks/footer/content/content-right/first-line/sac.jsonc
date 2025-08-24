@@ -95,7 +95,7 @@
   "rich-text#sac-phone-second": {
     "props": {
       "blockClass": ["sac-group-link","wpp-pj"],
-      "text": "[Compras Pessoa Jurídica:\n<span class='vtex-rich-text-0-x-icon-wpp'>(11) 93236-1811</span>](tel:1193236-1811)"
+      "text": "Compras Pessoa Jurídica:\n[<span class='vtex-rich-text-0-x-icon-wpp'>(11) 93236-1811</span>](tel:1193236-1811)"
     }
   },
 

@@ -30,18 +30,17 @@
 .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button) {
   max-width: 20px;
   height: 20px;
-  line-height: 10px;
   border-radius: 2px !important;
   background: #FF6600;
   border: 0;
   color: #000000;
+  align-items: center;
 }
 
 .quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button__text),
 .quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button__text) {
-  font-size: 19px;
+  font-size: 8px;
   position: relative;
-  bottom: 1px;
 }
 
 /* PDP */

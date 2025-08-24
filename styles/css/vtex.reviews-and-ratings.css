@@ -87,6 +87,13 @@
 .reviewDateValue {
     font-weight: 400 !important;
 }
+.reviewDateValue {
+    font-size: 12px;
+}
+
+.reviewVerifiedPurchase {
+    display: none !important;
+}
 
 .reviewComment {
     position: relative;
@@ -126,13 +133,9 @@
 }
 
 .writeReviewContainer {
-    /* position: absolute;
-    right: 0;
-    bottom: 0;
-    line-height: 1;
-    margin: 0; */
     order: 10;
     position: relative;
+    margin: 0;
 }
 
 .summaryTotalReviews {
@@ -168,21 +171,22 @@
     line-height: 19px;
     color: #1c1c1c;
     padding: 0;
-    padding-right: 16px;
-    position: absolute;
-    top: -2rem;
-    right: 0;
     width: 65px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-bottom: 1px solid #1C1C1C;
+}
+.loginLink:hover,
+.writeReviewButton:hover {
+    color: #1c1c1c;
 }
 
 .loginLink::after,
 .writeReviewButton::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    background-image: url(assets/icons/icon-seta-avaliar.svg);
+    content: url(assets/icons/icon-seta-avaliar.svg);
+    line-height: 0;
 }
 
 .reviewsRatingAverage {
@@ -216,4 +220,13 @@
 
 .formSection {
     margin: 16px 0;
+}
+
+.formReview :global(.vtex-textarea__label) {
+    font-size: 0;
+}
+.formReview :global(.vtex-textarea__label)::before {
+    content: 'Escreva uma avaliação';
+    font-size: 14px;
+    line-height: 19px;
 }

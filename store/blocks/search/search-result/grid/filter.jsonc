@@ -9,5 +9,13 @@
       "flex-layout.row#search-toolbar-lateral",
       "filter-navigator.v3"
     ]
+  },
+
+  "filter-navigator.v3": {
+    "props": {
+       "truncateFilters": true,
+       "maxItemsDepartment": 7,
+       "maxItemsCategory": 7
+    }
   }
 }

@@ -51,7 +51,7 @@
   },
   "rich-text#cartao-maravilhas": {
     "props": {
-      "text": "[Cartão Maravilhas](/cartao-maravilhas)",
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--menu-bottom-search vtex-rich-text-0-x-link--menu-cartao-maravilhas' href='https://lp.maravilhasdolar.com/cartao-maravilhas' target='_blank'>Cartão Maravilhas</a>",
       "blockClass": ["menu-bottom-search", "menu-cartao-maravilhas"]
     }
   },
@@ -80,7 +80,13 @@
     "children": ["flex-layout.col#store-info-desktop"]
   },
   "flex-layout.col#store-info-desktop": {
-    "children": ["overlay-trigger#store-info"] // Arquivo overlay-trigger.store-info.jsonc
+    "children": ["rich-text#for-companies-link"] // Arquivo overlay-trigger.store-info.jsonc
+  },
+  "rich-text#for-companies-link": {
+    "props": {
+      "text": "[**Para\nEmpresas**](/para-empresas)",
+      "blockClass": ["store-info-link", "for-companies"]
+    }
   },
 
   "flex-layout.row#login-desktop": {

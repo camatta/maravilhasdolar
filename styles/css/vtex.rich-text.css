@@ -8,10 +8,10 @@
 }
 .paragraph--text-topbar {
   font-size: 14px;
-  font-weight: 400;
   line-height: 19.1px;
   color: #fff;
   margin: 11px 0;
+  font-weight: 700;
 }
 /*FIM TOPLINE*/
 
@@ -67,6 +67,28 @@
 
 .wrapper--menu-bottom-search .paragraph {
   margin: 0;
+  line-height: 16px;
+}
+
+.paragraph--store-info-link {
+  margin: 0;
+}
+.link--for-companies::before {
+  content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19.0294 6.34695H16.0848V4.50699C16.0848 3.67607 15.4018 3.00014 14.5624 3.00014H9.44092C8.6015 3.00014 7.91859 3.67615 7.91859 4.50699V6.34695H4.97388C3.2447 6.34695 1.83789 7.75375 1.83789 9.48294V18.4384C1.83789 19.8509 2.98699 21 4.39947 21H19.6038C21.0163 21 22.1654 19.8509 22.1654 18.4384V9.48294C22.1654 7.75375 20.7586 6.34695 19.0294 6.34695ZM9.11326 4.50699C9.11326 4.32901 9.25413 4.19481 9.44092 4.19481H14.5624C14.7492 4.19481 14.89 4.32901 14.89 4.50699V6.34695H9.11326V4.50699ZM20.9707 18.4384C20.9707 19.1921 20.3575 19.8053 19.6038 19.8053H4.39947C3.64573 19.8053 3.03257 19.1921 3.03257 18.4384V12.8588C3.21964 12.9762 3.42419 13.0713 3.64366 13.1391C3.6551 13.1426 3.66661 13.1458 3.6782 13.1487L9.76382 14.636V15.1272C9.76382 15.8986 10.3914 16.5261 11.1627 16.5261H12.8406C13.6119 16.5261 14.2394 15.8986 14.2394 15.1272V14.636L20.3251 13.1487C20.3367 13.1459 20.3482 13.1427 20.3596 13.1391C20.5791 13.0713 20.7836 12.9762 20.9707 12.8588V18.4384H20.9707ZM10.9585 15.1272V13.4418C10.9585 13.3292 11.0501 13.2376 11.1627 13.2376H12.8406C12.9532 13.2376 13.0448 13.3292 13.0448 13.4418V15.1272C13.0448 15.2398 12.9532 15.3314 12.8406 15.3314H11.1627C11.0501 15.3314 10.9585 15.2398 10.9585 15.1272ZM20.9707 10.6867C20.9707 11.2873 20.5904 11.81 20.0225 11.9927L14.2386 13.4063C14.2197 12.6513 13.6001 12.0428 12.8406 12.0428H11.1627C10.4033 12.0428 9.78371 12.6513 9.76474 13.4063L3.98077 11.9928C3.41291 11.81 3.03257 11.2873 3.03257 10.6867V9.48294C3.03257 8.41249 3.90343 7.54162 4.97388 7.54162H19.0294C20.0998 7.54162 20.9707 8.41249 20.9707 9.48294V10.6867H20.9707Z" fill="%23FF0066"/></svg>');
+  line-height: 0;
+}
+.link--for-companies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+}
+.strong--store-info-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 /* FIM INFOS MENU ABAIXO DA PESQUISA */
@@ -112,7 +134,7 @@
   display: block;
 }
 .heading--shelf-title {
-  margin: 0 0 16px;
+  margin: 0 0 8px;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -152,7 +174,6 @@
   max-width: 225px;
   width: 100%;
   font-weight: 700;
-  text-align: center;
 }
 
 /* FOOTER CONTEÚDO */
@@ -293,18 +314,18 @@
   margin-top: 32px;
 }
 .heading--description-text {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 23px;
   margin: 0 0 24px;
-  color: #201F1F;
+  color: #1C1C1C;
 }
 .paragraph--description-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   margin: 0;
-  color: #201F1F;
+  color: #1C1C1C;
 }
 .paragraph--description-text:not(:first-child) {
   margin-top: 24px;
@@ -346,7 +367,7 @@
   font-weight: 400;
   line-height: 21.82px;
   text-align: left;
-  color: #000;
+  color: #1c1c1c;
   position: relative;
   padding-left: 28px;
   margin: 0;

@@ -21,10 +21,12 @@ const CategoryItem = ({
   category,
   subcategoryLevels,
   menuPosition,
+  mainBanner,
   category: { name, slug },
   noRedirect,
   isCategorySelected,
   sortSubcategories,
+  bannerCategory
 }) => {
   const [isHover, setHover] = useState(false)
   const itemRef = useRef(null)
@@ -35,7 +37,7 @@ const CategoryItem = ({
 
   const categoryClasses = classNames(
     styles.departmentLink,
-    'w-100 pv5 no-underline t-small outline-0 db tc link truncate bb bw1 c-muted-1',
+    'no-underline t-small outline-0 db tc link truncate bb bw1 c-muted-1',
     {
       'b--transparent': !isHover && !isCategorySelected,
       'b--action-primary pointer': isHover || isCategorySelected,
@@ -76,7 +78,8 @@ const CategoryItem = ({
           params={{ department: slug }}
           className={categoryClasses}
         >
-          {name}
+          <span>{name}</span>
+          {subcategoryLevels > 0 && category.children.length > 0 && <HamburguerArrow/>}
         </Link>
       )}
 
@@ -89,6 +92,8 @@ const CategoryItem = ({
           onCloseMenu={handleCloseMenu}
           showSecondLevel={subcategoryLevels === 2}
           sortSubcategories={sortSubcategories}
+          mainBanner={mainBanner}
+          bannerCategory={bannerCategory}
         />
       )}
     </li>

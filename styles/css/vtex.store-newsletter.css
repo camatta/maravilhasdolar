@@ -36,7 +36,7 @@
   border-radius: 65px;
 }
 .emailInputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
-  color: #000;
+  color: #1c1c1c;
 }
 
 .formSubmitContainer :global(.vtex-button) {

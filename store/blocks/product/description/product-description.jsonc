@@ -24,8 +24,9 @@
     },
     "product-description": {
         "props": {
+            "blockClass": ["product-description"],
             "title": "Descrição",
-            "collapseContent": false
+            "collapseContent": true
         }
     }
 }

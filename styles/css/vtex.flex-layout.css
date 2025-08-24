@@ -41,8 +41,10 @@
 }
 
 .flexCol--utils-desktop-container {
+  display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 8px;
 }
 
 .flexColChild--utils-desktop-container {
@@ -57,16 +59,6 @@
 .flexColChild--utils-desktop-container:hover {
   border-radius: 4px;
   background-color: #EEEEEE;
-}
-
-.flexColChild--utils-desktop-container:first-child {
-  margin-right: 19px;
-}
-
-/* BOX LOGIN */
-.flexRowContent--row-login-container {
-  width: 122px;
-  gap: 14px;
 }
 
 .flexCol--login-icon {
@@ -90,6 +82,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 4px;
 }
 
 :global(.vtex-minicart-2-x-minicartProductListContainer--list-minicart) .flexRowContent--minicart .flexRowContent--card-product-minicart {
@@ -126,7 +119,6 @@
 }
 
 .flexRow--categoriasmenu-container {
-  margin-top: 16px;
   margin-bottom: 56px;
 }
 
@@ -152,7 +144,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 23px;
+  gap: 15px;
 }
 
 .flexColChild--upper-mosaic-content {
@@ -180,6 +172,7 @@
 
 .flexColChild--banner-vitrine :global(.vtex-store-components-3-x-imageElement) {
   height: 100%;
+  border-radius: 6px;
 }
 
 /* ESPAÇAMENTO MAIOR NA ULTIMA SHELF DA HOME */
@@ -271,9 +264,12 @@
   min-height: initial;
 }
 
-.flexColChild--summary-action-content :global(.vtex-button):hover,
 .flexColChild--summary-action-content :global(.vtex-button) {
   background: #99CC33;
+  transition: all .3s ease-in-out;
+}
+.flexColChild--summary-action-content :global(.vtex-button):hover {
+  background: #8DBE2A;
 }
 
 .flexColChild--summary-action-content :global(.vtex-button) {
@@ -312,6 +308,9 @@
 }
 
 /* SEÇÃO MOSAICO RODAPÉ */
+.flexColChild--categoriasmenu-desk-content {
+  margin: 0 -7.5px;
+}
 .flexRow--bottom-mosaic-container {
   margin: 16px 0 56px;
 }
@@ -548,7 +547,7 @@
 }
 
 .flexColChild--social-networks-content:hover :global(.vtex-store-components-3-x-imageElement) {
-  filter: brightness(500);
+  filter: brightness(0) invert(1);
 }
 
 .flexRowContent--services-flags  {
@@ -606,7 +605,7 @@
 }
 
 .flexRow--result-grid-container {
-  padding-bottom: 80px;
+  padding-bottom: 105px;
 }
 
 .flexRow--search-products-container {
@@ -625,6 +624,7 @@
 }
 
 .flexRow--rating-wish-container {
+  margin-top: 16px;
   margin-bottom: 8px;
 }
 
@@ -707,6 +707,10 @@
   text-align: left;
   color: #1C1C1C;
   text-transform: capitalize;
+  transition: all .3s ease-in-out;
+}
+.flexRowContent--actions-pdp-container :global(.vtex-button):hover {
+  background: #8DBE2A;
 }
 
 .flexColChild--product-image-content {

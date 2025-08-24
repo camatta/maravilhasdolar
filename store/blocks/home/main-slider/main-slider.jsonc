@@ -17,7 +17,11 @@
         {
           "image": "assets/slider-principal/desk/BannerTopo.png",
           "mobileImage": "assets/slider-principal/kit-neutrogena.png",
-          "description": "Dolce Gusto - Maravilhas do Lar"
+          "description": "Dolce Gusto - Maravilhas do Lar",
+          "link": {
+            "url": "/capsulas-de-cafe/dolcegusto",
+            "title": "Dolce Gusto - Maravilhas do Lar"
+          }
         },
         {
           "image": "assets/slider-principal/desk/BannerTopo.png",
