@@ -15,24 +15,24 @@
     "path": "/fale-conosco"
   },
 
-  "store.custom#politica-de-envio": {
-    "path": "/politicas-de-envio"
+  "store.custom#politica-de-frete": {
+    "path": "/politica-de-frete"
   },
 
   "store.custom#politica-de-pagamento": {
     "path": "/politicas-de-pagamento"
   },
 
-  "store.custom#trocas-e-devolucoes": {
-    "path": "/trocas-e-devolucoes"
+  "store.custom#trocas-e-cancelamentos": {
+    "path": "/troca-e-cancelamento"
   },
 
   "store.custom#politica-privacidade": {
-    "path": "/politicas-de-privacidade"
+    "path": "/politica-de-privacidade"
   },
 
-  "store.custom#politica-de-seguranca": {
-    "path": "/politica-de-seguranca"
+  "store.custom#relatorio-de-transparencia": {
+    "path": "/relatorio-de-transparencia"
   },
 
   "store.custom#politica-de-cookies": {
@@ -53,6 +53,10 @@
 
   "store.custom#termos-cartao": {
     "path": "/termos-e-condicoes-cartao"
+  },
+
+  "store.custom#termos-e-condicoes": {
+    "path": "/termos-e-condicoes"
   },
 
   "store.custom#termos-lista": {

@@ -7,28 +7,28 @@
     "children": ["flex-layout.col#main-slider"]
   },
   "flex-layout.col#main-slider": {
-    "children": ["list-context.image-list#main-slider"]
+    "children": ["list-context.image-list#main-slider-maravilhas"]
   },
- "list-context.image-list#main-slider": {
+ "list-context.image-list#main-slider-maravilhas": {
   "title": "Carrossel Principal",
-    "children": ["slider-layout#main-slider"],
+    "children": ["slider-layout#main-slider-maravilhas"],
     "props": {
       "images": [
         {
           "image": "assets/slider-principal/desk/BannerTopo.png",
-          "mobileImage": "assets/slider-principal/kit-neutrogena.png",
+          "mobileImage": "assets/slider-principal/mob/BannerTopoMobile.png",
           "description": "Dolce Gusto - Maravilhas do Lar"
         },
         {
           "image": "assets/slider-principal/desk/BannerTopo.png",
-          "mobileImage": "assets/slider-principal/dove.png",
+          "mobileImage": "assets/slider-principal/mob/BannerTopoMobile.png",
           "description": "Dolce Gusto - Maravilhas do Lar"
         }
       ]
     }
   },
 
-  "slider-layout#main-slider": {
+  "slider-layout#main-slider-maravilhas": {
     "props": {
      "itemsPerPage": {
         "desktop": 1,

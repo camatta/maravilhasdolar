@@ -17,7 +17,7 @@
 }
 
 .userInfo {
-  margin-bottom: 20px;
+  margin-bottom: 64px;
 }
 
 .userGreeting {
@@ -26,6 +26,26 @@
 .userName {
   font-size: 14px;
   font-weight: 600;
+}
+
+.profileBoxContainer {
+  padding-left: 1.2rem;
+}
+
+.boxContainer {
+  border: unset;
+  background-color: #F9F9F9;
+}
+
+.boxContainer :global(.vtex-button) :global(.vtex-button__label) {
+  color: #660066;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.boxContainer :global(.vtex-button) :global(.vtex-button__label):hover {
+  background-color: unset;
 }
 
 @media (max-width: 1024px) {

@@ -1,0 +1,42 @@
+{
+  "store.custom#relatorio-de-transparencia": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#wrapper-relatorio-de-transparencia"
+    ]
+  },
+
+  "flex-layout.row#wrapper-relatorio-de-transparencia": {
+    "children": [
+      "flex-layout.col#menu-cms-institucional",
+      "flex-layout.col#relatorio-de-transparencia"
+    ],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-relatorio-de-transparencia"]
+    }
+  },
+
+  "flex-layout.col#relatorio-de-transparencia": {
+    "children": [
+      "rich-text#relatorio-de-transparencia-title",
+      "rich-text#relatorio-de-transparencia-conteudo"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#relatorio-de-transparencia-title": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Relatório de Transparência Salarial"
+    }
+  },
+  "rich-text#relatorio-de-transparencia-conteudo": {
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "## Relatório\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante magna, elementum eu magna hendrerit, interdum tempor sapien. Cras interdum dictum mauris, sit amet auctor tellus congue vitae. Duis in blandit augue. Curabitur dapibus, orci in aliquet euismod, mauris magna gravida lectus, at fermentum elit nisi eu nibh. Proin non aliquam arcu. Nunc ac mauris lorem. Donec bibendum ligula aliquet lectus pharetra, nec vulputate nulla commodo. Aliquam condimentum ultricies eros nec posuere. Donec justo velit, consequat non scelerisque consectetur, ullamcorper at felis. Pellentesque venenatis sem ipsum, nec euismod purus posuere vitae. Fusce accumsan tempor purus, et maximus lectus semper a. Pellentesque eleifend nibh vitae mattis sagittis.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

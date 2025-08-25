@@ -1,0 +1,66 @@
+{
+    "flex-layout.col#menu-cms-politicas": { // Menu Lateral para Páginas CMS Institucionais
+      "children": [
+        "rich-text#title-menu-cms-politicas", // Título do Menu
+        "rich-text#content-menu-cms-troca-e-cancelamento", // Cada linha representa um link do menu
+        "rich-text#content-menu-cms-termos-lista-de-presentes",
+        "rich-text#content-menu-cms-termos-e-condicoes",
+        "rich-text#content-menu-cms-politica-de-privacidade",
+        "rich-text#content-menu-cms-politica-de-frete",
+        "rich-text#content-menu-cms-politica-de-cookies"
+      ],
+      "props": {
+        "blockClass": "menu-cms-institucional"
+      }
+    },
+  
+    "rich-text#title-menu-cms-politicas": {
+      "props": {
+        "text": "Políticas e Termos",
+        "blockClass": "title-menu-cms-institucional"
+      }
+    },
+  
+    "rich-text#content-menu-cms-troca-e-cancelamento": {
+      "props": {
+        "text": "[Política de Troca e Cancelamento](/politica-de-troca)",
+        "blockClass": ["content-menu-cms-institucional", "troca-e-cancelamento"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-termos-lista-de-presentes": {
+      "props": {
+        "text": "[Termos Lista de Presentes](/termos-lista-de-presentes)",
+        "blockClass": ["content-menu-cms-institucional", "termos-lista-de-presentes"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-termos-e-condicoes": {
+      "props": {
+        "text": "[Termos e Condições de Uso](/termos-e-condicoes)",
+        "blockClass": ["content-menu-cms-institucional", "termos-e-condicoes"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-politica-de-privacidade": {
+      "props": {
+        "text": "[Política de Privacidade](/politica-de-privacidade)",
+        "blockClass": ["content-menu-cms-institucional", "politica-de-privacidade"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-politica-de-frete": {
+      "props": {
+        "text": "[Política de Frete e Cupons](/politica-de-frete)",
+        "blockClass": ["content-menu-cms-institucional", "politica-de-frete"]
+      }
+    },
+  
+    "rich-text#content-menu-cms-politica-de-cookies": {
+      "props": {
+        "text": "[Política de Cookies](/politica-de-cookies)",
+        "blockClass": ["content-menu-cms-institucional", "politica-de-cookies"]
+      }
+    }
+}
+  

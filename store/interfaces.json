@@ -40,6 +40,10 @@
     "component": "TermosCartao"
   },
 
+  "termos-e-condicoes": {
+    "component": "TermosCondicoes"
+  },
+
   "para-empresas": {
     "component": "ParaEmpresas"
   },

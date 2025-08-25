@@ -52,7 +52,7 @@
 
   "rich-text#cms-trabalhe-conosco": {
     "props": {
-      "text": "[Trabalhe Conosco](/trabalhe-conosco)",
+      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://lp.maravilhasdolar.com/vagas-maravilhas-do-lar\" target=\"_blank\" rel=\"noopener noreferrer\">Trabalhe Conosco</a>",
       "blockClass": "cms-link"
     }
   },
@@ -60,7 +60,7 @@
 
   "rich-text#cms-seja-fornecedor": {
     "props": {
-      "text": "[Seja Fornecedor](/seja-fornecedor)",
+      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://form.jotform.com/mktmlar/cadastro-de-fornecedor\" target=\"_blank\" rel=\"noopener noreferrer\">Seja Fornecedor</a>",
       "blockClass": "cms-link"
     }
   },

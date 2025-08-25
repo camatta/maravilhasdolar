@@ -4,14 +4,28 @@
     "props": {
       "blockClass": ["upper-mosaic-container", "custom-container"]
     },
-    "children": ["flex-layout.col#upper-mosaic"]
+    "children": ["responsive-layout.desktop#upper-mosaic", "responsive-layout.mobile#upper-mosaic"]
   },
+
+  "responsive-layout.desktop#upper-mosaic": {
+      "children": ["flex-layout.col#upper-mosaic"]
+    },
+    "responsive-layout.mobile#upper-mosaic": {
+      "children": ["flex-layout.col#upper-mosaic-mob"]
+    },
 
   "flex-layout.col#upper-mosaic": {
     "props": {
       "blockClass": "upper-mosaic-content"
     },
     "children": ["image#upper-mosaic-first", "image#upper-mosaic-second", "image#upper-mosaic-third", "image#upper-mosaic-fourth"]
+  },
+
+  "flex-layout.col#upper-mosaic-mob": {
+    "props": {
+      "blockClass": "upper-mosaic-content-mob"
+    },
+    "children": ["slider-layout#upper-mosaic-mob"]
   },
 
   "image#upper-mosaic-first": {
@@ -53,5 +67,30 @@
         "url": "/promocoes"
       }
     }
-  }
+  },
+
+  "slider-layout#upper-mosaic-mob": {
+      "props": {
+        "itemsPerPage": {
+          "tablet": 2,
+          "phone": 2
+        },
+        "centerMode": {
+          "mobile": "disabled",
+          "tablet": "disabled",
+          "phone": "disabled"
+        },
+        "navigationStep": 1,
+        "infinite": true,
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        "blockClass": ["upper-mosaic"]
+      },
+      "children": [
+        "image#upper-mosaic-first",
+        "image#upper-mosaic-second",
+        "image#upper-mosaic-third",
+        "image#upper-mosaic-fourth"
+      ]
+    }
 }

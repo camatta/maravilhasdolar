@@ -4,13 +4,13 @@
         "itemsPerPage": {
           "desktop": 6,
           "tablet": 4,
-          "phone": 4
+          "phone": 2
         },
         "centerMode": {
           "desktop": "disabled",
-          "mobile": "disabled",
-          "tablet": "disabled",
-          "phone": "disabled"
+          "mobile": "to-the-left",
+          "tablet": "to-the-left",
+          "phone": "to-the-left"
         },
         "navigationStep": 1,
         "infinite": true,

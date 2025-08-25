@@ -1,0 +1,25 @@
+{
+    "store.custom#termos-e-condicoes": {
+      "children": [
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#wrapper-termos-e-condicoes"
+      ]
+    },
+
+    "flex-layout.row#wrapper-termos-e-condicoes": {
+        "children": [
+            "flex-layout.col#menu-cms-politicas",
+            "flex-layout.col#content-termos-e-condicoes"
+        ],
+        "props": {
+          "blockClass": ["custom-container", "cms-page-container", "pagina-termos-e-condicoes"]
+        }
+    },
+
+    "flex-layout.col#content-termos-e-condicoes": {
+      "children":[
+        "termos-e-condicoes"
+      ]
+    }
+    
+}

@@ -52,7 +52,7 @@
   "rich-text#sac-rastreie": {
     "props": {
       "blockClass": "sac-group-link",
-      "text": "[Rastreie o seu pedido](/rastreie)"
+      "text": "[Rastreie o seu pedido](#)"
     }
   },
 

@@ -52,7 +52,7 @@
 
   "rich-text#politicas-troca-e-cancelamento": {
     "props": {
-      "text": "[Política de Troca e Cancelamento](/troca-e-cancelamento)",
+      "text": "[Políticas de Troca e Cancelamento](/troca-e-cancelamento)",
       "blockClass": "cms-link"
     }
   },
@@ -74,14 +74,14 @@
 
   "rich-text#politicas-politicas-privacidade": {
     "props": {
-      "text": "[Políticas de Privacidade](/politicas-de-privacidade)",
+      "text": "[Política de Privacidade](/politica-de-privacidade)",
       "blockClass": "cms-link"
     }
   },
   
   "rich-text#politicas-politicas-frete": {
     "props": {
-      "text": "[Políticas de Frete e Cupons](/politica-de-frete)",
+      "text": "[Política de Frete e Cupons](/politica-de-frete)",
       "blockClass": "cms-link"
     }
   },

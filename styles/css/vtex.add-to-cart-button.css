@@ -30,3 +30,10 @@
     font-weight: 400;
   }
 }
+
+@media (max-width: 768px) {
+  .buttonText--buy-button-shelf {
+    font-size: 0;
+    font-weight: 400;
+  }
+}

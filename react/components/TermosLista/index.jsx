@@ -40,27 +40,26 @@ const TermosLista = () => {
                             Os convidados poderão consultar a lista de casamento apenas através do site <a href="https://www.maravilhasdolar.com">www.maravilhasdolar.com</a>, não sendo possível ter acesso em Loja Física. Para tanto, basta que informem o nome dos anfitriões ou a data do evento. Poderão também acessar a lista mediante o compartilhamento do link da lista pelo cliente.
                         </p>
 
-                        <h3 className={styles.sectionTitle}>1. MODALIDADES DE LISTA</h3>
                         <p className={styles.paragraph}>
-                            A Maravilhas do Lar oferece a modalidade de lista Crédito ou Produtos. Ao criar uma Lista de Presentes, o cliente tem a opção de selecionar se deseja receber os presentes em Crédito, ou em Produtos.
+                            1. A Maravilhas do Lar oferece a modalidade de lista Crédito ou Produtos. Ao criar uma Lista de Presentes, o cliente tem a opção de selecionar se deseja receber os presentes em Crédito, ou em Produtos.
                         </p>
 
-                        <h3 className={styles.sectionTitle}>1.1 CONVERTER PRODUTOS EM CRÉDITO</h3>
+                        <p className={styles.paragraph}>1.1 Converter produtos em crédito</p>
                         <p className={styles.paragraph}>
                             A cada pedido aprovado no prazo de até 36 horas o valor será transformado em Crédito (Vale Presente) e o dono da lista utilizará para aquisição de produtos. O crédito não poderá ser convertido em espécie e, se houver diferença na aquisição de produtos, o dono da lista fará o complemento do valor. O crédito poderá ser utilizado apenas no Site.
                         </p>
 
-                        <h3 className={styles.sectionTitle}>1.2 RECEBER OS PRODUTOS</h3>
+                        <p className={styles.paragraph}>1.2 Receber os produtos</p>
                         <p className={styles.paragraph}>
                             Ao selecionar esta opção, a cada pedido realizado pelos convidados, será gerada uma entrega para o endereço selecionado pelo Dono da Lista. Caso o Dono da Lista queira realizar uma troca, o valor do frete não será convertido em créditos.
                         </p>
 
-                        <h3 className={styles.sectionTitle}>2. ALTERAÇÃO DE PRODUTOS NA LISTA</h3>
+                        <p className={styles.paragraph}>2. Alteração de produtos na lista de presentes</p>
                         <p className={styles.paragraph}>
                             Os produtos poderão ser alterados a qualquer momento, através da conta aberta para acompanhamento da lista.
                         </p>
 
-                        <h3 className={styles.sectionTitle}>3. ENCERRAMENTO DA LISTA DE PRESENTES</h3>
+                        <p className={styles.paragraph}>3. Encerramento da lista de presentes</p>
                         <p className={styles.paragraph}>
                             Prazo de validade dos créditos: 90 dias.
                         </p>

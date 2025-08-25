@@ -52,7 +52,7 @@
 
   "rich-text#cartao-fatura": {
     "props": {
-      "text": "[Acesse sua fatura](/fatura)",
+      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://www.portaldafatura.com.br/boleto-rapido/login\" target=\"_blank\" rel=\"noopener noreferrer\">Acesse sua fatura</a>",
       "blockClass": "cms-link"
     }
   },
@@ -67,7 +67,7 @@
 
   "rich-text#cartao-solicite-seu-cartao": {
     "props": {
-      "text": "[Solicite seu cartão](/solicite-seu-cartao)",
+      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://lp.maravilhasdolar.com/cartao-maravilhas\" target=\"_blank\" rel=\"noopener noreferrer\">Solicite seu cartão</a>",
       "blockClass": "cms-link"
     }
   },

@@ -393,6 +393,10 @@
 
 /* Páginas CMS Institucionais */
 
+.imageElement--img-quem-somos-2 {
+  margin-top: 25px;
+}
+
 /* Fim Páginas CMS Institucionais */
 
 @media (max-width: 1199px) {
@@ -408,10 +412,10 @@
   }
   .searchBarContainer {
     max-width: 100%;
+    min-width: 100%;
   }
   .searchBarContainer :global(.vtex-input-prefix__group) {
     flex-direction: initial;
-    border-radius: 0;
     box-shadow: none;
   }
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
@@ -463,11 +467,11 @@
 }
 
 @media (max-width: 767px) {
-  .infoCardImageContainer--info-card-catmenu {
-    max-width: 70px;
-    min-width: 70px;
-    height: 70px;
-  }
+  /* .infoCardImageContainer--info-card-catmenu {
+    max-width: 186px;
+    min-width: px;
+    height: 92px;
+  } */
   .infoCardContainer--info-card-catmenu {
     flex-direction: column-reverse;
     text-align: center;
@@ -482,5 +486,13 @@
   .infoCardCallActionText {
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .imageElementLink--image__display-banner {
+    width: 100%;
+  }
+
+  .imageElement--image__display-banner {
+    width: 100%;
   }
 }

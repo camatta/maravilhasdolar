@@ -115,4 +115,16 @@
     top: 42%;
     transform: translate(0, -42%);
   }
+
+  .slide--shelf-carousel {
+    margin: 0 8px;
+  }
+
+  .sliderTrackContainer--main-slider {
+    border-radius: 15px;
+  }
+
+  .sliderTrack--upper-mosaic {
+    gap: 16px;
+  }
 }

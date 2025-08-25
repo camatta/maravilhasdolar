@@ -12,7 +12,7 @@
             "flex-layout.col#content-nossas-lojas"
         ],
         "props": {
-          "blockClass": ["custom-container", "cms-page-container"]
+          "blockClass": ["custom-container", "cms-page-container", "pagina-nossas-lojas"]
         }
     },
 

@@ -371,11 +371,13 @@
 
 /* PÁGINAS CMS */
 .headingLevel1--cms-page-title {
-  font-size: 32px;
+  font-family: Nunito;
   font-weight: 700;
-  line-height: 41px;
+  font-size: 20px;
+  line-height: 100%;
   color: #1C1C1C;
-  margin: 0 0 32px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 .heading--cms-page-content {
   font-size: 20px;
@@ -385,11 +387,11 @@
   color: #660066;
 }
 .paragraph--cms-page-content {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 19px;
   margin-top: 0;
-  color: #000;
+  color: #3F3F3F;
 }
 .listOrdered--cms-page-content,
 .list--cms-page-content {
@@ -418,7 +420,24 @@
 
 .paragraph--text-quem-somos {
   margin: 0;
+  font-size: 14px;
 }
+
+.paragraph--text-compromisso {
+  font-size: 14px;
+}
+
+.paragraph--cta-compromisso {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1C1C1C;
+  padding: 6px 24px;
+  border-radius: 41px;
+  border: 1px solid #FF6600;
+  cursor: pointer;
+}
+
 
 .paragraph--title-card-oferecemos {
   font-family: Nunito;
@@ -469,6 +488,54 @@
   border-bottom: 2px solid #660066;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--pagina-politica-de-frete) .link--politica-de-frete {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-politica-de-cookies) .link--politica-de-cookies {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-politica-de-troca) .link--troca-e-cancelamento {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-termos-e-condicoes) .link--termos-e-condicoes {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-politica-de-privacidade) .link--politica-de-privacidade {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-termos-lista) .link--termos-lista-de-presentes {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-relatorio-de-transparencia) .link--relatorio-de-transparencia {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--pagina-nossas-lojas) .link--nossas-lojas {
+  color: #660066;
+  font-weight: 700;
+  border-bottom: 2px solid #660066;
+}
+
 :global(.vtex-flex-layout-0-x-flexRow--pagina-para-empresas) .link--para-empresas {
   color: #660066;
   font-weight: 700;
@@ -505,7 +572,7 @@
   font-size: 12px;
   line-height: 16px;
   padding-left: 10px;
-  margin-bottom: 7px;
+  margin: 0;
   position: relative
 }
 .paragraph--cmsbread2::before {
@@ -520,12 +587,22 @@
   font-size: 0;
   padding-left: 20px;
 }
+
+.paragraph--cmstopo {
+  position: relative;
+  margin: 0;
+}
+
 .link--cmstopo::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none'%3E%3Cmask id='mask0_194_8322' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='24' height='24'%3E%3Crect width='24' height='24' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_194_8322)'%3E%3Cpath d='M6 19H9V13H15V19H18V10L12 5.5L6 10V19ZM4 21V9L12 3L20 9V21H13V15H11V21H4Z' fill='%23666666'/%3E%3C/g%3E%3C/svg%3E");
-  line-height: 0;
-  position: absolute; 
-  left: 14px;
-  top: 18px
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 57px;
+  height: 18px;
+  background: url(assets/icons/icon-breadcrumb-full.svg);
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 @media (max-width: 1199px) {
@@ -536,7 +613,7 @@
 
 @media (max-width: 1025px) {
   .heading--shelf-title {
-    margin: 0 0 32px;
+    margin: 0;
     font-size: 20px;
     line-height: 26px;
   }
@@ -561,7 +638,7 @@
     justify-content: center;
   }
   .heading--footer-title {
-    margin: 0 0 25px;
+    margin: 0 0 16px;
   }
 
   .container--cms-link,
@@ -580,12 +657,36 @@
   }
 
   .paragraph--text-topbar {
-    font-size: 10px;
+    font-size: 12px;
+    max-width: 238px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .paragraph--newsletter-cta {
     margin-bottom: 6px;
   }
   .wrapper--search-description {
     margin-top: 56px;
+  }
+
+  .paragraph--newsletter-cta {
+    max-width: 100%;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .container--footer-title,
+  .container--sac-group-title {
+    justify-content: flex-start;
+  }
+
+  .container--cms-link,
+  .container--sac-group-link {
+    justify-content: flex-start;
+  }
+
+  .paragraph--copy-text {
+    text-align: center;
   }
 }

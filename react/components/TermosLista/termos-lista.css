@@ -24,6 +24,15 @@
     color: #3F3F3F;
     margin-top: 0;
 }
+.contentTermosLista a {
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3F3F3F;
+    margin-top: 0;
+    text-decoration: underline;
+}
 
 .sectionTitle {
     color: #660066;

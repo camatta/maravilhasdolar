@@ -1,0 +1,42 @@
+{
+  "store.custom#trocas-e-cancelamentos": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#wrapper-politicas-de-trocas"
+    ]
+  },
+
+  "flex-layout.row#wrapper-politicas-de-trocas": {
+    "children": [
+      "flex-layout.col#menu-cms-politicas",
+      "flex-layout.col#politicas-de-troca"
+    ],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-troca"]
+    }
+  },
+
+  "flex-layout.col#politicas-de-troca": {
+    "children": [
+      "rich-text#trocas-e-devolucoes-title",
+      "rich-text#trocas-e-devolucoes-conteudo"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+  "rich-text#trocas-e-devolucoes-title": {
+    "props": {
+      "blockClass": ["cms-page-title"],
+      "text": "# Políticas de Troca e Cancelamento"
+    }
+  },
+  "rich-text#trocas-e-devolucoes-conteudo": {
+    "props": {
+      "blockClass": ["cms-page-content"],
+      "text": "## Trocas\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante magna, elementum eu magna hendrerit, interdum tempor sapien. Cras interdum dictum mauris, sit amet auctor tellus congue vitae. Duis in blandit augue. Curabitur dapibus, orci in aliquet euismod, mauris magna gravida lectus, at fermentum elit nisi eu nibh. Proin non aliquam arcu. Nunc ac mauris lorem. Donec bibendum ligula aliquet lectus pharetra, nec vulputate nulla commodo. Aliquam condimentum ultricies eros nec posuere. Donec justo velit, consequat non scelerisque consectetur, ullamcorper at felis. Pellentesque venenatis sem ipsum, nec euismod purus posuere vitae. Fusce accumsan tempor purus, et maximus lectus semper a. Pellentesque eleifend nibh vitae mattis sagittis.",
+      "textAlignment": "initial",
+      "textPosition": "initial"
+    }
+  }
+}

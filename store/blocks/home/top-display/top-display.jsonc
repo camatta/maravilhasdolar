@@ -4,8 +4,16 @@
       "props": {
         "blockClass": ["top-display-banner", "custom-container"]
       },
+      "children": ["responsive-layout.desktop#top-display-banner", "responsive-layout.mobile#top-display-banner"]
+    },
+
+    "responsive-layout.desktop#top-display-banner": {
       "children": ["flex-layout.col#top-display-banner"]
     },
+    "responsive-layout.mobile#top-display-banner": {
+      "children": ["flex-layout.col#top-display-banner-mob"]
+    },
+
     "flex-layout.col#top-display-banner": {
       "children": ["image#display-banner"]
     },
@@ -13,6 +21,20 @@
         "props": {
             "blockClass":"image__display-banner",
             "src": "assets/top-display/banner-descontos.png",
+            "alt": "Descontos Imperdíveis!",
+            "link": {
+                "url": "/ofertas"
+            }
+        }
+    },
+
+    "flex-layout.col#top-display-banner-mob": {
+      "children": ["image#display-banner-mob"]
+    },
+    "image#display-banner-mob": {
+        "props": {
+            "blockClass":"image__display-banner",
+            "src": "assets/top-display/banner-descontos-mobile.png",
             "alt": "Descontos Imperdíveis!",
             "link": {
                 "url": "/ofertas"
