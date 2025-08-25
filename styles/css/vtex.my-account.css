@@ -5,27 +5,125 @@
   padding: 0 15px;
 }
 
-.menu {
+.menu,
+:global(.vtex-account__page-body) {
   padding: 0;
+}
+.menu {
+  min-width: 195px;
+}
+
+:global(.vtex-account__page) {
+  margin-left: 90px;
+}
+
+.dataEntryLabel,
+.dataEntryChildren,
+.newsletterContainerTitle,
+.newsletterContainerMessage,
+.passwordBox :global(.vtex-checkbox__label) {
+  font-size: 14px;
+}
+.dataEntryLabel,
+.newsletterContainerTitle,
+.passwordBox :global(.vtex-checkbox__label) {
+  color: #1C1C1C;
+}
+.dataEntryChildren,
+.newsletterContainerMessage {
+  color: #666666;
+}
+
+.newsletterContainerMessage {
+  padding: 8px 0 16px;
 }
 
 :global(.vtex-pageHeader__container) {
-  padding: 0 0 0 30px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+:global(.vtex-pageHeader-link__container) {
+  margin-bottom: 15px !important;
 }
 :global(.vtex-account__page) {
   width: 100% !important;
 }
+:global(.vtex-account) :global(.vtex-pageHeader__title) {
+  font-size: 24px;
+}
 
 .userInfo {
   margin-bottom: 64px;
+  align-items: center;
 }
 
-.userGreeting {
-  font-size: 14px;
-}
+.userGreeting,
 .userName {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  color: #1C1C1C;
+  line-height: 22px;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button),
+.boxContainerFooter :global(.vtex-button),
+:global(.vtex_my-authentication_box_footer) :global(.vtex-button),
+:global(.vtex_my-authentication_resendCodeButton_container) :global(.vtex-button) {
+  color: #660066;
+  border-bottom: 1px solid #660066;
+  border-radius: 0;
+  padding: 0 0 1px;
+  margin: 0;
+  min-height: initial;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button):hover,
+.boxContainerFooter :global(.vtex-button):hover,
+:global(.vtex_my-authentication_box_footer) :global(.vtex-button):hover,
+:global(.vtex_my-authentication_resendCodeButton_container) :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.boxContainer,
+:global(.vtex_my-authentication_box_container) {
+  padding: 24px;
+  border: 0;
+  background: #F9F9F9;
+  border-radius: 8px;
+}
+.boxContainerBody,
+:global(.vtex_my-authentication_box_content) {
+  padding: 0;
+}
+.boxContainerFooter,
+:global(.vtex_my-authentication_box_footer) {
+  padding: 0;
+  margin-top: 48px;
+}
+.boxContainerFooter :global(.vtex-button__label),
+:global(.vtex-pageHeader__children) :global(.vtex-button__label),
+:global(.vtex_my-authentication_box_footer) :global(.vtex-button__label),
+:global(.vtex_my-authentication_resendCodeButton_container) :global(.vtex-button__label) {
+  padding: 0 !important;
+}
+:global(.vtex-pageHeader__children) :global(.vtex-button) {
+  min-height: inherit;
+  text-transform: initial;
+  background: #FF6600;
+  border: 0;
+  color: #1C1C1C;
+  padding: 6px 24px;
+  border-radius: 41px;
+  font-weight: 700;
+  transition: all .3s ease-in-out;
+}
+:global(.vtex-pageHeader__children) :global(.vtex-button):hover {
+  background: #EE5F00;
+}
+
+:global(.vtex-my-authentication-1-x-authenticationScreen_container) {
+  padding: 0;
 }
 
 .profileBoxContainer {

@@ -6,3 +6,6 @@
   text-align: left;
   color: #666;  
 }
+.product-identifier__separator {
+  display: none;
+}

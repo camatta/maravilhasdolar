@@ -10,6 +10,11 @@
   color: #202020;
 }
 
+.imageElement--image__display-banner,
+.imageElement--main-slider {
+  border-radius: 8px;
+}
+
 :global(.vtex-toast) {
   background: #609000;
   box-shadow: 0px 4px 4px 0px #00000026;
@@ -124,9 +129,9 @@
 /*MENU CATEGORIAS RÁPIDO*/
 .paragraph--info-card-catmenu,
 .infoCardCallActionText {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 22px;
   color: #1e1e1e;
   margin: 0;
   text-decoration: none;
@@ -139,9 +144,11 @@
   display: flex;
   flex-direction: column-reverse;
   padding: 0;
+  gap: 16px;
 }
 .infoCardImageContainer--info-card-catmenu {
   width: 100%;
+  line-height: 0;
 }
 .infoCardTextContainer--info-card-catmenu {
   width: 100%;
@@ -182,7 +189,7 @@
   max-width: 90px;
 }
 .productImagesThumb:not(:first-child) {
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .productNameContainer {
@@ -328,6 +335,9 @@
   left: 0;
   transform: translate(0, -50%);
 }
+.shareSocialButton:hover {
+  opacity: 1;
+}
 
 .shareSocialIcon--whatsapp {
   opacity: 0;
@@ -338,14 +348,9 @@
 }
 
 .productImagesThumb {
-  max-width: 90px;
-  max-height: 90px !important;
   margin: 0;
-  border: 2px solid transparent;
+  border: 1px solid #ECECEC;
   transition: all .3s ease-in-out;
-  width: 90px;
-  height: 90px !important;
-  object-fit: cover;
   border-radius: 6px;
 }
 .productImagesThumb:hover,
@@ -360,6 +365,12 @@
   object-fit: contain;
   aspect-ratio: 1/1;
   border-radius: 6px;
+}
+.carouselGaleryCursor {
+  padding: 0;
+  margin-left: 107px;
+  width: 100%;
+  max-width: 574px;
 }
 
 .productDescriptionTitle {
@@ -388,7 +399,25 @@
   background: #FFFFFF;
   font-size: 14px;
   line-height: 18px;
-  color: #201F1F;
+  color: #3F3F3F;
+}
+.container--product-description .fadeBottom {
+  background: none;
+}
+.showMoreButton--product-description {
+  margin: 16px 0 0;
+  padding: 0;
+  background: none;
+  color: #1C1C1C;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: initial;
+  border-bottom: 1px solid #1C1C1C;
+}
+
+.imageElement--icon-newsletter {
+  max-width: 149px;
+  width: 100%;
 }
 
 /* Páginas CMS Institucionais */

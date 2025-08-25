@@ -61,10 +61,12 @@
 }
 
 .installments--installments-pdp {
-  font-size: 12px;
+  font-size: 14px;
   color: #666666;
   font-weight: 400;
-  line-height: 15px;
+  line-height: 19px;
+  margin-top: 2px;
+  display: inline-block;
 }
 
 @media (max-width: 1025px) {

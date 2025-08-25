@@ -67,7 +67,7 @@
 
   "rich-text#cartao-solicite-seu-cartao": {
     "props": {
-      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://lp.maravilhasdolar.com/cartao-maravilhas\" target=\"_blank\" rel=\"noopener noreferrer\">Solicite seu cartão</a>",
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link' href='https://lp.maravilhasdolar.com/cartao-maravilhas' target='_blank'>Solicite seu cartão</a>",
       "blockClass": "cms-link"
     }
   },

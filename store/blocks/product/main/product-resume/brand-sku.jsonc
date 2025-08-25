@@ -28,7 +28,8 @@
 
   "product-identifier.product": {
     "props": {
-      "label": "hide"
+      "label": "custom",
+      "customLabel": "SKU-"
     }
   }
 }

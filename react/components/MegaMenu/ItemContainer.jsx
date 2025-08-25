@@ -10,7 +10,8 @@ import categoryMenuPosition, {
   getMenuPositionValues,
 } from '../../utils/categoryMenuPosition'
 import sortSubcategoriesItems from '../../utils/sortSubcategoriesItems'
-import { LinkArrow, Minus, Plus } from '../Icons'
+import { LinkArrow } from '../Icons'
+import { Banner } from './Banner'
 
 const getLinkParams = (parentSlug, item) => {
   const params = {
@@ -33,11 +34,15 @@ const ItemContainer = ({
   onCloseMenu,
   showSecondLevel,
   sortSubcategories,
+  mainBanner,
+  bannerCategory
 }) => {
   const [open, setOpen] = useState({
     categoryId: undefined,
     isOpen: false,
   })
+
+  console.log('bannerCategory ', bannerCategory)
 
   const shouldRenderSecondLevel = category => {
     const { children } = category
@@ -47,7 +52,7 @@ const ItemContainer = ({
 
   const containerClasses = classNames(
     styles.submenuList,
-    'w-100 flex flex-wrap pa0 list mw9',
+    'flex flex-wrap pa0 list mw9',
     {
       'justify-start': menuPosition === categoryMenuPosition.DISPLAY_LEFT.value,
       'justify-end': menuPosition === categoryMenuPosition.DISPLAY_RIGHT.value,
@@ -90,11 +95,11 @@ const ItemContainer = ({
 
   return (
     <div
-      className={`${styles.itemContainer} ${styles['itemContainer--category']} absolute w-100`}
+      className={`${styles.itemContainer} ${styles['itemContainer--category']} absolute`}
       style={containerStyle}
     >
       <Container
-        className={`${styles['section--category']} justify-center w-100 flex`}
+        className={`${styles['section--category']} justify-center flex`}
       >
         <ul className={`${containerClasses} ${styles['all-categories']}`}>
           {categories
@@ -107,7 +112,7 @@ const ItemContainer = ({
               return 0
             })
             .map(category => (
-              <li key={category.id} className={`${styles.submenuItem} dib`}>
+              <li key={category.id} className={`${styles.submenuItem} dib${category.name.toLowerCase() === 'ofertas' ? ' ' + styles.dNone : ''}`}>
                 <ul className={columnItemClasses}>
                   <li className={`${styles.firstLevelLinkContainer} list pa0`}>
                     <Link
@@ -128,7 +133,7 @@ const ItemContainer = ({
                     </Link>
 
                     {shouldRenderSecondLevel(category) && (
-                      <ul className={styles.secondLevelListContainer}>
+                      <ul className={`${styles.secondLevelListContainer}${open.categoryId === category.id ? ' ' + styles.open : ''}`}>
                         {category.children
                           .sort((a, b) => {
                             if (
@@ -169,6 +174,17 @@ const ItemContainer = ({
                               </li>
                             )
                           })}
+
+                          {category.children.length > 4 && (
+                            <li className={`${styles.secondLevelLinkContainerLast} list pa0`}>
+                              <button
+                                type='button'
+                                className={styles.toggleCategories}
+                                onClick={() => handleItemClick(category.id)}>
+                                  {open.categoryId === category.id ? 'Ver menos' : 'Ver todos'}
+                                </button>
+                            </li>
+                          )}
                       </ul>
                     )}
                   </li>
@@ -176,6 +192,36 @@ const ItemContainer = ({
               </li>
             ))}
         </ul>
+
+        {bannerCategory !== undefined && bannerCategory.src !== '' && (
+          <div className={styles.bannerCategory}>
+            <Banner
+              src={bannerCategory.src}
+              bannerAlt={bannerCategory.bannerAlt}
+              bannerLink={bannerCategory.bannerLink}
+            />
+          </div>
+        )}
+
+        {(mainBanner !== undefined && mainBanner.src !== '') && (
+          <div className={`${styles.mainBanner}`}>
+            <Banner
+              src={mainBanner?.src}
+              bannerAlt={mainBanner?.bannerAlt}
+              bannerLink={mainBanner?.bannerLink} />
+            
+            {mainBanner?.bannerLink !== "" && (
+              <div className={`${styles.bannerContent}`}>
+                <Link
+                  to={mainBanner?.bannerLink}
+                  className={styles.bannerLinkCta}
+                >
+                  {mainBanner?.bannerLinkCta || 'Ver todas os os produtos'}
+                </Link>
+              </div>
+            )}
+          </div>
+        )}
       </Container>
     </div>
   )

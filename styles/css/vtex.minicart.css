@@ -32,7 +32,7 @@
 
 .openIconContainer :global(.vtex-button) {
   border: 0;
-  min-width: 100px;
+  min-width: 94px;
   min-height: initial;
 }
 
@@ -74,12 +74,13 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 27px;
   padding: 25px;
   margin: 0;
   background-color: #FFCC00;
+  color: #1C1C1C;
 }
 
 .minicartTitle::before {
@@ -89,8 +90,8 @@
 
 .minicartProductListContainer {
   padding: 24px;
-  height: calc(100vh - 80px - 204px);
-  height: calc(80dvh - 80px - 204px);
+  height: calc(100vh - 77px - 253px);
+  height: calc(100dvh - 77px - 253px);
   background-color: #F3F3F3;
 }
 
@@ -118,7 +119,7 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button):hover {
-  background: #99CC33;
+  background: #8DBE2A;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label) {

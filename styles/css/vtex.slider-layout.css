@@ -18,6 +18,10 @@
   margin: 0;
   padding: 0;
   border-radius: 100%;
+  transition: all .3s ease-in-out;
+}
+.sliderArrows:hover {
+  background: #CCCCCC !important;
 }
 .sliderLeftArrow--main-slider {
   left: -1.2rem;
@@ -50,20 +54,21 @@
 }
 
 /* SLIDER CATEGORIAS */
-
+.slide--category {
+  margin: 0 7.5px;
+}
 .sliderArrows--category {
   width: 28px;
   height: 28px;
+  top: 32px;
 }
 
 .sliderLeftArrow--category {
   left: -6px;
-  top: 36px;
 }
 
 .sliderRightArrow--category {
   right: -6px;
-  top: 36px;
 }
 
 /* SLIDER PRODUTOS */

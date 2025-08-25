@@ -41,7 +41,7 @@
   "image#upper-mosaic-second": {
     "props": {
       "blockClass":"image__upper-mosaic",
-      "src": "assets/upper-mosaic/mosaicotopo2.png",
+      "src": "assets/upper-mosaic/mosaicotopo3.png",
       "alt": "Louças, conferir!",
       "link": {
         "url": "/promocoes"
@@ -51,7 +51,7 @@
   "image#upper-mosaic-third": {
     "props": {
       "blockClass":"image__upper-mosaic",
-      "src": "assets/upper-mosaic/mosaicotopo3.png",
+      "src": "assets/upper-mosaic/mosaicotopo2.png",
       "alt": "Caixas Organizadoras, conferir!",
       "link": {
         "url": "/promocoes"

@@ -390,25 +390,31 @@
         "fontFamily": "Nunito, sans-serif",
         "fontWeight": "500",
         "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "text-transform": "initial",
         "letterSpacing": "0"
       },
       "action--small": {
         "fontFamily": "Nunito, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
-        "textTransform": "uppercase",
+        "text-transform": "initial",
         "letterSpacing": "0"
       },
       "action--large": {
         "fontFamily": "Nunito, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
-        "textTransform": "uppercase",
         "letterSpacing": "0"
       },
+      "t-action--small": {
+        "font-family": "Nunito, sans-serif",
+        "font-weight": "500",
+        "font-size": "0.875rem",
+        "text-transform": "initial",
+        "letter-spacing": "0"
+      },
       "code": {
-        "fontFamily": "Consolas, monaco, monospace",
+        "fontFamily": "Nunito, monaco, monospace",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
