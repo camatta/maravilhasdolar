@@ -65,5 +65,9 @@
 
   "store.custom#para-empresas": {
     "path": "/para-empresas"
+  },
+
+  "store.custom#rastreie-pagina": {
+    "path": "/rastreie-seu-pedido"
   }
 }

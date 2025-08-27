@@ -44,6 +44,17 @@
   background-image: url(assets/icons/icon-presentes.svg);
 }
 
+.container--rastreie-titulo {
+  background-image: url(assets/institucional/fundo-rastreio.jpg);
+  background-position: center;
+  margin-bottom: 1rem;
+}
+
+.wrapper--rastreie-titulo .headingLevel1--cms-page-title {
+  font-size: 0;
+  padding: 4rem;
+}
+
 .wrapper--menu-lista-presentes,
 .wrapper--menu-cartao-maravilhas,
 .wrapper--menu-nossas-lojas {

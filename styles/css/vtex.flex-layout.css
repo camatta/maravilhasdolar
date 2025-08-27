@@ -725,7 +725,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 9999;
+  z-index: 12;
 }
 
 .flexRowContent--actions-pdp-container :global(.vtex-add-to-cart-button-0-x-buttonText--buy-button-pdp) {

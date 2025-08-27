@@ -1,0 +1,34 @@
+{
+    "store.custom#rastreie-pagina": {
+        "children": [
+            "flex-layout.row#linha-bread",
+            "flex-layout.row#wrapper-rastreie-pagina"
+        ]
+    },
+
+    "flex-layout.row#wrapper-rastreie-pagina": {
+    "children": [
+      "flex-layout.col#pagina-rastreie"
+    ],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-rastreie"]
+    }
+  },
+
+  "flex-layout.col#pagina-rastreie": {
+    "children": [
+      "rich-text#pagina-rastreie-title",
+      "maravilhas-rastreio"
+    ],
+    "props": {
+      "blockClass": ["cms-page-content"]
+    }
+  },
+
+  "rich-text#pagina-rastreie-title": {
+    "props": {
+      "blockClass": ["cms-page-title", "rastreie-titulo"],
+      "text": "# Rastreie seu pedido aqui"
+    }
+  }
+}

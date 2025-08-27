@@ -8,6 +8,10 @@
     "component": "SellerInfoMinicart"
   },
 
+  "maravilhas-rastreio": {
+    "component": "MaravilhasRastreio"
+  },
+
   "short-description": {
     "component": "ShortDescription"
   },

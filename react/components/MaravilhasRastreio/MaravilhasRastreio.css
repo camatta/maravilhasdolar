@@ -1,0 +1,15 @@
+.wrapperSelectForm {
+    border: 1px solid #FF6600;
+    border-radius: 500px;
+    padding: 8px 24px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.botaoEnviar {
+    background-color: #520052;
+    border: 1px solid #520052;
+    border-radius: 500px;
+    padding: 8px 24px;
+    width: 100%;
+}
