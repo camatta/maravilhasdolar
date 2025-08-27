@@ -5,7 +5,8 @@
       "href": "/",
       "url": "assets/logos/logo-maravilhas.svg",
       "width": "160",
-      "height": "67"
+      "height": "67",
+      "mobileHeight": "51"
     }
   }
 }

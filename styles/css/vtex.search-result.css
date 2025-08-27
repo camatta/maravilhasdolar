@@ -64,7 +64,7 @@
 }
 
 .filterTemplateOverflow  {
-  padding: 0;
+  padding-bottom: 1px;
 }
 
 .filterItem :global(.vtex-checkbox__line-container) {

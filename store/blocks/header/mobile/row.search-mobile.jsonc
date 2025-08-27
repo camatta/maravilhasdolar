@@ -11,6 +11,6 @@
     "props": {
       "blockClass": ["search-mobile-content"]
     },
-    "children": ["search-bar"]
+    "children": ["search-bar", "speech-to-text"]
   }
 }

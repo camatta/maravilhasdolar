@@ -37,6 +37,7 @@ const CategoryItem = ({
 
   const categoryClasses = classNames(
     styles.departmentLink,
+    isHover ? styles.pointer : '',
     'no-underline t-small outline-0 db tc link truncate bb bw1 c-muted-1',
     {
       'b--transparent': !isHover && !isCategorySelected,

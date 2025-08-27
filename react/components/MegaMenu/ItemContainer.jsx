@@ -42,8 +42,6 @@ const ItemContainer = ({
     isOpen: false,
   })
 
-  console.log('bannerCategory ', bannerCategory)
-
   const shouldRenderSecondLevel = category => {
     const { children } = category
 

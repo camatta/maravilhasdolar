@@ -217,6 +217,8 @@ a.departmentLink:hover svg {
   background: #212121;
 }
 .sidebar {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   background: #fff;
 }
@@ -235,6 +237,7 @@ a.departmentLink:hover svg {
   background: #ff6712;
   padding: 15px 20px;
   border-top: 1px solid #003030;
+  order: 4;
 }
 .sidebar :global(.vtex-flex-layout-0-x-flexRowContent--social-networks-container) {
   justify-content: center;
@@ -243,17 +246,14 @@ a.departmentLink:hover svg {
   filter: brightness(0);
 }
 
-.sidebarHeader {
-}
-
 .sidebarContent {
   padding: 8px 26px 8px 16px;
   background: #FFCC00;
   /* 100% - margens - headermobile - cms-menu */
-  height: calc(100vh - 88px - 71px - 50px);
-  height: calc(100dvh - 88px - 71px - 50px);
-  margin-bottom: 88px;
+  height: calc(100vh - 66px - 38px);
+  height: calc(100dvh - 66px - 38px);
   overflow: auto;
+  order: 3;
 }
 .pointerNavigate,
 .sideBarItemTitleClasses {
@@ -295,10 +295,11 @@ a.departmentLink:hover svg {
 }
 
 .sidebarHeader {
-  padding: 15px 20px;
+  padding: 22px 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  order: 1;
 }
 .iconContainer {
   line-height: 0;
@@ -348,5 +349,10 @@ a.departmentLink:hover svg {
 @media (max-width: 1025px) {
   .menuIcon {
     color: #000;
+  }
+
+  .sidebar :global(.vtex-login-2-x-container) :global(.vtex-button) :global(.vtex-login-2-x-label) {
+    display: flex;
+    gap: 2px;
   }
 }

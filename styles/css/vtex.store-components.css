@@ -440,6 +440,9 @@
 }
 
 @media (max-width: 1025px) {
+  .searchBarIcon {
+    padding: 8px 4px 9px 24px;
+  }
   .logoContainer {
     max-width: 125px;
   }
@@ -448,11 +451,11 @@
     min-width: 100%;
   }
   .searchBarContainer :global(.vtex-input-prefix__group) {
-    flex-direction: initial;
     box-shadow: none;
   }
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-    padding: 0 15px;
+    padding-left: 6px;
+    padding-right: 44px;
   }
   .userAddressContainer {
     width: 100%;

@@ -19,12 +19,13 @@
   },
 
   "vtex.product-highlights@2.x:product-highlights": {
-    "props": {
+    /* "props": {
+      "type": "collection",
       "filter": {
         "type": "show",
-        "highlightNames": ["%", "Novidades", "Mais Vendidos"]
+        "highlightNames": ["%", "Novidades", "Mais Vendidos", "Item sortido"]
       }
-    },
+    }, */
     "children": [
       "product-highlight-wrapper"
     ]

@@ -9,18 +9,8 @@
     justify-content: left;
 }
 
-.productHighlightWrapper[data-highlight-name="Novidades"] {
-    color: #fff;
-    background-color: #660066;
-    border-radius: 47px;
-    padding: 2px 8px;
-    font-family: Nunito;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    width: fit-content;
-}
-
+.productHighlightWrapper[data-highlight-name="Item Sortido"],
+.productHighlightWrapper[data-highlight-name="Novidades"],
 .productHighlightWrapper[data-highlight-name="Mais Vendidos"] {
     color: #fff;
     background-color: #660066;

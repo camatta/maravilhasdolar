@@ -141,6 +141,9 @@
     padding: 0;
     min-width: initial;
   }
+  .openIconContainer {
+      height: initial;
+    }
 
   .openIconContainer :global(.vtex-button)::after {
     display: none;

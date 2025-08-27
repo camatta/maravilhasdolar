@@ -31,13 +31,26 @@
       "mobileMode": true,
       "CustomComponent": "login#mobile"
     },
-    "children": ["flex-layout.row#social-networks"]
+    "children": [
+      "flex-layout.row#menu-store-links"/* ,
+      "flex-layout.row#social-networks" */
+    ]
   },
   "login#mobile": {
     "props": {
       "logInButtonBehavior": "link",
       "accountOptionsButtonBehavior": "link"
     }
+  },
+  "flex-layout.row#menu-store-links": {
+    "props": {
+      "blockClass": ["menu-store-links"]
+    },
+    "children": [
+      "rich-text#cartao-maravilhas",
+      "rich-text#nossas-lojas",
+      "rich-text#for-companies-link"
+    ]
   },
 
   "flex-layout.col#logo-mobile": {
@@ -51,6 +64,6 @@
     "props": {
       "blockClass": ["minicart-mobile-content"]
     },
-    "children": ["minicart.v2"]
+    "children": ["login#mobile01", "minicart.v2"]
   }
 }

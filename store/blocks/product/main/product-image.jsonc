@@ -15,10 +15,10 @@
 
   "vtex.product-highlights@2.x:product-highlights#pdp": {
     "props": {
-      "filter": {
+     /*  "filter": {
         "type": "show",
-        "highlightNames": ["%", "Novidades", "Mais Vendidos"]
-      },
+        "highlightNames": ["%", "Novidades", "Mais Vendidos", "Item"]
+      }, */
       "blockClass": ["wrapperPdpHighlight"]
     },
     "children": [
