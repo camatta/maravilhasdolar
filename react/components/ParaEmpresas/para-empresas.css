@@ -47,6 +47,10 @@
     border-radius: 41px;
     border: 1px solid #FF0066;
     color: #1C1C1C;
+    transition: all .3s ease-in-out;
+}
+.ctaCadastro a:hover {
+    background-color: #FF0066;
 }
 
 .textCtaCadastro p {

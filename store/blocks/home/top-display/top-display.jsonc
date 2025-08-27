@@ -2,7 +2,9 @@
     "flex-layout.row#top-display-banner": {
       "title": "Banner Topo Display",
       "props": {
-        "blockClass": ["top-display-banner", "custom-container"]
+        "blockClass": ["top-display-banner", "custom-container"],
+        "colSizing": "auto",
+        "fullWidth": true
       },
       "children": ["responsive-layout.desktop#top-display-banner", "responsive-layout.mobile#top-display-banner"]
     },
@@ -15,7 +17,10 @@
     },
 
     "flex-layout.col#top-display-banner": {
-      "children": ["image#display-banner"]
+      "children": ["image#display-banner"],
+      "props": {
+        "width": "100%"
+      }
     },
     "image#display-banner": {
         "props": {
@@ -29,7 +34,10 @@
     },
 
     "flex-layout.col#top-display-banner-mob": {
-      "children": ["image#display-banner-mob"]
+      "children": ["image#display-banner-mob"],
+      "props": {
+        "width": "100%"
+      }
     },
     "image#display-banner-mob": {
         "props": {

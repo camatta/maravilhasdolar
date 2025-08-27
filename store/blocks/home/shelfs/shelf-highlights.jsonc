@@ -17,7 +17,7 @@
     "props": {
       "blockClass": ["highlights-title-container"]
     },
-    "children": ["flex-layout.col#highlights-title-content", "flex-layout.col#best-sellers-cta-show-more"]
+    "children": ["flex-layout.col#highlights-title-content", "flex-layout.col#highlights-cta-show-more"]
   },
   "flex-layout.col#highlights-title-content": {
     "props": {
@@ -32,11 +32,11 @@
     }
   },
 
-  "flex-layout.col#best-sellers-cta-show-more": {
-    "children": ["rich-text#best-sellers-cta"]
+  "flex-layout.col#highlights-cta-show-more": {
+    "children": ["rich-text#highlights-cta"]
   },
 
-  "rich-text#best-sellers-cta": {
+  "rich-text#highlights-cta": {
     "props": {
       "text": "[Ver mais](/panelas)",
       "blockClass": ["shelf-cta"]

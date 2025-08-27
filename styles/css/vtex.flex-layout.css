@@ -813,9 +813,8 @@
 }
 
 .flexCol--menu-cms-institucional {
-  min-width: 173px;
-  max-width: 173px;
-  margin-right: 111px;
+  min-width: 208px;
+  margin-right: 75px;
 }
 
 .flexRow--row-cms {
@@ -870,6 +869,10 @@
 
 .flexColChild--cms-page-content {
   height: auto !important;
+}
+
+.flexRowContent--pagina-nossas-lojas .stretchChildrenWidth:last-child {
+  width: 100% !important;
 }
 
 /* BREADCRUMB PRODUCT WITH SHARE */

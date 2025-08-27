@@ -1,7 +1,7 @@
 .wrapperFaq {
     background-image: url('../../assets/faq/bg-faq.jpg');
     background-position: top;
-    background-size: 100%;
+    background-size: 100% 165px;
     background-repeat: no-repeat;
 }
 
@@ -12,10 +12,25 @@
     padding: 0 15px;
 }
 
+.faqHeader {
+    text-align: center;
+    padding-top: 32px;
+}
+.faqTitle {
+    margin: 0;
+    display: inline-block;
+    background: #FFCC00;
+    padding: 8px 64px;
+    border-radius: 52px;
+    color: #3F3F3F;
+    font-size: 32px;
+    line-height: 44px;
+}
+
 .wrapperCardsFaq {
     display: flex;
     justify-content: space-between;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 56px;
     border-bottom: 1px solid #ECECEC;
     margin-bottom: 56px;
@@ -178,11 +193,12 @@
     gap: 16px;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    padding: 24px;
     background-color: #660066;
     border-radius: 8px;
     margin-bottom: 18px;
-    max-width: 255px;
+    width: 255px;
+    height: 143px;
     cursor: pointer;
 }
 
@@ -196,7 +212,11 @@
     line-height: 22px;
     color: #fff;
 }
+.titleCardSidebar h4 {
+    margin: 0;
+}
 
 .faqList {
+    max-width: 825px;
     width: 100%;
 }

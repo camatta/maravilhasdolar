@@ -1,7 +1,7 @@
 .wrapperFaleConosco {
     background-image: url('../../assets/faleconosco/bg-faleconosco.png');
     background-position: top;
-    background-size: 100%;
+    background-size: 100% 80px;
     background-repeat: no-repeat;
 }
 
@@ -17,8 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 58px;
-    margin-bottom: 58px;;
+    padding-top: 50px;
+    margin-bottom: 56px;
     text-align: center;
     width: 100%;
 }

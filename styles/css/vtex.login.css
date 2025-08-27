@@ -89,7 +89,7 @@
 .container :global(.vtex-button) .label::after {
   font-size: 14px;
   line-height: 16px;
-  display: inline-block;
+  display: block;
   font-weight: 400;
 }
 .container :global(.vtex-button) .label::before {
@@ -104,9 +104,6 @@
 .container :global(.vtex-button) :global(.vtex-button__label) * {
   margin: 0;
   padding: 0;
-  flex-direction: row;
-  gap: 2px;
-  display: flex;
 }
 
 .box {
@@ -315,6 +312,7 @@
   :global(.vtex-account_menu-link.b--action-primary),
 :global(.vtex-my-account-1-x-menuLinks) :global(.vtex-account_menu-link):hover {
   border-color: #FF0066;
+  color: #1A1A1A;
 }
 :global(.vtex-account) :global(.vtex-pageHeader__container) > div {
   margin: 0;

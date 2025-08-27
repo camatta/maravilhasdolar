@@ -39,6 +39,10 @@
   width: 100%;
 }
 
+.pointerEventsAuto {
+  text-align: initial;
+}
+
 /* LOGO */
 .logoContainer {
   display: inline-block;

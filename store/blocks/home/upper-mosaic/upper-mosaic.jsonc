@@ -2,7 +2,9 @@
   "flex-layout.row#upper-mosaic": {
     "title": "Mosaico Quádruplo",
     "props": {
-      "blockClass": ["upper-mosaic-container", "custom-container"]
+      "blockClass": ["upper-mosaic-container", "custom-container"],
+      "colSizing": "auto",
+      "fullWidth": true
     },
     "children": ["responsive-layout.desktop#upper-mosaic", "responsive-layout.mobile#upper-mosaic"]
   },
