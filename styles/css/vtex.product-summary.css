@@ -38,3 +38,9 @@
   color: #000000;
 }
 
+@media screen and (max-width: 991px) {
+  .brandName--summary-name {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

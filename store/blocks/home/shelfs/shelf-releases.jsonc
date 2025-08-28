@@ -84,7 +84,7 @@
   },
     "slider-layout#vitrine-com-banner": {
       "props": {
-        "blockClass": "shelf-carousel",
+        "blockClass": ["shelf-carousel", "shelf-banner"],
         "itemsPerPage": {
           "desktop": 3,
           "tablet": 2,

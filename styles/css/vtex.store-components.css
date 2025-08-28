@@ -472,6 +472,10 @@
      line-height: 15px;
   }
 
+  .infoCardContainer--info-card-catmenu {
+    gap: 8px;
+  }
+
   .carouselGaleryThumbs--pdp {
     display: flex;
     max-width: initial;
@@ -504,25 +508,9 @@
 }
 
 @media (max-width: 767px) {
-  /* .infoCardImageContainer--info-card-catmenu {
-    max-width: 186px;
-    min-width: px;
-    height: 92px;
-  } */
-  .infoCardContainer--info-card-catmenu {
-    flex-direction: column-reverse;
-    text-align: center;
-    gap: 8px;
-  }
   .infoCardTextContainer--info-card-catmenu {
     align-items: center;
     padding: 0;
-  }
-
-  .paragraph--info-card-catmenu,
-  .infoCardCallActionText {
-    font-size: 12px;
-    line-height: 15px;
   }
 
   .imageElementLink--image__display-banner {
