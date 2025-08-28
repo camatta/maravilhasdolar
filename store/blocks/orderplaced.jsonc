@@ -3,6 +3,9 @@
       "blocks": ["op-header", "op-order"]
     },
     "op-header": {
+      "props": {
+        "blockClass": ["op-header"]
+      },
       "children": [
         "op-section#confirmation",
         "op-section#notices",
@@ -13,7 +16,8 @@
     "op-section#confirmation": {
       "props": {
         "name": "confirmation",
-        "borderless": true
+        "borderless": true,
+        "blockClass": ["op-confirmation"]
       },
       "children": [
         "op-confirmation-icon",
@@ -45,6 +49,9 @@
   
     // each order section
     "op-order": {
+      "props": {
+        "blockClass": ["op-order"]
+      },
       "children": [
         "flex-layout.row#order-header",
         "op-order-split-notice",
@@ -54,6 +61,7 @@
         "op-section#pickup-packages",
         "op-section#delivery-packages",
         "op-order-takeaway-packages",
+        "op-order-options#delivery",
         "op-order-total"
       ]
     },
@@ -61,7 +69,8 @@
     "flex-layout.row#order-header": {
       "props": {
         "fullWidth": true,
-        "colSizing": "auto"
+        "colSizing": "auto",
+        "blockClass": ["op-order-header"]
       },
       "children": [
         "flex-layout.col#order-header-info",
@@ -73,10 +82,16 @@
         "op-order-number",
         //"op-order-datetime",
         "op-order-seller"
-      ]
+      ],
+      "props": {
+        "blockClass": ["op-order-header-info"]
+      }
     },
     "flex-layout.col#order-header-options": {
-      "children": ["responsive-layout.desktop#order-options-desktop"]
+      "children": ["responsive-layout.desktop#order-options-desktop"],
+      "props": {
+        "blockClass": ["op-order-header-options"]
+      }
     },
     "responsive-layout.desktop#order-options-desktop": {
       "children": ["op-order-options"]
@@ -109,5 +124,10 @@
         "name": "deliveryPackages"
       },
       "children": ["op-order-delivery-packages"]
+    },
+    "op-order-options#delivery": {
+      "props": {
+        "blockClass": ["op-order-options-delivery"]
+      }
     }
   }

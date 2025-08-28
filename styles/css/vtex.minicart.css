@@ -90,8 +90,8 @@
 
 .minicartProductListContainer {
   padding: 24px;
-  height: calc(100vh - 77px - 253px);
-  height: calc(100dvh - 77px - 253px);
+  height: calc(100vh - 77px - 235px);
+  height: calc(100dvh - 77px - 235px);
   background-color: #F3F3F3;
 }
 

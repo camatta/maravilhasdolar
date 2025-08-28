@@ -122,9 +122,10 @@
 }
 .cancelOrderButton :global(.vtex-button) {
   box-shadow: none;
-  padding: 8px 0;
-  color: #660066;
+  padding: 0;
+  color: #A2A2A2;
   font-weight: 400;
+  font-size: 12px;
 }
 
 .cancelOrderButton :global(.vtex-button):hover {
@@ -186,11 +187,22 @@
 }
 
 .section--deliveryPackages {
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: none;
 }
 
 .package--delivery {
-  margin: 40px 0;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.orderOptionsWrapper--op-order-options-delivery {
+  justify-content: flex-start;
+}
+.updateOrderButton--op-order-options-delivery,
+.myOrdersButton--op-order-options-delivery {
+  display: none;
+}
+.cancelOrderButton--op-order-options-delivery {
+  display: inline-block;
 }
 
 .packageHeader {
@@ -252,6 +264,10 @@
   line-height: 20px;
 }
 
+.totalListWrapper {
+  border-top: 1px solid #D9D9D9;
+  margin-top: 56px;
+}
 .totalList {
   margin-top: 64px;
 }
