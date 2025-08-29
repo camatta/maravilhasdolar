@@ -927,6 +927,27 @@
 
 /*FIM RODAPÉ MINICART*/
 
+/*PÁGINA RASTREIE*/
+.flexRowContent--area-ajuda :global(.vtex-flex-layout-0-x-flexCol), .flexRowContent--area-rapidomenu :global(.vtex-flex-layout-0-x-flexCol) {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.flexRowContent--area-ajuda, .flexRowContent--area-rapidomenu {
+  justify-content: center;
+}
+.flexRow--cms-page-container.flexRow--area-ajuda {
+  margin-bottom: 24px;
+}
+.flexRow--cms-page-container.flexRow--area-rapidomenu {
+  margin-bottom: 110px;
+}
+.flexRowContent--pagina-rastreie :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+/*FIM PÁGINA RASTREIE*/
+
 /* PÁGINAS CMS */
 .flexRow--cms-page-container {
   margin: 0px 0 64px;
@@ -1209,6 +1230,14 @@
   }
   .flexRowContent--qty-price__container {
     gap: 15px;
+  }
+  .flexRowContent--area-ajuda :global(.vtex-flex-layout-0-x-flexCol), 
+  .flexRowContent--area-rapidomenu :global(.vtex-flex-layout-0-x-flexCol) {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .container--ajuda-rastreie {
+    margin-bottom: 10px;
   }
 }
 

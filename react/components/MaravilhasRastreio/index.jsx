@@ -366,18 +366,19 @@ const MaravilhasRastreio = () => {
       `}</style>
 
       {/* BODY da página */}
-      <div className="shop-tracking-status" style={{ width: '100%' }}>
+      <div className={styles.wrapperRastreio}>
+            <div className={styles.containerRastreio}>
+              <div className={styles.rastreioHeader}>
+                <h1 className={styles.rastreioTitle}>Acompanhe sua entrega</h1>
+              </div>
+            </div>
+      </div>
+      <div className={`shop-tracking-status ${styles.customContainer}`}>
         <div className="col-sm-12" style={{ width: '100%', float: 'left', backgroundColor: 'transparent', border: 'none', display: 'block' }}>
           <div className="form-horizontal" style={{ float: 'left', width: '100%' }}>
             <div className="form-group">
               <div
-  id="formNumeroControle"
-  style={{
-    width: '100%',
-    boxShadow: '0px 4px 6px 0px #00000026',
-    padding: '18px 192px',
-    borderRadius: '10px',
-  }}
+  id="formNumeroControle" className={`${styles.formControle}`}
 >
                 <div style={{ marginTop: '2em' }}>
                   <form method="post" id="rastrear_form" name="rastrear_form">
@@ -422,12 +423,12 @@ const MaravilhasRastreio = () => {
             </li>
 
             <div id="showHideDivOne" className="collapse in" style={{ border: '1px solid #d9d9d9', padding: 5, marginBottom: 5 }}>
-              <li className="list-group-item"><span className="prefix">Transportadora:</span> <span id="nome_transportador">-</span></li>
-              <li className="list-group-item"><span className="prefix">Última atualização em:</span> <span id="ultima_atualizacao_data">-</span></li>
-              <li className="list-group-item"><span className="prefix">Status:</span> <span id="ultima_atualizacao_status">-</span></li>
-              <li className="list-group-item"><span className="prefix">Local de destino:</span> <span id="destino">-</span></li>
-              <li className="list-group-item" id="div_data_previsao" style={{ display: 'none' }}><span className="prefix">Data prevista para entrega:</span> <span id="data_previsao">-</span></li>
-              <li className="list-group-item" id="link_rastreio" style={{ display: 'none' }}><span className="prefix">Maiores informações sobre a entrega:</span> <span><a id="link_rastreio_anchor" href="" target="_blank" rel="noreferrer">Rastreio transportadora</a></span></li>
+              <li className="list-group-item pb-2"><span className="prefix">Transportadora:</span> <span id="nome_transportador">-</span></li>
+              <li className="list-group-item pb-2"><span className="prefix">Última atualização em:</span> <span id="ultima_atualizacao_data">-</span></li>
+              <li className="list-group-item pb-2"><span className="prefix">Status:</span> <span id="ultima_atualizacao_status">-</span></li>
+              <li className="list-group-item pb-2"><span className="prefix">Local de destino:</span> <span id="destino">-</span></li>
+              <li className="list-group-item pb-2" id="div_data_previsao" style={{ display: 'none' }}><span className="prefix">Data prevista para entrega:</span> <span id="data_previsao">-</span></li>
+              <li className="list-group-item pb-2" id="link_rastreio" style={{ display: 'none' }}><span className="prefix">Maiores informações sobre a entrega:</span> <span><a id="link_rastreio_anchor" href="" target="_blank" rel="noreferrer">Rastreio transportadora</a></span></li>
 
               <br /><br />
 
@@ -470,19 +471,6 @@ const MaravilhasRastreio = () => {
               <p id="informacoes_adicionais" style={{ display: 'none' }}></p>
             </li>
 
-            <li className="list-group-item col-sm-6" style={{ lineHeight: '170%', borderBottom: 'none', borderTop: 'none', borderRight: 'none' }}>
-              <div className="col-sm-12">
-                <span className="prefix bold cssPedidoStatusTextoCor" style={{ color: '#006a96', fontSize: '1.2em' }}>Contato</span>
-              </div>
-              <div className="col-sm-6">
-                <p>E-mail: <a id="emailAnchor" href="" className="cssPedidoStatusTextoCor" style={{ color: '#006a96' }}>-</a></p>
-                <p id="telefone">Telefone: -</p>
-              </div>
-              <div className="col-sm-6">
-                <p id="atendimento1"></p>
-                <p id="atendimento2"></p>
-              </div>
-            </li>
           </ul>
         </div>
       </div>

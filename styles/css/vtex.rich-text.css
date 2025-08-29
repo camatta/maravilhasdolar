@@ -44,12 +44,6 @@
   background-image: url(assets/icons/icon-presentes.svg);
 }
 
-.container--rastreie-titulo {
-  background-image: url(assets/institucional/fundo-rastreio.jpg);
-  background-position: center;
-  margin-bottom: 1rem;
-}
-
 .wrapper--rastreie-titulo .headingLevel1--cms-page-title {
   font-size: 0;
   padding: 4rem;
@@ -645,6 +639,39 @@
   transform: translate(0, -50%);
 }
 
+/*Customização Página Rastreie*/
+.container--ajuda-rastreie {
+  background: #660066;
+  padding: 32px 24px;
+  width: 350px;
+  height: 121px;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+}
+.headingLevel1--ajuda-rastreie {
+  color: #fff;
+  margin-bottom: 8px;
+}
+.paragraph--ajuda-rastreie {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+.paragraph--rastreie-menurapido {
+  border: 1px solid #FF6600;
+  padding: 6px 24px;
+  border-radius: 41px;
+  width: 254px;
+  text-align: center;
+  margin-top: 0;
+}
+.paragraph--rastreie-menurapido .link {
+  color: #1C1C1C;
+  font-size: 14px;
+}
+/*Fim customização página rastreie*/
+
 @media (max-width: 1025px) {
   .paragraph--text-topbar {
     margin: 6px 0;
@@ -724,5 +751,12 @@
 
   .paragraph--copy-text {
     text-align: center;
+  }
+  .container--ajuda-rastreie {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .container--rastreie-menurapido {
+    justify-content: center;
   }
 }

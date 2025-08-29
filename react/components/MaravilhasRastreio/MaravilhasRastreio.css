@@ -1,3 +1,33 @@
+.wrapperRastreio {
+    background-image: url('../../assets/faq/bg-faq.jpg');
+    background-position: top;
+    background-size: 100% 165px;
+    background-repeat: no-repeat;
+}
+
+.containerRastreio {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.rastreioHeader {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.rastreioTitle {
+    margin: 0;
+    display: inline-block;
+    background: #FFCC00;
+    padding: 8px 64px;
+    border-radius: 52px;
+    color: #3F3F3F;
+    font-size: 32px;
+    line-height: 44px;
+}
+
 .wrapperSelectForm {
     border: 1px solid #FF6600;
     border-radius: 500px;
@@ -12,4 +42,24 @@
     border-radius: 500px;
     padding: 8px 24px;
     width: 100%;
+}
+
+.customContainer {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.formControle {
+    width: 100%;
+    box-shadow: 0px 4px 6px 0px #00000026;
+    padding: 18px 192px;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+    .formControle {
+        padding: 18px 20px;
+    }
 }

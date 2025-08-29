@@ -1,8 +1,9 @@
 {
     "store.custom#rastreie-pagina": {
         "children": [
-            "flex-layout.row#linha-bread",
-            "flex-layout.row#wrapper-rastreie-pagina"
+            "flex-layout.row#wrapper-rastreie-pagina",
+            "flex-layout.row#ajuda-rastreie",
+            "flex-layout.row#contatorapido-rastreie"
         ]
     },
 
@@ -11,17 +12,17 @@
       "flex-layout.col#pagina-rastreie"
     ],
     "props": {
-      "blockClass": ["custom-container", "cms-page-container", "pagina-rastreie"]
+      "blockClass": ["cms-page-container", "pagina-rastreie"],
+      "width": "100%"
     }
   },
 
   "flex-layout.col#pagina-rastreie": {
     "children": [
-      "rich-text#pagina-rastreie-title",
       "maravilhas-rastreio"
     ],
     "props": {
-      "blockClass": ["cms-page-content"]
+      "blockClass": ["custom-container","cms-page-content"]
     }
   },
 
@@ -29,6 +30,90 @@
     "props": {
       "blockClass": ["cms-page-title", "rastreie-titulo"],
       "text": "# Rastreie seu pedido aqui"
+    }
+  },
+
+  "flex-layout.row#ajuda-rastreie": {
+    "children": [
+      "flex-layout.col#area-ajuda"
+    ],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "area-ajuda"]
+    }
+  },
+
+  "flex-layout.col#area-ajuda": {
+    "children": [
+      "rich-text#precisa-ajuda",
+      "rich-text#compras-juridicas",
+      "rich-text#entre-contato"
+    ]
+  },
+
+  "rich-text#precisa-ajuda": {
+    "props": {
+      "blockClass": ["cms-page-title", "ajuda-rastreie"],
+      "text": "# Precisa de ajuda?\nSac:(11) 4000-1567"
+    }
+  },
+
+  "rich-text#compras-juridicas": {
+    "props": {
+      "blockClass": ["cms-page-title", "ajuda-rastreie"],
+      "text": "# Compras para Pessoas Jurídicas\nWhatsApp:(11) 4000-1567"
+    }
+  },
+
+  "rich-text#entre-contato": {
+    "props": {
+      "blockClass": ["cms-page-title", "ajuda-rastreie"],
+      "text": "# Entre em contato\nE-mail:sac@maravilhasdolar.com.br"
+    }
+  },
+
+  "flex-layout.row#contatorapido-rastreie": {
+    "children": [
+      "flex-layout.col#area-rapidomenu"
+    ],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "area-rapidomenu"]
+    }
+  },
+
+  "flex-layout.col#area-rapidomenu": {
+    "children": [
+      "rich-text#rastreie-trabalhe",
+      "rich-text#rastreie-fornecedor",
+      "rich-text#rastreie-nossaslojas",
+      "rich-text#rastreie-perguntasfrequentes"
+    ]
+  },
+
+  "rich-text#rastreie-trabalhe": {
+    "props": {
+      "blockClass": ["cms-page-title", "rastreie-menurapido"],
+      "text": "<a href='https://maps.app.goo.gl/2hUnHJ1fshHA3XCM7' target='_blank' class='vtex-rich-text-0-x-link'>Trabalhe Conosco</a>"
+    }
+  },
+
+  "rich-text#rastreie-fornecedor": {
+    "props": {
+      "blockClass": ["cms-page-title", "rastreie-menurapido"],
+      "text": "<a href='https://form.jotform.com/mktmlar/cadastro-de-fornecedor' target='_blank' class='vtex-rich-text-0-x-link'>Seja um Fornecedor</a>"
+    }
+  },
+
+  "rich-text#rastreie-nossaslojas": {
+    "props": {
+      "blockClass": ["cms-page-title", "rastreie-menurapido"],
+      "text": "[Nossas Lojas](/nossas-lojas)"
+    }
+  },
+
+  "rich-text#rastreie-perguntasfrequentes": {
+    "props": {
+      "blockClass": ["cms-page-title", "rastreie-menurapido"],
+      "text": "[Perguntas Frequentes](/faq)"
     }
   }
 }
