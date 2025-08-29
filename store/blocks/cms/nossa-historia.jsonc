@@ -76,7 +76,7 @@
 
   "rich-text#text-quem-somos": {
     "props": {
-      "text": "Em 2003, inauguramos nossa primeira loja no centro de Jundiaí, no interior de São Paulo. O sucesso foi tão grande que, em pouco tempo, expandimos para Várzea Paulista e não paramos mais. Hoje, com <span>mais de 40 lojas</span> espalhadas por diversas cidades do interior paulista, nos orgulhamos de ser uma referência em utilidades domésticas na região.",
+      "text": "Em 2003, inauguramos nossa primeira loja no centro de Jundiaí, no interior de São Paulo. O sucesso foi tão grande que, em pouco tempo, expandimos para Várzea Paulista e não paramos mais. Hoje, com **mais de 40 lojas** espalhadas por diversas cidades do interior paulista, nos orgulhamos de ser uma referência em utilidades domésticas na região.",
       "blockClass": "text-quem-somos"
     }
   },
@@ -124,7 +124,7 @@
 
   "rich-text#text-missao-quem-somos": {
     "props": {
-      "text": "Proporcionar uma <span>experiência única para nossos clientes</span>, reunindo a maior variedade de produtos com qualidade e preços acessíveis, sempre com o objetivo de tornar o dia a dia mais prático e especial. Queremos estar presentes nos momentos mais importantes da sua casa, seja organizando, decorando ou criando novas memórias com quem você ama.",
+      "text": "Proporcionar uma **experiência única para nossos clientes,** reunindo a maior variedade de produtos com qualidade e preços acessíveis, sempre com o objetivo de tornar o dia a dia mais prático e especial. Queremos estar presentes nos momentos mais importantes da sua casa, seja organizando, decorando ou criando novas memórias com quem você ama.",
       "blockClass": "text-quem-somos"
     }
   },
@@ -142,7 +142,8 @@
       "flex-layout.col#wrapper-oferecemos-quem-somos"
     ],
     "props": {
-      "blockClass": "row-cms"
+      "blockClass": ["row-cms", "wrapper-oferecemos"],
+      "fullWidth": true
     }
   },
   
@@ -233,14 +234,14 @@
 
   "rich-text#title-oferecemos-2": {
     "props": {
-      "text": "Utensílios de Cozinha e Organização",
+      "text": "Decoração e Entretenimento",
       "blockClass": "title-card-oferecemos"
     }
   },
 
   "rich-text#text-oferecemos-2": {
     "props": {
-      "text": "Produtos para facilitar o dia a dia e transformar sua casa em um espaço funcional e acolhedor.",
+      "text": "Itens para decorar, brincar e encantar toda a família.",
       "blockClass": "text-card-oferecemos"
     }
   },
@@ -266,14 +267,14 @@
 
   "rich-text#title-oferecemos-3": {
     "props": {
-      "text": "Utensílios de Cozinha e Organização",
+      "text": "Limpeza e Jardinagem",
       "blockClass": "title-card-oferecemos"
     }
   },
 
   "rich-text#text-oferecemos-3": {
     "props": {
-      "text": "Produtos para facilitar o dia a dia e transformar sua casa em um espaço funcional e acolhedor.",
+      "text": "Soluções para manter o lar sempre em ordem e bem cuidado.",
       "blockClass": "text-card-oferecemos"
     }
   },
@@ -314,7 +315,7 @@
   "rich-text#text-compromisso-2": {
     "props": {
       "text": "Nossa realização é ter a certeza de que, depois de visitar uma de nossas lojas, você montará a mesa mais bonita para o almoço em família, fará o bolo mais gostoso para o café da tarde, presenteará com carinho a garotada com os melhores brinquedos e dará um show na organização do seu armário!",
-      "blockClass": "text-compromisso"
+      "blockClass": ["text-compromisso", "text-compromisso-p2"]
     }
   },
 

@@ -1,0 +1,8 @@
+{
+    "flex-layout.row#search-total-products": {
+        "props": {
+            "blockClass": ["custom-container", "total-products"]
+        },
+        "children": ["total-products.v2"]
+    }
+}

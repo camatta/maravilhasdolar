@@ -18,14 +18,16 @@
 
   "flex-layout.col#upper-mosaic": {
     "props": {
-      "blockClass": "upper-mosaic-content"
+      "blockClass": "upper-mosaic-content",
+      "width": "100%"
     },
     "children": ["image#upper-mosaic-first", "image#upper-mosaic-second", "image#upper-mosaic-third", "image#upper-mosaic-fourth"]
   },
 
   "flex-layout.col#upper-mosaic-mob": {
     "props": {
-      "blockClass": "upper-mosaic-content-mob"
+      "blockClass": "upper-mosaic-content-mob",
+      "width": "100%"
     },
     "children": ["slider-layout#upper-mosaic-mob"]
   },
@@ -74,13 +76,13 @@
   "slider-layout#upper-mosaic-mob": {
       "props": {
         "itemsPerPage": {
-          "tablet": 2,
+          "tablet": 3,
           "phone": 2
         },
         "centerMode": {
-          "mobile": "disabled",
-          "tablet": "disabled",
-          "phone": "disabled"
+          "mobile": "to-the-left",
+          "tablet": "to-the-left",
+          "phone": "to-the-left"
         },
         "navigationStep": 1,
         "infinite": true,

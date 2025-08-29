@@ -2,7 +2,9 @@
   "flex-layout.row#product-breadcrumb": {
     "title": "Breadcrumb",
     "props": {
-      "blockClass": ["product-breadcrumb-container", "custom-container"]
+      "blockClass": ["product-breadcrumb-container", "custom-container"],
+      "fullWidth": true,
+      "colSizing": "auto"
     },
     "children": ["flex-layout.col#product-breadcrumb","flex-layout.col#product-share" ]
   },
@@ -25,5 +27,4 @@
     },
     "children": ["share"]
   }
-
 }

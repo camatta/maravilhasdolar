@@ -440,8 +440,7 @@
   font-family: Nunito;
   font-weight: 700;
   font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0%;
+  line-height: 27px;
   color: #000;
   margin: 0;
   border-radius: 74px;
@@ -452,10 +451,18 @@
   font-size: 14px;
   color: #000;
 }
+.strong--text-quem-somos {
+  color: #660066;
+}
 
 .paragraph--text-compromisso {
   font-size: 14px;
+  line-height: 19px;
   color: #000;
+  margin-top: 0;
+}
+.paragraph--text-compromisso-p2 {
+  margin: 0;
 }
 
 .paragraph--cta-compromisso {
@@ -463,11 +470,13 @@
   font-weight: 700;
   font-size: 14px;
   color: #1C1C1C;
+  line-height: 19px;
   padding: 6px 24px;
   border-radius: 41px;
   border: 1px solid #FF6600;
   cursor: pointer;
   transition: all .3s ease-in-out;
+  margin: 44px 0 0;
 }
 .paragraph--cta-compromisso:hover {
   background-color: #FF6600;
@@ -677,6 +686,11 @@
     margin: 6px 0;
     font-size: 12px;
     line-height: 16px;
+    text-align: center;
+  }
+
+  .wrapper--menu-bottom-search {
+    padding: 0;
   }
 
   .link--for-companies::before {
@@ -730,7 +744,7 @@
     margin-bottom: 6px;
   }
   .wrapper--search-description {
-    margin-top: 56px;
+    margin-top: 32px;
   }
 
   .paragraph--newsletter-cta {

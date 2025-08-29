@@ -29,7 +29,8 @@
   background-image: url('assets/icons/check-toast.svg');
   position: absolute;
   left: 20px;
-  top: 9px;
+  top: 50%;
+  transform: translate(0, -50%);
   width: 15px;
   height: 15px;
   background-size: cover;
@@ -398,7 +399,6 @@
   background-image: url(assets/icons/icon-description.svg);
 }
 
-
 .productDescriptionText {
   background: #FFFFFF;
   font-size: 14px;
@@ -440,6 +440,18 @@
 }
 
 @media (max-width: 1025px) {
+  .carouselGaleryCursor {
+    margin: 0;
+    max-width: 100%;
+  }
+  .productImagesThumb {
+    width: initial !important;
+  }
+  .thumbImg {
+    max-width: 88px;
+    max-height: 88px;
+  }
+
   .searchBarIcon {
     padding: 8px 4px 9px 24px;
   }
@@ -471,8 +483,12 @@
      line-height: 15px;
   }
 
+  .infoCardContainer--info-card-catmenu {
+    gap: 8px;
+  }
+
   .carouselGaleryThumbs--pdp {
-    display: flex;
+    display: block;
     max-width: initial;
     margin-top: 16px;
   }
@@ -485,43 +501,12 @@
     left: 0;
     top: 0;
   }
-
-  .productNameContainer {
-    font-size: 22px;
-    line-height: 28px;
-  }
-
-  .productDescriptionTitle {
-    display: none;
-  }
-  .productDescriptionContainer{
-    padding: 24px 0;
-  }
-  .productDescriptionText {
-    padding: 24px;
-  }
 }
 
 @media (max-width: 767px) {
-  /* .infoCardImageContainer--info-card-catmenu {
-    max-width: 186px;
-    min-width: px;
-    height: 92px;
-  } */
-  .infoCardContainer--info-card-catmenu {
-    flex-direction: column-reverse;
-    text-align: center;
-    gap: 8px;
-  }
   .infoCardTextContainer--info-card-catmenu {
     align-items: center;
     padding: 0;
-  }
-
-  .paragraph--info-card-catmenu,
-  .infoCardCallActionText {
-    font-size: 12px;
-    line-height: 15px;
   }
 
   .imageElementLink--image__display-banner {

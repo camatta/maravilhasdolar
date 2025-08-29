@@ -251,6 +251,13 @@
 }
 
 /* Página do produto */
+:global(.vtex-flex-layout-0-x-flexRowContent--product-breadcrumb-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  max-width: calc(100% - 105px);
+  width: 100% !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 :global(.vtex-flex-layout-0-x-flexRowContent--product-main-container)
   > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
   max-width: 730px;
@@ -507,13 +514,36 @@
   }
 }
 
-@media (max-width: 1025px) {
+@media screen and (max-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-main-container)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    max-width: 100%;
+    border: 0;
+    padding: 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-main-container)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    max-width: 388px;
+  }
+
+  :global(.vtex-search-result-3-x-filterAccordionBreadcrumbs) + :global(.vtex-search-result-3-x-accordionFilterContainer) {
+    padding-top: 0;
+    margin-top: 0;
+    border: 0;
+  }
   .container :global(.vtex-button) {
     width: initial;
     flex-direction: row;
   }
     .container :global(.vtex-button) .label {
       display: none;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--releases-products-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+      width: 33.33% !important;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--releases-products-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+      width: 66.66% !important;
     }
     
   .container :global(.vtex-button)::before {
@@ -548,11 +578,6 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--store-info-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     padding: 0;
   }
-
-  
-  :global(.vtex-flex-layout-0-x-flexRowContent--releases-products-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: 50% !important;
-  }
 }
 
 @media (max-width: 720px) {
@@ -569,5 +594,12 @@
   }
   :global(.vtex-my-account-1-x-profile__header) > div:last-child {
     display: none;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--releases-products-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child,
+  :global(.vtex-flex-layout-0-x-flexRowContent--releases-products-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 50% !important;
   }
 }

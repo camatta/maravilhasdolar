@@ -63,5 +63,14 @@
 @media (max-width: 991px) {
   .newsletterForm {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 auto;
+  }
+  .emailInputContainer :global(.vtex-styleguide-9-x-input) {
+    max-width: 291px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }

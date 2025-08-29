@@ -51,8 +51,8 @@
 .minicartQuantityBadge {
   background: #99CC33;
   font-weight: 700;
-  top: -5px;
-  left: 17px;
+  top: -10px;
+  right: -10px;
   color: #1E1E1E;
 }
 
@@ -90,8 +90,8 @@
 
 .minicartProductListContainer {
   padding: 24px;
-  height: calc(100vh - 77px - 253px);
-  height: calc(100dvh - 77px - 253px);
+  height: calc(100vh - 77px - 235px);
+  height: calc(100dvh - 77px - 235px);
   background-color: #F3F3F3;
 }
 
@@ -147,29 +147,5 @@
 
   .openIconContainer :global(.vtex-button)::after {
     display: none;
-  }
-}
-
-@media screen and (max-width: 639px) {
-  .closeIconButton {
-    margin: 6px 0 0 15px;
-  }
-
-  .minicartTitle {
-    padding: 24px 0;
-    margin: 0;
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: uppercase;
-  }
-
-  .minicartProductListContainer {
-    padding: 24px 15px;
-    height: calc(100vh - 74px - 138px);
-    height: calc(100dvh - 74px - 138px);
-  }
-
-  .minicartCheckoutButton :global(.vtex-button) {
-    padding: 10px;
   }
 }

@@ -86,13 +86,9 @@
     margin-right: 5px;
   }
 
-  .currencyContainer--selling-price-summary {
-    font-size: 16px;
-    line-height: 20px;
-  }
   .installments--installments-summary,
   :global(.vtex-flex-layout-0-x-flexCol--spot-price-summary-content) .spotPrice {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 19px;
   }
 }

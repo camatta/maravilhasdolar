@@ -18,7 +18,8 @@
   },
   "product-quantity": {
     "props": {
-      "showLabel": false
+      "showLabel": false,
+      "blockClass": ["pdp"]
     }
   },
 

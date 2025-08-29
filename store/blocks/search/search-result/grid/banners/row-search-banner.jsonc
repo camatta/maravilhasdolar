@@ -1,10 +1,23 @@
 {
+    "flex-layout.row#search-banner": {
+      "title": "Banner Categoria",
+      "props": {
+        "blockClass": ["search-banner-container"],
+        "fullWidth": true,
+        "preventHorizontalStretch": true
+      },
+      "children": [
+        "flex-layout.col#search-banner"
+      ]
+    },
+
     "flex-layout.col#search-banner": {
       "props": {
         "blockClass": ["category-banner"]
       },
       "children": [
-        "image#category-banner-desk"
+        "image#category-banner-desk",
+        "image#category-banner-mobi"
       ]
     },
     "image#category-banner-desk": {
@@ -19,9 +32,9 @@
     "image#category-banner-mobi": {
       "title": "Banner Mobile",
       "props": {
-        "src": "assets/categorias/banner-brinquedos.png",
+        "src": "assets/categorias/banner-brinquedos-mobile.png",
         "alt": "Imperdível, até 30% de desconto",
-        "maxHeight": "145px",
+        "maxHeight": "78",
         "blockClass": ["category-banner", "category-banner-mobi"]
       }
     }
