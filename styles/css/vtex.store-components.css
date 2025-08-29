@@ -399,7 +399,6 @@
   background-image: url(assets/icons/icon-description.svg);
 }
 
-
 .productDescriptionText {
   background: #FFFFFF;
   font-size: 14px;
@@ -441,6 +440,18 @@
 }
 
 @media (max-width: 1025px) {
+  .carouselGaleryCursor {
+    margin: 0;
+    max-width: 100%;
+  }
+  .productImagesThumb {
+    width: initial !important;
+  }
+  .thumbImg {
+    max-width: 88px;
+    max-height: 88px;
+  }
+
   .searchBarIcon {
     padding: 8px 4px 9px 24px;
   }
@@ -477,7 +488,7 @@
   }
 
   .carouselGaleryThumbs--pdp {
-    display: flex;
+    display: block;
     max-width: initial;
     margin-top: 16px;
   }
@@ -489,21 +500,6 @@
   .discountInsideContainer {
     left: 0;
     top: 0;
-  }
-
-  .productNameContainer {
-    font-size: 22px;
-    line-height: 28px;
-  }
-
-  .productDescriptionTitle {
-    display: none;
-  }
-  .productDescriptionContainer{
-    padding: 24px 0;
-  }
-  .productDescriptionText {
-    padding: 24px;
   }
 }
 

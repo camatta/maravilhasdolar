@@ -1,8 +1,7 @@
 {
   "flex-layout.row#content": {
     "props": {
-      "blockClass": ["footer-container", "custom-container"],
-      "colSizing": "auto"
+      "blockClass": ["footer-container", "custom-container"]
     },
     "children": [
       "flex-layout.col#content-right"
@@ -12,7 +11,7 @@
   "flex-layout.col#content-left": {
     "props": {
       "blockClass": "content-left-content",
-      "preventVerticalStretch": true
+      "width": "100%"
     },
     "children": [
       "image#footer-logo",

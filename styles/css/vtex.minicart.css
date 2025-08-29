@@ -149,27 +149,3 @@
     display: none;
   }
 }
-
-@media screen and (max-width: 639px) {
-  .closeIconButton {
-    margin: 6px 0 0 15px;
-  }
-
-  .minicartTitle {
-    padding: 24px 0;
-    margin: 0;
-    font-size: 20px;
-    line-height: 25px;
-    text-transform: uppercase;
-  }
-
-  .minicartProductListContainer {
-    padding: 24px 15px;
-    height: calc(100vh - 74px - 138px);
-    height: calc(100dvh - 74px - 138px);
-  }
-
-  .minicartCheckoutButton :global(.vtex-button) {
-    padding: 10px;
-  }
-}

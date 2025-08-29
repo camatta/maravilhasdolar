@@ -2,7 +2,6 @@
   padding: 0;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--search-bread-content) {
@@ -21,7 +20,7 @@
   padding-right: 8px;
   line-height: 0;
   position: relative;
-  width: 65px;
+  min-width: 65px;
 }
 
 .homeLink::after {
@@ -41,6 +40,9 @@
   line-height: 16px;
   color: #666666;
   padding: 0 8px 0 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .link:hover {
   color: #000;
@@ -48,11 +50,15 @@
 
 .arrow {
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 .term {
   font-size: 12px;
-  line-height: 0;
   color: #1C1C1C;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .link::first-letter,

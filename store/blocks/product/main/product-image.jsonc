@@ -7,9 +7,7 @@
     "children": [
       "vtex.product-highlights@2.x:product-highlights#pdp",
       "responsive-layout.desktop#image-pdp",
-      "responsive-layout.mobile#image-pdp",
-      "flex-layout.row#product-warning-b2b",
-      "flex-layout.row#product-description"
+      "responsive-layout.mobile#image-pdp"
     ]
   },
 
@@ -17,7 +15,7 @@
     "props": {
      /*  "filter": {
         "type": "show",
-        "highlightNames": ["%", "Novidades", "Mais Vendidos", "Item"]
+        "highlightNames": ["%", "Novidades", "Mais Vendidos", "Item Sortido"]
       }, */
       "blockClass": ["wrapperPdpHighlight"]
     },
@@ -43,7 +41,11 @@
   },
 
   "responsive-layout.desktop#image-pdp": {
-    "children": ["product-images#desktop"]
+    "children": [
+      "product-images#desktop",
+      "flex-layout.row#product-warning-b2b",
+      "flex-layout.row#product-description"
+    ]
   },
   "product-images#desktop": {
     "props": {
@@ -67,8 +69,8 @@
       "thumbnailAspectRatio": "1:1",
       "showNavigationArrows": false,
       "showPaginationDots": false,
-      "maxHeight": 385,
-      "thumbnailMaxHeight": 80,
+      "maxHeight": 388,
+      "thumbnailMaxHeight": 90,
       "zoomMode": "in-place-hover",
       "thumbnailsOrientation": "horizontal",
       "blockClass": ["pdp"]
