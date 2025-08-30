@@ -682,6 +682,9 @@
 /*Fim customização página rastreie*/
 
 @media (max-width: 1025px) {
+  .wrapper--titulo-pagina-cms .headingLevel1 {
+    margin-bottom: 16px;
+  }
   .paragraph--text-topbar {
     margin: 6px 0;
     font-size: 12px;
@@ -732,6 +735,16 @@
 
   .container--copy-text {
     justify-content: center;
+  }
+
+  .paragraph--title-menu-cms-institucional {
+    margin-bottom: 0;
+  }
+  .link--content-menu-cms-institucional {
+    color: #1C1C1C;
+  }
+  .wrapper--subtitle-estilo-cms .paragraph {
+    font-size: 18px;
   }
 }
 

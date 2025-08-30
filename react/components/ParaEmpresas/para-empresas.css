@@ -48,6 +48,8 @@
     border: 1px solid #FF0066;
     color: #1C1C1C;
     transition: all .3s ease-in-out;
+    display: inline-block;
+    min-width: 130px;
 }
 .ctaCadastro a:hover {
     background-color: #FF0066;
@@ -66,6 +68,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 32px;
+    gap: 24px;
 }
 
 .cardVantagem {
@@ -76,6 +79,7 @@
 
 .iconCardVantagem {
     width: 50px;
+    min-width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -106,8 +110,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 48px;
-    gap: 25px;
+    column-gap: 25px;
+    row-gap: 60px;
     margin-top: 62px;
+    flex-wrap: wrap;
 }
 
 .cardAproveitar {
@@ -152,4 +158,30 @@
     line-height: 16px;
     color: #000;
     margin: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .wrapperCtaCadastro {
+        margin-bottom: 35px;
+    }
+    .wrapperCardsVantagens {
+        margin-bottom: 32px;
+    }
+    .cardVantagem {
+        margin-bottom: 0;
+    }
+    .textCardVantagem p {
+        max-width: 100%;
+    }
+
+    .titleTopicoEmpresas h2,
+    .titleTopicoEmpresas h3 {
+        font-size: 17px;
+        line-height: 23px;
+        padding: 10px 15px;
+    }
+
+    .cardAproveitar {
+        width: 100%;
+    }
 }

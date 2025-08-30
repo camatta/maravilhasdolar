@@ -515,7 +515,7 @@ const NossasLojas = ({ lojas = lojasData }) => {
       
       {/* Se houver texto no input, exibe a mensagem com o texto digitado */}
       {searchTerm && (
-        <p>Resultados para: "{searchTerm}"</p>
+        <p className={styles.searchTerm}>Resultados para: "{searchTerm}"</p>
       )}
 
       <div className={styles.lojasContainer}>

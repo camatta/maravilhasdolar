@@ -859,7 +859,8 @@
 .flexRowContent--wrapper-colunas-oferecemos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 45px;
 }
 
 .flexColChild--coluna-oferecemos :global(.vtex-store-components-3-x-imageElement) {
@@ -964,6 +965,13 @@
 }
 
 @media (max-width: 1025px) {
+  .flexCol--col-img-quem-somos {
+    margin-left: 30px;
+  }
+
+  .flexColChild--minicart-mobile-content :global(.vtex-login-2-x-container) :global(.vtex-button__label) {
+    display: none;
+  }
   .flexRow--related-products-container {
     margin: 40px 0 80px;
   }
@@ -993,7 +1001,7 @@
   }
 
   .flexCol--drawer-mobile-content {
-    width: 63px;
+    width: 59px;
   }
 
   .flexCol--minicart-mobile-content {
@@ -1208,9 +1216,46 @@
     flex-direction: column;
     gap: 22px;
   }
+
+  .flexCol--menu-cms-institucional {
+    margin-right: 0;
+    margin-bottom: 24px;
+    background: #FFCC00;
+    position: relative;
+    z-index: 0;
+  }
+  .flexCol--menu-cms-institucional::before,
+  .flexCol--menu-cms-institucional::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -15px;
+    right: -15px;
+    top: 0;
+    bottom: 0;
+    background: #FFCC00;
+  }
+
+  .flexRowContent--cms-page-container {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 991px) {
+  .flexRowContent--row-cms {
+    flex-direction: column;
+  }
+  .flexCol--col-img-quem-somos {
+    width: 100% !important;
+    max-width: 369px;
+    margin: 24px auto 0;
+  }
+  .flexCol--col-img-compromisso {
+    max-width: 255px;
+    width: 100% !important;
+    margin: 24px auto 0;
+  }
+
   .flexColChild--summary-action-content:last-child {
     width: 100%;
   }

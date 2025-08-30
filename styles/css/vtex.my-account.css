@@ -142,14 +142,12 @@
   background-color: unset;
 }
 
-@media (max-width: 1024px) {
-  .profile {
-    padding-left: 30px;
-    padding-right: 0;
+@media screen and (max-width: 1025px) {
+  .userInfo {
+    margin-bottom: 30px;
   }
-  .boxContainerBody {
-    padding-left: 15px;
-    padding-right: 15px;
+  :global(.vtex-account__page) {
+    margin-left: 30px;
   }
 }
 
@@ -160,5 +158,15 @@
   
   .profile {
     padding-left: 0;
+  }
+   :global(.vtex-account__page) {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  :global(.vtex-render__container-id-my-account) {
+    margin-top: 35px;
+    margin-bottom: 80px;
   }
 }

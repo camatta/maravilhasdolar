@@ -149,6 +149,7 @@
     border: 1px solid #FF0066;
     border-radius: 41px;
     text-decoration: unset;
+    display: inline-block;
 }
 
 .contentTextGeral h4 {
@@ -168,4 +169,26 @@
 
 .topicoTextMainTermos {
     margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1025px) {
+    .sidebarTermosCartao {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .saudacoesMainTermos {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .textSaudacoesMainTermos p {
+        text-align: left;
+        max-width: 100%;
+    }
+    .ctaCartaoMainTermos,
+    .ctaCartaoMainTermos a {
+        text-align: center;
+        width: inherit;
+    }
 }

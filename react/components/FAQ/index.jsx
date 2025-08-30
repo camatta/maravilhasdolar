@@ -404,7 +404,7 @@ const FAQ = () => {
                                 </svg>
                             </div>
                             <div className={styles.titleCardSidebar}>
-                                <h4>Loja<br/>Online</h4>
+                                <h4>Loja <br/>Online</h4>
                             </div>
                         </div>
                     </div>
@@ -417,7 +417,7 @@ const FAQ = () => {
                                 </svg>
                             </div>
                             <div className={styles.titleCardSidebar}>
-                                <h4>Trocas e<br/>Cancelamentos</h4>
+                                <h4>Trocas e <br/>Cancelamentos</h4>
                             </div>
                         </div>
                     </div>
@@ -437,7 +437,7 @@ const FAQ = () => {
                                 </svg>
                             </div>
                             <div className={styles.titleCardSidebar}>
-                                <h4>Lista de<br/>Presentes</h4>
+                                <h4>Lista de <br/>Presentes</h4>
                             </div>
                         </div>
                     </div>
@@ -458,7 +458,7 @@ const FAQ = () => {
                                 </svg>
                             </div>
                             <div className={styles.titleCardSidebar}>
-                                <h4>Lojas<br/>Físicas</h4>
+                                <h4>Lojas <br/>Físicas</h4>
                             </div>
                         </div>
                     </div>
@@ -480,7 +480,7 @@ const FAQ = () => {
                                 </svg>
                             </div>
                             <div className={styles.titleCardSidebar}>
-                                <h4>Outros<br/>Assuntos</h4>
+                                <h4>Outros <br/>Assuntos</h4>
                             </div>
                         </div>
                     </div>

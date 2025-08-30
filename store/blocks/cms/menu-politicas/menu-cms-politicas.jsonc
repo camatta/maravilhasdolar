@@ -1,17 +1,42 @@
 {
     "flex-layout.col#menu-cms-politicas": { // Menu Lateral para Páginas CMS Institucionais
       "children": [
-        "rich-text#title-menu-cms-politicas", // Título do Menu
+        "disclosure-layout#menu-cms-politicas"
+      ],
+      "props": {
+        "blockClass": "menu-cms-institucional"
+      }
+    },
+
+    "disclosure-layout#menu-cms-politicas": {
+      "props": {
+        "blockClass": ["menu-cms", "menu-cms-politicas"]
+      },
+      "children": [
+        "disclosure-trigger#menu-cms-politicas",
+        "disclosure-content#menu-cms-politicas"
+      ]
+    },
+    "disclosure-trigger#menu-cms-politicas": {
+      "props": {
+        "blockClass": ["menu-cms", "menu-cms-politicas"]
+      },
+      "children": [
+        "rich-text#title-menu-cms-politicas" // Título do Menu
+      ]
+    },
+    "disclosure-content#menu-cms-politicas": {
+      "props": {
+        "blockClass": ["menu-cms", "menu-cms-politicas"]
+      },
+      "children": [
         "rich-text#content-menu-cms-troca-e-cancelamento", // Cada linha representa um link do menu
         "rich-text#content-menu-cms-termos-lista-de-presentes",
         "rich-text#content-menu-cms-termos-e-condicoes",
         "rich-text#content-menu-cms-politica-de-privacidade",
         "rich-text#content-menu-cms-politica-de-frete",
         "rich-text#content-menu-cms-politica-de-cookies"
-      ],
-      "props": {
-        "blockClass": "menu-cms-institucional"
-      }
+      ]
     },
   
     "rich-text#title-menu-cms-politicas": {

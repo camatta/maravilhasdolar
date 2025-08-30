@@ -1,17 +1,42 @@
 {
     "flex-layout.col#menu-cms-institucional": { // Menu Lateral para Páginas CMS Institucionais
       "children": [
-        "rich-text#title-menu-cms-institucional", // Título do Menu
+        "disclosure-layout#menu-cms-institucional"
+      ],
+      "props": {
+        "blockClass": "menu-cms-institucional"
+      }
+    },
+
+    "disclosure-layout#menu-cms-institucional": {
+      "props": {
+        "blockClass": ["menu-cms", "menu-cms-institucional"]
+      },
+      "children": [
+        "disclosure-trigger#menu-cms-institucional",
+        "disclosure-content#menu-cms-institucional"
+      ]
+    },
+    "disclosure-trigger#menu-cms-institucional": {
+      "props": {
+        "blockClass": ["menu-cms", "menu-cms-institucional"]
+      },
+      "children": [
+        "rich-text#title-menu-cms-institucional" // Título do Menu
+      ]
+    },
+    "disclosure-content#menu-cms-institucional": {
+      "props": {
+        "blockClass": ["menu-cms", "menu-cms-institucional"]
+      },
+      "children": [
         "rich-text#content-menu-cms-trabalhe-conosco", // Cada linha representa um link do menu
         "rich-text#content-menu-cms-seja-fornecedor",
         "rich-text#content-menu-cms-nossa-historia",
         "rich-text#content-menu-cms-nossas-lojas",
         "rich-text#content-menu-cms-para-empresas",
         "rich-text#content-menu-cms-relatorio-transparencia"
-      ],
-      "props": {
-        "blockClass": "menu-cms-institucional"
-      }
+      ]
     },
   
     "rich-text#title-menu-cms-institucional": {
