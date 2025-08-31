@@ -3,24 +3,12 @@
     "path": "/nossa-historia"
   },
 
-  "store.custom#como-comprar": {
-    "path": "/como-comprar"
-  },
-
-  "store.custom#marketplace": {
-    "path": "/marketplace"
-  },
-
   "store.custom#fale-conosco": {
     "path": "/fale-conosco"
   },
 
   "store.custom#politica-de-frete": {
     "path": "/politica-de-frete"
-  },
-
-  "store.custom#politica-de-pagamento": {
-    "path": "/politicas-de-pagamento"
   },
 
   "store.custom#trocas-e-cancelamentos": {
@@ -37,10 +25,6 @@
 
   "store.custom#politica-de-cookies": {
     "path": "/politica-de-cookies"
-  },
-
-  "store.custom#lojas-parceiras": {
-    "path": "/lojas-parceiras"
   },
 
   "store.custom#nossas-lojas": {

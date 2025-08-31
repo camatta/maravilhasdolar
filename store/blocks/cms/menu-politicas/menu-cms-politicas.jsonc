@@ -48,7 +48,7 @@
   
     "rich-text#content-menu-cms-troca-e-cancelamento": {
       "props": {
-        "text": "[Política de Troca e Cancelamento](/politica-de-troca)",
+        "text": "[Política de Troca e Cancelamento](/troca-e-cancelamento)",
         "blockClass": ["content-menu-cms-institucional", "troca-e-cancelamento"]
       }
     },

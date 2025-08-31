@@ -964,7 +964,16 @@
   margin: 0px 0 64px;
 }
 
+@media screen and (max-width: 1199px) {
+  .flexCol--menu-cms-institucional {
+    margin-right: 30px;
+  }
+}
+
 @media (max-width: 1025px) {
+  .flexColChild--newsletter-cta-content {
+    text-align: center;
+  }
   .flexCol--col-img-quem-somos {
     margin-left: 30px;
   }
@@ -1219,10 +1228,9 @@
 
   .flexCol--menu-cms-institucional {
     margin-right: 0;
-    margin-bottom: 24px;
     background: #FFCC00;
     position: relative;
-    z-index: 0;
+    z-index: 1;
   }
   .flexCol--menu-cms-institucional::before,
   .flexCol--menu-cms-institucional::after {

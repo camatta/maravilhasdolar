@@ -1,9 +1,28 @@
 {
   "store.custom#trocas-e-cancelamentos": {
     "children": [
+      "responsive-layout.desktop#trocas-e-cancelamentos",
+      "responsive-layout.mobile#trocas-e-cancelamentos"
+    ]
+  },
+  "responsive-layout.desktop#trocas-e-cancelamentos": {
+    "children": [
       "flex-layout.row#linha-bread",
       "flex-layout.row#wrapper-politicas-de-trocas"
     ]
+  },
+  "responsive-layout.mobile#trocas-e-cancelamentos": {
+    "children": [
+      "flex-layout.row#linha-menu",
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#trocas-e-cancelamentos-content"
+    ]
+  },
+  "flex-layout.row#trocas-e-cancelamentos-content": {
+    "children": ["flex-layout.col#politicas-de-troca"],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-troca"]
+    }
   },
 
   "flex-layout.row#wrapper-politicas-de-trocas": {

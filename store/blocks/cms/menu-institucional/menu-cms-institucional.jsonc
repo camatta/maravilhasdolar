@@ -83,7 +83,7 @@
   
     "rich-text#content-menu-cms-relatorio-transparencia": {
       "props": {
-        "text": "[Relatório de Transparência Salarial](/relatorio-transparencia)",
+        "text": "[Relatório de Transparência Salarial](/relatorio-de-transparencia)",
         "blockClass": ["content-menu-cms-institucional", "relatorio-de-transparencia"]
       }
     }

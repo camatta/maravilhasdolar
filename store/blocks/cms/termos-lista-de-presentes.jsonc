@@ -1,9 +1,34 @@
 {
     "store.custom#termos-lista": {
       "children": [
+        "responsive-layout.desktop#termos-lista",
+        "responsive-layout.mobile#termos-lista"
+      ]
+    },
+    "responsive-layout.desktop#termos-lista": {
+      "children": [
         "flex-layout.row#linha-bread",
         "flex-layout.row#wrapper-termos-lista"
       ]
+    },
+    "responsive-layout.mobile#termos-lista": {
+      "children": [
+        "flex-layout.row#linha-menu",
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#termos-linha-content"
+      ]
+    },
+    "flex-layout.row#linha-menu": {
+      "children": ["flex-layout.col#menu-cms-politicas"],
+      "props": {
+        "blockClass": ["custom-container"]
+      }
+    },
+    "flex-layout.row#termos-linha-content": {
+      "children": ["flex-layout.col#content-termos-lista"],
+      "props": {
+        "blockClass": ["custom-container", "cms-page-container", "pagina-termos-lista"] 
+      }
     },
 
     "flex-layout.row#wrapper-termos-lista": {

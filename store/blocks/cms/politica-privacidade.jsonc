@@ -1,9 +1,28 @@
 {
   "store.custom#politica-privacidade": {
     "children": [
+      "responsive-layout.desktop#politica-privacidade",
+      "responsive-layout.mobile#politica-privacidade"
+    ]
+  },
+  "responsive-layout.desktop#politica-privacidade": {
+    "children": [
       "flex-layout.row#linha-bread",
       "flex-layout.row#wrapper-politicas-de-privacidade"
     ]
+  },
+  "responsive-layout.mobile#politica-privacidade": {
+    "children": [
+      "flex-layout.row#linha-menu",
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#politica-privacidade-content"
+    ]
+  },
+  "flex-layout.row#politica-privacidade-content": {
+    "children": ["flex-layout.col#politicas-de-privacidade"],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
+    }
   },
 
   "flex-layout.row#wrapper-politicas-de-privacidade": {

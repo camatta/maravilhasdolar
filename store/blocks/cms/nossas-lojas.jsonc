@@ -1,9 +1,28 @@
 {
     "store.custom#nossas-lojas": {
       "children": [
+        "responsive-layout.desktop#nossas-lojas",
+        "responsive-layout.mobile#nossas-lojas"
+      ]
+    },
+    "responsive-layout.desktop#nossas-lojas": {
+      "children": [
         "flex-layout.row#linha-bread",
         "flex-layout.row#wrapper-nossas-lojas"
       ]
+    },
+    "responsive-layout.mobile#nossas-lojas": {
+      "children": [
+        "flex-layout.row#linha-menu-institucional",
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#nossas-lojas-content"
+      ]
+    },
+    "flex-layout.row#nossas-lojas-content": {
+      "children": ["flex-layout.col#content-nossas-lojas"],
+      "props": {
+        "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
+      }
     },
 
     "flex-layout.row#wrapper-nossas-lojas": {

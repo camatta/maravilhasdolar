@@ -1,9 +1,28 @@
 {
   "store.custom#politica-de-frete": {
     "children": [
+      "responsive-layout.desktop#politica-de-frete",
+      "responsive-layout.mobile#politica-de-frete"
+    ]
+  },
+  "responsive-layout.desktop#politica-de-frete": {
+    "children": [
       "flex-layout.row#linha-bread",
       "flex-layout.row#wrapper-politica-de-frete"
     ]
+  },
+  "responsive-layout.mobile#politica-de-frete": {
+    "children": [
+      "flex-layout.row#linha-menu",
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#politica-de-frete-content"
+    ]
+  },
+  "flex-layout.row#politica-de-frete-content": {
+    "children": ["flex-layout.col#politica-de-frete"],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
+    }
   },
 
   "flex-layout.row#wrapper-politica-de-frete": {

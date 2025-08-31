@@ -1,10 +1,29 @@
 {
   "store.custom#relatorio-de-transparencia": {
     "children": [
-      "flex-layout.row#linha-bread",
-      "flex-layout.row#wrapper-relatorio-de-transparencia"
+      "responsive-layout.desktop#relatorio-de-transparencia",
+      "responsive-layout.mobile#relatorio-de-transparencia"
     ]
   },
+  "responsive-layout.desktop#relatorio-de-transparencia": {
+      "children": [
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#wrapper-relatorio-de-transparencia"
+      ]
+    },
+    "responsive-layout.mobile#relatorio-de-transparencia": {
+      "children": [
+        "flex-layout.row#linha-menu-institucional",
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#relatorio-de-transparencia-content"
+      ]
+    },
+    "flex-layout.row#relatorio-de-transparencia-content": {
+      "children": ["flex-layout.col#relatorio-de-transparencia"],
+      "props": {
+        "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
+      }
+    },
 
   "flex-layout.row#wrapper-relatorio-de-transparencia": {
     "children": [

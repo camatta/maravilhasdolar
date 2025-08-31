@@ -1,15 +1,34 @@
 {
     "store.custom#termos-e-condicoes": {
       "children": [
+        "responsive-layout.desktop#termos-e-condicoes",
+        "responsive-layout.mobile#termos-e-condicoes"
+      ]
+    },
+    "responsive-layout.desktop#termos-e-condicoes": {
+      "children": [
         "flex-layout.row#linha-bread",
         "flex-layout.row#wrapper-termos-e-condicoes"
       ]
     },
+    "responsive-layout.mobile#termos-e-condicoes": {
+      "children": [
+        "flex-layout.row#linha-menu",
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#termos-e-condicoes-content"
+      ]
+    },
+    "flex-layout.row#termos-e-condicoes-content": {
+      "children": ["flex-layout.col#content-termos-e-condicoes"],
+      "props": {
+        "blockClass": ["custom-container"]
+      }
+    },
 
     "flex-layout.row#wrapper-termos-e-condicoes": {
         "children": [
-            "flex-layout.col#menu-cms-politicas",
-            "flex-layout.col#content-termos-e-condicoes"
+          "flex-layout.col#menu-cms-politicas",
+          "flex-layout.col#content-termos-e-condicoes"
         ],
         "props": {
           "blockClass": ["custom-container", "cms-page-container", "pagina-termos-e-condicoes"]

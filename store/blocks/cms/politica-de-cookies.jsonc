@@ -1,9 +1,28 @@
 {
   "store.custom#politica-de-cookies": {
     "children": [
+      "responsive-layout.desktop#politica-de-cookies",
+      "responsive-layout.mobile#politica-de-cookies"
+    ]
+  },
+  "responsive-layout.desktop#politica-de-cookies": {
+    "children": [
       "flex-layout.row#linha-bread",
       "flex-layout.row#wrapper-politica-de-cookie"
     ]
+  },
+  "responsive-layout.mobile#politica-de-cookies": {
+    "children": [
+      "flex-layout.row#linha-menu",
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#politica-de-cookies-content"
+    ]
+  },
+  "flex-layout.row#politica-de-cookies-content": {
+    "children": ["flex-layout.col#politica-de-cookie"],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
+    }
   },
 
   "flex-layout.row#wrapper-politica-de-cookie": {

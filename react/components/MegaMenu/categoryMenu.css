@@ -248,7 +248,7 @@ a.departmentLink:hover svg {
 }
 
 .sidebarContent {
-  padding: 8px 26px 8px 16px;
+  padding: 10px 16px;
   background: #FFCC00;
   /* 100% - margens - headermobile - cms-menu */
   height: calc(100vh - 66px - 38px);
@@ -276,11 +276,8 @@ a.departmentLink:hover svg {
 .menuContainer {
 }
 
-.sidebarDepartment:not(:first-child) {
-  border-top: 0.7px solid #003030;
-}
 .sidebarItemContainer {
-  padding: 16px 20px 10px 0;
+  padding: 10px 0;
 }
 .pointerNavigate {
   padding: 8px 12px;
