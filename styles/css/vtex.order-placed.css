@@ -362,7 +362,7 @@
   }
 
   .productQuantity {
-    display: none;
+    text-align: left;
   }
 
   .productImageWrapper {
@@ -373,13 +373,6 @@
   .productInfoColumn {
     display: flex;
     justify-content: center;
-  }
-
-  .productPrice {
-    width: 100%;
-    text-align: right;
-    font-weight: 700;
-    margin-top: 8px;
   }
 
   .totalList {
@@ -394,7 +387,13 @@
 }
 
 @media screen and (max-width: 639px) {
-
+  .cancelOrderButton {
+    display: block;
+  }
+  .orderOptionsWrapper--mobile .cancelOrderButton :global(.vtex-button) {
+    font-size: 14px;
+    color: #B90000;
+  }
   .updateOrderButton,
   .myOrdersButton {
     margin-right: 0;

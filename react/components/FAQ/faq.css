@@ -30,6 +30,8 @@
 .wrapperCardsFaq {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
     padding-top: 30px;
     padding-bottom: 56px;
     border-bottom: 1px solid #ECECEC;
@@ -97,6 +99,7 @@
     line-height: 27px;
     text-align: center;
     color: #1C1C1C;
+    margin-top: 0;
     margin-bottom: 24px;
 }
 
@@ -157,11 +160,14 @@
     border: unset;
     text-align: left;
     padding-left: 0;
-    position: relative;
     color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-.questionFaq::before {
+.questionFaq::after {
     content: "";
     display: inline-block;
     width: 16px;
@@ -169,14 +175,11 @@
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"%3E%3Cmask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16"%3E%3Crect x="16" width="16" height="16" transform="rotate(90 16 0)" fill="%23D9D9D9"/%3E%3C/mask%3E%3Cg mask="url(%23mask0)"%3E%3Cpath d="M1.33463 10.6667L8.0013 4L14.668 10.6667L13.4846 11.85L8.0013 6.36667L2.51797 11.85L1.33463 10.6667Z" fill="%23767676"/%3E%3C/g%3E%3C/svg%3E');
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
-    right: 6px;
-    top: 1px;
     transform: rotate(180deg);
     transition: all .4s;
 }
 
-.faqItem.active .questionFaq::before {
+.faqItem.active .questionFaq::after {
     transform: rotate(0);
 }
 
@@ -221,4 +224,68 @@
 .faqList {
     max-width: 825px;
     width: 100%;
+}
+
+@media screen and (max-width: 1025px) {
+    .faqTitle {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .wrapperCardsFaq {
+        justify-content: center;
+        padding-bottom: 48px;
+        margin-bottom: 48px;
+    }
+    .titleCardFaq h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 0;
+    }
+
+    .inputMainFaq {
+        width: 100%;
+        margin-bottom: 48px;
+        text-align: left;
+    }
+    .faqMainContent {
+        flex-direction: column-reverse;
+    }
+    .faqList {
+        max-width: 100%;
+    }
+    .faqList h1 {
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+    .cardSidebarFaq > div:first-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .wrapperCardsFaq {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+    }
+    .cardFaq {
+        width: 100%;
+    }
+    .topoCardFaq {
+        padding: 15px;
+    }
+    .cardSidebarFaq > div:first-child {
+        padding: 13px;
+        width: 100%;
+        height: initial;
+    }
+    .titleCardSidebar h4 br {
+        display: none;
+    }
+    .cardSidebarFaq svg {
+        max-height: 48px;
+    }
 }

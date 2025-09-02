@@ -46,6 +46,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.wrapperCardsFaleConosco {
+    margin-bottom: 24px;
 }
 
 .cardFaleConosco {
@@ -57,7 +62,6 @@
     flex-direction: column;
     background-color: #660066;
     border-radius: 10px;
-    margin-bottom: 24px;
 }
 
 .titleCardFaleConosco h3 {
@@ -92,4 +96,29 @@
     border-radius: 41px;
     color: #1C1C1C;
     text-decoration: unset;
+}
+
+@media screen and (max-width: 1025px) {
+    .titleFaleConosco h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cardFaleConosco {
+        margin: 0;
+    }
+    .wrapperCardsFaleConosco,
+    .wrapperCtasFaleConosco {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .cardFaleConosco,
+    .ctaFaleConosco,
+    .ctaFaleConosco a {
+        width: 100%;
+    }
 }

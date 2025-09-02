@@ -1,9 +1,28 @@
 {
   "store.custom#trocas-e-cancelamentos": {
     "children": [
+      "responsive-layout.desktop#trocas-e-cancelamentos",
+      "responsive-layout.mobile#trocas-e-cancelamentos"
+    ]
+  },
+  "responsive-layout.desktop#trocas-e-cancelamentos": {
+    "children": [
       "flex-layout.row#linha-bread",
       "flex-layout.row#wrapper-politicas-de-trocas"
     ]
+  },
+  "responsive-layout.mobile#trocas-e-cancelamentos": {
+    "children": [
+      "flex-layout.row#linha-menu",
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#trocas-e-cancelamentos-content"
+    ]
+  },
+  "flex-layout.row#trocas-e-cancelamentos-content": {
+    "children": ["flex-layout.col#politicas-de-troca"],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-troca"]
+    }
   },
 
   "flex-layout.row#wrapper-politicas-de-trocas": {
@@ -34,7 +53,7 @@
   "rich-text#trocas-e-devolucoes-conteudo": {
     "props": {
       "blockClass": ["cms-page-content"],
-      "text": "## Trocas\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante magna, elementum eu magna hendrerit, interdum tempor sapien. Cras interdum dictum mauris, sit amet auctor tellus congue vitae. Duis in blandit augue. Curabitur dapibus, orci in aliquet euismod, mauris magna gravida lectus, at fermentum elit nisi eu nibh. Proin non aliquam arcu. Nunc ac mauris lorem. Donec bibendum ligula aliquet lectus pharetra, nec vulputate nulla commodo. Aliquam condimentum ultricies eros nec posuere. Donec justo velit, consequat non scelerisque consectetur, ullamcorper at felis. Pellentesque venenatis sem ipsum, nec euismod purus posuere vitae. Fusce accumsan tempor purus, et maximus lectus semper a. Pellentesque eleifend nibh vitae mattis sagittis.",
+      "text": "**CONDIÇÕES GERAIS**\n\nTodas as ocorrências que envolvam troca ou devolução devem ser feitas no prazo de até 7 (sete) dias corridos, a contar da data de entrega, e para ocorrência de avaria no produto, cujo prazo é de até 2 dias úteis a contar da data do recebimento da mercadoria, e devem ser comunicadas ao nosso setor de atendimento ao cliente por e-mail sac@maravilhasdolar.com.br ou na Área de Atendimento.\n\nO envio do produto ao nosso Centro de Distribuição poderá ser feito por coleta da transportadora no mesmo endereço de entrega. Não sendo necessária a coleta por transportadora, o cliente deverá postar o produto em uma agência do Correios, cujo código de postagem será informado via e-mail ou telefone.\n\nPara pedidos com o Meio de Entrega Retirada na Loja, a troca ou devolução deve ser feita pelo próprio cliente na Loja de Retirada. A Maravilhas do Lar isenta-se da responsabilidade de coletar o produto no endereço do cliente.\n\nA Maravilhas do Lar isenta-se da obrigação de atender às solicitações de troca ou cancelamento de qualquer produto devolvido sem comunicação ao atendimento ao cliente, com ausência de itens/acessórios que o acompanham, sem documento que ateste defeito ou sempre em que se identifique o mau uso.\n\nCaso o estoque do produto adquirido se esgote, não será possível efetuar a troca pelo mesmo modelo. Pode-se optar por qualquer outro produto disponível para venda em nosso site, e de mesmo valor.\n\n## MOTIVOS PARA TROCAS E DEVOLUÇÕES\nDesistência/Arrependimento: o prazo é de até 7 (sete) dias corridos, contados a partir da data do recebimento do produto;\n\nDefeito técnico ou de fabricação: o prazo é de até 7 (sete) dias corridos, contados a partir data do recebimento do produto. Após o prazo de 7 (sete) dias, o cliente deve solicitar a solução do problema junto à assistência técnica do fabricante. Se o fabricante não solucionar o problema em 30 (trinta) dias e o cliente apresentar documento do fabricante que comprove ter sido ultrapassado o prazo, ele poderá optar pela substituição do produto (ou equivalente se não estiver mais disponível), pela restituição do valor pago ou pelo abatimento proporcional do preço.\n\nAvaria (quebra): neste caso, recuse o produto no momento da entrega ou solicite a troca/devolução enviando uma foto do produto e da embalagem avariados para o e-mail sac@maravilhasdolar.com.br em até 2 dias úteis contados a partir da data do recebimento do produto;\n\nProduto em desacordo com o pedido feito: recuse o produto no momento da entrega ou solicite a troca/devolução em até 7 (sete) dias corridos, contados a partir da data do recebimento do produto; você deve entrar em contato com a nossa Central de Atendimento através de e-mail, chat ou telefone, para solicitar a troca ou devolução do produto. Caso o produto apresente algum defeito ou vício após o prazo de 7 dias do recebimento, mas esteja dentro do prazo de garantia do fabricante, você deverá entrar em contato com a Assistência Técnica do Fabricante, conforme manual do produto.\n\n## TROCA OU CANCELAMENTO DO PEDIDO\nPara efetuar a devolução, as seguintes condições deverão ser observadas:\n\n- Acondicione o produto em sua embalagem original ou similar;\n\n- Devolva todos os itens/acessórios que acompanham o produto;\n- Junte a segunda via do DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) recebida no ato da entrega. É imprescindível que ele seja enviado para que o produto seja identificado;\n- Relate, no verso do DANFE, o motivo da devolução;\n- Peça um comprovante de entrega ao transportador. Caso o transportador não tenha o protocolo, não entregue a mercadoria e comunique o fato ao setor de atendimento ao cliente.\n- Nas solicitações de troca ou cancelamento de produtos das categorias Alimentos é imprescindível a etiqueta/lacre do produto.\n\nA Maravilhas do Lar não se responsabiliza pelo custo de embalagem do produto para devolução.\n\n## RESTITUIÇÃO DE VALOR PAGO\nA Maravilhas do Lar fará a restituição dos valores pagos utilizando a mesma forma de pagamento escolhida no processo de compras.\n\nEm compras pagas com cartão de crédito, a administradora do cartão será notificada e o estorno ocorrerá na fatura seguinte ou na posterior, de uma só vez, qualquer que seja o número de parcelas utilizado na compra. O prazo de ressarcimento depende da administradora do cartão.\n\nEm compras com PIX, o estorno é realizado na mesma conta de pagamento.\n\nA restituição dos valores será processada somente após o recebimento e análise do(s) produto(s) no Centro de Distribuição da Maravilhas do Lar. Isentamo-nos da responsabilidade de cancelar ou consertar qualquer produto que apresente claramente indícios de mau uso.\n\nO estorno será realizado no valor total do produto devolvido/cancelado, no prazo máximo de 30 dias corridos a contar da data de devolução.\n\n## QUANDO RECUSAR O PRODUTO NO ATO DA ENTREGA\nOs produtos são enviados ao cliente exatamente como nos foram entregues pelo fabricante. Se ocorrer qualquer das hipóteses abaixo, recuse o recebimento e escreva o motivo da recusa no verso do Danfe:\nEmbalagem aberta ou avariada;\nProduto avariado;\nProduto em desacordo com o pedido;\nFalta de acessórios.\n\nSe, ainda assim, você aceitar o produto, por favor, entre em contato com o setor de atendimento ao cliente em até 2 dias úteis.\n\n## PRAZO PARA RESOLUÇÃO DE TROCA\nA Maravilhas do Lar tem até 30 (trinta) dias corridos, contados a partir da data do recebimento do produto em seu Centro de Distribuição, para verificar se a solicitação preenche os requisitos da Política de Troca e Cancelamento. Em caso afirmativo, enviará outro produto ao cliente.",
       "textAlignment": "initial",
       "textPosition": "initial"
     }

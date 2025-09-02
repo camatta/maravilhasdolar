@@ -1,4 +1,5 @@
-import React from 'react';
+import { Link } from 'vtex.render-runtime'
+
 import styles from './termos-cartao.css';
 
 const TermosCartao = () => {
@@ -13,10 +14,10 @@ const TermosCartao = () => {
                     </div>
                     <div className={styles.listSidebarCartao}>
                         <ul>
-                            <li><a href="/cartao">Acesse sua fatura</a></li>
-                            <li><a href="/cartao" className={styles.activeLink}>Termos e condições de uso</a></li>
-                            <li><a href="/cartao">Solicite seu cartão</a></li>
-                            <li><a href="/cartao">Detalhamento Contrato Cartão MLar</a></li>
+                            <li><a href="https://www.portaldafatura.com.br/boleto-rapido/login" target="_blank">Acesse sua fatura</a></li>
+                            <li><Link to="/termos-e-condicoes-cartao" className={styles.activeLink}>Termos e condições de uso</Link></li>
+                            <li><a href="https://lp.maravilhasdolar.com/cartao-maravilhas" target="_blank">Solicite seu cartão</a></li>
+                            <li><Link to="/detalhamento-contrato-cartao-mlar">Detalhamento Contrato Cartão MLar</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -42,7 +43,7 @@ const TermosCartao = () => {
                             <p>Olá, seja bem-vindo(a) à nossa página de política de uso do cartão Maravilhas do Lar. Estamos atentos a cada detalhe para melhorar a sua experiência de compra conosco.</p>
                         </div>
                         <div className={styles.ctaCartaoMainTermos}>
-                            <a href="/cartao">Solicite seu cartão</a>
+                            <a href="https://lp.maravilhasdolar.com/cartao-maravilhas" target="_blank">Solicite seu cartão</a>
                         </div>
                     </div>
 

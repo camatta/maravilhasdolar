@@ -566,7 +566,7 @@
 
 @media (max-width: 767px) {
   :global(.vtex-account__page-body) > main {
-    gap: 45px;
+    gap: 15px;
   }
   :global(.vtex-account__page-body) > main > div {
     width: 100%;

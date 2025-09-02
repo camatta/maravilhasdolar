@@ -43,6 +43,9 @@
   "termos-cartao": {
     "component": "TermosCartao"
   },
+  "detalhamento-cartao": {
+    "component": "DetalhamentoCartao"
+  },
 
   "termos-e-condicoes": {
     "component": "TermosCondicoes"

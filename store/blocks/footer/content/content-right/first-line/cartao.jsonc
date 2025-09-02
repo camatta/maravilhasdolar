@@ -74,7 +74,7 @@
 
   "rich-text#cartao-detalhamento-contrato": {
     "props": {
-      "text": "[Detalhamento Contrato Cartão Mlar](/detalhamento-contrato)",
+      "text": "[Detalhamento Contrato Cartão Mlar](/detalhamento-contrato-cartao-mlar)",
       "blockClass": "cms-link"
     }
   },

@@ -1,9 +1,34 @@
 {
   "store.custom#nossa-historia": { //Página CMS - Nossa História
     "children": [
+      "responsive-layout.desktop#nossa-historia",
+      "responsive-layout.mobile#nossa-historia"
+    ]
+  },
+  "responsive-layout.desktop#nossa-historia": {
+    "children": [
       "flex-layout.row#linha-bread", // Breadcrumb Personalizado para páginas CMS
       "flex-layout.row#wrapper-quem-somos" // Wrapper para conteúdo completo da página
     ]
+  },
+  "responsive-layout.mobile#nossa-historia": {
+    "children": [
+      "flex-layout.row#linha-menu-institucional",
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#nossa-historia-content"
+    ]
+  },
+  "flex-layout.row#linha-menu-institucional": {
+    "children": ["flex-layout.col#menu-cms-institucional"],
+    "props": {
+      "blockClass": ["custom-container"]
+    }
+  },
+  "flex-layout.row#nossa-historia-content": {
+    "children": ["flex-layout.col#content-cms"],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
+    }
   },
 
   "flex-layout.row#wrapper-quem-somos": {

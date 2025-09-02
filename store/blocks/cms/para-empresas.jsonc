@@ -1,9 +1,28 @@
 {
     "store.custom#para-empresas": {
       "children": [
+        "responsive-layout.desktop#para-empresas",
+        "responsive-layout.mobile#para-empresas"
+      ]
+    },
+    "responsive-layout.desktop#para-empresas": {
+      "children": [
         "flex-layout.row#linha-bread",
         "flex-layout.row#wrapper-para-empresas"
       ]
+    },
+    "responsive-layout.mobile#para-empresas": {
+      "children": [
+        "flex-layout.row#linha-menu-institucional",
+        "flex-layout.row#linha-bread",
+        "flex-layout.row#para-empresas-content"
+      ]
+    },
+    "flex-layout.row#para-empresas-content": {
+      "children": ["flex-layout.col#content-para-empresas"],
+      "props": {
+        "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
+      }
     },
 
     "flex-layout.row#wrapper-para-empresas": {

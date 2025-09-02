@@ -2,13 +2,11 @@
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .wrapperTermosCartao {
     display: flex;
     gap: 96px;
-    margin-bottom: 96px;
 }
 
 .titleTermosCartao h1 {

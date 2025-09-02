@@ -1,4 +1,4 @@
-p {
+.searchTerm {
     margin: 0;
     color: #3F3F3F;
 }
@@ -32,8 +32,7 @@ p {
     font-family: Nunito;
     font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    line-height: 19px;
     color: #A2A2A2;
     position: relative;
 }
@@ -49,6 +48,13 @@ p {
     position: absolute;
     right: 24px;
     top: 9px;
+}
+
+.searchTerm {
+    margin-top: -16px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .lojasContainer {
@@ -79,6 +85,7 @@ p {
 
 .nomeLoja {
     max-width: 141px;
+    margin: 0;
 }
 
 .nomeLoja strong {
@@ -92,8 +99,8 @@ p {
     font-weight: 400;
     font-size: 14px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #660066;
+    margin: 0;
 }
 
 .nomeNumeroLoja {
@@ -108,4 +115,32 @@ p {
     font-size: 12px;
     line-height: 16px;
     color: #3F3F3F;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapperTituloSearch,
+    .lojasContainer {
+        flex-direction: column;
+    }
+    .wrapperTituloSearch {
+        align-items: initial;
+        gap: 16px;
+    }
+
+    .inputSearch input {
+        width: 100%;
+    }
+
+    .lojasBloco {
+        max-width: 388px;
+        width: 100%;
+        padding: 18px 16px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .lojasBloco {
+        max-width: 100%;
+    }
 }
