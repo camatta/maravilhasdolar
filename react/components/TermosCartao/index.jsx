@@ -1,4 +1,5 @@
-import React from 'react';
+import { Link } from 'vtex.render-runtime'
+
 import styles from './termos-cartao.css';
 
 const TermosCartao = () => {
@@ -14,9 +15,9 @@ const TermosCartao = () => {
                     <div className={styles.listSidebarCartao}>
                         <ul>
                             <li><a href="https://www.portaldafatura.com.br/boleto-rapido/login" target="_blank">Acesse sua fatura</a></li>
-                            <li><a href="/termos-e-condicoes-cartao" className={styles.activeLink}>Termos e condições de uso</a></li>
+                            <li><Link to="/termos-e-condicoes-cartao" className={styles.activeLink}>Termos e condições de uso</Link></li>
                             <li><a href="https://lp.maravilhasdolar.com/cartao-maravilhas" target="_blank">Solicite seu cartão</a></li>
-                            <li><a href="/cartao">Detalhamento Contrato Cartão MLar</a></li>
+                            <li><Link to="/detalhamento-contrato-cartao-mlar">Detalhamento Contrato Cartão MLar</Link></li>
                         </ul>
                     </div>
                 </div>

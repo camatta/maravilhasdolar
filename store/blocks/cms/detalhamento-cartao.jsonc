@@ -1,0 +1,7 @@
+{
+    "store.custom#detalhamento-cartao": {
+        "children": [
+            "detalhamento-cartao"
+        ]
+    }
+}

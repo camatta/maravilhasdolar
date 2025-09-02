@@ -39,6 +39,10 @@
     "path": "/termos-e-condicoes-cartao"
   },
 
+  "store.custom#detalhamento-cartao": {
+    "path": "/detalhamento-contrato-cartao-mlar"
+  },
+
   "store.custom#termos-e-condicoes": {
     "path": "/termos-e-condicoes"
   },

@@ -38,6 +38,8 @@
   "flex-layout.col#relatorio-de-transparencia": {
     "children": [
       "rich-text#relatorio-de-transparencia-title",
+      "image#transparencia01",
+      "image#transparencia02",
       "rich-text#relatorio-de-transparencia-conteudo"
     ],
     "props": {
@@ -50,10 +52,22 @@
       "text": "# Relatório de Transparência Salarial"
     }
   },
+  "image#transparencia01": {
+    "props": {
+      "src": "assets/institucional/transparencia/transparencia01.png",
+      "blockClass": ["transparencia-img"]
+    }
+  },
+  "image#transparencia02": {
+    "props": {
+      "src": "assets/institucional/transparencia/transparencia02.png",
+      "blockClass": ["transparencia-img"]
+    }
+  },
   "rich-text#relatorio-de-transparencia-conteudo": {
     "props": {
       "blockClass": ["cms-page-content"],
-      "text": "## Relatório\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ante magna, elementum eu magna hendrerit, interdum tempor sapien. Cras interdum dictum mauris, sit amet auctor tellus congue vitae. Duis in blandit augue. Curabitur dapibus, orci in aliquet euismod, mauris magna gravida lectus, at fermentum elit nisi eu nibh. Proin non aliquam arcu. Nunc ac mauris lorem. Donec bibendum ligula aliquet lectus pharetra, nec vulputate nulla commodo. Aliquam condimentum ultricies eros nec posuere. Donec justo velit, consequat non scelerisque consectetur, ullamcorper at felis. Pellentesque venenatis sem ipsum, nec euismod purus posuere vitae. Fusce accumsan tempor purus, et maximus lectus semper a. Pellentesque eleifend nibh vitae mattis sagittis.",
+      "text": "Através da Lei nº 14.611/2023, conhecida como Lei da Igualdade Salarial, cumprimos com o compromisso da divulgação do Relatório da Igualdade Salarial em empresas com mais de 100 empregados, deixando à disposição de todo o público que a nossa companhia está devidamente uniforme quanto aos requisitos desta lei, a igualdade de salários entre homens e mulheres, tanto ao percentual destaque de nossas colaboradoras quanto à faixa de empregados masculinos.\nIsto é o exemplo de que o time feminino lidera o nosso quadro de funcionários, com o seu espaço de mais de 50% nas prestações de serviços da Mara! Tratando-se de percentuais em salário, nossas guerreiras saem à frente com o equivalente a 95,9% recebido pelos empregados.\nIsto é ser Mara!",
       "textAlignment": "initial",
       "textPosition": "initial"
     }
