@@ -358,7 +358,6 @@ const MaravilhasRastreio = () => {
         .image-order-status-completed .icon:before{content:'\\f05d';color:#fff;font-size:3em;position:relative;font-family:'FontAwesome'}
         .iconInactive{background-color:#c1c1c1!important}
         #rastrearDiv{padding-top:1.7em}
-        .well{padding:5px}
         @media(max-width:990px){.btn{font-size:.7em}#showHideDivOne{font-size:.8em}tbody{font-size:.6em}#imgLogo{max-width:100%;margin:0 auto;display:block}}
         @media(max-width:600px){.image-order-status-new .icon:before,.image-order-status-active .icon:before,.image-order-status-intransit .icon:before,.image-order-status-delivered .icon:before,.image-order-status-completed .icon:before{font-size:2em}
         .shop-tracking-status .image-order-status .icon{height:4em;width:4em;border-radius:2em;padding:.7em .8em}span.status{font-size:.9em}#imgLogo{max-width:100%;margin:0 auto;display:block}}
@@ -383,7 +382,7 @@ const MaravilhasRastreio = () => {
                 <div style={{ marginTop: '2em' }}>
                   <form method="post" id="rastrear_form" name="rastrear_form">
                     <div className="col-md-12">
-                      <div className="col-md-4 formCabecalho">
+                      <div className={`col-md-4 formCabecalho ${styles.formTopo}`}>
                         <label htmlFor="tipo_documento">Tipo Documento</label>
                         <select className={`form-control ${styles.wrapperSelectForm}`} id="tipo_documento" name="tipo_documento">
                           <option value="1">CPF</option>
@@ -411,7 +410,7 @@ const MaravilhasRastreio = () => {
           </div>
         </div>
 
-        <div className="well col-sm-12" style={{ width: '100%', float: 'left', backgroundColor: 'transparent', borderBottom: 'none', borderLeft: 'none', borderRight: 'none' }}>
+        <div className="well col-sm-12" style={{ width: '100%', float: 'left', backgroundColor: 'transparent', borderBottom: 'none', borderLeft: 'none', borderRight: 'none', borderRadius: '10px' }}>
           <ul className="list-group" style={{ lineHeight: '60%', listStyle: 'none', padding: '0' }}>
             <li className="list-group-item" style={{ padding: 0 }}>
               <button style={{ textAlign: 'left', backgroundColor: '#660066' }} type="button" id="divSH0" className="showHide" data-toggle="collapse" data-target="#showHideDivOne" aria-expanded="true" aria-controls="#showHideDivOne">
@@ -423,11 +422,11 @@ const MaravilhasRastreio = () => {
             </li>
 
             <div id="showHideDivOne" className="collapse in" style={{ border: '1px solid #d9d9d9', padding: 5, marginBottom: 5 }}>
-              <li className="list-group-item pb-2"><span className="prefix">Transportadora:</span> <span id="nome_transportador">-</span></li>
-              <li className="list-group-item pb-2"><span className="prefix">Última atualização em:</span> <span id="ultima_atualizacao_data">-</span></li>
-              <li className="list-group-item pb-2"><span className="prefix">Status:</span> <span id="ultima_atualizacao_status">-</span></li>
-              <li className="list-group-item pb-2"><span className="prefix">Local de destino:</span> <span id="destino">-</span></li>
-              <li className="list-group-item pb-2" id="div_data_previsao" style={{ display: 'none' }}><span className="prefix">Data prevista para entrega:</span> <span id="data_previsao">-</span></li>
+              <li className="list-group-item pb-2"><span className="prefix">Transportadora:</span> <span id="nome_transportador">-</span></li><br></br>
+              <li className="list-group-item pb-2"><span className="prefix">Última atualização em:</span> <span id="ultima_atualizacao_data">-</span></li><br></br>
+              <li className="list-group-item pb-2"><span className="prefix">Status:</span> <span id="ultima_atualizacao_status">-</span></li><br></br>
+              <li className="list-group-item pb-2"><span className="prefix">Local de destino:</span> <span id="destino">-</span></li><br></br>
+              <li className="list-group-item pb-2" id="div_data_previsao" style={{ display: 'none' }}><span className="prefix">Data prevista para entrega:</span> <span id="data_previsao">-</span></li><br></br>
               <li className="list-group-item pb-2" id="link_rastreio" style={{ display: 'none' }}><span className="prefix">Maiores informações sobre a entrega:</span> <span><a id="link_rastreio_anchor" href="" target="_blank" rel="noreferrer">Rastreio transportadora</a></span></li>
 
               <br /><br />
@@ -447,7 +446,7 @@ const MaravilhasRastreio = () => {
                 <div className="image-order-status image-order-status-delivered active img-circle" style={{ fontSize: '0.8em' }} id="status-3"><br /><br /><div className="icon iconInactive" style={{ backgroundSize: '5em' }}></div></div>
               </div>
 
-              <button type="button" className={`btn cssPedidoStatusFundoCor ${styles.botaoEnviar}`} style={{ marginBottom: 6, backgroundColor: '#FF0066', color: '#fff', fontWeight: 'bold' }} data-toggle="collapse" data-target="#detalhes">Visualizar Histórico</button>
+              <button type="button" className={`btn cssPedidoStatusFundoCor ${styles.botaoEnviar}`} style={{ marginBottom: 6, color: '#fff', fontWeight: 'bold' }} data-toggle="collapse" data-target="#detalhes">Visualizar Histórico</button>
 
               <div className="bs-example collapse in" id="detalhes">
                 <div className="panel panel-default">

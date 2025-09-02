@@ -45,7 +45,8 @@
 
   "rich-text#lista-presentes": {
     "props": {
-      "text": "[Lista de Presentes](/lista-de-presentes)",
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--menu-bottom-search vtex-rich-text-0-x-link--menu-cartao-maravilhas' href='https://centerlargiftlist.myvtex.com/' target='_blank'>Lista de Presentes</a>",
+      "newTab": true,
       "blockClass": ["menu-bottom-search", "menu-lista-presentes"]
     }
   },

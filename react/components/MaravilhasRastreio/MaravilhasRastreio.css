@@ -56,10 +56,27 @@
     box-shadow: 0px 4px 6px 0px #00000026;
     padding: 18px 192px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.formTopo {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1100px) {
+    .formControle {
+        position: relative;
+        top: -20px;
+        z-index: 2;
+        background: #FFF;
+    }
 }
 
 @media (max-width: 991px) {
     .formControle {
         padding: 18px 20px;
+    }
+    .rastreioTitle {
+        font-size: 19px;
     }
 }
