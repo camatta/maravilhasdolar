@@ -24,7 +24,7 @@ const ParaEmpresas = () => {
                 </div>
                 <div className={styles.wrapperCtaCadastro}>
                     <div className={styles.ctaCadastro}>
-                        <a href="/cadastro-empresas">Cadastre-se</a>
+                        <a href="https://form.jotform.com/mktmlar/formulario-cadastro-empresas" target="_blank">Cadastre-se</a>
                     </div>
                     <div className={styles.textCtaCadastro}>
                         <p>As compras faturadas correspondem somente em lojas físicas.</p>
