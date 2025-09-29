@@ -79,8 +79,9 @@
 }
 
 .blocoColunaEsquerda img {
-    min-width: 136px;
+    max-width: 136px;
     min-height: 136px;
+    border-radius: 15px;
 }
 
 .nomeLoja {
