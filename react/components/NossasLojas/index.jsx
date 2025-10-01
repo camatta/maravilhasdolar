@@ -263,7 +263,7 @@ const lojasData = [
     horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
   },
   {
-    foto: 'jundiai-rui-barbosa.png',
+    foto: 'jundiai-novo.jpg',
     localizacao: 'Jundiaí - Praça Rui Barbosa',
     numero: '03',
     endereco: 'Rua Prudente de Moraes, 910',
@@ -473,7 +473,7 @@ const lojasData = [
     horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 7h às 18h | 25/12 e 01/01: Fechado',
   },
   {
-    foto: 'varzea-paulista.png',
+    foto: 'varzea-paulista-novo.jpg',
     localizacao: 'Várzea Paulista',
     numero: '02',
     endereco: 'Av. Fernão Dias Paes Leme, 2347 Vila Cristo',
@@ -483,7 +483,7 @@ const lojasData = [
     horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
   },
   {
-    foto: 'catanduva.png',
+    foto: 'catanduva-novo.jpg',
     localizacao: 'Catanduva',
     numero: '56',
     endereco: 'Av. Comendador Antônio Stocco, 525',
