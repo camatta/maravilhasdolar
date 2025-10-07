@@ -483,6 +483,16 @@ const lojasData = [
     horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
   },
   {
+    foto: 'jundiai-loja.jpg',
+    localizacao: 'Jundiaí',
+    numero: '55',
+    endereco: 'Avenida Antônio Pincinato, 78 ',
+    cep: '13211771',
+    cidade: 'Jundiaí',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
+  },
+  {
     foto: 'catanduva-novo.jpg',
     localizacao: 'Catanduva',
     numero: '56',

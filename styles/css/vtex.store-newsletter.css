@@ -60,6 +60,11 @@
   line-height: 19px;
 }
 
+.defaultSuccessMessage {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
 @media (max-width: 991px) {
   .newsletterForm {
     justify-content: center;

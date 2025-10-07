@@ -65,5 +65,10 @@
 
   "chat-flutuante": {
     "component": "ChatFlutuante"
+  },
+
+  "remove-video": {
+    "component": "CustomPdpEmptyCleaner"
   }
+
 }

@@ -13,6 +13,7 @@
 
   "responsive-layout.desktop#resume-pdp": {
     "children": [
+      "remove-video",
       "flex-layout.row#rating-wish",
       "flex-layout.row#name",
       "flex-layout.row#brand-sku",

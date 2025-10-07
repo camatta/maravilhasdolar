@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 
+import styles from './chat-flutuante.css';
+
 const ChatFlutuante = () => {
     useEffect(() => {
         if (window.HiBot !== undefined) return;

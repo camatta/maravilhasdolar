@@ -41,7 +41,7 @@
       },
       "autoplay": {
         "timeout": "3000",
-        "stopOnHover": true
+        "stopOnHover": false
       },
       "infinite": true,
       "blockClass": ["main-slider"],
