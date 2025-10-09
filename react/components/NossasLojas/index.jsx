@@ -20,7 +20,7 @@ const lojasData = [
     cep: '13473620',
     cidade: 'Americana',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'amparo.png',
@@ -30,7 +30,7 @@ const lojasData = [
     cep: '13901350',
     cidade: 'Amparo',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 18h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 21h | Domingos: 9h às 18h | Sábado 11/10: 8h às 22h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'araraquara.png',
@@ -40,7 +40,7 @@ const lojasData = [
     cep: '14802000',
     cidade: 'Araraquara',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'araraquara2.png',
@@ -50,7 +50,7 @@ const lojasData = [
     cep: '14801295',
     cidade: 'Araraquara',
     estado: 'SP',
-    horario: 'Seg a Sex.: 8h às 18h - 06/12 a 23/12: 8h às 22h | Sábados: 8h às 17h | Domingos 01/12 e 15/12: Fechado - 08/12 e 22/12: 8h às 16h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sex.: 8h às 18h | Sábados: 8h às 17h | Domingos: Fechado | Sexta 10/10: 8h às 22h | Sábado 11/10: 8h às 18h | Feriado 12/10: Fechado',
   },
   {
     foto: 'araras.png',
@@ -60,7 +60,7 @@ const lojasData = [
     cep: '13600001',
     cidade: 'Araras',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'bauru-duque.png',
@@ -70,7 +70,7 @@ const lojasData = [
     cep: '17011066',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriados 8h às 22h',
+    horario: 'Seg a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'bauru-castelo.png',
@@ -80,7 +80,7 @@ const lojasData = [
     cep: '17052000',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'bauru-shopping.png',
@@ -90,7 +90,7 @@ const lojasData = [
     cep: '17013113',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h - 13/12 a 23/12: 10h às 23h | Domingos: 12h às 20h | 24/12: 10h às 17h | 31/12: 10h às 16h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 11h às 20h',
   },
   {
     foto: 'botucatu.png',
@@ -100,7 +100,7 @@ const lojasData = [
     cep: '18606125',
     cidade: 'Botucatu',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 9h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 9h às 22h | Domingos: 9h às 20h | Sábado 11/10: 8h às 22h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'campinas-guanabara.png',
@@ -110,7 +110,7 @@ const lojasData = [
     cep: '13073300',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 7h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'campinas-nova-campinas.png',
@@ -120,7 +120,7 @@ const lojasData = [
     cep: '13092111',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 7h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'campinas-shopping.png',
@@ -130,7 +130,7 @@ const lojasData = [
     cep: '13050913',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | 24/12: 9h às 18h | 31/12: 10h às 16h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | Feriado 12/10: 11h às 20h',
   },
   {
     foto: 'campinas-amoreiras.png',
@@ -140,7 +140,7 @@ const lojasData = [
     cep: '13031435',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 7h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'campinas-bandeiras.png',
@@ -160,7 +160,7 @@ const lojasData = [
     cep: '13087901',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h 14/12 a 23/12: 9h às 23h | Domingos: 11h às 20h | 24/12: 9h às 17h | 31/12: 9h às 14h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | Feriado 12/10: 11h às 20h',
   },
   {
     foto: 'capivari.png',
@@ -170,7 +170,7 @@ const lojasData = [
     cep: '13360000',
     cidade: 'Capivari',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'SSeg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'cosmopolis.png',
@@ -180,7 +180,7 @@ const lojasData = [
     cep: '13150029',
     cidade: 'Cosmópolis',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h | Feriado 12/10: 8h às 18h',
   },
   {
     foto: 'franca.png',
@@ -190,7 +190,7 @@ const lojasData = [
     cep: '13150029',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'franca-shopping.png',
@@ -200,7 +200,7 @@ const lojasData = [
     cep: '14406901',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 10h às 22h | Domingos: 10h às 22h | 24/12 e 31/12: 10h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 12h às 20h',
   },
   {
     foto: 'hortolandia.png',
@@ -210,7 +210,7 @@ const lojasData = [
     cep: '13186231',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'indaiatuba.png',
@@ -220,7 +220,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Indaiatuba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'itapetininga.png',
@@ -230,7 +230,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Itapetininga',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h - 29/12: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'itu.png',
@@ -240,7 +240,7 @@ const lojasData = [
     cep: '13300005',
     cidade: 'Itu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h - 29/12: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sexta: 8h às 19h | Sábados: 8h às 17h | Domingos: Fechado  | Sábado 11/10: 8h às 19h | Feriado 12/10: Fechado',
   },
   {
     foto: 'itu-shopping.png',
@@ -250,7 +250,7 @@ const lojasData = [
     cep: '13302231',
     cidade: 'Itu',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h - 14/12 e 19/12 a 21:12: 10h às 23h - 23/12: 9h às 23h | Domingos: 12h às 20h | 24/12: 9h às 18h | 31/12: 10h às 16h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 12h às 20h',
   },
   {
     foto: 'jundiai-matriz.png',
@@ -260,7 +260,17 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. à Sex.: 8h às 18h | Sábados: 8h às 14h | Domingos: Fechado | Feriado 12/10: 8h às 18h',
+  },
+  {
+    foto: 'jundiai-novo.jpg',
+    localizacao: 'Jundiaí - Praça Rui Barbosa',
+    numero: '03',
+    endereco: 'Rua Prudente de Moraes, 910',
+    cep: '18200040',
+    cidade: 'Jundiaí',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h - 29/12: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
   },
   {
     foto: 'jundiai-novo.jpg',
@@ -280,7 +290,7 @@ const lojasData = [
     cep: '13300005',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sexta: 7h às 22h | Sábados: 8h às 18h | Domingos: 8h às 16h - 22/12: 8h às 18h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h  | Feriado 12/10: 11h às 20h',
   },
   {
     foto: 'jundiai-multi.png',
@@ -290,7 +300,7 @@ const lojasData = [
     cep: '13218010',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 9h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'leme.png',
@@ -300,7 +310,17 @@ const lojasData = [
     cep: '13610110',
     cidade: 'Leme',
     estado: 'SP',
-    horario: 'Seg. a Sex.: 8h às 22h | Sábados: 8h às 20h | Domingos: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h | Sábado 11/10: 8h às 21h | Feriado 12/10: 9h às 19h',
+  },
+  {
+    foto: 'loja-campinas-bandeiras.jpg',
+    localizacao: 'Campinas Shopping Pq. das Bandeiras',
+    numero: '35',
+    endereco: 'Av. John Boyd Dunlop, 3900 Loja 3100 - Piso L3 - Acesso C',
+    cep: '13060905',
+    cidade: 'Campinas',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 11h às 22h',
   },
   {
     foto: 'lencois-paulista.png',
@@ -310,7 +330,7 @@ const lojasData = [
     cep: '18680120',
     cidade: 'Lençóis Paulista',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'limeira.png',
@@ -320,7 +340,7 @@ const lojasData = [
     cep: '13480290',
     cidade: 'Limeira',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'marilia.png',
@@ -330,7 +350,7 @@ const lojasData = [
     cep: '17519000',
     cidade: 'Marília',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'marilia.png',
@@ -350,7 +370,7 @@ const lojasData = [
     cep: '13844070',
     cidade: 'Mogi Guaçu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'paulinia.png',
@@ -360,7 +380,7 @@ const lojasData = [
     cep: '13140723',
     cidade: 'Paulínia',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'piracicaba.png',
@@ -370,7 +390,7 @@ const lojasData = [
     cep: '13424300',
     cidade: 'Piracicaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'ribeirao-preto-amin.png',
@@ -380,7 +400,7 @@ const lojasData = [
     cep: '14050030',
     cidade: 'Ribeirão Preto',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'ribeirao-preto-independencia.png',
@@ -390,7 +410,7 @@ const lojasData = [
     cep: '14025393',
     cidade: 'Ribeirão Preto',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Fechada temporariamente',
   },
   {
     foto: 'santa-barbara.png',
@@ -400,7 +420,7 @@ const lojasData = [
     cep: '13454200',
     cidade: 'Santa Bárbara D’Óeste',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'sao-carlos.png',
@@ -410,7 +430,7 @@ const lojasData = [
     cep: '13570660',
     cidade: 'São Carlos',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'sertaozinho.png',
@@ -420,7 +440,7 @@ const lojasData = [
     cep: '14170500',
     cidade: 'Sertãozinho',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'sorocaba-simus.png',
@@ -430,7 +450,7 @@ const lojasData = [
     cep: '14170500',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'sorocaba-iguatemi.png',
@@ -440,7 +460,7 @@ const lojasData = [
     cep: '18110902',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h - 16/12 a 23/12: 10h às 23h | Domingos: 12h às 20h | 24/12 e 31/12: 10h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 12h às 20h',
   },
   {
     foto: 'sorocaba-zona-norte.png',
@@ -450,7 +470,7 @@ const lojasData = [
     cep: '18110902',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h - 16/12 a 23/12: 10h às 23h | Domingos: 12h às 20h | 24/12 e 31/12: 10h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'sumare.png',
@@ -460,7 +480,7 @@ const lojasData = [
     cep: '13170023',
     cidade: 'Sumaré',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'valinhos.png',
@@ -470,7 +490,7 @@ const lojasData = [
     cep: '13272000',
     cidade: 'Valinhos',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | 24/12 e 31/12: 7h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg a Sáb.: 7h às 21h | Domingos: 8h às 18h | Sábado 11/10: 7h às 22h | Feriado 12/10: 8h às 18h',
   },
   {
     foto: 'varzea-paulista-novo.jpg',
@@ -480,7 +500,77 @@ const lojasData = [
     cep: '13220005',
     cidade: 'Várzea Paulista',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 18h',
+  },
+  {
+    foto: 'loja-ribeiraopreto48.jpg',
+    localizacao: 'Ribeirão Preto - Av. Saudade',
+    numero: '48',
+    endereco: 'Avenida da Saudade, 1227',
+    cep: '14085000',
+    cidade: 'Ribeirão Preto',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+  },
+  {
+    foto: 'loja-botucatu2.jpg',
+    localizacao: 'Botucatu II',
+    numero: '49',
+    endereco: 'Rua Major Matheus, 690',
+    cep: '18609083',
+    cidade: 'Botucatu',
+    estado: 'SP',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 9h às 20h | Sábado 11/10: 8h às 22h | Feriado 12/10: 8h às 20h',
+  },
+  {
+    foto: 'loja-campinas-saudade.jpg',
+    localizacao: 'Campinas - Av. Saudade',
+    numero: '50',
+    endereco: 'Avenida da Saudade, 1214',
+    cep: '13041670',
+    cidade: 'Campinas',
+    estado: 'SP',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
+  },
+  {
+    foto: 'loja-itatiba.jpg',
+    localizacao: 'Itatiba',
+    numero: '51',
+    endereco: 'Avenida Maria de Lourdes Abreu, 95 Anexo Av. Independência',
+    cep: '13250253',
+    cidade: 'Itatiba',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h30 | Feriado 12/10: 8h às 20h',
+  },
+  {
+    foto: 'loja-jau.jpg',
+    localizacao: 'Jaú',
+    numero: '52',
+    endereco: 'Avenida Netinho Prado, 40',
+    cep: '17208263',
+    cidade: 'Jaú',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
+  },
+  {
+    foto: 'loja-pirassununga.jpg',
+    localizacao: 'Pirassununga',
+    numero: '53',
+    endereco: 'Avenida Antônio Joaquim Mendes, 451',
+    cep: '13631110',
+    cidade: 'Pirassununga',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10:8h às 20h',
+  },
+  {
+    foto: 'loja-aracatuba.jpg',
+    localizacao: 'Araçatuba',
+    numero: '54',
+    endereco: 'Avenida Carlos Pereira da Silva, 6000',
+    cep: '16026035',
+    cidade: 'Araçatuba',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 14h às 20h | Feriado 12/10: 11h às 20h',
   },
   {
     foto: 'jundiai-loja.jpg',
@@ -500,7 +590,7 @@ const lojasData = [
     cep: '15800610',
     cidade: 'Catanduva',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 18h  | Feriado 12/10: 8h às 20h',
   },
 
   // Adicionar mais lojas conforme necessário
