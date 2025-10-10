@@ -73,6 +73,10 @@
 
   "shipping-nairuz": {
     "component": "ShippingNairuz"
+  },
+
+  "reclame-aqui": {
+   "component": "ReclameAqui"
   }
 
 }
