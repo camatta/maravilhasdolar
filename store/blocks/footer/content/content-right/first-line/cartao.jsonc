@@ -52,7 +52,7 @@
 
   "rich-text#cartao-fatura": {
     "props": {
-      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://www.portaldafatura.com.br/boleto-rapido/login\" target=\"_blank\" rel=\"noopener noreferrer\">Acesse sua fatura</a>",
+      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://www.portaldocartao.com.br/boleto-rapido/login\" target=\"_blank\" rel=\"noopener noreferrer\">Acesse sua fatura</a>",
       "blockClass": "cms-link"
     }
   },

@@ -63,7 +63,7 @@
       "preventVerticalStretch": true
     },
     "children": [
-      "image#security-reclameaqui"
+      "reclame-aqui"
     ]
   },
   "image#security-reclameaqui": {

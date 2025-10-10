@@ -14,7 +14,7 @@ const DetalhamentoCartao = () => {
                     </div>
                     <div className={styles.listSidebarCartao}>
                         <ul>
-                            <li><a href="https://www.portaldafatura.com.br/boleto-rapido/login" target="_blank">Acesse sua fatura</a></li>
+                            <li><a href="https://www.portaldocartao.com.br/boleto-rapido/login" target="_blank">Acesse sua fatura</a></li>
                             <li><Link to="/termos-e-condicoes-cartao">Termos e condições de uso</Link></li>
                             <li><a href="https://lp.maravilhasdolar.com/cartao-maravilhas" target="_blank">Solicite seu cartão</a></li>
                             <li><Link to="/detalhamento-contrato-cartao-mlar" className={styles.activeLink}>Detalhamento Contrato Cartão MLar</Link></li>

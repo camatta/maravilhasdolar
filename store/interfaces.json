@@ -69,6 +69,10 @@
 
   "remove-video": {
     "component": "CustomPdpEmptyCleaner"
+  },
+
+  "reclame-aqui": {
+   "component": "ReclameAqui"
   }
 
 }
