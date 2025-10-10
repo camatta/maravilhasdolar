@@ -31,7 +31,7 @@ const FaleConosco = () => {
               <h3>Compras para Pessoas Jurídicas</h3>
             </div>
             <div className={styles.textCardFaleConosco}>
-              <p>WhatsApp: (11) 93236-1811</p>
+              <p>WhatsApp: (11) 4000-1567</p>
             </div>
           </div>
           <div className={styles.cardFaleConosco}>
@@ -45,16 +45,19 @@ const FaleConosco = () => {
         </div>
         <div className={styles.wrapperCtasFaleConosco}>
           <div className={styles.ctaFaleConosco}>
-            <a href="/trabalhe-conosco">Trabalhe Conosco</a>
+            <a href="https://lp.maravilhasdolar.com/vagas-maravilhas-do-lar" target="_blank">Trabalhe Conosco</a>
           </div>
           <div className={styles.ctaFaleConosco}>
-            <a href="/trabalhe-conosco">Seja um Fornecedor</a>
+            <a href="https://form.jotform.com/mktmlar/cadastro-de-fornecedor" target="_blank">Seja um Fornecedor</a>
           </div>
           <div className={styles.ctaFaleConosco}>
-            <a href="/trabalhe-conosco">Nossas Lojas</a>
+            <a href="/nossas-lojas">Nossas Lojas</a>
           </div>
           <div className={styles.ctaFaleConosco}>
-            <a href="/trabalhe-conosco">Perguntas Frequentes</a>
+            <a href="/faq">Perguntas Frequentes</a>
+          </div>
+          <div className={styles.ctaFaleConosco}>
+            <a href="/rastreie-seu-pedido">Rastreie o seu pedido</a>
           </div>
         </div>
       </div>

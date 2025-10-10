@@ -8,7 +8,6 @@
     "children": [
       "flex-layout.row#sac-title",
       "flex-layout.row#sac-rastreie",
-      "flex-layout.row#sac-phone",
       "flex-layout.row#sac-pj",
       "flex-layout.row#sac-email",
       "flex-layout.row#sac-wpp",
@@ -56,27 +55,6 @@
     }
   },
 
-  "flex-layout.row#sac-phone": {
-    "props": {
-      "blockClass": "sac-group-container"
-    },
-    "children": ["flex-layout.col#sac-phone"]
-  },
-  "flex-layout.col#sac-phone": {
-    "props": {
-      "blockClass": "sac-group-content"
-    },
-    "children": [
-      "rich-text#sac-phone-first"
-    ]
-  },
-  "rich-text#sac-phone-first": {
-    "props": {
-      "blockClass": "sac-group-link",
-      "text": "[SAC: (11) 4000-1567](tel:114000-1567)"
-    }
-  },
-
   "flex-layout.row#sac-pj": {
     "props": {
       "blockClass": "sac-group-container"
@@ -95,7 +73,7 @@
   "rich-text#sac-phone-second": {
     "props": {
       "blockClass": ["sac-group-link","wpp-pj"],
-      "text": "Compras Pessoa Jurídica:\n[<span class='vtex-rich-text-0-x-icon-wpp'>(11) 93236-1811</span>](tel:1193236-1811)"
+      "text": "[<span class='vtex-rich-text-0-x-icon-wpp'>(11) 4000-1567</span>](https://wa.me/551140001567?text=Precisa%20de%20ajuda%3F)"
     }
   },
 
