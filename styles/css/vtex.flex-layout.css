@@ -719,6 +719,14 @@
 
 .flexColChild--product-image-content {
   position: relative;
+  height: auto !important;
+}
+
+.flexColChild--product-image-content :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
 }
 
 .flexRow--wrapper-highlights {

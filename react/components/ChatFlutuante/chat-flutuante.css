@@ -1,3 +1,29 @@
-iframe#dtbot-iframe {
-    z-index: 9999;
+.float {
+  position: fixed;
+  right: 40px;
+  bottom: 30px;
+  z-index: 2147483647;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 0;
+  text-decoration: none;
 }
+
+.icon { width: 65px; height: 65px; display: block; }
+
+.bubble {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 70px;
+    background-size: 210px 70px;
+    background-repeat: no-repeat;
+    color: #000;
+    pointer-events: none;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) { .bubble { display: none; } }
