@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "license": "UNLICENSED",
   "devDependencies": {
-    "centerlar.store-theme": "https://dev00--centerlar.myvtex.com/_v/private/typings/linked/v1/centerlar.store-theme@1.0.3+build1756328105/public/@types/centerlar.store-theme",
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
     "vtex.breadcrumb": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.5/public/@types/vtex.breadcrumb",
     "vtex.carousel": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.carousel@2.12.1/public/@types/vtex.carousel",

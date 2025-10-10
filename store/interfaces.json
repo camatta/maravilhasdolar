@@ -69,6 +69,10 @@
 
   "remove-video": {
     "component": "CustomPdpEmptyCleaner"
+  },
+
+  "shipping-nairuz": {
+    "component": "ShippingNairuz"
   }
 
 }
