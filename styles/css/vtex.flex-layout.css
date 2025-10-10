@@ -20,7 +20,7 @@
 
 .flexRowContent--wrapper-bottom-search {
   gap: 6px;
-  justify-content: center;
+  justify-content: left;
   margin-top: 12px;
 }
 
