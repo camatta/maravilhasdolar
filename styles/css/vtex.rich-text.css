@@ -339,7 +339,7 @@
   margin-top: 24px;
 }
 
-.container--label-barra-produtos {
+.container--label-barra-produtos, .container--menu-lista-presentes {
   display: none;
 }
 
