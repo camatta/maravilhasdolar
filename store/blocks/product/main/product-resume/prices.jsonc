@@ -21,7 +21,8 @@
 
   "product-list-price#pdp": {
     "props": {
-      "blockClass": "list-price-pdp"
+      "blockClass": "list-price-pdp",
+       "alwaysShow": true
     }
   },
 
@@ -34,7 +35,8 @@
 
   "product-selling-price#pdp": {
     "props": {
-      "blockClass": "selling-price-pdp"
+      "blockClass": "selling-price-pdp",
+       "alwaysShow": true
     }
   },
 

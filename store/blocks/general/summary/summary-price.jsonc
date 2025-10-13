@@ -28,7 +28,8 @@
   },
   "product-list-price#summary": {
     "props": {
-      "blockClass": "list-price-summary"
+      "blockClass": "list-price-summary",
+      "alwaysShow": true
     }
   },
 
@@ -50,13 +51,15 @@
 
   "product-price-savings#pct": {
     "props": {
-      "message": "-{savingsPercentage}"
+      "message": "-{savingsPercentage}",
+      "alwaysShow": true
     }
   },
 
   "product-selling-price#summary": {
     "props": {
-      "blockClass": "selling-price-summary"
+      "blockClass": "selling-price-summary",
+      "alwaysShow": true
     }
   },
 

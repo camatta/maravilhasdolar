@@ -18,7 +18,10 @@
   "product-summary-quantity": {
     "props": {
       "showLabel": false,
-      "blockClass": "summary-quantity-shelf"
+      "blockClass": "summary-quantity-shelf",
+      "config": {
+          "hideUnavailable": true
+        }
     }
   },
   "add-to-cart-button#buy-button-shelf": {

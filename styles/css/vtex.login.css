@@ -409,9 +409,12 @@
   font-weight: 700
 }
 :global(.vtex-flex-layout-0-x-flexColChild--buy-pdp-content) :global(.vtex-button.bg-disabled) {
-  opacity: 0.7;
-  background: #003030;
-  color: #fff;
+  background: #f2f4f5;
+  color: rgb(28, 28, 28);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--summary-action-content) :global(.vtex-button.bg-disabled) {
+  background: #f2f4f5;
 }
 
 /* AVALIAÇÕES E COMENTÁRIOS PDP */
