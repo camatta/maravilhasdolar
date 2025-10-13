@@ -273,16 +273,6 @@ const lojasData = [
     horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h - 29/12: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
   },
   {
-    foto: 'jundiai-novo.jpg',
-    localizacao: 'Jundiaí - Praça Rui Barbosa',
-    numero: '03',
-    endereco: 'Rua Prudente de Moraes, 910',
-    cep: '18200040',
-    cidade: 'Jundiaí',
-    estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h - 29/12: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
-  },
-  {
     foto: 'jundiai-maxi.png',
     localizacao: 'Jundiaí - Maxi Shopping',
     numero: '05',
@@ -341,16 +331,6 @@ const lojasData = [
     cidade: 'Limeira',
     estado: 'SP',
     horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
-  },
-  {
-    foto: 'marilia.png',
-    localizacao: 'Marília',
-    numero: '37',
-    endereco: 'Avenida Tiradentes, 1301',
-    cep: '17519000',
-    cidade: 'Marília',
-    estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
   },
   {
     foto: 'marilia.png',
