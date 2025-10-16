@@ -20,7 +20,7 @@ const lojasData = [
     cep: '13473620',
     cidade: 'Americana',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'amparo.png',
@@ -30,7 +30,7 @@ const lojasData = [
     cep: '13901350',
     cidade: 'Amparo',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 21h | Domingos: 9h às 18h | Sábado 11/10: 8h às 22h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 21h | Domingos: 9h às 18h | Sábado 11/10: 8h às 22h',
   },
   {
     foto: 'araraquara.png',
@@ -40,7 +40,7 @@ const lojasData = [
     cep: '14802000',
     cidade: 'Araraquara',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'araraquara2.png',
@@ -50,7 +50,7 @@ const lojasData = [
     cep: '14801295',
     cidade: 'Araraquara',
     estado: 'SP',
-    horario: 'Seg a Sex.: 8h às 18h | Sábados: 8h às 17h | Domingos: Fechado | Sexta 10/10: 8h às 22h | Sábado 11/10: 8h às 18h | Feriado 12/10: Fechado',
+    horario: 'Seg a Sex.: 8h às 18h | Sábados: 8h às 17h | Domingos: Fechado | Sexta 10/10: 8h às 22h | Sábado 11/10: 8h às 18h',
   },
   {
     foto: 'araras.png',
@@ -60,7 +60,7 @@ const lojasData = [
     cep: '13600001',
     cidade: 'Araras',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'bauru-duque.png',
@@ -70,7 +70,7 @@ const lojasData = [
     cep: '17011066',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg a Sáb.: 8h às 22h | Domingos: 9h às 20h',
   },
   {
     foto: 'bauru-castelo.png',
@@ -80,7 +80,7 @@ const lojasData = [
     cep: '17052000',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h',
   },
   {
     foto: 'bauru-shopping.png',
@@ -90,7 +90,7 @@ const lojasData = [
     cep: '17013113',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 11h às 20h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'botucatu.png',
@@ -100,7 +100,7 @@ const lojasData = [
     cep: '18606125',
     cidade: 'Botucatu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 9h às 22h | Domingos: 9h às 20h | Sábado 11/10: 8h às 22h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 9h às 22h | Domingos: 9h às 20h | Sábado 11/10: 8h às 22h',
   },
   {
     foto: 'campinas-guanabara.png',
@@ -110,7 +110,7 @@ const lojasData = [
     cep: '13073300',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 18h',
   },
   {
     foto: 'campinas-nova-campinas.png',
@@ -120,7 +120,7 @@ const lojasData = [
     cep: '13092111',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 18h',
   },
   {
     foto: 'campinas-shopping.png',
@@ -130,7 +130,7 @@ const lojasData = [
     cep: '13050913',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | Feriado 12/10: 11h às 20h',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h',
   },
   {
     foto: 'campinas-amoreiras.png',
@@ -140,7 +140,7 @@ const lojasData = [
     cep: '13031435',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h',
   },
   {
     foto: 'campinas-bandeiras.png',
@@ -160,7 +160,7 @@ const lojasData = [
     cep: '13087901',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | Feriado 12/10: 11h às 20h',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h',
   },
   {
     foto: 'capivari.png',
@@ -170,7 +170,7 @@ const lojasData = [
     cep: '13360000',
     cidade: 'Capivari',
     estado: 'SP',
-    horario: 'SSeg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'SSeg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'cosmopolis.png',
@@ -180,7 +180,7 @@ const lojasData = [
     cep: '13150029',
     cidade: 'Cosmópolis',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h | Feriado 12/10: 8h às 18h',
+    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h',
   },
   {
     foto: 'franca.png',
@@ -190,7 +190,7 @@ const lojasData = [
     cep: '13150029',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h',
   },
   {
     foto: 'franca-shopping.png',
@@ -200,7 +200,7 @@ const lojasData = [
     cep: '14406901',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 12h às 20h',
+    horario: 'Seg a Sáb.: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'hortolandia.png',
@@ -210,7 +210,7 @@ const lojasData = [
     cep: '13186231',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'indaiatuba.png',
@@ -220,7 +220,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Indaiatuba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'itapetininga.png',
@@ -230,7 +230,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Itapetininga',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'itu.png',
@@ -240,7 +240,7 @@ const lojasData = [
     cep: '13300005',
     cidade: 'Itu',
     estado: 'SP',
-    horario: 'Seg. a Sexta: 8h às 19h | Sábados: 8h às 17h | Domingos: Fechado  | Sábado 11/10: 8h às 19h | Feriado 12/10: Fechado',
+    horario: 'Seg. a Sexta: 8h às 19h | Sábados: 8h às 17h | Domingos: Fechado  | Sábado 11/10: 8h às 19h',
   },
   {
     foto: 'itu-shopping.png',
@@ -250,7 +250,7 @@ const lojasData = [
     cep: '13302231',
     cidade: 'Itu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 12h às 20h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'jundiai-matriz.png',
@@ -260,7 +260,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. à Sex.: 8h às 18h | Sábados: 8h às 14h | Domingos: Fechado | Feriado 12/10: 8h às 18h',
+    horario: 'Seg. à Sex.: 8h às 18h | Sábados: 8h às 14h | Domingos: Fechado',
   },
   {
     foto: 'jundiai-novo.jpg',
@@ -280,7 +280,7 @@ const lojasData = [
     cep: '13300005',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h  | Feriado 12/10: 11h às 20h',
+    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'jundiai-multi.png',
@@ -290,7 +290,7 @@ const lojasData = [
     cep: '13218010',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'leme.png',
@@ -300,7 +300,7 @@ const lojasData = [
     cep: '13610110',
     cidade: 'Leme',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h | Sábado 11/10: 8h às 21h | Feriado 12/10: 9h às 19h',
+    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h | Sábado 11/10: 8h às 21h',
   },
   {
     foto: 'loja-campinas-bandeiras.jpg',
@@ -310,7 +310,7 @@ const lojasData = [
     cep: '13060905',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 11h às 22h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'lencois-paulista.png',
@@ -320,7 +320,7 @@ const lojasData = [
     cep: '18680120',
     cidade: 'Lençóis Paulista',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'limeira.png',
@@ -330,7 +330,7 @@ const lojasData = [
     cep: '13480290',
     cidade: 'Limeira',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'marilia.png',
@@ -350,7 +350,7 @@ const lojasData = [
     cep: '13844070',
     cidade: 'Mogi Guaçu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'paulinia.png',
@@ -360,7 +360,7 @@ const lojasData = [
     cep: '13140723',
     cidade: 'Paulínia',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h',
   },
   {
     foto: 'piracicaba.png',
@@ -370,7 +370,7 @@ const lojasData = [
     cep: '13424300',
     cidade: 'Piracicaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'ribeirao-preto-amin.png',
@@ -380,7 +380,7 @@ const lojasData = [
     cep: '14050030',
     cidade: 'Ribeirão Preto',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'ribeirao-preto-independencia.png',
@@ -400,7 +400,7 @@ const lojasData = [
     cep: '13454200',
     cidade: 'Santa Bárbara D’Óeste',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'sao-carlos.png',
@@ -410,7 +410,7 @@ const lojasData = [
     cep: '13570660',
     cidade: 'São Carlos',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'sertaozinho.png',
@@ -420,7 +420,7 @@ const lojasData = [
     cep: '14170500',
     cidade: 'Sertãozinho',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'sorocaba-simus.png',
@@ -430,7 +430,7 @@ const lojasData = [
     cep: '14170500',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h',
   },
   {
     foto: 'sorocaba-iguatemi.png',
@@ -440,7 +440,7 @@ const lojasData = [
     cep: '18110902',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h | Feriado 12/10: 12h às 20h',
+    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'sorocaba-zona-norte.png',
@@ -450,7 +450,7 @@ const lojasData = [
     cep: '18110902',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h',
   },
   {
     foto: 'sumare.png',
@@ -460,7 +460,7 @@ const lojasData = [
     cep: '13170023',
     cidade: 'Sumaré',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'valinhos.png',
@@ -470,7 +470,7 @@ const lojasData = [
     cep: '13272000',
     cidade: 'Valinhos',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 21h | Domingos: 8h às 18h | Sábado 11/10: 7h às 22h | Feriado 12/10: 8h às 18h',
+    horario: 'Seg a Sáb.: 7h às 21h | Domingos: 8h às 18h | Sábado 11/10: 7h às 22h',
   },
   {
     foto: 'varzea-paulista-novo.jpg',
@@ -480,7 +480,7 @@ const lojasData = [
     cep: '13220005',
     cidade: 'Várzea Paulista',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 18h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'loja-ribeiraopreto48.jpg',
@@ -490,7 +490,7 @@ const lojasData = [
     cep: '14085000',
     cidade: 'Ribeirão Preto',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'loja-botucatu2.jpg',
@@ -500,7 +500,7 @@ const lojasData = [
     cep: '18609083',
     cidade: 'Botucatu',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 9h às 20h | Sábado 11/10: 8h às 22h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 9h às 20h | Sábado 11/10: 8h às 22h',
   },
   {
     foto: 'loja-campinas-saudade.jpg',
@@ -510,7 +510,7 @@ const lojasData = [
     cep: '13041670',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h',
   },
   {
     foto: 'loja-itatiba.jpg',
@@ -520,7 +520,7 @@ const lojasData = [
     cep: '13250253',
     cidade: 'Itatiba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h30 | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h30',
   },
   {
     foto: 'loja-jau.jpg',
@@ -530,7 +530,7 @@ const lojasData = [
     cep: '17208263',
     cidade: 'Jaú',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h',
   },
   {
     foto: 'loja-pirassununga.jpg',
@@ -540,7 +540,7 @@ const lojasData = [
     cep: '13631110',
     cidade: 'Pirassununga',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 12/10:8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h',
   },
   {
     foto: 'loja-aracatuba.jpg',
@@ -550,7 +550,7 @@ const lojasData = [
     cep: '16026035',
     cidade: 'Araçatuba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 14h às 20h | Feriado 12/10: 11h às 20h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 14h às 20h',
   },
   {
     foto: 'jundiai-loja.jpg',
@@ -560,7 +560,7 @@ const lojasData = [
     cep: '13211771',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h',
   },
   {
     foto: 'catanduva-novo.jpg',
@@ -570,7 +570,7 @@ const lojasData = [
     cep: '15800610',
     cidade: 'Catanduva',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 18h  | Feriado 12/10: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 18h  | : 8h às 20h',
   },
 
   // Adicionar mais lojas conforme necessário
