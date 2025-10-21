@@ -143,16 +143,6 @@ const lojasData = [
     horario: 'Seg a Sáb.: 7h às 22h | Domingos: 8h às 20h',
   },
   {
-    foto: 'campinas-bandeiras.png',
-    localizacao: 'Campinas - Shopping Pq das Bandeiras',
-    numero: '27',
-    endereco: 'Av. John Boyd Dunlop, 3900 Loja 3100 - Piso L3 - Acesso C',
-    cep: '13060905',
-    cidade: 'Campinas',
-    estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h - 16/12 a 21/12: 10h às 23h - 23/12: 10h às 00h | Domingos: 12h às 20h - 22/12: 10 às 22h | 24/12: 9h às 18h | 31/12: 10h às 15h | 25/12 e 01/01: Fechado',
-  },
-  {
     foto: 'campinas-dompedro.png',
     localizacao: 'Campinas Parque Dom Pedro',
     numero: '39',
