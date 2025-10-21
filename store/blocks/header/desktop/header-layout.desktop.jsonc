@@ -1,7 +1,6 @@
 {
   "header-layout.desktop": {
     "children": [
-      "chat-flutuante",
       "experimental__visibility-layout#top-bar",
       "sticky-layout#desktop"
     ]
