@@ -260,7 +260,7 @@ const lojasData = [
     cep: '18200040',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 22h - 29/12: 8h às 20h | 24/12 e 31/12: 8h às 18h | 25/12 e 01/01: Fechado',
+    horario: 'Seg. à Sab.: 8h às 18h | Domingos: 9h às 18h  | Sábado 11/10: 8h às 19h',
   },
   {
     foto: 'jundiai-maxi.png',
