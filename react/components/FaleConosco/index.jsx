@@ -28,10 +28,10 @@ const FaleConosco = () => {
           </div>
           <div className={styles.cardFaleConosco}>
             <div className={styles.titleCardFaleConosco}>
-              <h3>Fale com a gente no WhatsApp</h3>
+              <h3>Vendas para Empresas</h3>
             </div>
             <div className={styles.textCardFaleConosco}>
-              <p>WhatsApp: (11) 4000-1567</p>
+              <p>WhatsApp: (11) 93236-1811</p>
             </div>
           </div>
           <div className={styles.cardFaleConosco}>

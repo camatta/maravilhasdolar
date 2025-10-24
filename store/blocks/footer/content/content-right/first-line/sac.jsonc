@@ -73,7 +73,7 @@
   "rich-text#sac-phone-second": {
     "props": {
       "blockClass": ["sac-group-link","wpp-pj"],
-      "text": "[<span class='vtex-rich-text-0-x-icon-wpp'>(11) 4000-1567</span>](https://wa.me/551140001567?text=Precisa%20de%20ajuda%3F)"
+      "text": "(11) 4000-1567</span>"
     }
   },
 

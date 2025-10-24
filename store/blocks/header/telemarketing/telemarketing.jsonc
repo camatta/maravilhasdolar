@@ -1,0 +1,9 @@
+{
+    "flex-layout.row#televendas": {
+        "children": ["telemarketing"],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "telemarketing-debug"
+        }
+    }
+}

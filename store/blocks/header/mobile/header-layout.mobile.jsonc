@@ -1,6 +1,6 @@
 {
   "header-layout.mobile": {
-    "children": ["experimental__visibility-layout#top-bar", "sticky-layout#mobile"]
+    "children": ["flex-layout.row#televendas","experimental__visibility-layout#top-bar", "sticky-layout#mobile"]
   },
 
   "sticky-layout#mobile": {
