@@ -1,7 +1,8 @@
 {
   "store.custom#fale-conosco": {
       "children": [
-          "fale-conosco"
+          "fale-conosco",
+          "form-contato"
       ]
   }
 }

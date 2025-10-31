@@ -63,6 +63,10 @@
     "component": "TermosLista"
   },
 
+  "form-contato": {
+    "component": "FormContato"
+  },
+
   "chat-flutuante": {
     "component": "ChatFlutuante"
   },
