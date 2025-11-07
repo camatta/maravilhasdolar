@@ -9,7 +9,7 @@
     },
     "rich-text#warning-b2b": {
         "props": {
-            "text": "Trabalhamos com condições especiais para CNPJ.[Saiba Mais.](/para-empresas)",
+            "text": "Confira as opções para compras com CNPJ.[Saiba Mais.](/para-empresas)",
             "blockClass": "warning-b2b"
         }
     },
