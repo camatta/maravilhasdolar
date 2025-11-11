@@ -51,9 +51,13 @@ const ParaEmpresas = () => {
                     <p className={styles.destaqueAtendimento}>Compras faturadas:</p>
                 </div>
                 <div className={styles.textEmpresas}>
+                    <p>Esse formato está disponível apenas para empresas:</p>
+                    <p>• Com mais de 12 meses de existência;</p>
+                    <p>• Sediadas no estado de São Paulo (SP).</p>
+                    <p>• As compras faturadas devem ser feitas presencialmente, diretamente nas lojas físicas.</p>
+                    <p>• Não é possível realizar pedidos faturados pelo site.</p>
                     <p>Para compras com faturamento, é necessário passar por uma <strong>análise de crédito.</strong> Preencha o formulário disponível <a href="https://form.jotform.com/mktmlar/formulario-cadastro-empresas" target='_blank'>neste link.</a></p>
-                    <p>O prazo para análise é de <strong>até 7 dias úteis.</strong></p>
-                    <p>Esse formato está disponível apenas para empresas com mais de 12 meses de existência, e as compras devem ser feitas presencialmente, <strong>diretamente nas lojas físicas,</strong> não é possível realizar pedidos faturados pelo site</p>
+                    O prazo para análise é de até 7 dias úteis.
                 </div>
                 <div className={styles.titleTopicoEmpresas}>
                     <h4>Formas de pagamento nas lojas físicas:</h4>
