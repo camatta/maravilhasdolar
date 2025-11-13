@@ -253,7 +253,7 @@ const lojasData = [
     horario: 'Seg. à Sex.: 8h às 18h | Sábados: 8h às 14h | Domingos: Fechado | Feriado 15/11: 8h às 18h | Feriado 20/11: 8h às 18h',
   },
   {
-    foto: 'jundiai-novo.jpg',
+    foto: 'varzea-paulista-novo.jpg',
     localizacao: 'Jundiaí - Praça Rui Barbosa',
     numero: '03',
     endereco: 'Rua Barão de Jundiaí, 464 - Centro',
@@ -463,7 +463,7 @@ const lojasData = [
     horario: 'Seg a Sáb.: 7h às 21h | Domingos: 7h às 18h| Feriado 02/11: 7h às 18h | Feriado 15/11: 7h às 21h | Feriado 20/11: 7h às 21h',
   },
   {
-    foto: 'varzea-paulista-novo.jpg',
+    foto: 'jundiai-novo.jpg',
     localizacao: 'Várzea Paulista',
     numero: '02',
     endereco: 'Avenida Fernão Dias Paes Leme, 2347 - Vila Santa Terezinha',
