@@ -430,7 +430,7 @@ const lojasData = [
     cep: '18110902',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h| Feriado 02/11: 11h às 20h | Feriado 15/11: 10h às 22h | Feriado 20/11: 11h às 20h | Feriado 15/11: Fechado',
+    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h| Feriado 02/11: 11h às 20h | Feriado 15/11: Fechado | Feriado 20/11: 11h às 20h',
   },
   {
     foto: 'sorocaba-zona-norte.png',
