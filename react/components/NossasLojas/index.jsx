@@ -252,7 +252,16 @@ const lojasData = [
     estado: 'SP',
     horario: 'Seg. à Sex.: 8h às 18h | Sábados: 8h às 14h | Domingos: Fechado | Feriado 15/11: 8h às 18h | Feriado 20/11: 8h às 18h',
   },
-
+  {
+    foto: 'loja03novo.jpg',
+    localizacao: 'Jundiaí - Praça Rui Barbosa',
+    numero: '03',
+    endereco: 'Rua Barão de Jundiaí, 464 - Centro',
+    cep: '18200040',
+    cidade: 'Jundiaí',
+    estado: 'SP',
+    horario: 'Seg. à Sab.: 8h às 18h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 18h | Feriado 20/11: 8h às 18h',
+  },
   {
     foto: 'jundiai-maxi.png',
     localizacao: 'Jundiaí - Maxi Shopping',
@@ -453,7 +462,16 @@ const lojasData = [
     estado: 'SP',
     horario: 'Seg a Sáb.: 7h às 21h | Domingos: 7h às 18h| Feriado 02/11: 7h às 18h | Feriado 15/11: 7h às 21h | Feriado 20/11: 7h às 21h',
   },
-  
+  {
+    foto: 'loja02novo.jpg',
+    localizacao: 'Várzea Paulista',
+    numero: '02',
+    endereco: 'Avenida Fernão Dias Paes Leme, 2347 - Vila Santa Terezinha',
+    cep: '13220005',
+    cidade: 'Várzea Paulista',
+    estado: 'SP',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+  },
   {
     foto: 'loja-ribeiraopreto48.jpg',
     localizacao: 'Ribeirão Preto - Av. Saudade',
