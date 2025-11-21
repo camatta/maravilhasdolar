@@ -20,7 +20,7 @@ const lojasData = [
     cep: '13473620',
     cidade: 'Americana',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'amparo.png',
@@ -30,7 +30,7 @@ const lojasData = [
     cep: '13901350',
     cidade: 'Amparo',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 21h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 21h | Feriado 20/11: 8h às 21h',
+    horario: 'Seg. a Sáb.: 8h às 21h | Domingos: 9h às 18h| Black friday 28/11: 7h às 21h',
   },
   {
     foto: 'araraquara.png',
@@ -40,7 +40,7 @@ const lojasData = [
     cep: '14802000',
     cidade: 'Araraquara',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 9h às 20h | Feriado 20/11: 9h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'araraquara2.png',
@@ -50,7 +50,7 @@ const lojasData = [
     cep: '14801295',
     cidade: 'Araraquara',
     estado: 'SP',
-    horario: 'Seg a Sex.: 8h às 18h | Sábados: 8h às 17h | Domingos: Fechado | Feriado 15/11: 8h às 17h | Feriado 20/11: Fechado',
+    horario: 'Seg a Sex.: 8h às 18h | Sábados: 8h às 17h | Domingos: Fechado',
   },
   {
     foto: 'araras.png',
@@ -60,7 +60,7 @@ const lojasData = [
     cep: '13600001',
     cidade: 'Araras',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 9h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 8h às 22h',
   },
   {
     foto: 'bauru-duque.png',
@@ -70,7 +70,7 @@ const lojasData = [
     cep: '17011066',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 8h às 22h | Domingos: 9h às 20h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg a Sáb.: 8h às 22h | Domingos: 9h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'bauru-castelo.png',
@@ -80,7 +80,7 @@ const lojasData = [
     cep: '17052000',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'bauru-shopping.png',
@@ -90,7 +90,7 @@ const lojasData = [
     cep: '17013113',
     cidade: 'Bauru',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h| Feriado 02/11: 11h às 20h | Feriado 15/11: 10h às 22h | Feriado 20/11: 11h às 20h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'botucatu.png',
@@ -100,7 +100,7 @@ const lojasData = [
     cep: '18606125',
     cidade: 'Botucatu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 9h às 22h | Domingos: 9h às 20h| Feriado 02/11: 9h às 20h | Feriado 15/11: 9h às 20h | Feriado 20/11: 9h às 20h',
+    horario: 'Seg. a Sáb.: 9h às 22h | Domingos: 9h às 20h',
   },
   {
     foto: 'campinas-guanabara.png',
@@ -110,7 +110,7 @@ const lojasData = [
     cep: '13073300',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h| Feriado 02/11: 7h às 20h | Feriado 15/11: 7h às 22h | Feriado 20/11: 7h às 22h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'campinas-nova-campinas.png',
@@ -120,7 +120,7 @@ const lojasData = [
     cep: '13092111',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h| Feriado 02/11: 7h às 20h | Feriado 15/11: 7h às 22h | Feriado 20/11: 7h às 22h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'campinas-shopping.png',
@@ -130,7 +130,7 @@ const lojasData = [
     cep: '13050913',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | Feriado 02/11: 11h às 20h | Feriado 15/11: 9h às 23h | Feriado 20/11: 11h às 20h',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | Black friday 28/11: 9h às 23h',
   },
   {
     foto: 'campinas-amoreiras.png',
@@ -140,7 +140,7 @@ const lojasData = [
     cep: '13031435',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h| Feriado 02/11: 7h às 22h | Feriado 15/11: 7h às 22h | Feriado 20/11: 7h às 22h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'campinas-dompedro.png',
@@ -150,7 +150,7 @@ const lojasData = [
     cep: '13087901',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h | Feriado 02/11: 12h às 20h | Feriado 15/11: 12h às 22h | Feriado 20/11: 12h às 20h',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 11h às 20h',
   },
   {
     foto: 'capivari.png',
@@ -160,7 +160,7 @@ const lojasData = [
     cep: '13360000',
     cidade: 'Capivari',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'cosmopolis.png',
@@ -170,7 +170,7 @@ const lojasData = [
     cep: '13150029',
     cidade: 'Cosmópolis',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h| Feriado 02/11: 8h às 19h | Feriado 15/11: 8h às 20h | Feriado 20/11: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h| Black friday 28/11: 7h às 19h | Domingo 30/11: 8h às 20h',
   },
   {
     foto: 'franca.png',
@@ -180,7 +180,7 @@ const lojasData = [
     cep: '13150029',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Feriado 02/11: 8h às 20h | Feriado 15/11: 8h às 20h | Feriado 20/11: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h | Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'franca-shopping.png',
@@ -190,7 +190,7 @@ const lojasData = [
     cep: '14406901',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 10h às 22h | Domingos: 12h às 20h| Feriado 02/11: 12h às 22h | Feriado 15/11: 10h às 22h | Feriado 20/11: 12h às 20h',
+    horario: 'Seg a Sáb.: 10h às 22h | Domingos: 12h às 20h| Black friday 28/11: 9h às 22h',
   },
   {
     foto: 'hortolandia.png',
@@ -200,7 +200,7 @@ const lojasData = [
     cep: '13186231',
     cidade: 'Franca',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'indaiatuba.png',
@@ -210,7 +210,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Indaiatuba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 8h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'itapetininga.png',
@@ -220,7 +220,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Itapetininga',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 02/11: 8h às 18h | Feriado 05/11: 8h às 20h| Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'itu.png',
@@ -230,7 +230,7 @@ const lojasData = [
     cep: '13300005',
     cidade: 'Itu',
     estado: 'SP',
-    horario: 'Seg. a Sexta: 8h às 19h | Sábados: 8h às 17h | Domingos: Fechado | Feriado 15/11: 8h às 19h | Feriado 20/11: 8h às 19h',
+    horario: 'Seg. a Sexta: 8h às 19h | Sábados: 8h às 17h | Domingos: Fechado | Black friday 28/11: 7h às 19h',
   },
   {
     foto: 'itu-shopping.png',
@@ -240,7 +240,7 @@ const lojasData = [
     cep: '13302231',
     cidade: 'Itu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h | Feriado 02/11: 11h às 20h | Feriado 15/11: 10h às 22h | Feriado 20/11: 11h às 20h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'jundiai-matriz.png',
@@ -250,7 +250,7 @@ const lojasData = [
     cep: '13343495',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. à Sex.: 8h às 18h | Sábados: 8h às 14h | Domingos: Fechado | Feriado 15/11: 8h às 18h | Feriado 20/11: 8h às 18h',
+    horario: 'Seg. à Sex.: 8h às 18h | Sábados: 8h às 14h | Domingos: Fechado | Black Friday 28/11: 7h às 18h',
   },
   {
     foto: 'loja03novo.jpg',
@@ -260,7 +260,7 @@ const lojasData = [
     cep: '18200040',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. à Sab.: 8h às 18h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 18h | Feriado 20/11: 8h às 18h',
+    horario: 'Seg. à Sab.: 8h às 18h | Domingos: 9h às 18h| Black friday 28/11: 7h às 19h',
   },
   {
     foto: 'jundiai-maxi.png',
@@ -270,7 +270,7 @@ const lojasData = [
     cep: '13300005',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h| Feriado 02/11: 11h às 20h | Feriado 15/11: 10h às 22h | Feriado 20/11: 11h às 20h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h| Black friday 28/11: 9h às 22h | Domingo 30/11: 11h às 20h',
   },
   {
     foto: 'jundiai-multi.png',
@@ -280,7 +280,7 @@ const lojasData = [
     cep: '13218010',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Black friday 28/11: 8h às 22h',
   },
   {
     foto: 'leme.png',
@@ -290,7 +290,7 @@ const lojasData = [
     cep: '13610110',
     cidade: 'Leme',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 20h | Domingos: 9h às 18h| Black friday 28/11: 8h às 20h',
   },
   {
     foto: 'loja-campinas-bandeiras.jpg',
@@ -300,7 +300,7 @@ const lojasData = [
     cep: '13060905',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h| Feriado 02/11: 11h às 20h | Feriado 15/11: 10h às 23h | Feriado 20/11: 10h às 23h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 12h às 20h| Black friday 28/11: 10h às 23h',
   },
   {
     foto: 'lencois-paulista.png',
@@ -310,7 +310,7 @@ const lojasData = [
     cep: '18680120',
     cidade: 'Lençóis Paulista',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'limeira.png',
@@ -320,7 +320,7 @@ const lojasData = [
     cep: '13480290',
     cidade: 'Limeira',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 8h às 22h',
   },
   {
     foto: 'marilia.png',
@@ -330,7 +330,7 @@ const lojasData = [
     cep: '17519000',
     cidade: 'Marília',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 20h | Feriado 20/11: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h | Black friday 28/11: 8h às 22h',
   },
   {
     foto: 'mogi-guacu.png',
@@ -340,7 +340,7 @@ const lojasData = [
     cep: '13844070',
     cidade: 'Mogi Guaçu',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'paulinia.png',
@@ -350,7 +350,7 @@ const lojasData = [
     cep: '13140723',
     cidade: 'Paulínia',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h| Feriado 02/11: 8h às 20h | Feriado 15/11: 8h às 20h | Feriado 20/11: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'piracicaba.png',
@@ -360,7 +360,7 @@ const lojasData = [
     cep: '13424300',
     cidade: 'Piracicaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'ribeirao-preto-amin.png',
@@ -370,7 +370,7 @@ const lojasData = [
     cep: '14050030',
     cidade: 'Ribeirão Preto',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'ribeirao-preto-independencia.png',
@@ -390,7 +390,7 @@ const lojasData = [
     cep: '13454200',
     cidade: 'Santa Bárbara D’Óeste',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'sao-carlos.png',
@@ -400,7 +400,7 @@ const lojasData = [
     cep: '13570660',
     cidade: 'São Carlos',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 04/11: 8h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'sertaozinho.png',
@@ -410,7 +410,7 @@ const lojasData = [
     cep: '14170500',
     cidade: 'Sertãozinho',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'sorocaba-simus.png',
@@ -420,7 +420,7 @@ const lojasData = [
     cep: '14170500',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h| Feriado 02/11: 8h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'sorocaba-iguatemi.png',
@@ -430,7 +430,7 @@ const lojasData = [
     cep: '18110902',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h| Feriado 02/11: 11h às 20h | Feriado 15/11: Fechado | Feriado 20/11: 11h às 20h',
+    horario: 'Seg. a Sábado: 10h às 22h | Domingos: 12h às 20h',
   },
   {
     foto: 'sorocaba-zona-norte.png',
@@ -440,7 +440,7 @@ const lojasData = [
     cep: '18110902',
     cidade: 'Sorocaba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h| Feriado 02/11: 8h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'sumare.png',
@@ -450,7 +450,7 @@ const lojasData = [
     cep: '13170023',
     cidade: 'Sumaré',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h | Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'valinhos.png',
@@ -460,7 +460,7 @@ const lojasData = [
     cep: '13272000',
     cidade: 'Valinhos',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 21h | Domingos: 7h às 18h| Feriado 02/11: 7h às 18h | Feriado 15/11: 7h às 21h | Feriado 20/11: 7h às 21h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'loja02novo.jpg',
@@ -470,7 +470,7 @@ const lojasData = [
     cep: '13220005',
     cidade: 'Várzea Paulista',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 8h às 22h',
   },
   {
     foto: 'loja-ribeiraopreto48.jpg',
@@ -480,7 +480,7 @@ const lojasData = [
     cep: '14085000',
     cidade: 'Ribeirão Preto',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'loja-botucatu2.jpg',
@@ -490,7 +490,7 @@ const lojasData = [
     cep: '18609083',
     cidade: 'Botucatu',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 9h às 20h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg a Sáb.: 9h às 22h | Domingos: 9h às 20h',
   },
   {
     foto: 'loja-campinas-saudade.jpg',
@@ -500,7 +500,7 @@ const lojasData = [
     cep: '13041670',
     cidade: 'Campinas',
     estado: 'SP',
-    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h | Feriado 02/11: 7h às 20h | Feriado 15/11: 7h às 22h | Feriado 20/11: 7h às 22h',
+    horario: 'Seg a Sáb.: 7h às 22h | Domingos: 7h às 20h | Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'loja-itatiba.jpg',
@@ -510,7 +510,7 @@ const lojasData = [
     cep: '13250253',
     cidade: 'Itatiba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h30 | Feriado 02/11: 9h às 20h30 | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h30 | Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'loja-jau.jpg',
@@ -520,7 +520,7 @@ const lojasData = [
     cep: '17208263',
     cidade: 'Jaú',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h| Feriado 02/11: 8h às 20h | Feriado 15/11: 8h às 20h | Feriado 20/11: 8h às 20h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'loja-pirassununga.jpg',
@@ -530,7 +530,7 @@ const lojasData = [
     cep: '13631110',
     cidade: 'Pirassununga',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 18h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'loja-aracatuba.jpg',
@@ -540,7 +540,7 @@ const lojasData = [
     cep: '16026035',
     cidade: 'Araçatuba',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 14h às 20h| Feriado 02/11: 11h às 22h | Feriado 15/11: 10h às 22h | Feriado 20/11: 11h às 22h',
+    horario: 'Seg. a Sáb.: 10h às 22h | Domingos: 14h às 20h',
   },
   {
     foto: 'jundiai-loja.jpg',
@@ -550,7 +550,7 @@ const lojasData = [
     cep: '13211771',
     cidade: 'Jundiaí',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h| Feriado 02/11: 9h às 20h | Feriado 15/11: 8h às 22h | Feriado 20/11: 8h às 22h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 9h às 20h| Black friday 28/11: 7h às 22h',
   },
   {
     foto: 'catanduva-novo.jpg',
@@ -560,7 +560,7 @@ const lojasData = [
     cep: '15800610',
     cidade: 'Catanduva',
     estado: 'SP',
-    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 18h| Feriado 02/11: 9h às 18h | Feriado 15/11: 9h às 18h | Feriado 20/11: 9h às 18h',
+    horario: 'Seg. a Sáb.: 8h às 22h | Domingos: 8h às 18h| Black friday 28/11: 8h às 22h',
   },
 
   // Adicionar mais lojas conforme necessário
