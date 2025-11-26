@@ -22,3 +22,10 @@
     color: #1c1c1c;
     background-color: #FFCC00;
 }
+.productHighlightWrapper[data-highlight-id="191"] {
+    background-image: url(assets/icons/tag-black.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 0;
+    min-width: 100px;
+}
