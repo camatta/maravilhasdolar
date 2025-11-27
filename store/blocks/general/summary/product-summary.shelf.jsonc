@@ -2,6 +2,7 @@
   "product-summary.shelf": {
     "children": [
       "flex-layout.row#wrapper-highlights",
+      "flex-layout.row#leve-mais-highlights",
       "flex-layout.row#summary-wish-image",
       "flex-layout.row#summary-name",
       "flex-layout.row#summary-price",
@@ -9,23 +10,26 @@
     ]
   },
 
+  /* HIGHLIGHTS GENÉRICOS (se quiser manter outros destaques) */
   "flex-layout.row#wrapper-highlights": {
     "props": {
       "blockClass": ["wrapper-highlights"]
     },
     "children": [
-      "vtex.product-highlights@2.x:product-highlights"
+      "vtex.product-highlights@2.x:product-highlights#default"
     ]
   },
 
-  "vtex.product-highlights@2.x:product-highlights": {
-    /* "props": {
+  "vtex.product-highlights@2.x:product-highlights#default": {
+    /* Se quiser voltar a usar collection/promotion aqui, configure:
+    "props": {
       "type": "collection",
       "filter": {
         "type": "show",
         "highlightNames": ["%", "Novidades", "Mais Vendidos", "Item sortido"]
       }
-    }, */
+    },
+    */
     "children": [
       "product-highlight-wrapper"
     ]
@@ -36,14 +40,46 @@
       "product-highlight-text"
     ],
     "props": {
-      "blockclass": "wrapper-highlights"
+      "blockClass": "wrapper-highlights"
     }
   },
 
   "product-highlight-text": {
     "props": {
       "message": "{highlightName}",
-      "blockclass": "highlights-text"
+      "blockClass": "highlights-text"
+    }
+  },
+
+  /* BLOCO ESPECÍFICO DO LEVE + PAGUE - (TEASER) */
+  "flex-layout.row#leve-mais-highlights": {
+    "props": {
+      "blockClass": ["leve-mais"]
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#leve-mais"
+    ]
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#leve-mais": {
+    "props": {
+      "type": "teaser",
+      "filter": {
+        "type": "show",
+        "highlightNames": [
+          "Leve Mais Pague Menos - Lenço Upa Bebê 34801"
+        ]
+      }
+    },
+    "children": [
+      "product-highlight-text#leve-mais"
+    ]
+  },
+
+  "product-highlight-text#leve-mais": {
+    "props": {
+      "message": "Leve + pague -",
+      "blockClass": "leve-mais-text"
     }
   }
 }

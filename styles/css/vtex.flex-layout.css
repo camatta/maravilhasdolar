@@ -731,9 +731,6 @@
 
 .flexRow--wrapper-highlights {
   z-index: 2;
-  position: absolute;
-  left: 16px;
-  top: 16px;
 }
 
 .flexRowContent--actions-pdp-container :global(.vtex-add-to-cart-button-0-x-buttonText--buy-button-pdp) {

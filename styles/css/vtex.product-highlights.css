@@ -18,6 +18,17 @@
     display: inline-block;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--leve-mais){
+ 
+    border-radius: 47px;
+    font-family: Nunito;
+    font-weight:700;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: max-content;
+    display: inline-block;
+}
+
 .productHighlightWrapper[data-highlight-name="%"] {
     color: #1c1c1c;
     background-color: #FFCC00;

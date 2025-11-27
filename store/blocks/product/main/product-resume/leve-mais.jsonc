@@ -1,0 +1,11 @@
+{
+
+"flex-layout.row#leve-mais-pdp": {
+    "props": {
+      "blockClass": ["leve-mais-pdp"]
+    },
+    "children": [
+      "leve-mais-pague-menos"
+    ]
+  }
+}

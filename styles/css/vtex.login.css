@@ -1,3 +1,17 @@
+:global(.vtex-flex-layout-0-x-flexRow--leve-mais)
+  :global(.vtex-flex-layout-0-x-flexRowContent--leve-mais:has(.vtex-flex-layout-0-x-stretchChildrenWidth:not(:empty))) {
+    background:#FF6600;
+    padding: 2px 8px;
+    border-radius: 47px;
+}
+/*
+:global(.vtex-flex-layout-0-x-flexCol--shipping-content-pdp):before{
+  content:"Prazo estendido devido à Black Friday. A entrega poderá ocorrer antes.";
+  display: block;
+  margin-bottom: 16px;
+}
+*/
+
 /* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 5px;
