@@ -4,13 +4,16 @@
     padding: 2px 8px;
     border-radius: 47px;
 }
-/*
-:global(.vtex-flex-layout-0-x-flexCol--shipping-content-pdp):before{
+
+:global(.wrapperShipping) > :global(.mb4)::after{
   content:"Prazo estendido devido à Black Friday. A entrega poderá ocorrer antes.";
   display: block;
+  margin-top: 5px;
   margin-bottom: 16px;
+  font-weight: 700;
+  font-style: italic;
 }
-*/
+
 
 /* SCROLLBAR */
 ::-webkit-scrollbar {
