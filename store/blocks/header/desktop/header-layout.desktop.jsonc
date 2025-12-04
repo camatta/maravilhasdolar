@@ -1,6 +1,7 @@
 {
   "header-layout.desktop": {
     "children": [
+      "carrinhoAbandonado",
       "flex-layout.row#televendas",
       "experimental__visibility-layout#top-bar",
       "sticky-layout#desktop"

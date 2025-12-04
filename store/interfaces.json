@@ -84,6 +84,9 @@
   },
    "leve-mais-pague-menos": {
    "component": "LeveMaisFlag"
+  },
+  "carrinhoAbandonado": {
+    "component": "CarrinhoAbandonado"
   }
 
 }
