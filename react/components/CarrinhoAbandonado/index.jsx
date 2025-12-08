@@ -10,7 +10,6 @@ function CarrinhoAbandonado() {
 
     async function trackCart(action = 'update', options) {
         try {
-
             const isEmpty = !orderForm || !orderForm.items || orderForm.items.length === 0;
 
             if (isEmpty && !(options && options.allowEmpty)) {
@@ -61,6 +60,11 @@ function CarrinhoAbandonado() {
                 cartEmpty: options && options.cartEmpty ? true : false,
             }
 
+            // Guarda o último cartId da sessão, para o checkout clássico ler depois
+            if (typeof window !== 'undefined' && cartData.cartId) {
+                window.localStorage.setItem('nrz_last_cart_id', String(cartData.cartId));
+            }
+
             console.log(
                 `📤 Enviando carrinho para tracking [${action}] (cartEmpty=${cartData.cartEmpty}):`,
                 cartData.cartId
@@ -85,31 +89,6 @@ function CarrinhoAbandonado() {
             
         } catch (error) {
             console.error('❌ Erro ao rastrear carrinho:', error);
-        }
-    }
-
-    async function completeCart() {
-        try {
-            const orderForm = await vtexjs.checkout.getOrderForm();
-            
-            console.log('✅ Finalizando carrinho:', orderForm.orderFormId);
-            
-            const response = await fetch(`${MIDDLEWARE_URL}/cart/complete`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                cartId: orderForm.orderFormId,
-                orderId: orderForm.orderId || orderForm.orderFormId
-            })
-            });
-
-            const result = await response.json();
-            console.log('✅ Carrinho finalizado:', result);
-            
-        } catch (error) {
-            console.error('❌ Erro ao finalizar carrinho:', error);
         }
     }
 
@@ -204,7 +183,7 @@ function CarrinhoAbandonado() {
         previousItemsRef.current = currentItems;
     }, [orderForm]);
 
-    return (<></>)
+    return (<></>);
 }
 
 export default CarrinhoAbandonado
