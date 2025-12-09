@@ -71,7 +71,7 @@ function CarrinhoAbandonado() {
             );
 
             // Enviar para o middleware
-            const response = await fetch(`https://middlewares-maravilhas.vercel.app/cart/track`, {
+            const response = await fetch(`https://middlewares-maravilhas.railway.internal/cart/track`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
