@@ -153,7 +153,7 @@ const lojasData = [
     horario: 'Seg. a Sáb.: 01 a 13/12: 7h-22h 15 a 23/12: 7h-23h 26 a 30/12: 8h-22h | Domingos: 7 e 28/12: 11h-20h 14 e 21/12: 10h-23h | 24 e 31/12: 9h-18h | 25/12 e 01/01: Fechado',
   },
   {
-    foto: 'capivari.png',
+    foto: 'mdl_10_capivari.jpg',
     localizacao: 'Capivari',
     numero: '10',
     endereco: 'Avenida Pio XII, 979 - Porto Alegre',
