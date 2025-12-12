@@ -30,7 +30,7 @@
   justify-content: center;
 }
 
-.openIconContainer :global(.vtex-button) {
+:global(.vtex-sticky-layout-0-x-container) .openIconContainer :global(.vtex-button) {
   border: 0;
   min-width: 94px;
   min-height: initial;
