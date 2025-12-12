@@ -1,7 +1,7 @@
 {
   "header-layout.mobile": {
     "children": [
-      "carrinhoAbandonado",
+      // "carrinhoAbandonado",
       "flex-layout.row#televendas",
       "experimental__visibility-layout#top-bar",
       "sticky-layout#mobile"

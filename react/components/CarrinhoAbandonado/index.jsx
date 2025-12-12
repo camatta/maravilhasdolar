@@ -70,8 +70,11 @@ function CarrinhoAbandonado() {
                 cartData.cartId
             );
 
+            const urlDev = "http://localhost:3000/cart/track";
+            const urlProd = "https://middlewares-maravilhas-production.up.railway.app/cart/track";
+
             // Enviar para o middleware
-            const response = await fetch(`https://middlewares-maravilhas-production.up.railway.app/cart/track`, {
+            const response = await fetch(urlProd, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
