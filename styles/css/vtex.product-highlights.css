@@ -40,3 +40,11 @@
     font-size: 0;
     min-width: 100px;
 }
+
+.productHighlightWrapper[data-highlight-id="227"] {
+    background-image: url(assets/icons/tag-mara.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 0;
+    min-width: 100px;
+}
