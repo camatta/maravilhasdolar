@@ -36,6 +36,10 @@
     "component": "NossasLojas"
   },
 
+  "nossas-lojas-new": {
+    "component": "NossasLojasNew"
+  },
+
   "faq": {
     "component": "FAQ"
   },

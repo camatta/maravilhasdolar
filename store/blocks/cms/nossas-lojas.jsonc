@@ -38,7 +38,7 @@
 
     "flex-layout.col#content-nossas-lojas": {
       "children":[
-        "nossas-lojas"
+        "nossas-lojas-new"
       ]
     }
 }
