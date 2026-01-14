@@ -42,7 +42,6 @@
     },
     "children": [
       "rich-text#politicas-troca-e-cancelamento",
-      "rich-text#politicas-lista-de-presentes",
       "rich-text#politicas-condicoes",
       "rich-text#politicas-politicas-privacidade",
       "rich-text#politicas-politicas-frete",
