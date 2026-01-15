@@ -724,6 +724,10 @@
   text-align: right;
 }
 
+.flexRow--description-pdp {
+  text-align: left;
+}
+
 .flexColChild--product-image-content :global(.vtex-product-highlights-2-x-productHighlightWrapper) {
   position: relative;
   right: 0;
