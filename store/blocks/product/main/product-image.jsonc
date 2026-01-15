@@ -68,7 +68,7 @@
       "aspectRatio": "3:4",
       "thumbnailAspectRatio": "1:1",
       "showNavigationArrows": false,
-      "showPaginationDots": false,
+      "showPaginationDots": true,
       "maxHeight": 388,
       "thumbnailMaxHeight": 90,
       "zoomMode": "in-place-hover",

@@ -1,13 +1,12 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#top-display-banner",
       "flex-layout.row#main-slider",
       "flex-layout.row#shelf-promotions",
+       "__fold__",
       "flex-layout.row#categoriasmenu",
       "flex-layout.row#upper-mosaic",
       "flex-layout.row#shelf-mais-vendidos",
-      //"__fold__",
       "flex-layout.row#shelf-releases",
       "flex-layout.row#shelf-best-sellers",
       "flex-layout.row#shelf-highlights"

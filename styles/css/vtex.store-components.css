@@ -510,4 +510,15 @@
   .imageElement--image__display-banner {
     width: 100%;
   }
+  .carouselGaleryThumbs--pdp {
+    display: none;
+  }
+  .swiperBullet {
+    width: 32px;
+    height: 4px;
+    border-radius: 23px !important;
+  }
+  .swiperBullet--active {
+    background-color: #FF6600;
+  }
 }

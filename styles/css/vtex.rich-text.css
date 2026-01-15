@@ -725,9 +725,6 @@
     line-height: 26px;
   }
 
-  .container--newsletter-cta {
-    justify-content: center;
-  }
   .paragraph--newsletter-cta {
     max-width: 100%;
     font-size: 16px;
@@ -775,7 +772,7 @@
 
   .paragraph--newsletter-cta {
     max-width: 100%;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0;
   }
 

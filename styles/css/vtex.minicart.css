@@ -137,7 +137,7 @@
 }
 
 @media (max-width: 1025px) {
-  .openIconContainer :global(.vtex-button) {
+  :global(.vtex-sticky-layout-0-x-container--sticky-header) .openIconContainer :global(.vtex-button) {
     padding: 0;
     min-width: initial;
   }

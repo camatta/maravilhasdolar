@@ -32,7 +32,6 @@
       "children": [
         "rich-text#content-menu-cms-troca-e-cancelamento", // Cada linha representa um link do menu
         "rich-text#content-menu-cms-termos-lista-de-presentes",
-        "rich-text#content-menu-cms-termos-e-condicoes",
         "rich-text#content-menu-cms-politica-de-privacidade",
         "rich-text#content-menu-cms-politica-de-frete",
         "rich-text#content-menu-cms-politica-de-cookies"
