@@ -466,6 +466,10 @@
   border: unset;
 }
 
+:global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summaryItemContainer.mt3) {
+  display: none;
+}
+
 :global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-input-prefix__group) {
   border: unset;
 }
@@ -571,6 +575,9 @@
 
   :global(.vtex-my-account-1-x-profileBoxContainer) > div {
     margin-right: 30px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-breadcrumb-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    max-width: 100%;
   }
 }
 

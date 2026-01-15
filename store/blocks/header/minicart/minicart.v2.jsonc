@@ -37,7 +37,10 @@
     }
   },
   "minicart-summary": {
-    "blocks": ["checkout-summary.compact#minicart"]
+    "blocks": ["checkout-summary.compact#minicart"],
+    "props": {
+      "blockClass": "area-total"
+    }
   },
   "minicart-checkout-button": {
     "props": {
@@ -45,14 +48,14 @@
     }
   },
 
-  "checkout-summary.compact#minicart": {
-    "children": ["summary-totalizers#minicart"],
+  "checkout-summary.compact": {
+    "children": ["summary-totalizers"],
     "props": {
       "totalizersToShow": ["Items"],
       "blockClass": ["minicart"]
     }
   },
-  "summary-totalizers#minicart": {
+  "summary-totalizers": {
     "props": {
       "showTotal": true,
       "showDeliveryTotal": false,

@@ -15,7 +15,7 @@
         "blockClass": "rating-pdp-content",
         "width": "grow"
       },
-      "children": ["product-rating-summary"]
+      "children": ["product-rating-summary", "flex-layout.col#product-share"]
     },
   
     "flex-layout.col#wish-pdp": {

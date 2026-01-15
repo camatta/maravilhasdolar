@@ -19,7 +19,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--leve-mais){
- 
+    position: absolute;
     border-radius: 47px;
     font-family: Nunito;
     font-weight:700;
