@@ -1277,6 +1277,9 @@
   .flexRowContent--cms-page-container {
     flex-direction: column;
   }
+  .flexRow--main-slider-container {
+    margin-top: 10px;
+  } 
 }
 
 @media (max-width: 991px) {
