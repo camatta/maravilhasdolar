@@ -91,5 +91,8 @@
   },
   "carrinhoAbandonado": {
     "component": "CarrinhoAbandonado"
+  },
+  "custom-form-newsletter": {
+    "component": "CustomFormNewsletter"
   }
 }

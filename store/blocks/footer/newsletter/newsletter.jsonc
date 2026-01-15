@@ -36,23 +36,23 @@
       "blockClass": ["newsletter-form-content"],
       "width": "80%"
     },
-    "children": ["rich-text#newsletter", "newsletter-form"]
-  },
-
-  "newsletter-form": {
-    "children": [
-      "newsletter-input-email",
-      "newsletter-submit"
-    ]
-  },
-  "newsletter-input-email": {
-    "props": {
-      "placeholderText": "Insira seu melhor e-mail"
-    }
-  },
-  "newsletter-submit": {
-    "props": {
-      "submitButtonLabel": "Enviar"
-    }
+    "children": ["rich-text#newsletter", "custom-form-newsletter"]
   }
+
+  // "newsletter-form": {
+  //   "children": [
+  //     "newsletter-input-email",
+  //     "newsletter-submit"
+  //   ]
+  // },
+  // "newsletter-input-email": {
+  //   "props": {
+  //     "placeholderText": "Insira seu melhor e-mail"
+  //   }
+  // },
+  // "newsletter-submit": {
+  //   "props": {
+  //     "submitButtonLabel": "Enviar"
+  //   }
+  // }
 }

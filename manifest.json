@@ -8,7 +8,8 @@
     "docs": "0.x",
     "sitemap": "0.x",
     "assets": "0.x",
-    "react": "3.x"
+    "react": "3.x",
+    "node": "7.x"
   },
   "mustUpdateAt": "2018-09-05",
   "scripts": {
@@ -76,5 +77,17 @@
     "vtexarg.speech-to-text": "1.x",
     "vtex.reviews-and-ratings": "3.x"
   },
+  "policies": [
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/api/dataentities/*"
+      }
+    }
+  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -1,0 +1,135 @@
+.formNewsletter {
+    display: flex;
+    gap: 10px;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.fields .firstLine {
+    display: flex;
+    gap: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.field small {
+    color: #ce0101;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 25px;
+}
+
+.field > input:not(.optIn) {
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    border: none;
+    border-radius: 65px;
+    padding: 10px 25px;
+}
+
+.field > input:not(.optIn):focus {
+    outline: none;
+}
+
+.field > input:not(.optIn)::placeholder {
+    color: #202020;
+}
+
+.inputEmail {
+    width: 286px;
+}
+
+.inputCpf {
+    -moz-appearance: textfield;
+}
+
+.inputCpf::-webkit-inner-spin-button,
+.inputCpf::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.field.optIn {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.field.optIn label {
+    font-size: 12px;
+    color: #fff;
+}
+
+.field.optIn input[type="checkbox"] {
+    accent-color: #660066;
+}
+
+.buttonSubmit {
+    max-width: 89px;
+    width: 100%;
+    min-height: initial;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    text-transform: initial;
+    background: #660066;
+    border: 0;
+    border-radius: 41px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.buttonSubmit > div {
+    font-family: Nunito, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #fff;
+    padding: 0;
+}
+
+.buttonSubmit:disabled {
+    cursor: default;
+}
+
+.errorForm {
+    color: #ce0101;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.messageSuccess {
+    color: #660066;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 991px) {
+    .errorForm, .messageSuccess {
+        text-align: center;
+    }
+    .inputEmail {
+        width: 100%;
+    }
+    .fields .firstLine, .formNewsletter {
+        flex-direction: column;
+    }
+    .field.optIn {
+        justify-content: center;
+    }
+    .buttonSubmit {
+        max-width: none;
+        justify-content: center;
+    }
+}

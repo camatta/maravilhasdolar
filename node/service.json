@@ -1,0 +1,17 @@
+{
+  "memory": 128,
+  "ttl": 10,
+  "timeout": 2,
+  "routes": {
+    "customNewsletterRock": {
+      "path": "/custom-newsletter-rock",
+      "public": true,
+      "method": "GET"
+    },
+    "status": {
+      "path": "/status",
+      "public": true,
+      "method": "GET"
+    }
+  }
+}
