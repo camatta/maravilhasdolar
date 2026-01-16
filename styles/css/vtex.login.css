@@ -393,6 +393,22 @@
   line-height: 19px;
 }
 
+:global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label) {
+  font-size: 0;
+  position: relative;
+  height: 36px;
+}
+ 
+:global(.vtex-my-account-1-x-newsletterBoxContainer) :global(.vtex-checkbox__line-container) :global(.vtex-checkbox__label::after) {
+  content: "Aceito receber ofertas e participar do clube de fidelidade.";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 14px;
+  color: #1C1C1C;
+  line-height: 18px;
+}
+
 :global(.vtex-my-account-1-x-addressBox)
   :global(.vtex-my-account-1-x-boxContainerBody)
   > div {
@@ -464,10 +480,6 @@
   border-radius: 59px;
   height: 35px;
   border: unset;
-}
-
-:global(.vtex-minicart-2-x-minicartSummary) :global(.vtex-checkout-summary-0-x-summaryItemContainer.mt3) {
-  display: none;
 }
 
 :global(.vtex-reviews-and-ratings-3-x-formSection) :global(.vtex-input-prefix__group) {
@@ -575,9 +587,6 @@
 
   :global(.vtex-my-account-1-x-profileBoxContainer) > div {
     margin-right: 30px;
-  }
-  :global(.vtex-flex-layout-0-x-flexRowContent--product-breadcrumb-container) > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-    max-width: 100%;
   }
 }
 
