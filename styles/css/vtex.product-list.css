@@ -80,7 +80,7 @@
 
 .inputContainer {
     padding: 0;
-    width: 22px;
+    width: 22px !important;
     border: 0
 }
   
