@@ -20,7 +20,7 @@
   line-height: 0;
 }
 .outline {
-  background: transparent;
+  background: transparent !important;
 }
 
 /* PÁGINA DO PRODUTO */
