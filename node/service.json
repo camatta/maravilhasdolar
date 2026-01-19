@@ -6,7 +6,7 @@
     "customNewsletterRock": {
       "path": "/_v/custom-newsletter-rock",
       "public": true,
-      "method": "GET"
+      "method": "POST"
     },
     "status": {
       "path": "/_v/status",
