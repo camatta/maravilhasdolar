@@ -4,12 +4,12 @@
   "timeout": 2,
   "routes": {
     "customNewsletterRock": {
-      "path": "/custom-newsletter-rock",
+      "path": "/_v/custom-newsletter-rock",
       "public": true,
       "method": "GET"
     },
     "status": {
-      "path": "/status",
+      "path": "/_v/status",
       "public": true,
       "method": "GET"
     }
