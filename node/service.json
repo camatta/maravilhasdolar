@@ -1,7 +1,7 @@
 {
-  "memory": 128,
+  "memory": 512,
   "ttl": 10,
-  "timeout": 2,
+  "timeout": 15,
   "routes": {
     "customNewsletterRock": {
       "path": "/_v/custom-newsletter-rock",
