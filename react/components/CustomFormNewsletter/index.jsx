@@ -96,7 +96,7 @@ const CustomFormNewsletter = () => {
 
             console.log(payload);
 
-            const createRes = await fetch('https://devchamado--centerlar.myvtex.com/custom-newsletter-rock', {
+            const createRes = await fetch('https://centerlar.myvtex.com/custom-newsletter-rock', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
