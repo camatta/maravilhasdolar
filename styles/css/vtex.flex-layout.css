@@ -984,6 +984,11 @@
   margin: 0px 0 64px;
 }
 
+.flexColChild--highlight-pdp {
+  display: flex;
+  justify-content: end;
+}
+
 @media screen and (min-width: 1100px) {
   .flexCol--second-security-content {
     width: 90px !important;
@@ -1283,7 +1288,10 @@
   }
   .flexRow--main-slider-container {
     margin-top: 10px;
-  } 
+  }
+  .flexColChild--highlight-pdp {
+    justify-content: left;
+  }
 }
 
 @media (max-width: 991px) {

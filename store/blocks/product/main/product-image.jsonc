@@ -5,9 +5,18 @@
       "blockClass": "product-image-content"
     },
     "children": [
-      "vtex.product-highlights@2.x:product-highlights#pdp",
+      "flex-layout.col#highlight-area",
       "responsive-layout.desktop#image-pdp",
       "responsive-layout.mobile#image-pdp"
+    ]
+  },
+
+  "flex-layout.col#highlight-area": {
+    "props": {
+      "blockClass": "highlight-pdp"
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#pdp"
     ]
   },
 
