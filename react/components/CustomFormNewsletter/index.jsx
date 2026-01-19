@@ -94,8 +94,6 @@ const CustomFormNewsletter = () => {
                 dataEnvio: new Date().toISOString()
             };
 
-            console.log(payload);
-
             const createRes = await fetch('https://centerlar.myvtex.com/custom-newsletter-rock', {
                 method: 'POST',
                 headers: {
