@@ -93,3 +93,9 @@
     line-height: 19px;
   }
 }
+
+@media (max-width: 420px) {
+  .currencyContainer--selling-price-summary{
+    font-size: 15px;
+  }
+}

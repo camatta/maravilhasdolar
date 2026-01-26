@@ -45,7 +45,8 @@
       },
       "infinite": true,
       "blockClass": ["main-slider"],
-      "arrowSize": 9
+      "arrowSize": 9,
+      "imageLoading": "eager"
     }
   }
 }

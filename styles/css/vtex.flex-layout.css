@@ -1556,4 +1556,7 @@
   .flexRowContent--first-line-container {
     grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
   }
+  .flexRow--minicart-footer {
+    margin: 0 11px;
+  }
 }

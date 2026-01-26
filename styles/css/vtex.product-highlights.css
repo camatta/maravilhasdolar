@@ -48,3 +48,9 @@
     font-size: 0;
     min-width: 100px;
 }
+
+@media (max-width: 420px) {
+    .productHighlightWrapper {
+        font-size: 9px;
+    }
+}

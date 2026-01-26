@@ -797,3 +797,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 420px) {
+  .link--shelf-cta {
+    font-size: 8px;
+  }
+}
