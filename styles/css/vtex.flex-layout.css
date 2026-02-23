@@ -1511,7 +1511,11 @@
     position: relative;
     right: 0;
   }
+  .flexColChild--banner-vitrine :global(.vtex-store-components-3-x-imageElement) {
+    object-fit: fill;
+  }
 }
+
 
 @media (max-width: 639px) {
   .flexRowContent--rating-wish-container {
@@ -1526,27 +1530,22 @@
   .flexCol--banner-vitrine {
     margin-right: 16px;
   }
-
   .flexColChild--footer-category-menu-content :global(.vtex-category-menu-2-x-container) {
     display: flex;
   }
   .flexColChild--releases-products-content {
     margin: 0;
   }
-
   .flexRow--search-toolbar-container {
     padding: 15px 0;
   }
-
   .flexRowContent--search-toolbar-container {
     display: flex;
     align-items: center;
   }
-
   .flexRow--name-wish-container .flexRowContent--name-wish-container {
     display: flex;
   }
-
   .flexRowContent--copy-design-container {
     gap: 10px;
   }
