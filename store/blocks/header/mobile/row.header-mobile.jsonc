@@ -4,7 +4,8 @@
     "children": [
       "flex-layout.col#drawer-mobile",
       "flex-layout.col#logo-mobile",
-      "flex-layout.col#minicart-mobile"
+      "custom-search-header-mobile"
+      // "flex-layout.col#minicart-mobile"
     ],
     "props": {
       "blockClass": ["header-container", "custom-container"],
@@ -12,6 +13,10 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+
+  "custom-search-header-mobile": {
+    "children": ["flex-layout.row#search-mobile", "flex-layout.col#minicart-mobile"]
   },
 
   "flex-layout.col#drawer-mobile": {

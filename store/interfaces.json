@@ -94,5 +94,9 @@
   },
   "custom-form-newsletter": {
     "component": "CustomFormNewsletter"
+  },
+  "custom-search-header-mobile": {
+    "composition": "children",
+    "component": "CustomMobileHeaderSearch"
   }
 }

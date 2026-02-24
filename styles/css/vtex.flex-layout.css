@@ -1045,11 +1045,11 @@
   }
 
   .flexRowContent--header-container {
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .flexCol--drawer-mobile-content {
-    width: 59px;
+    margin-right: 30px;
   }
 
   .flexCol--minicart-mobile-content {

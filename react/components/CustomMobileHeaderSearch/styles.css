@@ -1,0 +1,72 @@
+.openSearch {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin-right: 15px;
+    padding-top: 3px;
+}
+
+.openSearch.hidden {
+    display: none;
+}
+
+.boxSearch {
+    display: flex;
+    width: 100%;
+}
+
+.boxSearch :global(.vtex-flex-layout-0-x-flexRow--search-mobile-container) {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateX(350px);
+
+    transition: 
+        transform .5s ease-in-out,
+        opacity .5s ease-in-out,
+        visibility 0s linear .5s;
+}
+.boxSearch.show  :global(.vtex-flex-layout-0-x-flexRow--search-mobile-container) {
+    width: 100%;
+    position: static;
+    padding: 10px 0;
+    margin-right: 17px;
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+
+    transition: 
+        transform .4s ease-in-out,
+        opacity .4s ease-in-out,
+        visibility 0s;
+}
+.boxSearch.show  :global(.vtex-flex-layout-0-x-flexRow--search-mobile-container) :global(.vtex-flex-layout-0-x-flexRowContent--search-mobile-container) {
+    padding: 0;
+}
+.boxSearch :global(.vtex-flex-layout-0-x-flexCol--minicart-mobile-content) {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity .2s ease-in-out, visibility 0s;
+}
+.boxSearch.show :global(.vtex-flex-layout-0-x-flexCol--minicart-mobile-content) {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    /* transition: opacity .2s ease-in-out, visibility 0s linear .2s; */
+}
+
+.closeSearch {
+    display: none;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.closeSearch.show {
+    display: block;
+}

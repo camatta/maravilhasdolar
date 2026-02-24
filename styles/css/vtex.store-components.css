@@ -56,7 +56,7 @@
 }
 .searchBarContainer :global(.vtex-input-prefix__group) {
   height: initial;
-  border: 1px solid #FF6600;
+  border: 1px solid #FF0066;
   border-radius: 500px;
   flex-direction: row-reverse;
 }
@@ -73,7 +73,7 @@
   color: #A2A2A2;
 }
 .searchBarIcon {
-  color: #FF6600;
+  color: #FF0066;
   padding: 11px 20px 13px
 }
 
