@@ -538,6 +538,15 @@
   color: #1C1C1C;
 }
 
+.flexColChild--banner-vitrine :global(.vtex-store-components-3-x-imageElement--banner-vitrine-desktop),
+.flexColChild--banner-vitrine :global(.vtex-store-components-3-x-imageElementLink--banner-vitrine-desktop) {
+  display: block;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--banner-vitrine) :global(.vtex-flex-layout-0-x-flexColChild--banner-vitrine):last-child {
+  display: none;
+}
+
 @media (min-width: 1100px) {
   .container :global(.vtex-button):hover {
     background: #f4f4f426;
@@ -595,6 +604,14 @@
 
   :global(.vtex-my-account-1-x-profileBoxContainer) > div {
     margin-right: 30px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--banner-vitrine) :global(.vtex-flex-layout-0-x-flexColChild--banner-vitrine):first-child {
+    display: none;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexCol--banner-vitrine) :global(.vtex-flex-layout-0-x-flexColChild--banner-vitrine):last-child {
+    display: block;
   }
 }
 

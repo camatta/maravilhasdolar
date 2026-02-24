@@ -55,13 +55,27 @@
       "blockClass": ["banner-vitrine"],
       "width": "25%"
     },
-    "children": ["image#banner-vitrine"]
+    "children": ["image#banner-vitrine-desktop", "image#banner-vitrine-mobile"]
   },
 
-  "image#banner-vitrine": {
-    "props":{
+  "image#banner-vitrine-desktop": {
+    "title": "banner desktop",
+    "props": {
       "src": "assets/banner-vitrine/banner-vitrine.png",
       "alt": "Confira nossas panelas",
+      "blockClass": "banner-vitrine-desktop",
+      "link": {
+        "url": "/panelas"
+      }
+    }
+  },
+
+  "image#banner-vitrine-mobile": {
+    "title": "banner mobile",
+    "props": {
+      "src": "assets/banner-vitrine/vitrine-mob.png",
+      "alt": "Confira nossas panelas",
+      "blockClass": "banner-vitrine-mobile",
       "link": {
         "url": "/panelas"
       }
