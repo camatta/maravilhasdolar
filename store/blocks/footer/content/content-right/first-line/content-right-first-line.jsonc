@@ -10,5 +10,59 @@
       "flex-layout.col#cartao",
       "flex-layout.col#sac"
     ]
+  },
+
+  "responsive-layout.mobile#footer-mobile-ctas-only": {
+    "children": ["flex-layout.row#footer-mobile-ctas"]
+  },
+
+  "flex-layout.row#footer-mobile-ctas": {
+    "props": {
+      "blockClass": "footer-mobile-ctas"
+    },
+    "children": [
+      "flex-layout.col#footer-mobile-ctas-item-rastreie",
+      "flex-layout.col#footer-mobile-ctas-item-lojas",
+      "flex-layout.col#footer-mobile-ctas-item-faq"
+    ]
+  },
+
+  "flex-layout.col#footer-mobile-ctas-item-rastreie": {
+    "props": {
+      "blockClass": "footer-mobile-ctas-item"
+    },
+    "children": ["rich-text#footer-mobile-cta-rastreie"]
+  },
+  "rich-text#footer-mobile-cta-rastreie": {
+    "props": {
+      "blockClass": "footer-mobile-cta",
+      "text": "[Rastreie seu pedido](/rastreie-seu-pedido)"
+    }
+  },
+
+  "flex-layout.col#footer-mobile-ctas-item-lojas": {
+    "props": {
+      "blockClass": "footer-mobile-ctas-item"
+    },
+    "children": ["rich-text#footer-mobile-cta-lojas"]
+  },
+  "rich-text#footer-mobile-cta-lojas": {
+    "props": {
+      "blockClass": "footer-mobile-cta",
+      "text": "[Nossas Lojas](/nossas-lojas)"
+    }
+  },
+
+  "flex-layout.col#footer-mobile-ctas-item-faq": {
+    "props": {
+      "blockClass": "footer-mobile-ctas-item"
+    },
+    "children": ["rich-text#footer-mobile-cta-faq"]
+  },
+  "rich-text#footer-mobile-cta-faq": {
+    "props": {
+      "blockClass": "footer-mobile-cta",
+      "text": "[Perguntas Frequentes](/faq)"
+    }
   }
 }

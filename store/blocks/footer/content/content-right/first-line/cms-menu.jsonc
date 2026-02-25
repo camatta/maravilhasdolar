@@ -6,9 +6,44 @@
       "preventVerticalStretch": true
     },
     "children": [
+      "responsive-layout.desktop#cms-menu-desktop",
+      "responsive-layout.mobile#cms-menu-mobile"
+    ]
+  },
+
+  "responsive-layout.desktop#cms-menu-desktop": {
+    "children": [
       "flex-layout.row#cms-menu-title",
       "flex-layout.row#cms-menu-wrapper"
     ]
+  },
+
+  "responsive-layout.mobile#cms-menu-mobile": {
+    "children": ["disclosure-layout#cms-menu-accordion"]
+  },
+
+  "disclosure-layout#cms-menu-accordion": {
+    "props": {
+      "defaultVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#cms-menu-accordion",
+      "disclosure-content#cms-menu-accordion"
+    ]
+  },
+
+  "disclosure-trigger#cms-menu-accordion": {
+    "props": {
+      "blockClass": "footer-accordion"
+    },
+    "children": ["flex-layout.row#cms-menu-title"]
+  },
+
+  "disclosure-content#cms-menu-accordion": {
+    "props": {
+      "blockClass": "footer-accordion-content"
+    },
+    "children": ["flex-layout.row#cms-menu-wrapper"]
   },
 
   "flex-layout.row#cms-menu-title": {
@@ -57,7 +92,6 @@
     }
   },
 
-
   "rich-text#cms-seja-fornecedor": {
     "props": {
       "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://form.jotform.com/mktmlar/cadastro-de-fornecedor\" target=\"_blank\" rel=\"noopener noreferrer\">Seja Fornecedor</a>",
@@ -92,5 +126,4 @@
       "blockClass": "cms-link"
     }
   }
-
 }

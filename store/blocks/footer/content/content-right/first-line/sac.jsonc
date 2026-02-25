@@ -6,8 +6,43 @@
       "preventVerticalStretch": true
     },
     "children": [
+      "responsive-layout.mobile#sac-mobile",
       "flex-layout.row#sac-title",
       "flex-layout.row#sac-rastreie",
+      "flex-layout.row#sac-pj",
+      "flex-layout.row#sac-email",
+      "flex-layout.row#sac-wpp",
+      "flex-layout.col#sac-fale-conosco"
+    ]
+  },
+
+  "responsive-layout.mobile#sac-mobile": {
+    "children": ["disclosure-layout#sac-accordion"]
+  },
+
+  "disclosure-layout#sac-accordion": {
+    "props": {
+      "defaultVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#sac-accordion",
+      "disclosure-content#sac-accordion"
+    ]
+  },
+
+  "disclosure-trigger#sac-accordion": {
+    "props": {
+      "blockClass": "footer-accordion"
+    },
+    "children": ["flex-layout.row#sac-title"]
+  },
+
+  "disclosure-content#sac-accordion": {
+    "props": {
+      "blockClass": ["footer-accordion-content", "footer-accordion-content-sac"]
+    },
+    "children": [
+      // "flex-layout.row#sac-rastreie",
       "flex-layout.row#sac-pj",
       "flex-layout.row#sac-email",
       "flex-layout.row#sac-wpp",
@@ -73,7 +108,7 @@
   "rich-text#sac-phone-second": {
     "props": {
       "blockClass": ["sac-group-link","wpp-pj"],
-      "text": "(11) 4000-1567</span>"
+      "text": "(11) 4000-1567"
     }
   },
 

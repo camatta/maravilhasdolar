@@ -6,6 +6,104 @@
 }
 
 @media screen and (min-width: 1026px) {
+    .trigger--footer-accordion {
+        pointer-events: none;
+        width: 100%;
+        text-align: left;
+    }
+
+    .content--footer-accordion-content {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .trigger--footer-accordion {
+        width: 100%;
+        padding: 14px 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+        gap: 8px;
+    }
+
+    .trigger--footer-accordion :global(.vtex-rich-text-0-x-wrapper--footer-title),
+    .trigger--footer-accordion :global(.vtex-rich-text-0-x-paragraph--footer-title),
+    .trigger--footer-accordion :global(.vtex-rich-text-0-x-headingLevel4--footer-title) {
+        margin: 0;
+        line-height: 1.35;
+        font-size: 22px;
+        font-weight: 700;
+        color: #1c1c1c;
+        width: 360px;
+    }
+
+    .trigger--footer-accordion::after {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-right: 1.8px solid #2c2c2c;
+        border-bottom: 1.8px solid #2c2c2c;
+        transform: rotate(45deg);
+        transition: transform .25s ease-in-out;
+        flex-shrink: 0;
+        margin-top: 0;
+        align-self: center;
+    }
+
+    .trigger--footer-accordion--visible::after {
+        transform: rotate(-135deg);
+    }
+
+    .trigger--footer-accordion--visible {
+        border-bottom-color: transparent;
+    }
+
+    .content--footer-accordion-content {
+        padding: 0 0 12px;
+        border-bottom: 1px solid #d7d7d7;
+    }
+
+    .content--footer-accordion-content :global(.vtex-rich-text-0-x-paragraph),
+    .content--footer-accordion-content :global(.vtex-rich-text-0-x-link),
+    .content--footer-accordion-content :global(.vtex-category-menu-2-x-departmentLink) {
+        line-height: 1.45;
+    }
+
+    .content--footer-accordion-content :global(.vtex-rich-text-0-x-wrapper) {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .content--footer-accordion-content :global(.vtex-rich-text-0-x-wrapper):last-child {
+        margin-bottom: 0;
+    }
+
+    .content--footer-accordion-content :global(.vtex-flex-layout-0-x-flexRow--cms-menu-title-wrapper) {
+        margin-top: 20px;
+    }
+
+    .trigger--footer-accordion-sac {
+        padding: 0 0 8px;
+        gap: 8px;
+    }
+
+    .trigger--footer-accordion-sac :global(.vtex-rich-text-0-x-wrapper--footer-title),
+    .trigger--footer-accordion-sac :global(.vtex-rich-text-0-x-paragraph--footer-title),
+    .trigger--footer-accordion-sac :global(.vtex-rich-text-0-x-headingLevel4--footer-title) {
+        font-size: 16px;
+        line-height: 22px;
+        width: auto;
+    }
+
+    .content--footer-accordion-content-sac {
+        padding: 0;
+        border-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1026px) {
     .trigger--menu-cms {
         pointer-events: none;
     }

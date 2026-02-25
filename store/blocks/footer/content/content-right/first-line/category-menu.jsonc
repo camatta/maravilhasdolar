@@ -6,7 +6,45 @@
       "preventVerticalStretch": true
     },
     "children": [
+      "responsive-layout.desktop#footer-category-menu-desktop",
+      "responsive-layout.mobile#footer-category-menu-mobile"
+    ]
+  },
+
+  "responsive-layout.desktop#footer-category-menu-desktop": {
+    "children": [
       "rich-text#category-menu-title",
+      "category-menu#footer-category-menu",
+      "rich-text#text-all-categories-footer"
+    ]
+  },
+
+  "responsive-layout.mobile#footer-category-menu-mobile": {
+    "children": ["disclosure-layout#footer-category-menu-accordion"]
+  },
+
+  "disclosure-layout#footer-category-menu-accordion": {
+    "props": {
+      "defaultVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#footer-category-menu-accordion",
+      "disclosure-content#footer-category-menu-accordion"
+    ]
+  },
+
+  "disclosure-trigger#footer-category-menu-accordion": {
+    "props": {
+      "blockClass": "footer-accordion"
+    },
+    "children": ["rich-text#category-menu-title"]
+  },
+
+  "disclosure-content#footer-category-menu-accordion": {
+    "props": {
+      "blockClass": "footer-accordion-content"
+    },
+    "children": [
       "category-menu#footer-category-menu",
       "rich-text#text-all-categories-footer"
     ]

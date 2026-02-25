@@ -6,9 +6,44 @@
       "preventVerticalStretch": true
     },
     "children": [
+      "responsive-layout.desktop#politicas-desktop",
+      "responsive-layout.mobile#politicas-mobile"
+    ]
+  },
+
+  "responsive-layout.desktop#politicas-desktop": {
+    "children": [
       "flex-layout.row#politicas-menu-title",
       "flex-layout.row#politicas-menu-wrapper"
     ]
+  },
+
+  "responsive-layout.mobile#politicas-mobile": {
+    "children": ["disclosure-layout#politicas-accordion"]
+  },
+
+  "disclosure-layout#politicas-accordion": {
+    "props": {
+      "defaultVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#politicas-accordion",
+      "disclosure-content#politicas-accordion"
+    ]
+  },
+
+  "disclosure-trigger#politicas-accordion": {
+    "props": {
+      "blockClass": "footer-accordion"
+    },
+    "children": ["flex-layout.row#politicas-menu-title"]
+  },
+
+  "disclosure-content#politicas-accordion": {
+    "props": {
+      "blockClass": "footer-accordion-content"
+    },
+    "children": ["flex-layout.row#politicas-menu-wrapper"]
   },
 
   "flex-layout.row#politicas-menu-title": {
@@ -56,7 +91,6 @@
     }
   },
 
-
   "rich-text#politicas-lista-de-presentes": {
     "props": {
       "text": "[Termos Lista de Presentes](/termos-lista-de-presentes)",
@@ -77,14 +111,14 @@
       "blockClass": "cms-link"
     }
   },
-  
+
   "rich-text#politicas-politicas-frete": {
     "props": {
       "text": "[Política de Frete e Cupons](/politica-de-frete)",
       "blockClass": "cms-link"
     }
   },
-  
+
   "rich-text#politicas-cookies": {
     "props": {
       "text": "[Política de Cookie](/politica-de-cookies)",

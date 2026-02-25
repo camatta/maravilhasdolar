@@ -6,10 +6,49 @@
       "preventVerticalStretch": true
     },
     "children": [
+      "responsive-layout.desktop#cartao-desktop",
+      "responsive-layout.mobile#cartao-mobile"
+    ]
+  },
+
+  "responsive-layout.desktop#cartao-desktop": {
+    "children": [
       "flex-layout.row#cartao-menu-title",
       "flex-layout.row#cartao-menu-wrapper",
       "flex-layout.row#cartao-menu-subtitle",
       "flex-layout.row#cartao-faq-wrapper"
+    ]
+  },
+
+  "responsive-layout.mobile#cartao-mobile": {
+    "children": ["disclosure-layout#cartao-accordion"]
+  },
+
+  "disclosure-layout#cartao-accordion": {
+    "props": {
+      "defaultVisibility": "hidden"
+    },
+    "children": [
+      "disclosure-trigger#cartao-accordion",
+      "disclosure-content#cartao-accordion"
+    ]
+  },
+
+  "disclosure-trigger#cartao-accordion": {
+    "props": {
+      "blockClass": "footer-accordion"
+    },
+    "children": ["flex-layout.row#cartao-menu-title"]
+  },
+
+  "disclosure-content#cartao-accordion": {
+    "props": {
+      "blockClass": "footer-accordion-content"
+    },
+    "children": [
+      "flex-layout.row#cartao-menu-wrapper"
+      // "flex-layout.row#cartao-menu-subtitle",
+      // "flex-layout.row#cartao-faq-wrapper"
     ]
   },
 

@@ -27,6 +27,7 @@
       "width": "grow"
     },
     "children": [
+      "responsive-layout.mobile#footer-mobile-ctas-only",
       "flex-layout.row#content-right-first-line"
     ]
   }
