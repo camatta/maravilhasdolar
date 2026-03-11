@@ -76,7 +76,7 @@
       "blockClass": "cms-menu-wrapper-content"
     },
     "children": [
-      "rich-text#cms-trabalhe-conosco",
+      // "rich-text#cms-trabalhe-conosco",
       "rich-text#cms-seja-fornecedor",
       "rich-text#cms-nossa-historia",
       "rich-text#cms-nossas-lojas",

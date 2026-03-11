@@ -84,7 +84,7 @@
     "children": [
       "rich-text#cartao-fatura",
       "rich-text#cartao-termos-e-condicoes-cartao",
-      "rich-text#cartao-solicite-seu-cartao",
+      // "rich-text#cartao-solicite-seu-cartao",
       "rich-text#cartao-detalhamento-contrato"
     ]
   },

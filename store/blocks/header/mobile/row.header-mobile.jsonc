@@ -52,7 +52,7 @@
       "blockClass": ["menu-store-links"]
     },
     "children": [
-      "rich-text#cartao-maravilhas",
+      // "rich-text#cartao-maravilhas",
       "rich-text#nossas-lojas",
       "rich-text#for-companies-link"
     ]
