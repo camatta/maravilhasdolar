@@ -619,7 +619,7 @@
 }
 
 .flexCol--result-filter-content {
-  min-width: 255px;
+  max-width: 255px;
 }
 
 .flexRow--search-toolbar-container {

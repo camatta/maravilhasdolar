@@ -66,8 +66,11 @@
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   font-size: 16px;
   border-radius: 0;
-  padding: 0;
+  padding: 0 48px 0 0;
   line-height: 21.82px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
   color: #A2A2A2;
