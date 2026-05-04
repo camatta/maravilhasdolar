@@ -1,0 +1,42 @@
+.wrapperTrabalheConosco {
+  background-image: url('../../assets/faleconosco/bg-faleconosco.png');
+  background-position: top;
+  background-size: 100% 80px;
+  background-repeat: no-repeat;
+}
+
+.containerTrabalheConosco {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.titleTrabalheConosco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 56px;
+  text-align: center;
+  width: 100%;
+}
+
+.titleTrabalheConosco h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3F3F3F;
+  padding: 8px 64px;
+  background-color: #FFCC00;
+  border-radius: 52px;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .titleTrabalheConosco h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}

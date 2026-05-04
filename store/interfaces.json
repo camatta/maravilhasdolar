@@ -63,12 +63,20 @@
     "component": "FaleConosco"
   },
 
+  "trabalhe-conosco": {
+    "component": "TrabalheConosco"
+  },
+
   "termos-lista": {
     "component": "TermosLista"
   },
 
   "form-contato": {
     "component": "FormContato"
+  },
+
+  "form-trabalhe-conosco": {
+    "component": "FormTrabalheConosco"
   },
 
   "chat-flutuante": {

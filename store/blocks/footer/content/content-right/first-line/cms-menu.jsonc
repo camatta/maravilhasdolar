@@ -76,7 +76,7 @@
       "blockClass": "cms-menu-wrapper-content"
     },
     "children": [
-      // "rich-text#cms-trabalhe-conosco",
+      "rich-text#cms-trabalhe-conosco",
       "rich-text#cms-seja-fornecedor",
       "rich-text#cms-nossa-historia",
       "rich-text#cms-nossas-lojas",
@@ -87,7 +87,7 @@
 
   "rich-text#cms-trabalhe-conosco": {
     "props": {
-      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"https://lp.maravilhasdolar.com/vagas-maravilhas-do-lar\" target=\"_blank\" rel=\"noopener noreferrer\">Trabalhe Conosco</a>",
+      "text": "<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--cms-link\" href=\"/trabalhe-conosco\" target=\"_blank\" rel=\"noopener noreferrer\">Trabalhe Conosco</a>",
       "blockClass": "cms-link"
     }
   },

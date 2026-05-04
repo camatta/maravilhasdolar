@@ -1,0 +1,8 @@
+{
+  "store.custom#trabalhe-conosco": {
+    "children": [
+      "trabalhe-conosco",
+      "form-trabalhe-conosco"
+    ]
+  }
+}

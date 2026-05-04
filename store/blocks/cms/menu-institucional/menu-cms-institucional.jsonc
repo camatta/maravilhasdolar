@@ -30,7 +30,7 @@
         "blockClass": ["menu-cms", "menu-cms-institucional"]
       },
       "children": [
-        // "rich-text#content-menu-cms-trabalhe-conosco", // Cada linha representa um link do menu
+        "rich-text#content-menu-cms-trabalhe-conosco",
         "rich-text#content-menu-cms-seja-fornecedor",
         "rich-text#content-menu-cms-nossa-historia",
         "rich-text#content-menu-cms-nossas-lojas",
