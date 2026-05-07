@@ -58,6 +58,7 @@
   "list-context.product-list#shelf-mais-vendidos": {
     "props": {
       "listName": "Mais vendidos",
+      "maxItems": 8,
       "installmentCriteria": "MAX_WITH_INTEREST"
     },
     "blocks": ["product-summary.shelf"],

@@ -3,6 +3,7 @@ import styles from "./styles.css";
 
 function CustomMobileHeaderSearch({ children }) {
     const ANIMATION_MS = 400;
+    const [searchChild, minicartChild] = React.Children.toArray(children);
     const [showSearch, setShowSearch] = useState(false);
     const [renderSearch, setRenderSearch] = useState(false);
 
@@ -54,7 +55,8 @@ function CustomMobileHeaderSearch({ children }) {
             </button>
 
             <div className={`${styles.boxSearch} ${renderSearch && styles.mounted} ${showSearch && styles.show}`}>
-                { children }
+                {renderSearch ? searchChild : null}
+                {minicartChild}
             </div>
 
             <button onClick={closeSearch} className={`${styles.closeSearch} ${renderSearch && styles.show}`}>

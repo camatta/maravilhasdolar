@@ -91,6 +91,7 @@
   "list-context.product-list#shelf-releases": {
     "props": {
       "listName": "Lançamentos",
+      "maxItems": 6,
       "installmentCriteria": "MAX_WITH_INTEREST"
     },
     "blocks": ["product-summary.shelf"],
@@ -104,7 +105,7 @@
           "tablet": 2,
           "phone": 1
         },
-        "infinite": true,
+        "infinite": false,
         "showNavigationArrows": "always",
         "showPaginationDots": "never",
         "arrowSize": 10

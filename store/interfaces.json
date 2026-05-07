@@ -103,6 +103,9 @@
   "custom-form-newsletter": {
     "component": "CustomFormNewsletter"
   },
+  "home-slider-lazy-images": {
+    "component": "HomeSliderLazyImages"
+  },
   "custom-search-header-mobile": {
     "composition": "children",
     "component": "CustomMobileHeaderSearch"

@@ -1,11 +1,38 @@
 {
   "store.home": { 
     "blocks": [
+      "home-slider-lazy-images",
       "flex-layout.row#main-slider",
+      "__fold__",
+      "responsive-layout.desktop#home-after-fold",
+      "responsive-layout.mobile#home-after-fold"
+    ]
+  },
+
+  "responsive-layout.desktop#home-after-fold": {
+    "children": [
       "flex-layout.row#shelf-promotions",
-       "__fold__",
       "flex-layout.row#categoriasmenu",
       "flex-layout.row#upper-mosaic",
+      "flex-layout.row#shelf-mais-vendidos",
+      "flex-layout.row#shelf-releases",
+      "flex-layout.row#shelf-best-sellers",
+      "flex-layout.row#shelf-highlights"
+    ]
+  },
+
+  "responsive-layout.mobile#home-after-fold": {
+    "children": [
+      "flex-layout.row#shelf-promotions",
+      "flex-layout.row#categoriasmenu",
+      "flex-layout.row#upper-mosaic",
+      "__fold__",
+      "responsive-layout.mobile#home-lower-shelves"
+    ]
+  },
+
+  "responsive-layout.mobile#home-lower-shelves": {
+    "children": [
       "flex-layout.row#shelf-mais-vendidos",
       "flex-layout.row#shelf-releases",
       "flex-layout.row#shelf-best-sellers",
