@@ -13,7 +13,6 @@
     "children": [
       "flex-layout.row#shelf-promotions",
       "flex-layout.row#categoriasmenu",
-      "flex-layout.row#upper-mosaic",
       "flex-layout.row#shelf-mais-vendidos",
       "flex-layout.row#shelf-releases",
       "flex-layout.row#shelf-best-sellers",
@@ -25,7 +24,6 @@
     "children": [
       "flex-layout.row#shelf-promotions",
       "flex-layout.row#categoriasmenu",
-      "flex-layout.row#upper-mosaic",
       "__fold__",
       "responsive-layout.mobile#home-lower-shelves"
     ]
