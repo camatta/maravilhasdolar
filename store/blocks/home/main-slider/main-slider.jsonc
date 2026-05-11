@@ -39,11 +39,9 @@
         "tablet": 1,
         "phone": 1
       },
-      "autoplay": {
-        "timeout": "3000",
-        "stopOnHover": false
-      },
-      "infinite": true,
+      "infinite": false,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
       "blockClass": ["main-slider"],
       "arrowSize": 9,
       "imageLoading": "eager"

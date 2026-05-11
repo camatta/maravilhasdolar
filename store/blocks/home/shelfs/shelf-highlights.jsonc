@@ -58,6 +58,7 @@
   "list-context.product-list#shelf-highlights": {
     "props": {
       "listName": "Destaques",
+      "maxItems": 8,
       "installmentCriteria": "MAX_WITH_INTEREST"
     },
     "blocks": ["product-summary.shelf"],

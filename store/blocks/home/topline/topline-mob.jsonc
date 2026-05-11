@@ -20,17 +20,13 @@
     ],
       "props": {
           "blockClass": "topbarmob",
-          "autoplay": {
-            "timeout": 5000,
-            "stopOnHover": false
-          },
           "itemsPerPage": {
             "desktop": 1,
             "tablet": 1,
             "phone": 1
           },
           "arrowSize": 12,
-          "infinite": true,
+          "infinite": false,
           "showNavigationArrows": "never",
           "showPaginationDots": "never"
         }

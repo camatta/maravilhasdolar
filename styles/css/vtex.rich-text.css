@@ -721,10 +721,21 @@
 /*Fim customização página rastreie*/
 
 @media (max-width: 1025px) {
+  .container--text-topbar,
+  .container--text-topbar__mobile {
+    min-height: 28px;
+  }
+
   .wrapper--titulo-pagina-cms .headingLevel1 {
     margin-bottom: 16px;
   }
   .paragraph--text-topbar {
+    margin: 6px 0;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+  .paragraph--text-topbar__mobile {
     margin: 6px 0;
     font-size: 12px;
     line-height: 16px;
