@@ -5,6 +5,33 @@
     font-family: inherit;
 }
 
+.trigger--empresas-buy-card-trigger {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    text-align: left;
+}
+
+.trigger--empresas-buy-card-trigger--visible :global(.vtex-flex-layout-0-x-flexRowContent--empresas-buy-card) {
+    border-radius: 8px 8px 0 0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ececec;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .06);
+}
+
+.trigger--empresas-buy-card-trigger--visible :global(.vtex-rich-text-0-x-paragraph--empresas-buy-card-link)::before {
+    transform: rotate(225deg);
+    margin-top: 4px;
+}
+
+.content--empresas-buy-card-content {
+    margin-bottom: 16px;
+}
+
+.content--empresas-buy-card-content:last-child {
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 1026px) {
     .trigger--footer-accordion {
         pointer-events: none;
