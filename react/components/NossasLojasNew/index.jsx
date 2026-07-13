@@ -665,17 +665,20 @@ const NossasLojasNew = ({ lojas = lojasData }) => {
 }
 
 // Default do schema já com URL absoluta (Admin preview)
-const lojasDefault = lojasData.map((loja) => ({
-  __editorItemTitle: `Loja ${loja.numero} - ${loja.localizacao}`,
-  foto: toAbsoluteUrl(images[loja.foto] || loja.foto),
-  localizacao: loja.localizacao,
-  numero: loja.numero,
-  endereco: loja.endereco,
-  cep: loja.cep,
-  cidade: loja.cidade,
-  estado: loja.estado,
-  horario: loja.horario,
-}))
+const lojasDefault = [...lojasData]
+  .sort((a, b) => Number(a.numero) - Number(b.numero))
+  .map((loja) => ({
+    __editorItemTitle: `Loja ${loja.numero} - ${loja.localizacao}`,
+    identificacao: `Loja ${loja.numero} - ${loja.localizacao}`,
+    localizacao: loja.localizacao,
+    numero: loja.numero,
+    foto: toAbsoluteUrl(images[loja.foto] || loja.foto),
+    endereco: loja.endereco,
+    cep: loja.cep,
+    cidade: loja.cidade,
+    estado: loja.estado,
+    horario: loja.horario,
+  }))
 
 NossasLojasNew.schema = {
   title: 'Nossas Lojas',
@@ -689,16 +692,16 @@ NossasLojasNew.schema = {
         type: 'object',
         properties: {
           __editorItemTitle: {
-            title: 'Título no editor',
+            title: 'Titulo no editor',
             type: 'string',
             default: 'Loja',
+            description: 'Identificacao exibida na lista do Site Editor. Ex: Loja 01 - Jundiai Matriz.',
             widget: { 'ui:widget': 'hidden' },
           },
-          foto: {
+          identificacao: {
             type: 'string',
-            title: 'Foto da Loja',
-            description: 'URL da imagem da loja',
-            widget: { 'ui:widget': 'image-uploader' },
+            title: 'Identificador da loja',
+            description: 'Use apenas para localizar a loja na lista do Site Editor. Ex: Loja 01 - Jundiai Matriz.',
           },
           localizacao: {
             type: 'string',
@@ -709,6 +712,11 @@ NossasLojasNew.schema = {
             type: 'string',
             title: 'Número da Loja',
             description: 'Número de identificação da loja',
+          },
+          foto: {
+            type: 'string',
+            title: 'URL ou arquivo da foto',
+            description: 'URL da imagem ou nome do arquivo em assets/lojas. Ex: americana.png',
           },
           endereco: {
             type: 'string',

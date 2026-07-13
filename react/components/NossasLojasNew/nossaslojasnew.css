@@ -32,9 +32,10 @@
 
 .inputSearch input {
     width: 364px;
+    box-sizing: border-box;
     border: 1px solid #FF6600;
     border-radius: 500px;
-    padding: 10px 24px;
+    padding: 10px 56px 10px 24px;
     font-family: Nunito;
     font-weight: 400;
     font-size: 14px;
@@ -72,6 +73,7 @@
 
 .lojasBloco {
     width: calc(50% - 17px); 
+    box-sizing: border-box;
     box-shadow: 0px 4px 4px 0px #0000001A;
     border-radius: 6px;
     background-color: #fff;
@@ -85,9 +87,15 @@
 }
 
 .blocoColunaEsquerda img {
-    max-width: 136px;
-    min-height: 136px;
+    width: 136px;
+    height: 136px;
+    object-fit: cover;
     border-radius: 15px;
+}
+
+.blocoColunaDireita {
+    min-width: 0;
+    flex: 1;
 }
 
 .nomeLoja {
@@ -149,5 +157,17 @@
 @media screen and (max-width: 575px) {
     .lojasBloco {
         max-width: 100%;
+        align-items: flex-start;
+    }
+
+    .blocoColunaEsquerda img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .nomeNumeroLoja {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
     }
 }
