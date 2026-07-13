@@ -630,6 +630,266 @@
   line-height: 27px;
 }
 
+/* Pagina Para Empresas */
+.container--empresas-hero-title,
+.container--empresas-hero-text,
+.container--empresas-section-title,
+.container--empresas-support-title,
+.container--empresas-support-text,
+.container--empresas-support-cta {
+  justify-content: center;
+}
+
+.paragraph--empresas-hero-title {
+  margin: 0 0 8px;
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph--empresas-hero-text {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph--empresas-section-title {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2438a8;
+  text-align: center;
+}
+
+.paragraph--empresas-buy-card-title {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3f3f3f;
+}
+
+.paragraph--empresas-buy-card-desc {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3f3f3f;
+}
+
+.paragraph--empresas-buy-card-link {
+  margin: 0;
+}
+
+.paragraph--empresas-buy-card-link {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #99cc33 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  box-shadow: none;
+  text-indent: -9999px;
+}
+
+.paragraph--empresas-buy-card-link::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #fff !important;
+  border-bottom: 2px solid #fff !important;
+  transform: rotate(45deg);
+  transition: transform .25s ease-in-out;
+  margin-top: -4px;
+  text-indent: 0;
+}
+
+.link--empresas-buy-card-link {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #99cc33 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0;
+  line-height: 0;
+}
+
+.link--empresas-buy-card-link::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
+}
+
+.paragraph--empresas-buy-card-content-text {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3f3f3f;
+}
+
+.paragraph--empresas-buy-card-content-text:not(:first-child) {
+  margin-top: 0;
+}
+
+.strong--empresas-buy-card-content-text {
+  font-weight: 700;
+  color: #1c1c1c;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.list--empresas-buy-card-content-text {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+
+.listItem--empresas-buy-card-content-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #3f3f3f;
+}
+
+.paragraph--empresas-buy-card-feature {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #303676;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.paragraph--empresas-buy-card-feature::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  flex: 0 0 19px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paragraph--empresas-feature-offers::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='19' height='19' rx='9.5' fill='%232438A8'/%3E%3Cpath d='M9.5 15.5C9.26 15.5 9.03 15.455 8.81 15.365C8.59 15.275 8.395 15.145 8.225 14.975C7.935 14.685 7.685 14.495 7.475 14.405C7.265 14.315 6.95 14.27 6.53 14.27C6.03 14.27 5.605 14.095 5.255 13.745C4.905 13.395 4.73 12.97 4.73 12.47C4.73 12.05 4.685 11.735 4.595 11.525C4.505 11.315 4.315 11.065 4.025 10.775C3.855 10.605 3.725 10.41 3.635 10.19C3.545 9.97 3.5 9.74 3.5 9.5C3.5 9.26 3.545 9.03 3.635 8.81C3.725 8.59 3.855 8.395 4.025 8.225C4.315 7.935 4.505 7.685 4.595 7.475C4.685 7.265 4.73 6.95 4.73 6.53C4.73 6.03 4.905 5.605 5.255 5.255C5.605 4.905 6.03 4.73 6.53 4.73C6.95 4.73 7.265 4.685 7.475 4.595C7.685 4.505 7.935 4.315 8.225 4.025C8.395 3.855 8.59 3.725 8.81 3.635C9.03 3.545 9.26 3.5 9.5 3.5C9.74 3.5 9.97 3.545 10.19 3.635C10.41 3.725 10.605 3.855 10.775 4.025C11.065 4.315 11.315 4.505 11.525 4.595C11.735 4.685 12.05 4.73 12.47 4.73C12.97 4.73 13.395 4.905 13.745 5.255C14.095 5.605 14.27 6.03 14.27 6.53C14.27 6.95 14.315 7.265 14.405 7.475C14.495 7.685 14.685 7.935 14.975 8.225C15.145 8.395 15.275 8.59 15.365 8.81C15.455 9.03 15.5 9.26 15.5 9.5C15.5 9.74 15.455 9.97 15.365 10.19C15.275 10.41 15.145 10.605 14.975 10.775C14.685 11.065 14.495 11.315 14.405 11.525C14.315 11.735 14.27 12.05 14.27 12.47C14.27 12.97 14.095 13.395 13.745 13.745C13.395 14.095 12.97 14.27 12.47 14.27C12.05 14.27 11.735 14.315 11.525 14.405C11.315 14.495 11.065 14.685 10.775 14.975C10.605 15.145 10.41 15.275 10.19 15.365C9.97 15.455 9.74 15.5 9.5 15.5ZM9.5 14.3C9.58 14.3 9.6575 14.2825 9.7325 14.2475C9.8075 14.2125 9.87 14.17 9.92 14.12C10.33 13.71 10.715 13.4325 11.075 13.2875C11.435 13.1425 11.9 13.07 12.47 13.07C12.64 13.07 12.7825 13.0125 12.8975 12.8975C13.0125 12.7825 13.07 12.64 13.07 12.47C13.07 11.89 13.1425 11.4225 13.2875 11.0675C13.4325 10.7125 13.71 10.33 14.12 9.92C14.24 9.8 14.3 9.66 14.3 9.5C14.3 9.34 14.24 9.2 14.12 9.08C13.71 8.67 13.4325 8.285 13.2875 7.925C13.1425 7.565 13.07 7.1 13.07 6.53C13.07 6.36 13.0125 6.2175 12.8975 6.1025C12.7825 5.9875 12.64 5.93 12.47 5.93C11.89 5.93 11.4225 5.8575 11.0675 5.7125C10.7125 5.5675 10.33 5.29 9.92 4.88C9.87 4.83 9.8075 4.7875 9.7325 4.7525C9.6575 4.7175 9.58 4.7 9.5 4.7C9.42 4.7 9.3425 4.7175 9.2675 4.7525C9.1925 4.7875 9.13 4.83 9.08 4.88C8.67 5.29 8.285 5.5675 7.925 5.7125C7.565 5.8575 7.1 5.93 6.53 5.93C6.36 5.93 6.2175 5.9875 6.1025 6.1025C5.9875 6.2175 5.93 6.36 5.93 6.53C5.93 7.11 5.8575 7.5775 5.7125 7.9325C5.5675 8.2875 5.29 8.67 4.88 9.08C4.76 9.2 4.7 9.34 4.7 9.5C4.7 9.66 4.76 9.8 4.88 9.92C5.29 10.33 5.5675 10.715 5.7125 11.075C5.8575 11.435 5.93 11.9 5.93 12.47C5.93 12.64 5.9875 12.7825 6.1025 12.8975C6.2175 13.0125 6.36 13.07 6.53 13.07C7.11 13.07 7.5775 13.1425 7.9325 13.2875C8.2875 13.4325 8.67 13.71 9.08 14.12C9.13 14.17 9.1925 14.2125 9.2675 14.2475C9.3425 14.2825 9.42 14.3 9.5 14.3ZM11 11.9C11.25 11.9 11.4625 11.8125 11.6375 11.6375C11.8125 11.4625 11.9 11.25 11.9 11C11.9 10.75 11.8125 10.5375 11.6375 10.3625C11.4625 10.1875 11.25 10.1 11 10.1C10.75 10.1 10.5375 10.1875 10.3625 10.3625C10.1875 10.5375 10.1 10.75 10.1 11C10.1 11.25 10.1875 11.4625 10.3625 11.6375C10.5375 11.8125 10.75 11.9 11 11.9ZM7.97 11.87L11.87 7.97L11.03 7.13L7.13 11.03L7.97 11.87ZM8.6375 8.6375C8.8125 8.4625 8.9 8.25 8.9 8C8.9 7.75 8.8125 7.5375 8.6375 7.3625C8.4625 7.1875 8.25 7.1 8 7.1C7.75 7.1 7.5375 7.1875 7.3625 7.3625C7.1875 7.5375 7.1 7.75 7.1 8C7.1 8.25 7.1875 8.4625 7.3625 8.6375C7.5375 8.8125 7.75 8.9 8 8.9C8.25 8.9 8.4625 8.8125 8.6375 8.6375Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.paragraph--empresas-feature-delivery::before {
+ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='20' height='20' rx='10' fill='%232438A8'/%3E%3Cpath d='M5.72222 14.4531C5.35926 14.0885 5.17778 13.6458 5.17778 13.125H3.62222L3.90222 11.875H5.66C5.8363 11.6771 6.0437 11.5234 6.28222 11.4141C6.52074 11.3047 6.77481 11.25 7.04444 11.25C7.31407 11.25 7.56815 11.3047 7.80667 11.4141C8.04519 11.5234 8.25259 11.6771 8.42889 11.875H11.0267L12.3333 6.25H5.52L5.58222 5.98438C5.64444 5.69271 5.78704 5.45573 6.01 5.27344C6.23296 5.09115 6.49481 5 6.79556 5H13.8889L13.3133 7.5H15.1333L17 10L16.3778 13.125H15.1333C15.1333 13.6458 14.9519 14.0885 14.5889 14.4531C14.2259 14.8177 13.7852 15 13.2667 15C12.7481 15 12.3074 14.8177 11.9444 14.4531C11.5815 14.0885 11.4 13.6458 11.4 13.125H8.91111C8.91111 13.6458 8.72963 14.0885 8.36667 14.4531C8.0037 14.8177 7.56296 15 7.04444 15C6.52593 15 6.08519 14.8177 5.72222 14.4531ZM12.5978 10.625H15.6L15.6622 10.2969L14.5111 8.75H13.0333L12.5978 10.625ZM12.3022 6.35938L12.3333 6.25L11.0267 11.875L11.0578 11.7656L11.5867 9.48438L12.3022 6.35938ZM3 10.8281L3.31111 9.57812H6.73333L6.42222 10.8281H3ZM4.24444 8.54688L4.55556 7.29688H8.6L8.28889 8.54688H4.24444ZM7.04444 13.75C7.22074 13.75 7.36852 13.6901 7.48778 13.5703C7.60704 13.4505 7.66667 13.3021 7.66667 13.125C7.66667 12.9479 7.60704 12.7995 7.48778 12.6797C7.36852 12.5599 7.22074 12.5 7.04444 12.5C6.86815 12.5 6.72037 12.5599 6.60111 12.6797C6.48185 12.7995 6.42222 12.9479 6.42222 13.125C6.42222 13.3021 6.48185 13.4505 6.60111 13.5703C6.72037 13.6901 6.86815 13.75 7.04444 13.75ZM13.2667 13.75C13.443 13.75 13.5907 13.6901 13.71 13.5703C13.8293 13.4505 13.8889 13.3021 13.8889 13.125C13.8889 12.9479 13.8293 12.7995 13.71 12.6797C13.5907 12.5599 13.443 12.5 13.2667 12.5C13.0904 12.5 12.9426 12.5599 12.8233 12.6797C12.7041 12.7995 12.6444 12.9479 12.6444 13.125C12.6444 13.3021 12.7041 13.4505 12.8233 13.5703C12.9426 13.6901 13.0904 13.75 13.2667 13.75Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.paragraph--empresas-feature-pix::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Crect width='18' height='18' rx='9' fill='%232438A8'/%3E%3Crect x='3' y='3' width='12' height='12' fill='url(%23pattern0_9117_24349)'/%3E%3Cdefs%3E%3Cpattern id='pattern0_9117_24349' patternContentUnits='objectBoundingBox' width='1' height='1'%3E%3Cuse xlink:href='%23image0_9117_24349' transform='scale(0.01)'/%3E%3C/pattern%3E%3Cimage id='image0_9117_24349' width='100' height='100' preserveAspectRatio='none' xlink:href='data:image/png;base64,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'/%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+
+.paragraph--empresas-feature-mail::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='19' height='19' viewBox='0 0 19 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='19' height='19' rx='9.5' fill='%232438A8'/%3E%3Cmask id='mask0_9119_3759' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='3' y='3' width='13' height='13'%3E%3Crect x='3.5' y='3.5' width='12' height='12' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_9119_3759)'%3E%3Cpath d='M5.5 13.5C5.225 13.5 4.98958 13.4021 4.79375 13.2063C4.59792 13.0104 4.5 12.775 4.5 12.5V6.5C4.5 6.225 4.59792 5.98958 4.79375 5.79375C4.98958 5.59792 5.225 5.5 5.5 5.5H13.5C13.775 5.5 14.0104 5.59792 14.2063 5.79375C14.4021 5.98958 14.5 6.225 14.5 6.5V12.5C14.5 12.775 14.4021 13.0104 14.2063 13.2063C14.0104 13.4021 13.775 13.5 13.5 13.5H5.5ZM9.5 10L5.5 7.5V12.5H13.5V7.5L9.5 10ZM9.5 9L13.5 6.5H5.5L9.5 9ZM5.5 7.5V6.5V12.5V7.5Z' fill='white'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.paragraph--empresas-buy-card-action {
+  margin: 0;
+}
+
+.container--empresas-buy-card-action,
+.container--empresas-buy-card-primary,
+.container--empresas-buy-card-specialist {
+  justify-content: center;
+}
+
+.link--empresas-buy-card-action {
+  width: 245px;
+  min-height: 43px;
+  border-radius: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1c1c1c;
+}
+
+.link--empresas-buy-card-primary {
+  background: #99cc33;
+}
+
+.link--empresas-buy-card-specialist {
+  border: 1px solid #eee;
+  background: #fff;
+  font-weight: 400;
+  position: relative;
+  gap: 6px;
+}
+
+.paragraph--empresas-support-title {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph--empresas-support-text {
+  margin: 0;
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.paragraph--empresas-support-cta {
+  margin: 0;
+}
+
+.link--empresas-support-cta {
+  min-width: 297px;
+  min-height: 43px;
+  padding: 10px 32px;
+  border-radius: 54px;
+  background: #99cc33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1c1c1c;
+}
+
 /*LOJAS PARCEIRAS*/
 .wrapper--conteudo-linha .paragraph--conteudo-linha {
   font-size: 14px;
@@ -721,6 +981,29 @@
 /*Fim customização página rastreie*/
 
 @media (max-width: 1025px) {
+  .paragraph--empresas-hero-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .paragraph--empresas-hero-text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .paragraph--empresas-section-title,
+  .paragraph--empresas-support-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .container--empresas-section-title,
+  .wrapper--empresas-section-title {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .container--text-topbar,
   .container--text-topbar__mobile {
     min-height: 28px;

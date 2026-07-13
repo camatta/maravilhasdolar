@@ -432,12 +432,163 @@
   margin-top: 25px;
 }
 
+.infoCardContainer--empresas-category-card {
+  display: block;
+  padding: 0;
+  line-height: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+}
+
+.infoCardContainer--empresas-category-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 8px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .8) 30.94%, rgba(102, 102, 102, 0) 114.31%);
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  pointer-events: none;
+}
+
+.infoCardImageContainer--empresas-category-card {
+  width: 100%;
+  line-height: 0;
+}
+
+.infoCardImage--empresas-category-card {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform .25s ease-in-out;
+}
+
+.infoCardTextContainer--empresas-category-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 63.53%;
+  z-index: 2;
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 9px;
+  background: transparent;
+  transform: translateY(12px);
+  opacity: 0;
+  transition: transform .25s ease-in-out, opacity .25s ease-in-out;
+}
+
+.infoCardContainer--empresas-category-card:hover::before {
+  opacity: 1;
+}
+
+.infoCardContainer--empresas-category-card:hover .infoCardTextContainer--empresas-category-card {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.infoCardContainer--empresas-category-card:hover .infoCardImage--empresas-category-card {
+  transform: scale(1.04);
+}
+
+.infoCardCallActionContainer--empresas-category-card {
+  margin: 0;
+  text-decoration: none;
+}
+
+.infoCardContainer--empresas-category-card .infoCardCallActionContainer {
+  margin: 0;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+}
+
+.infoCardCallActionText--empresas-category-card {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+}
+
+.infoCardContainer--empresas-category-card .infoCardCallActionText {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+}
+
+.infoCardContainer--empresas-category-card .infoCardCallActionContainer::after {
+  content: "Comprar Agora";
+  min-width: 120px;
+  max-width: 100%;
+  height: 27px;
+  border-radius: 54px;
+  background: #99cc33;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1c1c1c;
+}
+
 /* Fim Páginas CMS Institucionais */
 
 @media (max-width: 1199px) {
   .paragraph--info-card-condition {
     font-size: 14px;
     line-height: 16px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .infoCardContainer--empresas-category-card::before {
+    opacity: 1;
+  }
+
+  .infoCardTextContainer--empresas-category-card {
+    transform: translateY(0);
+    opacity: 1;
+    padding: 10px;
+    gap: 6px;
+  }
+
+  .infoCardContainer--empresas-category-card .infoCardCallActionText,
+  .infoCardCallActionText--empresas-category-card {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .infoCardContainer--empresas-category-card .infoCardCallActionContainer::after {
+    min-width: 220px;
+    width: 120px;
+    max-width: calc(100vw - 40px);
+    height: 27px;
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 19px;
+    box-sizing: border-box;
   }
 }
 

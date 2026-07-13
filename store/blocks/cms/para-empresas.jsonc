@@ -1,44 +1,701 @@
 {
-    "store.custom#para-empresas": {
-      "children": [
-        "responsive-layout.desktop#para-empresas",
-        "responsive-layout.mobile#para-empresas"
-      ]
-    },
-    "responsive-layout.desktop#para-empresas": {
-      "children": [
-        "flex-layout.row#linha-bread",
-        "flex-layout.row#wrapper-para-empresas"
-      ]
-    },
-    "responsive-layout.mobile#para-empresas": {
-      "children": [
-        "flex-layout.row#linha-menu-institucional",
-        "flex-layout.row#linha-bread",
-        "flex-layout.row#para-empresas-content"
-      ]
-    },
-    "flex-layout.row#para-empresas-content": {
-      "children": ["flex-layout.col#content-para-empresas"],
-      "props": {
-        "blockClass": ["custom-container", "cms-page-container", "pagina-politica-de-privacidade"]
-      }
-    },
+  "store.custom#para-empresas": {
+    "children": [
+      "responsive-layout.desktop#para-empresas",
+      "responsive-layout.mobile#para-empresas"
+    ]
+  },
 
-    "flex-layout.row#wrapper-para-empresas": {
-        "children": [
-            "flex-layout.col#menu-cms-institucional",
-            "flex-layout.col#content-para-empresas"
-        ],
-        "props": {
-          "blockClass": ["custom-container", "cms-page-container", "pagina-para-empresas"] 
-        }
-    },
+  "responsive-layout.desktop#para-empresas": {
+    "children": [
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#wrapper-para-empresas"
+    ]
+  },
 
-    "flex-layout.col#content-para-empresas": {
-      "children":[
-        "para-empresas"
-      ]
+  "responsive-layout.mobile#para-empresas": {
+    "children": [
+      "flex-layout.row#linha-menu-institucional",
+      "flex-layout.row#linha-bread",
+      "flex-layout.row#para-empresas-content"
+    ]
+  },
+
+  "flex-layout.row#para-empresas-content": {
+    "children": ["flex-layout.col#content-para-empresas"],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-para-empresas"]
     }
-    
+  },
+
+  "flex-layout.row#wrapper-para-empresas": {
+    "children": [
+      "flex-layout.col#menu-cms-institucional",
+      "flex-layout.col#content-para-empresas"
+    ],
+    "props": {
+      "blockClass": ["custom-container", "cms-page-container", "pagina-para-empresas"]
+    }
+  },
+
+  "flex-layout.col#content-para-empresas": {
+    "children": [
+      "flex-layout.row#empresas-hero",
+      "flex-layout.row#empresas-buy-options",
+      "flex-layout.row#empresas-support",
+      "flex-layout.row#empresas-categories"
+    ],
+    "props": {
+      "blockClass": "empresas-content"
+    }
+  },
+
+  "flex-layout.row#empresas-hero": {
+    "title": "Para Empresas - Hero",
+    "children": ["flex-layout.col#empresas-hero"],
+    "props": {
+      "blockClass": "empresas-hero"
+    }
+  },
+
+  "flex-layout.col#empresas-hero": {
+    "children": [
+      "rich-text#empresas-hero-title",
+      "rich-text#empresas-hero-text"
+    ],
+    "props": {
+      "blockClass": "empresas-hero"
+    }
+  },
+
+  "rich-text#empresas-hero-title": {
+    "title": "Hero - Título principal",
+    "props": {
+      "text": "Tudo que sua empresa precisa em um só lugar",
+      "blockClass": "empresas-hero-title"
+    }
+  },
+
+  "rich-text#empresas-hero-text": {
+    "title": "Hero - Texto de apoio",
+    "props": {
+      "text": "Compre direto pelo site, solicite orçamento ou utilize faturamento em uma de nossas lojas",
+      "blockClass": "empresas-hero-text"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-options": {
+    "title": "Acordeon - Formas de comprar",
+    "children": ["flex-layout.col#empresas-buy-options"],
+    "props": {
+      "blockClass": "empresas-section"
+    }
+  },
+
+  "flex-layout.col#empresas-buy-options": {
+    "children": [
+      "rich-text#empresas-buy-title",
+      "disclosure-layout#empresas-buy-card-site",
+      "disclosure-layout#empresas-buy-card-budget",
+      "disclosure-layout#empresas-buy-card-invoice"
+    ],
+    "props": {
+      "blockClass": "empresas-section"
+    }
+  },
+
+  "rich-text#empresas-buy-title": {
+    "title": "Acordeon - Título da seção",
+    "props": {
+      "text": "Como sua empresa prefere comprar?",
+      "blockClass": "empresas-section-title"
+    }
+  },
+
+  "disclosure-layout#empresas-buy-card-site": {
+    "title": "Acordeon 1 - Compra pelo site",
+    "props": {
+      "defaultVisibility": "hidden",
+      "blockClass": "empresas-buy-card"
+    },
+    "children": [
+      "disclosure-trigger#empresas-buy-card-site",
+      "disclosure-content#empresas-buy-card-site"
+    ]
+  },
+
+  "disclosure-trigger#empresas-buy-card-site": {
+    "props": {
+      "blockClass": "empresas-buy-card-trigger"
+    },
+    "children": ["flex-layout.row#empresas-buy-card-site"]
+  },
+
+  "disclosure-content#empresas-buy-card-site": {
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    },
+    "children": ["flex-layout.row#empresas-buy-card-site-content"]
+  },
+
+  "flex-layout.row#empresas-buy-card-site": {
+    "children": [
+      "flex-layout.col#empresas-buy-card-site-text",
+      "rich-text#empresas-buy-card-site-link"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card"
+    }
+  },
+
+  "flex-layout.col#empresas-buy-card-site-text": {
+    "children": [
+      "rich-text#empresas-buy-card-site-title",
+      "rich-text#empresas-buy-card-site-desc"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-title": {
+    "title": "Acordeon 1 - Título fechado",
+    "props": {
+      "text": "Compra rápida pelo site",
+      "blockClass": "empresas-buy-card-title"
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-desc": {
+    "title": "Acordeon 1 - Descrição fechada",
+    "props": {
+      "text": "Ideal para quem quer agilidade e autonomia",
+      "blockClass": "empresas-buy-card-desc"
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-link": {
+    "title": "Acordeon 1 - Ícone da seta",
+    "props": {
+      "text": "seta",
+      "blockClass": "empresas-buy-card-link"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-card-site-content": {
+    "children": ["flex-layout.col#empresas-buy-card-site-content"],
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    }
+  },
+
+  "flex-layout.col#empresas-buy-card-site-content": {
+    "children": [
+      "flex-layout.row#empresas-buy-card-site-features",
+      "rich-text#empresas-buy-card-site-content-warning",
+      "rich-text#empresas-buy-card-site-content-note",
+      "rich-text#empresas-buy-card-site-content-support",
+      "flex-layout.row#empresas-buy-card-site-actions"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-card-site-features": {
+    "children": [
+      "rich-text#empresas-buy-card-site-feature-offers",
+      "rich-text#empresas-buy-card-site-feature-delivery",
+      "rich-text#empresas-buy-card-site-feature-payment"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-features"
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-feature-offers": {
+    "title": "Acordeon 1 - Benefício 1",
+    "props": {
+      "text": "Ofertas exclusivas",
+      "blockClass": ["empresas-buy-card-feature", "empresas-feature-offers"]
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-feature-delivery": {
+    "title": "Acordeon 1 - Benefício 2",
+    "props": {
+      "text": "Receba no seu endereço ou retire fácil na loja",
+      "blockClass": ["empresas-buy-card-feature", "empresas-feature-delivery"]
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-feature-payment": {
+    "title": "Acordeon 1 - Benefício 3",
+    "props": {
+      "text": "Pix, cartão ou boleto (acima de R$400)",
+      "blockClass": ["empresas-buy-card-feature", "empresas-feature-pix"]
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-content-warning": {
+    "title": "Acordeon 1 - Observação importante",
+    "props": {
+      "text": "**Observação importante**\n\nO boleto é de pagamento antecipado — a Nota Fiscal é emitida somente após a confirmação do pagamento.",
+      "blockClass": "empresas-buy-card-content-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-content-note": {
+    "title": "Acordeon 1 - Nota adicional",
+    "props": {
+      "text": "**Nota adicional:**\n\nNo checkout, inserir corretamente os dados da empresa para emissão da Nota Fiscal no CNPJ.",
+      "blockClass": "empresas-buy-card-content-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-content-support": {
+    "title": "Acordeon 1 - Apoio",
+    "props": {
+      "text": "**Apoio:**\n\nDúvidas: (11) 4000-1567",
+      "blockClass": "empresas-buy-card-content-text"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-card-site-actions": {
+    "children": [
+      "rich-text#empresas-buy-card-site-content-specialist",
+      "rich-text#empresas-buy-card-site-content-cta"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-actions"
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-content-specialist": {
+    "title": "Acordeon 1 - Botão especialista",
+    "props": {
+      "text": "[Falar com especialista](https://api.whatsapp.com/send?phone=5511932361811)",
+      "blockClass": ["empresas-buy-card-action", "empresas-buy-card-specialist"]
+    }
+  },
+
+  "rich-text#empresas-buy-card-site-content-cta": {
+    "title": "Acordeon 1 - Botão comprar",
+    "props": {
+      "text": "[Comprar agora](/)",
+      "blockClass": ["empresas-buy-card-action", "empresas-buy-card-primary"]
+    }
+  },
+
+  "disclosure-layout#empresas-buy-card-budget": {
+    "title": "Acordeon 2 - Orçamento personalizado",
+    "props": {
+      "defaultVisibility": "hidden",
+      "blockClass": "empresas-buy-card"
+    },
+    "children": [
+      "disclosure-trigger#empresas-buy-card-budget",
+      "disclosure-content#empresas-buy-card-budget"
+    ]
+  },
+
+  "disclosure-trigger#empresas-buy-card-budget": {
+    "props": {
+      "blockClass": "empresas-buy-card-trigger"
+    },
+    "children": ["flex-layout.row#empresas-buy-card-budget"]
+  },
+
+  "disclosure-content#empresas-buy-card-budget": {
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    },
+    "children": ["flex-layout.row#empresas-buy-card-budget-content"]
+  },
+
+  "flex-layout.row#empresas-buy-card-budget": {
+    "children": [
+      "flex-layout.col#empresas-buy-card-budget-text",
+      "rich-text#empresas-buy-card-budget-link"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card"
+    }
+  },
+
+  "flex-layout.col#empresas-buy-card-budget-text": {
+    "children": [
+      "rich-text#empresas-buy-card-budget-title",
+      "rich-text#empresas-buy-card-budget-desc"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-budget-title": {
+    "title": "Acordeon 2 - Título fechado",
+    "props": {
+      "text": "Orçamento personalizado",
+      "blockClass": "empresas-buy-card-title"
+    }
+  },
+
+  "rich-text#empresas-buy-card-budget-desc": {
+    "title": "Acordeon 2 - Descrição fechada",
+    "props": {
+      "text": "Envie sua necessidade por e-mail e receba seu orçamento formalizado.",
+      "blockClass": "empresas-buy-card-desc"
+    }
+  },
+
+  "rich-text#empresas-buy-card-budget-link": {
+    "title": "Acordeon 2 - Ícone da seta",
+    "props": {
+      "text": "seta",
+      "blockClass": "empresas-buy-card-link"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-card-budget-content": {
+    "children": ["flex-layout.col#empresas-buy-card-budget-content"],
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    }
+  },
+
+  "flex-layout.col#empresas-buy-card-budget-content": {
+    "children": [
+      "flex-layout.row#empresas-buy-card-budget-features"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-card-budget-features": {
+    "children": ["rich-text#empresas-buy-card-budget-content-email"],
+    "props": {
+      "blockClass": "empresas-buy-card-features"
+    }
+  },
+
+  "rich-text#empresas-buy-card-budget-content-email": {
+    "title": "Acordeon 2 - E-mail",
+    "props": {
+      "text": "vendas@maravilhasdolar.com.br",
+      "blockClass": ["empresas-buy-card-feature", "empresas-feature-mail"]
+    }
+  },
+
+  "disclosure-layout#empresas-buy-card-invoice": {
+    "title": "Acordeon 3 - Compras faturadas",
+    "props": {
+      "defaultVisibility": "hidden",
+      "blockClass": "empresas-buy-card"
+    },
+    "children": [
+      "disclosure-trigger#empresas-buy-card-invoice",
+      "disclosure-content#empresas-buy-card-invoice"
+    ]
+  },
+
+  "disclosure-trigger#empresas-buy-card-invoice": {
+    "props": {
+      "blockClass": "empresas-buy-card-trigger"
+    },
+    "children": ["flex-layout.row#empresas-buy-card-invoice"]
+  },
+
+  "disclosure-content#empresas-buy-card-invoice": {
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    },
+    "children": ["flex-layout.row#empresas-buy-card-invoice-content"]
+  },
+
+  "flex-layout.row#empresas-buy-card-invoice": {
+    "children": [
+      "flex-layout.col#empresas-buy-card-invoice-text",
+      "rich-text#empresas-buy-card-invoice-link"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card"
+    }
+  },
+
+  "flex-layout.col#empresas-buy-card-invoice-text": {
+    "children": [
+      "rich-text#empresas-buy-card-invoice-title",
+      "rich-text#empresas-buy-card-invoice-desc"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-title": {
+    "title": "Acordeon 3 - Título fechado",
+    "props": {
+      "text": "Compras faturadas",
+      "blockClass": "empresas-buy-card-title"
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-desc": {
+    "title": "Acordeon 3 - Descrição fechada",
+    "props": {
+      "text": "Disponível apenas para retirada em loja",
+      "blockClass": "empresas-buy-card-desc"
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-link": {
+    "title": "Acordeon 3 - Ícone da seta",
+    "props": {
+      "text": "seta",
+      "blockClass": "empresas-buy-card-link"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-card-invoice-content": {
+    "children": ["flex-layout.col#empresas-buy-card-invoice-content"],
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    }
+  },
+
+  "flex-layout.col#empresas-buy-card-invoice-content": {
+    "children": [
+      "flex-layout.row#empresas-buy-card-invoice-features",
+      "rich-text#empresas-buy-card-invoice-content-available",
+      "rich-text#empresas-buy-card-invoice-content-rules",
+      "rich-text#empresas-buy-card-invoice-content-process",
+      "rich-text#empresas-buy-card-invoice-content-cta"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-content"
+    }
+  },
+
+  "flex-layout.row#empresas-buy-card-invoice-features": {
+    "children": [
+      "rich-text#empresas-buy-card-invoice-feature-terms",
+      "rich-text#empresas-buy-card-invoice-feature-credit"
+    ],
+    "props": {
+      "blockClass": "empresas-buy-card-features"
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-feature-terms": {
+    "title": "Acordeon 3 - Benefício 1",
+    "props": {
+      "text": "Condições de 7, 14 ou 30 dias",
+      "blockClass": ["empresas-buy-card-feature", "empresas-feature-offers"]
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-feature-credit": {
+    "title": "Acordeon 3 - Benefício 2",
+    "props": {
+      "text": "Sujeito à análise de crédito",
+      "blockClass": ["empresas-buy-card-feature", "empresas-feature-delivery"]
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-content-available": {
+    "title": "Acordeon 3 - Disponibilidade",
+    "props": {
+      "text": "**Esse formato está disponível apenas para empresas:**\n\n- Com mais de 12 meses de existência\n- Sediadas no estado de São Paulo (SP)",
+      "blockClass": "empresas-buy-card-content-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-content-rules": {
+    "title": "Acordeon 3 - Condições",
+    "props": {
+      "text": "**Condições:**\n\n- Compras faturadas são realizadas apenas nas lojas físicas\n- Não é possível faturar pedidos pelo site",
+      "blockClass": "empresas-buy-card-content-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-content-process": {
+    "title": "Acordeon 3 - Processo",
+    "props": {
+      "text": "**Processo:**\n\n- Necessário cadastro e análise de crédito\n- Prazo de análise: até 7 dias úteis",
+      "blockClass": "empresas-buy-card-content-text"
+    }
+  },
+
+  "rich-text#empresas-buy-card-invoice-content-cta": {
+    "title": "Acordeon 3 - Botão cadastro",
+    "props": {
+      "text": "[Solicitar cadastro](https://form.jotform.com/mktmlar/formulario-cadastro-empresas)",
+      "blockClass": ["empresas-buy-card-action", "empresas-buy-card-primary"]
+    }
+  },
+
+  "flex-layout.row#empresas-support": {
+    "title": "Suporte - Bloco azul",
+    "children": ["flex-layout.col#empresas-support"],
+    "props": {
+      "blockClass": "empresas-support"
+    }
+  },
+
+  "flex-layout.col#empresas-support": {
+    "children": [
+      "rich-text#empresas-support-title",
+      "rich-text#empresas-support-text",
+      "rich-text#empresas-support-cta"
+    ],
+    "props": {
+      "blockClass": "empresas-support"
+    }
+  },
+
+  "rich-text#empresas-support-title": {
+    "title": "Suporte - Título",
+    "props": {
+      "text": "Precisa de ajuda?",
+      "blockClass": "empresas-support-title"
+    }
+  },
+
+  "rich-text#empresas-support-text": {
+    "title": "Suporte - Texto",
+    "props": {
+      "text": "Nosso time está disponível no WhatsApp para te apoiar no que precisar.",
+      "blockClass": "empresas-support-text"
+    }
+  },
+
+  "rich-text#empresas-support-cta": {
+    "title": "Suporte - Botão WhatsApp",
+    "props": {
+      "text": "[Atendimento Comercial](https://api.whatsapp.com/send?phone=5511932361811)",
+      "blockClass": "empresas-support-cta"
+    }
+  },
+
+  "flex-layout.row#empresas-categories": {
+    "title": "Categorias - Mais compradas",
+    "children": ["flex-layout.col#empresas-categories"],
+    "props": {
+      "blockClass": "empresas-categories"
+    }
+  },
+
+  "flex-layout.col#empresas-categories": {
+    "children": [
+      "rich-text#empresas-categories-title",
+      "responsive-layout.desktop#empresas-categories",
+      "responsive-layout.mobile#empresas-categories"
+    ],
+    "props": {
+      "blockClass": "empresas-categories"
+    }
+  },
+
+  "rich-text#empresas-categories-title": {
+    "title": "Categorias - Título da seção",
+    "props": {
+      "text": "Categorias mais compradas por empresas",
+      "blockClass": "empresas-section-title"
+    }
+  },
+
+  "responsive-layout.desktop#empresas-categories": {
+    "children": ["flex-layout.row#empresas-categories-list"]
+  },
+
+  "responsive-layout.mobile#empresas-categories": {
+    "children": ["slider-layout#empresas-categories"]
+  },
+
+  "flex-layout.row#empresas-categories-list": {
+    "children": [
+      "info-card#empresas-category-1",
+      "info-card#empresas-category-2",
+      "info-card#empresas-category-3"
+    ],
+    "props": {
+      "blockClass": "empresas-categories-list"
+    }
+  },
+
+  "slider-layout#empresas-categories": {
+    "title": "Categorias - Slider mobile",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      },
+      "navigationStep": 1,
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "blockClass": "empresas-categories"
+    },
+    "children": [
+      "info-card#empresas-category-1",
+      "info-card#empresas-category-2",
+      "info-card#empresas-category-3"
+    ]
+  },
+
+  "info-card#empresas-category-1": {
+    "title": "Categoria 1 - Card",
+    "props": {
+      "id": "empresas-category-1",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/institucional/para-empresas/categoria-1.jpg",
+      "callToActionText": "Caixas Organizadoras",
+      "blockClass": "empresas-category-card",
+      "callToActionMode": "Link",
+      "textMode": "rich-text",
+      "imageActionUrl": "/organizacao",
+      "callToActionUrl": "/organizacao"
+    }
+  },
+
+  "info-card#empresas-category-2": {
+    "title": "Categoria 2 - Card",
+    "props": {
+      "id": "empresas-category-2",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/institucional/para-empresas/categoria-2.jpg",
+      "callToActionText": "Papelaria e Escritório",
+      "blockClass": "empresas-category-card",
+      "callToActionMode": "Link",
+      "textMode": "rich-text",
+      "imageActionUrl": "/papelaria",
+      "callToActionUrl": "/papelaria"
+    }
+  },
+
+  "info-card#empresas-category-3": {
+    "title": "Categoria 3 - Card",
+    "props": {
+      "id": "empresas-category-3",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "assets/institucional/para-empresas/categoria-3.jpg",
+      "callToActionText": "Cozinha e Copa",
+      "blockClass": "empresas-category-card",
+      "callToActionMode": "Link",
+      "textMode": "rich-text",
+      "imageActionUrl": "/cozinha",
+      "callToActionUrl": "/cozinha"
+    }
+  }
 }
