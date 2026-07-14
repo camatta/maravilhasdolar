@@ -669,7 +669,6 @@ const lojasDefault = [...lojasData]
   .sort((a, b) => Number(a.numero) - Number(b.numero))
   .map((loja) => ({
     __editorItemTitle: `Loja ${loja.numero} - ${loja.localizacao}`,
-    identificacao: `Loja ${loja.numero} - ${loja.localizacao}`,
     localizacao: loja.localizacao,
     numero: loja.numero,
     foto: toAbsoluteUrl(images[loja.foto] || loja.foto),
@@ -692,16 +691,10 @@ NossasLojasNew.schema = {
         type: 'object',
         properties: {
           __editorItemTitle: {
-            title: 'Titulo no editor',
+            title: 'Identificador da loja (nome na lista)',
             type: 'string',
-            default: 'Loja',
-            description: 'Identificacao exibida na lista do Site Editor. Ex: Loja 01 - Jundiai Matriz.',
-            widget: { 'ui:widget': 'hidden' },
-          },
-          identificacao: {
-            type: 'string',
-            title: 'Identificador da loja',
-            description: 'Use apenas para localizar a loja na lista do Site Editor. Ex: Loja 01 - Jundiai Matriz.',
+            default: 'Nova loja',
+            description: 'Nome exibido na lista do Site Editor. Ex: Loja 57 - Nome da cidade.',
           },
           localizacao: {
             type: 'string',
