@@ -16,9 +16,23 @@
         "blockClass": ["category-banner"]
       },
       "children": [
-        "image#category-banner-desk",
-        "image#category-banner-mobi"
+        "experimental__visibility-layout#category-banner-desk",
+        "experimental__visibility-layout#category-banner-mobi"
       ]
+    },
+    "experimental__visibility-layout#category-banner-desk": {
+      "title": "Banner Desktop",
+      "children": ["image#category-banner-desk"],
+      "props": {
+        "visible": false
+      }
+    },
+    "experimental__visibility-layout#category-banner-mobi": {
+      "title": "Banner Mobile",
+      "children": ["image#category-banner-mobi"],
+      "props": {
+        "visible": false
+      }
     },
     "image#category-banner-desk": {
       "title": "Banner Desktop",

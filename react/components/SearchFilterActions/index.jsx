@@ -528,11 +528,15 @@ const syncDesktopFilterSpacing = selectedFilters => {
   const productsRow = document.querySelector(
     '.vtex-flex-layout-0-x-flexRow--search-products-container'
   )
+  const desktopBanner = document.querySelector(
+    '.vtex-store-components-3-x-imageElement--category-banner-desk'
+  )
   const hasActiveFilters =
     selectedFilters && getFilterItems(selectedFilters).length > 0
 
   if (selectedFilters) {
     selectedFilters.style.display = hasActiveFilters ? '' : 'none'
+    selectedFilters.style.top = desktopBanner ? '18px' : ''
   }
 
   if (productsRow) {
