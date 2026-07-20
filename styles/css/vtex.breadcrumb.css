@@ -66,6 +66,33 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1025px) {
+  .container {
+    width: 100%;
+    max-width: calc(100vw - 40px);
+    min-width: 0;
+    overflow: hidden;
+    flex-wrap: nowrap;
+  }
+
+  .arrow {
+    max-width: 92px;
+    min-width: 0;
+    flex: 1 1 0;
+    overflow: hidden;
+  }
+
+  .homeLink {
+    flex: 0 0 auto;
+  }
+
+  .link,
+  .term {
+    display: block;
+    max-width: 100%;
+  }
+}
+
 /* @media (max-width: 1025px) {
   .homeIcon {
     display: none;

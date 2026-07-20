@@ -34,7 +34,6 @@ const ItemContainer = ({
   onCloseMenu,
   showSecondLevel,
   sortSubcategories,
-  mainBanner,
   bannerCategory
 }) => {
   const [open, setOpen] = useState({
@@ -201,25 +200,6 @@ const ItemContainer = ({
           </div>
         )}
 
-        {(mainBanner !== undefined && mainBanner.src !== '') && (
-          <div className={`${styles.mainBanner}`}>
-            <Banner
-              src={mainBanner?.src}
-              bannerAlt={mainBanner?.bannerAlt}
-              bannerLink={mainBanner?.bannerLink} />
-            
-            {mainBanner?.bannerLink !== "" && (
-              <div className={`${styles.bannerContent}`}>
-                <Link
-                  to={mainBanner?.bannerLink}
-                  className={styles.bannerLinkCta}
-                >
-                  {mainBanner?.bannerLinkCta || 'Ver todas os os produtos'}
-                </Link>
-              </div>
-            )}
-          </div>
-        )}
       </Container>
     </div>
   )

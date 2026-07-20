@@ -37,16 +37,26 @@
   margin-bottom: 24px;
 }
 
+.filtersWrapper {
+  position: relative;
+  padding: 16px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+}
+
 .filtersWrapper .filter__container:last-child {
   border: 0;
 }
 
 .filterMessage {
-  margin: 0 0 10px;
-  text-transform: uppercase;
-  font-weight: 600;
+  margin: 0 0 16px;
+  text-transform: initial;
+  font-weight: 700;
   font-size: 14px;
-  padding: 10px;
+  line-height: 19px;
+  padding: 0;
+  color: #1C1C1C;
 }
 
 .filterSelected {
@@ -82,7 +92,7 @@
 }
 
 .filter__container :global(.vtex-slider-container) {
-  padding: 0 8px;
+  padding: 0;
 }
 .filterContent,
 .filter__container--priceRange .filterTemplateOverflow {
@@ -101,19 +111,22 @@
   font-size: 16px;
 }
 .filter__container--priceRange :global(.vtex-slider__selector) {
-  background: #FF0066;
-  width: 8px !important;
-  height: 8px !important;
-  top: 2px;
+  background: #FF6600;
+  width: 16px !important;
+  height: 16px !important;
+  top: -6px;
   position: relative;
 }
 
 .filter__container--priceRange :global(.vtex-slider__base) {
-  height: 2px !important;
+  height: 4px !important;
+  border-radius: 4px;
 }
 
 .filter__container--priceRange :global(.vtex-slider__base-internal) {
   background: #D9D9D9;
+  height: 4px !important;
+  border-radius: 4px;
 }
 
 .filterPopupTitle {
@@ -162,7 +175,7 @@
 }
 
 .buttonShowMore :global(.vtex-button) {
-  border: 1px solid #ED1A3B;
+  border: 1px solid #FF0066;
   color: #000;
   background-color: white;
   border-radius: 39px;
@@ -182,8 +195,8 @@
   font-size: 14px;
 }
 .buttonShowMore :global(.vtex-button):hover {
-  background: #ED1A3B;
-  border: 1px solid #ED1A3B;
+  background: #FF0066;
+  border: 1px solid #FF0066;
   color: #000;
 }
 .progressBar {
@@ -221,9 +234,9 @@
   border-radius: 2px;
 }
 
-:global(.vtex__icon-check) {
-  fill: #99CC33;
-  background-color: #99CC33;
+.filterItem :global(.vtex__icon-check) {
+  fill: #FF6600;
+  background-color: #FF6600;
   border-radius: 2px;
 }
 
@@ -232,7 +245,185 @@
 }
 
 .filter__container--selectedFilters {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  top: 16px;
+  left: 285px;
+  z-index: 1;
+  width: 825px;
+  min-height: 66px;
+  padding: 16px;
+  margin: 0;
+  background: #fff;
+  border: 1px solid #ECECEC;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+}
+
+.filter__container--selectedFilters::after {
   display: none;
+  content: none;
+}
+
+.filter__container--selectedFilters::before {
+  content: "Filtros Ativos:";
+  order: 1;
+  flex: 0 0 auto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1C1C1C;
+}
+
+.filter__container--selectedFilters .filterTitle {
+  display: none;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow {
+  display: flex;
+  order: 2;
+  flex: 1 1 auto;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 12px;
+  min-height: 34px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow::before {
+  display: none;
+}
+
+.filterClearButtonWrapper :global(.vtex-button) {
+  border: 0;
+  background: transparent;
+  min-height: initial;
+}
+
+.filtersWrapper .filterClearButtonWrapper {
+  display: none;
+}
+
+.filter__container--selectedFilters .filterClearButtonWrapper {
+  display: none;
+}
+
+.filtersWrapper .filter__container .filterClearButtonWrapper {
+  display: none !important;
+}
+
+.filter__container--selectedFilters .filterClearButtonWrapper :global(.vtex-button) {
+  width: 100%;
+  height: 100%;
+  min-height: 24px;
+  cursor: pointer;
+}
+
+.filter__container--selectedFilters .filterClearButtonWrapper :global(.vtex-button__label) {
+  width: 100%;
+  height: 100%;
+}
+
+.filterClearButtonWrapper :global(.vtex-button__label) {
+  padding: 0 !important;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: #FF6600;
+  text-transform: initial;
+}
+
+.filter__container--selectedFilters .filterItem {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  width: auto;
+  max-width: max-content;
+  min-height: 34px;
+  padding: 7px 12px;
+  border-radius: 17px;
+  background: #F5F5F5;
+  margin: 0;
+  cursor: pointer;
+}
+
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__line-container) {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: auto;
+  max-width: max-content;
+  min-height: initial;
+  padding: 0;
+  gap: 8px;
+}
+
+.filter__container--selectedFilters .filterItem::after {
+  display: none;
+}
+
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__container),
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__inner-container),
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__box-wrapper) {
+  width: auto;
+  height: auto;
+  border: 0;
+  background: transparent;
+}
+
+.filter__container--selectedFilters .filterItem :global(.vtex__icon-check) {
+  display: none;
+}
+
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__container)::after {
+  content: "x";
+  display: block;
+  color: #666666;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__label) {
+  display: inline;
+  width: auto;
+  font-size: 12px;
+  line-height: 16px;
+  color: #666666;
+  cursor: pointer;
+}
+
+.filterClearButtonWrapper {
+  width: 100%;
+  padding: 0;
+}
+
+.filter__container--priceRange :global(.vtex-input-prefix__group) {
+  height: 32px;
+  border: 1px solid #ECECEC;
+  border-radius: 4px;
+}
+
+.filter__container--priceRange :global(.vtex-styleguide-9-x-input) {
+  color: #979797;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.filter__container--priceRange :global(.vtex-slider__selector) {
+  background: #FF6600;
+}
+
+.filter__container--priceRange {
+  position: relative;
+}
+
+.filterItem :global(.vtex-checkbox__inner-container--selected) {
+  border-color: #FF6600;
+  background: #FF6600;
 }
 
 .filterPopupArrowIcon {
@@ -285,6 +476,8 @@
   
   .galleryTitle--layout {
     margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 33px;
   }
   
   .orderByButton .filterPopupArrowIcon::before {
@@ -297,9 +490,9 @@
   }
 
   .showingProducts {
-    padding: 0 15px;
+    padding: 0;
     text-align: left;
-    margin-bottom: 24px;
+    margin-bottom: 0;
   }
   .showingProductsCount {
     font-weight: 400;
@@ -311,6 +504,7 @@
   }
   .sidebar {
     width: 88%;
+    max-width: 376px;
   }
   .accordionFilter {
     overflow: auto;
@@ -359,10 +553,10 @@
     color: #000000;
   }
   .accordionFilterItemOptions {
-    padding: 0;
+    padding: 0 24px 0 0;
     margin-top: 24px;
     overflow: auto;
-    margin-left: -30px;
+    margin-left: 0;
   }
   .filterAccordionItemBox {
     padding: 0;
@@ -380,9 +574,38 @@
   .filter__container--priceRange {
     border: 0;
     margin: 0;
+    padding-bottom: 0;
+  }
+  .filter__container--priceRange .filterTemplateOverflow {
+    margin-top: 18px;
+  }
+  .filter__container--priceRange :global(.vtex-slider-container) {
+    padding: 0 12px;
+  }
+  .filter__container--priceRange :global(.vtex-slider__base) {
+    height: 4px !important;
+    border-radius: 4px;
+  }
+  .filter__container--priceRange :global(.vtex-slider__base-internal) {
+    height: 4px !important;
+    border-radius: 4px;
+  }
+  .filter__container--priceRange :global(.vtex-slider__selector) {
+    width: 16px !important;
+    height: 16px !important;
+    top: -6px;
+  }
+  .filter__container--priceRange :global(.vtex-slider__values-container) {
+    padding: 10px 12px 0;
+  }
+  .filter__container--priceRange :global(.vtex-slider__left-value),
+  .filter__container--priceRange :global(.vtex-slider__right-value) {
+    font-size: 14px;
+    line-height: 19px;
+    color: #555555;
   }
   .filterButtonsBox {
-    padding: 18px;
+    padding: 22px 0 0;
     border-top: 1px solid #D9D9D9;
     height: initial;
     display: flex;
@@ -390,11 +613,11 @@
     justify-content: center;
     gap: 15px;
     width: 100%;
-    max-width: -webkit-fill-available;
+    max-width: 100%;
   }
   .filterClearButtonWrapper,
   .filterApplyButtonWrapper {
-    width: initial;
+    width: 132px;
     padding: 0;
   }
   .filterButtonsBox :global(.vtex-button) {
@@ -403,7 +626,7 @@
     background: 0;
   }
   .filterButtonsBox :global(.vtex-button__label) {
-    padding: 6px 35px !important;
+    padding: 8px 24px !important;
     font-size: 14px;
     font-weight: 700;
     line-height: 19px;
@@ -414,7 +637,7 @@
     box-shadow: inset 0 0 0 1px #FF0066;
   }
   .filterApplyButtonWrapper :global(.vtex-button__label) {
-    background: #FF6600;
+    background: #99CC33;
   }
 
   .container--layout--search-result-layout {
@@ -434,24 +657,45 @@
   .filterPopupButton,
   .orderByButton {
     width: 100%;
-    padding: 10px 25px;
+    padding: 0;
     height: initial;
-    justify-content: space-between;
-    border: 1px solid #ECECEC !important;
-    border-radius: 4px;
+    justify-content: center;
+    border: 0 !important;
+    border-radius: 0;
   }
   .filterPopupTitle {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 19px;
     color: #1A1A1A;
     font-weight: 400;
   }
   .filterPopupButton .filterPopupTitle {
+    font-size: 24px;
+    line-height: 33px;
     font-weight: 700;
   }
 
-  .orderByText {
+  .filterPopupButton {
+    position: static;
+    width: auto;
+    order: 2;
+    gap: 44px;
+    justify-content: flex-start;
+  }
+
+  .filterPopupButton::before {
     display: none;
+    content: none;
+  }
+
+  .orderByText {
+    display: inline;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .orderByButton {
+    justify-content: flex-start;
   }
 
   .searchResultContainer :global(.vtex-product-price-1-x-spotPrice) {
@@ -472,16 +716,60 @@
   .totalProducts--layout {
     border-top: 0;
   }
+
+  .filter__container--selectedFilters {
+    display: flex;
+    position: static;
+    flex: 1 1 100%;
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+    min-height: initial;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: initial;
+  }
+
+  .filter__container--selectedFilters::before {
+    display: none;
+    content: none;
+  }
+
+  .filter__container--selectedFilters .filterTemplateOverflow {
+    display: flex;
+    flex: 1 1 100%;
+    gap: 12px;
+    min-height: 34px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .filter__container--selectedFilters .filterItem {
+    min-height: 34px;
+    padding: 8px 13px;
+  }
+
+  .filter__container--selectedFilters .filterClearButtonWrapper {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 639px) {
   .gallery--grid {
-    gap: 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 16px;
+    row-gap: 30px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .gallery--grid {
-    grid-template-columns: repeat(auto-fit, minmax(126px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

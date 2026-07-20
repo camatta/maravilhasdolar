@@ -14,6 +14,9 @@
   "filter-navigator.v3": {
     "props": {
        "truncateFilters": true,
+       "showClearByFilter": false,
+       "appliedFiltersOverview": "show",
+       "updateOnFilterSelection": true,
        "maxItemsDepartment": 7,
        "maxItemsCategory": 7
     }

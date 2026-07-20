@@ -109,5 +109,9 @@
   "custom-search-header-mobile": {
     "composition": "children",
     "component": "CustomMobileHeaderSearch"
+  },
+
+  "search-filter-actions": {
+    "component": "SearchFilterActions"
   }
 }

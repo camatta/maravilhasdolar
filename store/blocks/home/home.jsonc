@@ -22,8 +22,8 @@
 
   "responsive-layout.mobile#home-after-fold": {
     "children": [
-      "flex-layout.row#shelf-promotions",
       "flex-layout.row#categoriasmenu",
+      "flex-layout.row#shelf-promotions",
       "__fold__",
       "responsive-layout.mobile#home-lower-shelves"
     ]
@@ -34,7 +34,26 @@
       "flex-layout.row#shelf-mais-vendidos",
       "flex-layout.row#shelf-releases",
       "flex-layout.row#shelf-best-sellers",
+      "flex-layout.row#home-scroll-banner",
       "flex-layout.row#shelf-highlights"
     ]
+  },
+
+  "flex-layout.row#home-scroll-banner": {
+    "props": {
+      "blockClass": ["home-scroll-banner", "custom-container"]
+    },
+    "children": ["image#home-scroll-banner-cadeiras"]
+  },
+
+  "image#home-scroll-banner-cadeiras": {
+    "props": {
+      "src": "assets/home/banner-cadeiras-mobile.png",
+      "alt": "Acabaram de chegar! Cadeiras, confira!",
+      "blockClass": "home-scroll-banner",
+      "link": {
+        "url": "/moveis/cadeiras"
+      }
+    }
   }
 }

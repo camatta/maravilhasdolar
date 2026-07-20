@@ -16,12 +16,6 @@
       "showAllDepartments": true,
       "showSubcategories": true,
       "menuDisposition": "right",
-      "mainBanner": {
-        "src": "assets/mega-menu/banner-todas-categorias.png",
-        "bannerLink": "/cozinha",
-        "bannerAlt": "Jogos de talheres, até 25% off, clique e confira!",
-        "bannerLinkCta": "Ver todos os produtos"
-      },
       "departments": [
         { "id": 3 },
         {

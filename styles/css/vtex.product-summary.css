@@ -39,8 +39,21 @@
 }
 
 @media screen and (max-width: 991px) {
+  .element {
+    padding: 12px 8px 10px;
+  }
+
+  .nameContainer--summary-name {
+    padding: 8px 0 0;
+  }
+
+  .nameWrapper--summary-name {
+    height: 44px;
+  }
+
   .brandName--summary-name {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C1C1C;
   }
 }

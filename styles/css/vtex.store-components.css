@@ -664,6 +664,46 @@
   .imageElement--image__display-banner {
     width: 100%;
   }
+  .infoCardContainer--info-card-catmenu {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .infoCardImageContainer--info-card-catmenu {
+    height: 92px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .infoCardImage--info-card-catmenu {
+    width: 100%;
+    height: 92px;
+    object-fit: contain;
+  }
+
+  .infoCardTextContainer--info-card-catmenu {
+    height: auto;
+  }
+
+  .infoCardCallActionText--info-card-catmenu,
+  .paragraph--info-card-catmenu {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .imageElementLink--home-scroll-banner {
+    display: block;
+    width: 100%;
+  }
+
+  .imageElement--home-scroll-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 388 / 259;
+    border-radius: 8px;
+    object-fit: cover;
+  }
   .carouselGaleryThumbs--pdp {
     display: none;
   }

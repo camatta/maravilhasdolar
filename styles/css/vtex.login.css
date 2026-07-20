@@ -23,7 +23,7 @@
 /* Categoria */
 
 :global(.vtex__icon-check) path {
-  fill: unset;
+  fill: #fff;
 }
 
 /* MENU MOBILE */

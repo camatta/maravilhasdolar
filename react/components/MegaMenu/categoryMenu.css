@@ -39,11 +39,15 @@
   overflow-y: auto;
 }
 .allCategories .itemContainer {
+  width: min(1110px, calc(100vw - 32px));
   padding: 24px 41px;
 }
 .allCategories .submenuList {
-  max-width: 700px;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  max-width: none;
   row-gap: 16px;
+  column-gap: 40px;
 }
 
 .departmentList {
@@ -303,12 +307,6 @@ a.departmentLink:hover svg {
   line-height: 0;
 }
 
-.mainBanner {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  min-width: 268px;
-}
 .bannerImageLink {
   display: inline-block;
   line-height: 0;
@@ -318,24 +316,6 @@ a.departmentLink:hover svg {
   width: 100%;
   height: auto;
 }
-.bannerContent {}
-.bannerLinkCta {
-  display: inline-block;
-  color: #1C1C1C;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 16px;
-  text-transform: initial;
-  text-decoration: none;
-  padding: 4px 18px;
-  border: 1px solid #FF0066;
-  border-radius: 41px;
-  transition: all 0.3s ease-in-out;
-}
-.bannerLinkCta:hover {
-  background-color: #FF0066;
-}
-
 .bannerCategory {
   min-width: 194px;
   line-height: 0;

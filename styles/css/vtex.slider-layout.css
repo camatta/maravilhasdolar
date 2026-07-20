@@ -181,12 +181,47 @@
   }
 
   .sliderTrackContainer--main-slider {
-    aspect-ratio: 1080 / 938;
-    border-radius: 15px;
+    aspect-ratio: 388 / 304;
+    border-radius: 8px;
   }
 
   .imageElement--main-slider {
-    aspect-ratio: 1080 / 938;
+    aspect-ratio: 388 / 304;
+    object-fit: fill;
+  }
+
+  .sliderTrackContainer--category {
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .sliderTrack--category {
+    align-items: flex-start;
+  }
+
+  .slide--category {
+    width: min(186px, calc((100vw - 55px) / 2)) !important;
+    min-width: min(186px, calc((100vw - 55px) / 2)) !important;
+    flex-basis: min(186px, calc((100vw - 55px) / 2)) !important;
+    margin: 0 15px 0 0;
+  }
+
+  .slideChildrenContainer--category {
+    width: 100%;
+  }
+
+  .sliderArrows--category {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .sliderLeftArrow--category {
+    left: 8px;
+  }
+
+  .sliderRightArrow--category {
+    right: 8px;
   }
 
   .sliderTrack--upper-mosaic {

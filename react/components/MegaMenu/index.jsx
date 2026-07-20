@@ -34,7 +34,6 @@ const MegaMenu = ({
   showSubcategories = true,
   menuPosition = categoryMenuPosition.DISPLAY_CENTER.value,
   sortSubcategories = sortSubcategoriesItems.SORT_DEFAULT.value,
-  mainBanner,
   departments = [],
   data: { categories = [] },
   intl,
@@ -121,7 +120,6 @@ const MegaMenu = ({
               subcategoryLevels={
                 DEFAULT_SUBCATEGORIES_LEVELS + showSubcategories
               }
-              mainBanner={mainBanner}
               sortSubcategories={sortSubcategories}
               category={{
                 children: categories,
@@ -167,33 +165,6 @@ MegaMenu.schema = {
   description: 'admin/editor.category-menu.description',
   type: 'object',
   properties: {
-    mainBanner: {
-      title: 'Banner todas Categorias',
-      type: 'object',
-      properties: {
-        src: {
-          type: 'string',
-          format: 'uri',
-          title: 'Imagem do Banner',
-          widget: {
-            'ui:widget': 'image-uploader',
-          },
-        },
-        bannerAlt: {
-          type: 'string',
-          title: 'Texto Alternativo SEO do Banner'
-        },
-        bannerLink: {
-          type: 'string',
-          format: 'uri',
-          title: 'Link do Banner',
-        },
-        bannerLinkCta: {
-          type: 'string',
-          title: 'Texto do Link do Banner',
-        }
-      }
-    },
     showAllDepartments: {
       type: 'boolean',
       title: 'admin/editor.category-menu.show-departments-category.title',

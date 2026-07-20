@@ -21,7 +21,6 @@ const CategoryItem = ({
   category,
   subcategoryLevels,
   menuPosition,
-  mainBanner,
   category: { name, slug },
   noRedirect,
   isCategorySelected,
@@ -52,7 +51,7 @@ const CategoryItem = ({
     top:
       itemRef.current &&
       itemRef.current.offsetTop + itemRef.current.clientHeight,
-    display: isHover ? 'flex' : 'none',
+    display: isHover ? 'block' : 'none',
   }
 
   return (
@@ -93,7 +92,6 @@ const CategoryItem = ({
           onCloseMenu={handleCloseMenu}
           showSecondLevel={subcategoryLevels === 2}
           sortSubcategories={sortSubcategories}
-          mainBanner={mainBanner}
           bannerCategory={bannerCategory}
         />
       )}
