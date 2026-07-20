@@ -229,3 +229,26 @@
     font-size: 14px;
     line-height: 19px;
 }
+
+@media (max-width: 767px) {
+    .container {
+        width: auto;
+    }
+
+    .summaryContainer {
+        gap: 4px;
+        width: auto;
+        white-space: nowrap;
+    }
+
+    .stars {
+        gap: 1px;
+    }
+
+    .star--empty,
+    .star--filled {
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+    }
+}

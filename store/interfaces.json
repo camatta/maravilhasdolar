@@ -91,6 +91,10 @@
     "component": "ShippingNairuz"
   },
 
+  "buy-together": {
+    "component": "BuyTogether"
+  },
+
   "reclame-aqui": {
    "component": "ReclameAqui"
   },

@@ -178,10 +178,6 @@ react-input-mask@^2.0.4:
   version "0.5.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-identifier@0.5.0/public/@types/vtex.product-identifier#f5d442b6a7ca648c61e8655a356e8588e49c43b2"
 
-"vtex.product-kit@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-kit@1.10.2/public/_types/react":
-  version "0.0.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-kit@1.10.2/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
-
 "vtex.product-list@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-list@0.37.4/public/@types/vtex.product-list":
   version "0.37.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-list@0.37.4/public/@types/vtex.product-list#49d336f38e99f7103d1da09c9f5d64de53f26c27"

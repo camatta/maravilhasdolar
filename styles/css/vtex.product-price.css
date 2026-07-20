@@ -106,3 +106,30 @@
     font-size: 20px;
   }
 }
+@media (max-width: 767px) {
+  .listPrice--list-price-pdp {
+    font-size: 16px;
+    line-height: 22px;
+    color: #A2A2A2;
+  }
+
+  .sellingPriceValue--selling-price-pdp {
+    font-size: 40px;
+    line-height: 46px;
+    color: #1F2937;
+  }
+
+  .savings--savings-pdp {
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  .installments--installments-pdp {
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+  }
+}

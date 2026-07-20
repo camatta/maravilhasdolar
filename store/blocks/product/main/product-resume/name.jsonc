@@ -1,4 +1,15 @@
 {
+  "flex-layout.row#name-wish": {
+    "props": {
+      "blockClass": "name-wish-container",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#name-pdp",
+      "flex-layout.col#wish-pdp"
+    ]
+  },
+
   "flex-layout.row#name": {
     "props": {
       "blockClass": "name-container",

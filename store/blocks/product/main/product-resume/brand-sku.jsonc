@@ -1,4 +1,11 @@
 {
+  "flex-layout.col#brand-sku-meta": {
+    "props": {
+      "blockClass": "brand-sku-meta-content"
+    },
+    "children": ["flex-layout.row#brand-sku"]
+  },
+
   "flex-layout.row#brand-sku": {
     "props": {
       "blockClass": "brand-sku-container"

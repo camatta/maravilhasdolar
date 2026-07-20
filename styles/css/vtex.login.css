@@ -267,14 +267,15 @@
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--product-main-container)
   > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-  max-width: 730px;
+  max-width: 680px;
   width: 100% !important;
-  border-right: 1px solid #ECECEC;
-  padding-right: 49px;
+  box-sizing: border-box;
+  border-right: 0;
+  padding-right: 0;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--product-main-container)
   > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-  max-width: 350px;
+  max-width: 445px;
   width: 100% !important;
 }
 :global(.vtex-address-form__postalCode-forgottenURL) * {
@@ -562,7 +563,7 @@
   }
   :global(.vtex-flex-layout-0-x-flexRowContent--product-main-container)
   > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-    max-width: 388px;
+    max-width: 428px;
   }
 
   :global(.vtex-search-result-3-x-filterAccordionBreadcrumbs) + :global(.vtex-search-result-3-x-accordionFilterContainer) {

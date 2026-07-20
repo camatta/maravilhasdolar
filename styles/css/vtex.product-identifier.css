@@ -4,8 +4,16 @@
   font-weight: 400;
   line-height: 16.37px;
   text-align: left;
-  color: #666;  
+  color: #666;
 }
 .product-identifier__separator {
   display: none;
+}
+
+@media (max-width: 767px) {
+  .product-identifier--productReference {
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+  }
 }

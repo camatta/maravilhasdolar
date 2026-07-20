@@ -6,7 +6,7 @@
       "fullWidth": true,
       "colSizing": "auto"
     },
-    "children": ["flex-layout.col#product-breadcrumb","flex-layout.col#product-share" ]
+    "children": ["flex-layout.col#product-breadcrumb"]
   },
 
   "flex-layout.col#product-breadcrumb": {
@@ -19,12 +19,5 @@
     "props": {
       "showOnMobile": true
     }
-  },
-
-  "flex-layout.col#product-share": {
-    "props": {
-      "blockClass": "product-share-content"
-    },
-    "children": ["share"]
   }
 }

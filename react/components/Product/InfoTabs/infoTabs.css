@@ -1,118 +1,269 @@
-.productInfoTabs {
-  padding: 42px 0;
+.productAccordions {
+  width: 100%;
+  font-family: Nunito, sans-serif;
 }
 
-.infoControl {
-  padding: 16px 40px;
-  background: transparent;
+.accordionItem {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordionHeader {
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 0;
   border: 0;
-  color: #343434;
-  font-size: 18px;
-  line-height: 23px;
-  cursor: pointer;
-  outline: none !important;
-  transition: all .3s ease-in-out;
-}
-.infoControl.active,
-.infoControl:hover {
   background: #fff;
-  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  cursor: pointer;
+  font-family: Nunito, sans-serif;
 }
 
-.tabContent {
-  padding: 25px 40px;
-  background: #fff;
-  font-size: 14px;
-  line-height: 20px;
-  color: #343434;
+.accordionHeader::after {
+  content: "";
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  background-image: url("data:image/svg+xml,%3Csvg width='28' height='28' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.16675 11.6667L14.0001 17.5L19.8334 11.6667' stroke='%233F3F3F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px 28px;
 }
-.tabContent p {
+
+.accordionTitle {
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  color: #3f3f3f;
+  text-align: left;
+}
+
+.accordionContent {
+  width: 100%;
+  padding: 8px 0 16px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3f3f3f;
+  font-family: Nunito, sans-serif;
+}
+
+.descriptionContent,
+.descriptionContentExpanded {
+  font-family: Nunito, sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3f3f3f;
+}
+
+.descriptionContent {
+  max-height: 112px;
+  overflow: hidden;
+}
+
+.descriptionContentExpanded {
+  max-height: none;
+}
+
+.descriptionContent *,
+.descriptionContentExpanded * {
+  font-family: Nunito, sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3f3f3f;
+}
+
+.descriptionContent p,
+.descriptionContentExpanded p {
   margin: 0;
 }
-.tabContent p + p {
-  margin-top: 15px;
+
+.descriptionContent p + p,
+.descriptionContentExpanded p + p {
+  margin-top: 10px;
 }
 
-.tabContent a[href$=".pdf"] {
-  display: inline-block;
-  padding: 12px 18px 12px 40px;
-  border: 1px solid #000;
+.descriptionContent strong,
+.descriptionContentExpanded strong {
+  font-weight: 700;
+}
+
+.descriptionToggle {
+  margin: 12px 0 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  background: transparent;
+  color: #ff5a00;
   font-size: 14px;
-  line-height: 18px;
-  color: #000;
-  text-decoration: none;
-  position: relative;
-  z-index: 0;
+  font-weight: 700;
+  line-height: 19px;
+  cursor: pointer;
+  font-family: Nunito, sans-serif;
 }
-.tabContent a[href$=".pdf"]::before {
-  content: '';
-  position: absolute;
-  z-index: 0;
-  width: 14px;
-  height: 14px;
-  background: url(../../../assets/icons/download.svg);
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-container) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: 0;
+  row-gap: 12px;
+  padding: 16px;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: Nunito, sans-serif;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsHeading) {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  min-height: 20px;
+  margin: 0;
+  padding-left: 28px;
+  border-bottom: 0;
+  color: #1c1c1c;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsHeading)::after {
   top: 50%;
-  left: 18px;
-  transform: translate(0, -50%);
+  bottom: auto;
+  transform: translateY(-50%);
 }
 
-@media (max-width: 1199px) {
-  .infoControl {
-    padding: 12px 30px;
-    font-size: 16px;
-  }
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
 }
 
-@media (max-width: 991px) {
-  .productInfoTabs {
-    position: relative;
-    z-index: 0;
-    padding: 30px 0;
-  }
-  
-  .infoControl {
-    padding: 12px 20px;
-    font-weight: 700;
-    font-size: 20px;
-  }
-  .infoControl:not(.active) {
-    display: none;
-  }
-  .infoControl.active {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    justify-content: space-between;
-  }
-  .infoControl.active::after {
-    content: url(../../../assets/icons/chevron-down.svg);
-  }
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsRating) {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: end;
+  position: relative;
+  display: block;
+  width: max-content;
+  min-width: 0;
+  text-align: right;
+  margin: 0;
+  align-self: center;
+}
 
-  .tabContent {
-    font-size: 12px;
-    padding: 20px;
-  }
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage) {
+  position: absolute;
+  top: 0;
+  left: -28px;
+  font-family: Nunito, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #3f3f3f;
+}
 
-  .tabContent.active[data-content-for="Manual de Instalação"] {
-    flex-direction: column;
-    gap: 30px;
-  }
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount),
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+  margin-top: 4px;
+  font-family: Nunito, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #666;
+}
 
-  .tabHeaderOpen {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: fit-content;
-    background: #f1f1f1;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    z-index: 10;
-  }
-  .tabHeaderOpen .infoControl:not(.active) {
-    display: inline-block;
-  }
-  .tabHeaderOpen .infoControl {
-    max-width: 100%;
-    text-align: left;
-  }
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-stars) {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewComment) {
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 4px;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewCommentUser),
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewCommentMessage) {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewCommentMessage) {
+  display: block;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewCommentUser) {
+  order: 0;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewCommentMessage) {
+  order: 1;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewInfo) {
+  grid-column: 1;
+  min-width: 0;
+  order: 2;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewCommentRating) {
+  grid-column: 1 / -1;
+  align-self: start;
+  justify-self: stretch;
+  display: block;
+  margin: 0;
+  order: 0;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex-reviews-and-ratings-3-x-stars) {
+  position: absolute;
+  right: 0;
+  bottom: 22px;
+  flex: 0 0 auto;
+  margin-left: 0;
+  justify-content: flex-end;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewComment) :global(.vtex-reviews-and-ratings-3-x-reviewInfo) {
+  margin-top: 2px;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsPaging) {
+  grid-column: 1;
+  max-width: none;
+  margin-top: 16px;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsPaging) :global(.flex.flex-row.pt5.items-center) {
+  align-items: flex-end !important;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-reviewsPaging) :global(.flex.flex-row.items-center.justify-end) {
+  justify-content: flex-start;
+}
+
+.accordionContent :global(.vtex-reviews-and-ratings-3-x-writeReviewContainer) {
+  grid-column: 1;
+  justify-self: end;
+  align-self: end;
+  margin: 16px 0 0;
 }

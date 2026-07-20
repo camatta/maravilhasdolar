@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#buy-together": {
+    "props": {
+      "blockClass": ["buy-together-container", "custom-container"]
+    },
+    "children": ["buy-together"]
+  },
+
+  "buy-together": {
+    "props": {
+      "title": "Compre Junto"
+    }
+  }
+}

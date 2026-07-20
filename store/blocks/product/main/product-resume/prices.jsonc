@@ -14,9 +14,16 @@
       "blockClass": "prices-pdp-content"
     },
     "children": [
-      "product-list-price#pdp",
+      "flex-layout.row#product-list-price-wrapper",
       "flex-layout.row#product-selling-price-wrapper"
     ]
+  },
+
+  "flex-layout.row#product-list-price-wrapper": {
+    "props": {
+      "blockClass": "list-price-wrapper-container"
+    },
+    "children": ["product-list-price#pdp", "product-price-savings#pdp"]
   },
 
   "product-list-price#pdp": {
@@ -30,7 +37,7 @@
     "props": {
       "blockClass": "selling-price-wrapper-container"
     },
-    "children": ["product-selling-price#pdp", "product-price-savings#pdp"]
+    "children": ["product-selling-price#pdp"]
   },
 
   "product-selling-price#pdp": {
@@ -54,7 +61,9 @@
 
   "product-price-savings#pdp": {
     "props": {
-      "blockClass": "savings-pdp"
+      "blockClass": "savings-pdp",
+      "message": "{savingsPercentage} OFF",
+      "percentageStyle": "compact"
     }
   }
 

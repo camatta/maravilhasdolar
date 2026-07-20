@@ -27,7 +27,6 @@
     "vtex.product-details": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-details@1.22.0/public/@types/vtex.product-details",
     "vtex.product-highlights": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-highlights@2.3.2/public/@types/vtex.product-highlights",
     "vtex.product-identifier": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-identifier@0.5.0/public/@types/vtex.product-identifier",
-    "vtex.product-kit": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-kit@1.10.2/public/_types/react",
     "vtex.product-list": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-list@0.37.4/public/@types/vtex.product-list",
     "vtex.product-price": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-price@1.32.0/public/@types/vtex.product-price",
     "vtex.product-quantity": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-quantity@1.9.0/public/@types/vtex.product-quantity",

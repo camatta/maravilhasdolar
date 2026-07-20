@@ -3,7 +3,8 @@
     "title": "Informações do produto",
     "props": {
       "blockClass": "product-resume-content",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "width": "100%"
     },
     "children": [
       "responsive-layout.desktop#resume-pdp",
@@ -14,31 +15,27 @@
   "responsive-layout.desktop#resume-pdp": {
     "children": [
       "remove-video",
-      "flex-layout.row#rating-wish",
-      "flex-layout.row#name",
-      "flex-layout.row#brand-sku",
+      "flex-layout.row#name-wish",
+      "flex-layout.row#product-meta",
       "flex-layout.row#prices-pdp",
       "flex-layout.row#leve-mais-pdp",
       "flex-layout.row#sku-selector",
       "flex-layout.row#actions-pdp",
       "flex-layout.row#shipping",
-      "flex-layout.row#rating"
+      "flex-layout.row#product-warning-b2b"
     ]
   },
 
   "responsive-layout.mobile#resume-pdp": {
     "children": [
-      "flex-layout.row#rating-wish",
-      "flex-layout.row#name",
-      "flex-layout.row#brand-sku",
+      "flex-layout.row#name-wish",
+      "flex-layout.row#product-meta",
       "flex-layout.row#prices-pdp",
       "flex-layout.row#leve-mais-pdp",
       "flex-layout.row#sku-selector",
       "flex-layout.row#actions-pdp",
       "flex-layout.row#shipping",
-      "flex-layout.row#product-warning-b2b",
-      "flex-layout.row#product-description",
-      "flex-layout.row#rating"
+      "flex-layout.row#product-warning-b2b"
     ]
   }
 }

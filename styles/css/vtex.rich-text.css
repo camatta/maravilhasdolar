@@ -383,13 +383,13 @@
   font-family: Nunito;
   font-size: 16px;
   font-weight: 400;
-  line-height: 21.82px;
+  line-height: normal;
   text-align: left;
-  color: #000;
+  color: #1C1C1C;
   padding-left: 28px; 
   position: relative;
   margin: 0;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .paragraph--shipping-simulator-text::after {
@@ -404,6 +404,11 @@
   transform: translate(0, -50%);
 }
 
+.wrapper--warning-b2b {
+  display: block;
+  width: 100%;
+}
+
 .wrapper--warning-b2b .paragraph {
   font-family: Nunito;
   font-size: 16px;
@@ -412,8 +417,13 @@
   text-align: left;
   color: #1c1c1c;
   position: relative;
-  padding-left: 28px;
+  box-sizing: border-box;
+  padding-left: 36px;
+  padding-right: 112px;
   margin: 0;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
 }
 
 .wrapper--warning-b2b .paragraph::after {
@@ -422,14 +432,54 @@
   height: 20px;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 50%;
+  transform: translate(0, -50%);
   background-image: url(assets/icons/icon-warning-b2b.svg);
 }
 
 .wrapper--warning-b2b .link {
   color: #660066;
   font-weight: 400;
-  margin-left: 8px;
+  margin-left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .wrapper--warning-b2b .paragraph {
+    min-height: 44px;
+    padding-left: 34px;
+    padding-right: 110px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .wrapper--warning-b2b .paragraph::after {
+    width: 20px;
+    height: 20px;
+  }
+
+  .wrapper--warning-b2b .link {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 374px) {
+  .wrapper--warning-b2b .paragraph {
+    padding-left: 28px;
+    padding-right: 88px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .wrapper--warning-b2b .link {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
 
 

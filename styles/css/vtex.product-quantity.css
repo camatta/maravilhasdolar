@@ -60,3 +60,16 @@
   max-width: 24px;
   height: 24px;
 }
+
+@media (max-width: 767px) {
+  .quantitySelectorContainer--pdp :global(.vtex-numeric-stepper-container) {
+    max-width: 66px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--actions-pdp-container) .quantitySelectorContainer :global(.vtex-numeric-stepper__input) {
+    width: 39px;
+    height: 51px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

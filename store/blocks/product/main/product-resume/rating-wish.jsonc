@@ -1,4 +1,15 @@
 {
+    "flex-layout.row#product-meta": {
+      "props": {
+        "blockClass": "product-meta-container",
+        "colSizing": "auto"
+      },
+      "children": [
+        "flex-layout.col#rating-pdp",
+        "flex-layout.col#brand-sku-meta"
+      ]
+    },
+
     "flex-layout.row#rating-wish": {
       "props": {
         "blockClass": "rating-wish-container",
@@ -12,10 +23,9 @@
   
     "flex-layout.col#rating-pdp": {
       "props": {
-        "blockClass": "rating-pdp-content",
-        "width": "grow"
+        "blockClass": "rating-pdp-content"
       },
-      "children": ["product-rating-summary", "flex-layout.col#product-share"]
+      "children": ["product-rating-summary"]
     },
   
     "flex-layout.col#wish-pdp": {

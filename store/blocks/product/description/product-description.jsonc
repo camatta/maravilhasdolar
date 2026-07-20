@@ -9,7 +9,7 @@
     },
     "rich-text#warning-b2b": {
         "props": {
-            "text": "Confira as opções para compras com CNPJ.[Saiba Mais.](/para-empresas)",
+            "text": "Trabalhamos com condições especiais para CNPJ. [Saiba mais.](/para-empresas)",
             "blockClass": "warning-b2b"
         }
     },
@@ -20,6 +20,24 @@
         },
         "children": [
             "product-description"
+        ]
+    },
+    "flex-layout.row#product-accordions": {
+        "props": {
+            "blockClass": ["product-accordions-pdp"]
+        },
+        "children": [
+            "info-tabs#product-accordions"
+        ]
+    },
+    "responsive-layout.mobile#product-accordions-pdp": {
+        "children": [
+            "flex-layout.row#product-accordions"
+        ]
+    },
+    "info-tabs#product-accordions": {
+        "children": [
+            "product-reviews"
         ]
     },
     "product-description": {

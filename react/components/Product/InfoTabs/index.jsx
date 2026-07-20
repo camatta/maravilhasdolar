@@ -1,69 +1,88 @@
-import { useState, useEffect } from 'react';
-import { useProduct } from 'vtex.product-context';
+import { useEffect, useState } from 'react'
+import { useProduct } from 'vtex.product-context'
 
 import styles from './infoTabs.css'
 
-const InfoTabs = () => {
-  const productContext = useProduct();
-  const product = productContext?.product
-  const productId = productContext?.product?.cacheId
+const InfoTabs = ({ children }) => {
+  const { product } = useProduct()
 
-  const [productSpecifications, setProductSpecifications] = useState({
-    activeSpecification: null,
-    specificationsTabs: null,
-    specificationContent: null
-  })
+  const productDescription = product?.description
+  const productId = product?.cacheId
 
-  const [openTabHeader, setOpenTabHeader] = useState(false)
+  const [activeAccordion, setActiveAccordion] = useState(null)
+  const [descriptionExpanded, setDescriptionExpanded] = useState(false)
 
   useEffect(() => {
-    const specifications = product?.properties
+    setActiveAccordion(productDescription ? 'description' : null)
+    setDescriptionExpanded(false)
+  }, [productId, productDescription])
 
-    setProductSpecifications({
-      activeSpecification: 0,
-      specificationsTabs: specifications,
-      specificationContent: specifications[0]?.values[0]
-    })
-    setOpenTabHeader(false);
-  }, [productId])
-
-  const handleBtnControl = ( tabIndex ) => {
-    setProductSpecifications(prevState => {
-      return {
-        ...prevState,
-        activeSpecification: tabIndex,
-        specificationContent: prevState.specificationsTabs[tabIndex]?.values[0]
-      }
-    })
-    setOpenTabHeader(!openTabHeader)
+  const handleAccordionToggle = (accordionName) => {
+    setActiveAccordion((currentAccordion) => (
+      currentAccordion === accordionName ? null : accordionName
+    ))
   }
 
-  if (!product?.properties?.length) return null
+  const shouldShowDescriptionToggle = productDescription?.length > 220
+  const isDescriptionOpen = activeAccordion === 'description'
+  const isReviewsOpen = activeAccordion === 'reviews'
+  const hasReviews = Boolean(children)
 
   return (
-    <>
-      {productSpecifications.specificationsTabs?.length > 0 && (
-      <div className={styles.productInfoTabs}>
-        <div className={openTabHeader ? styles.tabHeaderOpen : styles.tabHeader}>
-          {productSpecifications.specificationsTabs?.map((info, index) => (
-            <button
-              type="button"
-              onClick={() => handleBtnControl(index)}
-              key={info.name}
-              data-control-for={info.name}
-              className={`${styles.infoControl}${productSpecifications.activeSpecification === index ? ` ${styles.active}`:''}`}>
-                {info.name}
-              </button>
-          ))}
-        </div>
+    <div className={styles.productAccordions}>
+      {productDescription && (
+        <section className={styles.accordionItem}>
+          <button
+            type="button"
+            className={styles.accordionHeader}
+            onClick={() => handleAccordionToggle('description')}
+          >
+            <span className={styles.accordionTitle}>Descrição</span>
+          </button>
 
-        <div
-          className={styles.tabContent}
-          dangerouslySetInnerHTML={{__html: productSpecifications.specificationContent}}
-        />
-      </div>
-    )}
-    </>
+          {isDescriptionOpen && (
+            <div className={styles.accordionContent}>
+              <div
+                className={
+                  descriptionExpanded
+                    ? styles.descriptionContentExpanded
+                    : styles.descriptionContent
+                }
+                dangerouslySetInnerHTML={{ __html: productDescription }}
+              />
+
+              {shouldShowDescriptionToggle && (
+                <button
+                  type="button"
+                  className={styles.descriptionToggle}
+                  onClick={() => setDescriptionExpanded((isExpanded) => !isExpanded)}
+                >
+                  {descriptionExpanded ? 'Ver menos' : 'Ver mais'}
+                </button>
+              )}
+            </div>
+          )}
+        </section>
+      )}
+
+      {hasReviews && (
+        <section className={styles.accordionItem}>
+          <button
+            type="button"
+            className={styles.accordionHeader}
+            onClick={() => handleAccordionToggle('reviews')}
+          >
+            <span className={styles.accordionTitle}>Avaliações</span>
+          </button>
+
+          {isReviewsOpen && (
+            <div className={styles.accordionContent}>
+              {children}
+            </div>
+          )}
+        </section>
+      )}
+    </div>
   )
 }
 
